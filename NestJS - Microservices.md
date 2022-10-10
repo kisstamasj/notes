@@ -11,3 +11,5 @@
 ## Starting the apps
 1. yarn dev -> starts the main app
 2. yarn dev `service` -> start the selected app/service
+
+Packeg install only for the main app, and all the other can access them.
