@@ -6,3 +6,4 @@
 3. `nest generate app service-name`
 4. remove the firstly created folder from the `apps` folder
 5. also remove that from the `nest-cli.json` file
+6. in the `nest-cli.json` correct the `root` property and also the `tsconfigPath`
