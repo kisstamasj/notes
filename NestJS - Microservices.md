@@ -20,6 +20,5 @@ Package install only for the main app, and all the other can access them.
 ## Database dependencies (postgres)
 - ```yarn add @nestjs/typeorm typeorm pg```
 
-## Authentication
-
-Install dependencies
+## Authentication dependencies
+- ```yarn add bcrypt```
