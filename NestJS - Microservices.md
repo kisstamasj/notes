@@ -18,7 +18,7 @@ Package install only for the main app, and all the other can access them.
 - dto validation, class transformation: ```yarn add class-validator class-transformer```
 
 ## Database dependencies (postgres)
-- yarn add @nestjs/typeorm typeorm pg
+- ```yarn add @nestjs/typeorm typeorm pg```
 
 ## Authentication
 
