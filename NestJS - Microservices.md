@@ -24,3 +24,4 @@ Package install only for the main app, and all the other can access them.
 - ```yarn add bcrypt```
 - ```yarn add -D @types/bcrypt```
 - ```yarn add @nestjs/jwt @nestjs/passport cookie-parser passport passport-jwt passport-local```
+- ```yarn add -D @types/cookie-parser @types/passport-jwt @types/passport-local```
