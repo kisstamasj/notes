@@ -22,3 +22,4 @@ Package install only for the main app, and all the other can access them.
 
 ## Authentication dependencies
 - ```yarn add bcrypt```
+- ```yarn add -D @types/bcrypt```
