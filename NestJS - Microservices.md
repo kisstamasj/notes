@@ -15,7 +15,7 @@
 Package install only for the main app, and all the other can access them.
 
 ## Basic dependencies
-- ```yarn add class-validator class-transformer```
+- dto validation, class transformation: ```yarn add class-validator class-transformer```
 
 ## Authentication
 
