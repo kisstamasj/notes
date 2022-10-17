@@ -33,6 +33,13 @@ networks:
 ```
 
 ## DevOps
+
+- enable kubernets in Docker desktop
+- apply the Nginx Ingress:
+```
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.4.0/deploy/static/provider/cloud/deploy.yaml
+```
+
 ### NestJS docker image for a service:
 ```
 FROM node:alpine As development
@@ -48,6 +55,7 @@ COPY . .
 
 CMD ["yarn", "start:dev"]
 ```
+
 ### Service deployment yaml:
 ```
 apiVersion: apps/v1
@@ -81,6 +89,41 @@ spec:
       port: 5000
       targetPort: 5000
 ```
+
+### Event Broker with RabbitMQ - deployment yaml
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rabbitmq-depl
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: rabbitmq
+  template:
+    metadata:
+      labels:
+        app: rabbitmq
+    spec:
+      containers:
+        - name: rabbitmq
+          image: rabbitmq
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: rabbitmq-srv
+spec:
+  selector:
+    app: rabbitmq
+  ports:
+    - name: amqp
+      protocol: TCP
+      port: 5672
+      targetPort: 5672
+```
+
 
 ## Basic dependencies
 - dto validation, class transformation: ```yarn add class-validator class-transformer```
