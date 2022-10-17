@@ -8,6 +8,80 @@
 
 ## Common Library
 - efficient way to share code with npm package
+- barrel export pattern
+- init tsc
+- tsconfig (optimize for NestJS)
+```
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Projects */
+    "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
+
+    /* Language and Environment */
+    "target": "ES2017",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "experimentalDecorators": true,                   /* Enable experimental support for TC39 stage 2 draft decorators. */
+    "emitDecoratorMetadata": true,                    /* Emit design-type metadata for decorated declarations in source files. */
+
+    /* Modules */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
+
+    /* Emit */
+    "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "sourceMap": true,                                /* Create source map files for emitted JavaScript files. */
+    "outDir": "./build",                                   /* Specify an output folder for all emitted files. */
+    "removeComments": true,                           /* Disable emitting comments. */
+
+    /* Interop Constraints */
+    "allowSyntheticDefaultImports": true,             /* Allow 'import x from y' when a module doesn't have a default export. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": false,            /* Ensure that casing is correct in imports. */
+
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "noImplicitAny": false,                            /* Enable error reporting for expressions and declarations with an implied 'any' type. */
+    "strictNullChecks": false,                         /* When type checking, take into account 'null' and 'undefined'. */
+    "strictBindCallApply": false,                      /* Check that the arguments for 'bind', 'call', and 'apply' methods match the original function. */
+    "noFallthroughCasesInSwitch": false,               /* Enable error reporting for fallthrough cases in switch statements. */
+
+    /* Completeness */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}
+
+```
+- package.json example:
+```
+{
+  "name": "@cms-microservices/common",
+  "version": "1.0.4",
+  "description": "",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
+  "scripts": {
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc",
+    "pub": "npm version patch && npm run build && npm publish --registry http://165.22.205.66:9000/"
+  },
+  "author": "Kiss Tamás",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^9.1.4",
+    "@nestjs/config": "^2.2.0",
+    "@nestjs/microservices": "^9.1.4"
+  },
+  "devDependencies": {
+    "del-cli": "^5.0.0",
+    "typescript": "^4.8.4"
+  }
+}
+
+```
 - own npm registry: https://verdaccio.org/
 
 ```
