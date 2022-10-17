@@ -109,7 +109,7 @@ networks:
 ## DevOps
 
 - enable kubernets in Docker desktop
-- api-gateway pattern
+- api-gateway pattern (https://microservices.io/patterns/apigateway.html)
 - apply the Nginx Ingress:
 ```
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.4.0/deploy/static/provider/cloud/deploy.yaml
