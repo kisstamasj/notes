@@ -109,6 +109,7 @@ networks:
 ## DevOps
 
 - enable kubernets in Docker desktop
+- api-gateway pattern
 - apply the Nginx Ingress:
 ```
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.4.0/deploy/static/provider/cloud/deploy.yaml
@@ -196,6 +197,29 @@ spec:
       protocol: TCP
       port: 5672
       targetPort: 5672
+```
+
+### Ingress service
+```
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ingress-service
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/use-regex: "true"
+spec:
+  rules:
+    - host: cms-microservices.dev
+      http:
+        paths:
+          - path: /api/?(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: api-gateway-srv
+                port:
+                  number: 5000
 ```
 
 
