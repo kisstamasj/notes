@@ -48,7 +48,11 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - install kubectl: https://kubernetes.io/docs/tasks/tools/
 
 # POD structure
-- apiVersion
+- apiVersion: kubernetes API version
+  - POD: v1
+  - Service: v1
+  - ReplicaSet: apps/v1
+  - Deployment: apps/v1
 - kind
 - metadata
 - spec
