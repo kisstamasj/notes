@@ -41,3 +41,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - ```kubectl run hello-world``` deploy an application on the cluster
 - ```kubectl cluster-info``` get information about the cluster
 - ```kubectl get nodes``` list of all nodes
+
+# Installing
+- enable Kubernetes on Docker Desktop
+- install kubectl: https://kubernetes.io/docs/tasks/tools/
