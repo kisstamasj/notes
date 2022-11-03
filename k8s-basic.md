@@ -66,7 +66,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
   - Service
 - metadata: data about the object
   - name: myapp-pod
-  - labels: It can have any key and values. It can helps to organize pods in several groups for example
+  - labels: It can have any key and values. For example it can helps to organize pods in several groups 
     - app: myapp
     - etc...
 - spec: informations about the objects, it can be different in different objects
