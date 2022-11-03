@@ -37,4 +37,6 @@ Responsible distributed works accross multiple nodes.
 # kubectl (kube control)
 Is a tool to deploy and manage applications on a kubernets cluster.
 
-- ```kubectl run hello-world```: deploy an application on the cluster
+- ```kubectl run hello-world``` deploy an application on the cluster
+- ```kubectl cluster-info``` get information about the cluster
+- ```kubectl get nodes``` list of all nodes
