@@ -88,3 +88,12 @@ spec:
       image: nginx
 
 ```
+
+# VSCode extensions
+- YAML: settigns:
+```json
+"yaml.schemas": {
+    "kubernetes": "*.yaml"
+  }
+```
+- Kubernetes
