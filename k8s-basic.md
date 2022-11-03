@@ -46,3 +46,9 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 # Installing
 - enable Kubernetes on Docker Desktop
 - install kubectl: https://kubernetes.io/docs/tasks/tools/
+
+# POD structure
+- apiVersion
+- kind
+- metadata
+- spec
