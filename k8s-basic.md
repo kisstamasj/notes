@@ -8,6 +8,9 @@
   - Node (virtual or physical machine)
     - pods (single instance of an application) https://kubernetes.io/docs/concepts/workloads/pods/
 
+![image](https://user-images.githubusercontent.com/48266482/199826380-4ff71576-6bcb-4958-85b1-d47d64d31786.png)
+
+
 - master node (manage other nodes)
   - etcd
   - controller
