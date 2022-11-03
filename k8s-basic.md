@@ -9,6 +9,10 @@
     - containers (pods)
 
 - master node (manage other nodes)
+  - etcd
+  - controller
+  - scheduler
+- worker node (container runtime)
 
 # K8s components
 
@@ -29,4 +33,6 @@ Brain behind orchestration. They are responsible for noticing and responding whe
 
 ## scheduler
 Responsible distributed works accross multiple nodes.
+
+# kubectl (kube control)
 
