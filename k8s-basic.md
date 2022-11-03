@@ -63,7 +63,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
   - labels: it can have any key and values
     - app: myapp
     - etc...
-- spec
+- spec: informations about the objects, it can be different in different objects
 
 ## Example
 
