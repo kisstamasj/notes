@@ -16,22 +16,22 @@
 
 # K8s components
 
-## API server: 
+### API server: 
 Acts as a front end for kubernets. The users, managemenet devices, command line interfaces all talk to the api server
 
-## etcd key store
+### etcd key store
 Key-value store to store all data used to manage the cluster. Making sure that the containers are running on the nodes as expected.
 
-## kubelet:
+### kubelet:
 Its an agent that runs on each node in the cluster.
 
-## container runtime
+### container runtime
 Underlying software that used to run containers.(Docker)
 
-## controller
+### controller
 Brain behind orchestration. They are responsible for noticing and responding when nodes, containers or end points goes down.
 
-## scheduler
+### scheduler
 Responsible distributed works accross multiple nodes.
 
 # kubectl (kube control)
