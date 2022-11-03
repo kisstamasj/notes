@@ -64,3 +64,14 @@ Is a tool to deploy and manage applications on a kubernets cluster.
     - app: myapp
   - etct...
 - spec
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+    app: myapp
+spec:
+
+```
