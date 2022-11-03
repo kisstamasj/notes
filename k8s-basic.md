@@ -60,9 +60,9 @@ Is a tool to deploy and manage applications on a kubernets cluster.
   - Service
 - metadata: data about the object
   - name: myapp-pod
-  - labels:
+  - labels: it can have any key and values
     - app: myapp
-  - etct...
+    - etc...
 - spec
 
 ```yaml
@@ -72,6 +72,7 @@ metadata:
   name: myapp-pod
   labels:
     app: myapp
+    type: front-end
 spec:
 
 ```
