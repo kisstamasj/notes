@@ -6,7 +6,7 @@
 
 - cluster (set of nodes together)
   - Node (virtual or physical machine)
-    - pods (single instance of an application)
+    - pods (single instance of an application) https://kubernetes.io/docs/concepts/workloads/pods/
 
 - master node (manage other nodes)
   - etcd
