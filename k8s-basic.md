@@ -41,6 +41,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - ```kubectl run nginx --image=nginx``` deploy an application on the cluster
 - ```kubectl cluster-info``` get information about the cluster
 - ```kubectl get nodes``` list of all nodes
+- ```kubectl get pods``` list of all pods (```-o wide``` param gives more informations)
 
 # Installing
 - enable Kubernetes on Docker Desktop
