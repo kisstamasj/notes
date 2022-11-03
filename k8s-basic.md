@@ -12,6 +12,7 @@
   - etcd
   - controller
   - scheduler
+  - kube-apiserver
 - worker node (container runtime)
 
 # K8s components
