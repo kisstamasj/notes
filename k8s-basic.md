@@ -6,7 +6,7 @@
 
 - cluster (set of nodes together)
   - Node (virtual or physical machine)
-    - containers (pods)
+    - pods (single instance of an application)
 
 - master node (manage other nodes)
   - etcd
