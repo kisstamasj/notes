@@ -41,11 +41,13 @@ Responsible distributed works accross multiple nodes.
 # kubectl (kube control)
 Is a tool to deploy and manage applications on a kubernets cluster.
 
+## kubectl commands
 - ```kubectl run nginx --image=nginx``` deploy an application on the cluster
 - ```kubectl cluster-info``` get information about the cluster
 - ```kubectl get nodes``` list of all nodes
 - ```kubectl get pods``` list of all pods (```-o wide``` param gives more informations)
 - ```kubectl create -f pod-definition.yml``` create a pod
+- ```kubectl delete pod nginx``` delete pod
 
 # Installing
 - enable Kubernetes on Docker Desktop
