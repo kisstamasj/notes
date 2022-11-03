@@ -90,7 +90,8 @@ spec:
 ```
 
 # VSCode extensions
-- YAML: settigns:
+- YAML: 
+settigns:
 ```json
 "yaml.schemas": {
     "kubernetes": "*.yaml"
