@@ -42,6 +42,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - ```kubectl cluster-info``` get information about the cluster
 - ```kubectl get nodes``` list of all nodes
 - ```kubectl get pods``` list of all pods (```-o wide``` param gives more informations)
+- ```kubectl create -f pod-definition.yml``` create a pod
 
 # Installing
 - enable Kubernetes on Docker Desktop
@@ -76,5 +77,8 @@ metadata:
     app: myapp
     type: front-end
 spec:
+  containers:
+    - name: nginx-container
+      image: nginx
 
 ```
