@@ -35,4 +35,4 @@ Brain behind orchestration. They are responsible for noticing and responding whe
 Responsible distributed works accross multiple nodes.
 
 # kubectl (kube control)
-
+Is a tool to deploy and manage applications on a kubernets cluster.
