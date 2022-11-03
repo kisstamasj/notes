@@ -61,7 +61,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
   - Deployment: apps/v1
 - kind: type of object what we create
   - POD
-  - ReolicaSet
+  - ReplicaSet
   - Deployment
   - Service
 - metadata: data about the object
