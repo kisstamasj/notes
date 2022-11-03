@@ -65,6 +65,8 @@ Is a tool to deploy and manage applications on a kubernets cluster.
     - etc...
 - spec
 
+## Example
+
 ```yaml
 apiVersion: v1
 kind: Pod
