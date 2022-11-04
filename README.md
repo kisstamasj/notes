@@ -1,2 +1,2 @@
 # Documents
-Develeopment documents
+Development documents
