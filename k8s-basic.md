@@ -57,6 +57,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 # Useful Docker Desktop extensions
 - Microcks (Mock API-s for microservises)
 - Portainer (manage containers and kubernetes cluster)
+- Snyk (check docker image vulnerabilities)
 
 # VSCode extensions
 - YAML: 
