@@ -54,6 +54,10 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - enable Kubernetes on Docker Desktop
 - install kubectl: https://kubernetes.io/docs/tasks/tools/
 
+# Useful Docker Desktop extensions
+- Microcks (Mock API-s for microservises)
+- Portainer (manage containers and kubernetes cluster)
+
 # POD structure
 - apiVersion: kubernetes API version
   - POD: v1
