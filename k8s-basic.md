@@ -58,6 +58,16 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - Microcks (Mock API-s for microservises)
 - Portainer (manage containers and kubernetes cluster)
 
+# VSCode extensions
+- YAML: 
+settigns:
+```json
+"yaml.schemas": {
+    "kubernetes": "*.yaml"
+  }
+```
+- Kubernetes
+
 # POD structure
 - apiVersion: kubernetes API version
   - POD: v1
@@ -92,13 +102,3 @@ spec:
       image: nginx
 
 ```
-
-# VSCode extensions
-- YAML: 
-settigns:
-```json
-"yaml.schemas": {
-    "kubernetes": "*.yaml"
-  }
-```
-- Kubernetes
