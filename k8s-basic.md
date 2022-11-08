@@ -48,7 +48,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - ```kubectl get pods``` list of all pods (```-o wide``` param gives more informations)
 - ```kubectl create -f pod-definition.yml``` create a pod
 - ```kubectl apply -f pod-definition.yml``` create a pod (same as create)
-- ```kubectl descibe pod <pod-NAME>``` describe detaild information about a pod
+- ```kubectl describe pod <pod-NAME>``` describe detaild information about a pod
 - ```kubectl delete pod nginx``` delete pod
 
 # Installing
