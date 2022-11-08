@@ -43,6 +43,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 
 ## kubectl commands
 - ```kubectl run nginx --image=nginx``` deploy an application on the cluster
+- ```kubectl run nginx --image=nginx --dry-run=client -o yaml > nginx.yaml``` generate a yaml configuration file
 - ```kubectl cluster-info``` get information about the cluster
 - ```kubectl get nodes``` list of all nodes
 - ```kubectl get pods``` list of all pods (```-o wide``` param gives more informations)
