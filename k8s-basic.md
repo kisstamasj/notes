@@ -54,6 +54,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - ```kubectl scale --replicas=6 -f replicaset-definition.yml``` scale with 6 replicas
 - ```kubectl describe pod <pod-NAME>``` describe detaild information about a pod
 - ```kubectl delete pod nginx``` delete pod
+- ```kubectl delete replicaset myapp-replicaset``` delete replicaset
 
 # Installing
 - enable Kubernetes on Docker Desktop
