@@ -157,4 +157,6 @@ spec:
            image: nginx
   replicas: 3
   selector:
+    matchLabels:
+      type: front-end
 ```
