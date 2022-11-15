@@ -105,3 +105,29 @@ spec:
       image: nginx
 
 ```
+
+# Replication controller structure
+
+## Example
+
+```yaml
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: myapp-rc
+  labels:
+    app: myapp
+    type: front-end
+spec:
+  template:
+    metadata:
+      name: myapp-pod
+      labels:
+        app: myapp
+        type: front-end
+    spec:
+       containers:
+         - name: nginx-container
+         image: nginx
+  replicas: 3
+```
