@@ -137,7 +137,7 @@ There is a ```selector``` dictionary. Can manage other pods not just what it cre
 ## Example
 
 ```yaml
-apiVersion: app/v1
+apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
   name: myapp-replicaset
