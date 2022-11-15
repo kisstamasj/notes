@@ -133,7 +133,7 @@ spec:
 ```
 
 # ReplicaSet structure
-Necessary a ```selector``` dictionary. Can manage other pods not just what it created itself.
+There is a ```selector``` dictionary. Can manage other pods not just what it created itself.
 ## Example
 
 ```yaml
