@@ -128,6 +128,6 @@ spec:
     spec:
        containers:
          - name: nginx-container
-         image: nginx
+           image: nginx
   replicas: 3
 ```
