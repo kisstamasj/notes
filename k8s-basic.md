@@ -55,6 +55,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - ```kubectl describe pod <pod-NAME>``` describe detaild information about a pod
 - ```kubectl delete pod nginx``` delete pod
 - ```kubectl delete replicaset myapp-replicaset``` delete replicaset
+- ```kubectl delete replicationController myapp-rc``` delete replication controller
 
 # Installing
 - enable Kubernetes on Docker Desktop
