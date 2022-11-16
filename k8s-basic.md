@@ -110,7 +110,7 @@ spec:
 
 ```
 
-# Replication controler structure
+# Replication controller structure
 
 ## Example
 
