@@ -61,9 +61,9 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - ```kubectl scale replicaset myapp-replicaset --replicas=2```scale up/down the replicaset (with 2 replica)
 - ```kubectl describe pod <pod-NAME>``` describe detaild information about a pod
 
-- ```kubectl rollout status deployment/myapp-deployment``` get the deployment rollout statuses
-- ```kubectl rollout history deployment/myapp-deployment``` get the deployment history and revisions
-- ```kubectl rollout undo deployment/myapp-deployment``` rollback to the previous revision of a deployment
+- ```kubectl rollout status deployment.apps/<name-of-deployment>``` get the deployment rollout statuses
+- ```kubectl rollout history deployment.apps/<name-of-deployment>``` get the deployment history and revisions
+- ```kubectl rollout undo deployment.apps/<name-of-deployment>``` rollback to the previous revision of a deployment
 
 - ```kubectl delete pod nginx``` delete pod
 - ```kubectl delete replicaset myapp-replicaset``` delete replicaset
