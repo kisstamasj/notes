@@ -89,7 +89,7 @@ settigns:
 ```
 - Kubernetes
 
-# Structure
+# YAML Structure
 - apiVersion: kubernetes API version
   - POD: v1
   - Service: v1
