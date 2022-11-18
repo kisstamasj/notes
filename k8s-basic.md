@@ -192,6 +192,10 @@ When updating a deployment it will get a new deployment revision (Revision 2). I
 - ```kubectl rollout status deployment/myapp-deployment``` get the deployment rollout statuses
 - ```kubectl rollout history deployment/myapp-deployment``` get the deployment history and revisions
 
+## Deployment Strategy
+- Recreate: shut down the full application and recreate !DANGEROUS!
+- Rolling update: Not destroy the full application, update and recreate one by one of the services (This is the default strategy)
+
 ## Example
 ```yaml
 apiVersion: apps/v1
