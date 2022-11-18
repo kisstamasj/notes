@@ -89,7 +89,7 @@ settigns:
 ```
 - Kubernetes
 
-# POD structure
+# Structure
 - apiVersion: kubernetes API version
   - POD: v1
   - Service: v1
@@ -107,7 +107,7 @@ settigns:
     - etc...
 - spec: informations about the objects, it can be different in different objects
 
-## Example
+## POD Example
 
 ```yaml
 apiVersion: v1
