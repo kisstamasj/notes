@@ -63,6 +63,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 
 - ```kubectl rollout status deployment/myapp-deployment``` get the deployment rollout statuses
 - ```kubectl rollout history deployment/myapp-deployment``` get the deployment history and revisions
+- ```kubectl rollout undo deployment/myapp-deployment``` rollback to the previous revision of a deployment
 
 - ```kubectl delete pod nginx``` delete pod
 - ```kubectl delete replicaset myapp-replicaset``` delete replicaset
@@ -199,6 +200,9 @@ When updating a deployment it will get a new deployment revision (Revision 2). I
 ## Deployments upgrade
 1. Create a new ReplicaSet
 2. Rolling update the pods inside the ReplicaSet (shut down in the old ReplicaSet and create in the new ReplicaSet one by one)
+
+## Deployments Rollout
+```kubectl rollout undo deployment/myapp-deployment```
 
 ## Example
 ```yaml
