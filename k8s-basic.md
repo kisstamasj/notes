@@ -171,3 +171,30 @@ spec:
 # Deployments
 ![image](https://user-images.githubusercontent.com/48266482/202649900-583ce861-72fe-4015-a529-fc5418efc05a.png)
 
+## Example
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp-replicaset
+  labels:
+    app: myapp
+    type: front-end
+spec:
+  template:
+    metadata:
+      name: myapp-pod
+      labels:
+        app: myapp
+        type: front-end
+    spec:
+       containers:
+         - name: nginx-container
+           image: nginx
+  replicas: 3
+  selector:
+    matchLabels:
+      type: front-end
+```
+
+
