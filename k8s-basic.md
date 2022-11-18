@@ -197,11 +197,11 @@ When updating a deployment it will get a new deployment revision (Revision 2). I
 - Recreate: shut down the full application and recreate. The events will be cleard. !DANGEROUS!
 - Rolling update: Not destroy the full application, update one by one of the services (This is the default strategy)
 
-## Deployments upgrade
+## Deployment upgrade
 1. Create a new ReplicaSet
 2. Rolling update the pods inside the ReplicaSet (shut down in the old ReplicaSet and create in the new ReplicaSet one by one)
 
-## Deployments Rollout
+## Deployment upgrade rollback
 ```kubectl rollout undo deployment/myapp-deployment```
 
 ## Example
