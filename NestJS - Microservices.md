@@ -1,8 +1,8 @@
 # Initialize project
 
 ## Project structure
-- every service in a separate folder
-- every service generated with ```nest new app```
+- every service is in a separate folder
+- every service is generated with ```nest new app```
 - kubernetes yaml files: ```infra/k8s```
 - common folder for common libraries, or just share codes
 
@@ -111,7 +111,7 @@ networks:
 - enable kubernets in Docker desktop
 - API Gateway/BFF (Backend for Frontends) pattern (https://microservices.io/patterns/apigateway.html)
 - apply the Nginx Ingress:
-```
+```bash
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.4.0/deploy/static/provider/cloud/deploy.yaml
 ```
 
@@ -224,13 +224,26 @@ spec:
 
 
 ## Basic dependencies
-- dto validation, class transformation: ```yarn add class-validator class-transformer```
+- dto validation, class transformation: 
+```bash
+yarn add class-validator class-transformer
+```
 
 ## Database dependencies (postgres)
-- ```yarn add @nestjs/typeorm typeorm pg```
+```bash
+yarn add @nestjs/typeorm typeorm pg
+```
 
 ## Authentication dependencies
-- ```yarn add bcrypt```
-- ```yarn add -D @types/bcrypt```
-- ```yarn add @nestjs/jwt @nestjs/passport cookie-parser passport passport-jwt passport-local```
-- ```yarn add -D @types/cookie-parser @types/passport-jwt @types/passport-local```
+```bash
+yarn add bcrypt
+```
+```bash
+yarn add -D @types/bcrypt
+```
+```bash
+yarn add @nestjs/jwt @nestjs/passport cookie-parser passport passport-jwt passport-local
+```
+```bash
+yarn add -D @types/cookie-parser @types/passport-jwt @types/passport-local
+```
