@@ -54,7 +54,7 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - ```kubectl get all``` list of all created object (pods, services, deployments, replicaset)
 
 - ```kubectl create -f pod-definition.yml``` create a pod
-- ```kubectl apply -f pod-definition.yml``` create a pod (same as create)
+- ```kubectl apply -f pod-definition.yml``` create/update a pod|deployment (same as create)
 - ```kubectl replace -f replicaset-definition.yml``` replace the currant instance of a yaml
 - ```kubectl edit  <replicaset|pod|deployment> the-name-of-the-object``` edit the currently running object
 - ```kubectl scale --replicas=6 -f replicaset-definition.yml``` scale up/down the replicaset (with 6 replica)
