@@ -114,8 +114,8 @@ spec:
 
 ```
 
-# Replication controller structure
-
+# Replication controller
+Create multiple instance of pods. It can only handle that pods what it created itself.
 ## Example
 
 ```yaml
@@ -140,7 +140,8 @@ spec:
   replicas: 3
 ```
 
-# ReplicaSet structure
+# ReplicaSet
+Create multiple instance of pods.
 There is a ```selector``` dictionary. Can manage other pods not just what it created itself.
 ## Example
 
