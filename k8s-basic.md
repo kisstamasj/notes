@@ -183,6 +183,8 @@ spec:
 - Deploy PODs
 - Create Replica Set
 
+When creating a new deployment it triggers a rollout, a rollout creates a new deployment revision.
+
 ## Example
 ```yaml
 apiVersion: apps/v1
