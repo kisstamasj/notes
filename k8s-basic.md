@@ -170,6 +170,8 @@ spec:
 
 # Deployments
 ![image](https://user-images.githubusercontent.com/48266482/202649900-583ce861-72fe-4015-a529-fc5418efc05a.png)
+- Deploy PODs
+- Create Replica Set
 
 ## Example
 ```yaml
