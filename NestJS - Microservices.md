@@ -3,7 +3,7 @@
 ## Project structure
 - every service in a separate folder
 - every service generated with ```nest new app```
-- kubernets yaml files: ```infra/k8s```
+- kubernetes yaml files: ```infra/k8s```
 - common folder for common libraries, or just share codes
 
 ## Common Library
