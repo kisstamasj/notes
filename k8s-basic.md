@@ -183,7 +183,9 @@ spec:
 - Deploy PODs
 - Create Replica Set
 
-When creating a new deployment it triggers a rollout, a rollout creates a new deployment revision.
+## Rollout and versioning
+When creating a new deployment it triggers a rollout, a rollout creates a new deployment revision (Revision 1)
+When updating a deployment it will get a new deployment revision (Revision 2). It helps us keep tracking the changes, and it enables us to rollback to the previous version of deployment if neccessery.
 
 ## Example
 ```yaml
