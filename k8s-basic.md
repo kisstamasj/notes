@@ -60,7 +60,9 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - ```kubectl scale --replicas=6 -f replicaset-definition.yml``` scale up/down the replicaset (with 6 replica)
 - ```kubectl scale replicaset myapp-replicaset --replicas=2```scale up/down the replicaset (with 2 replica)
 - ```kubectl describe pod <pod-NAME>``` describe detaild information about a pod
+
 - ```kubectl rollout status deployment/myapp-deployment``` get the deployment rollout statuses
+- ```kubectl rollout history deployment/myapp-deployment``` get the deployment history and revisions
 
 - ```kubectl delete pod nginx``` delete pod
 - ```kubectl delete replicaset myapp-replicaset``` delete replicaset
@@ -186,6 +188,9 @@ spec:
 ## Rollout and versioning
 When creating a new deployment it triggers a rollout, a rollout creates a new deployment revision (Revision 1)
 When updating a deployment it will get a new deployment revision (Revision 2). It helps us keep tracking the changes, and it enables us to rollback to the previous version of deployment if neccessery.
+
+- ```kubectl rollout status deployment/myapp-deployment``` get the deployment rollout statuses
+- ```kubectl rollout history deployment/myapp-deployment``` get the deployment history and revisions
 
 ## Example
 ```yaml
