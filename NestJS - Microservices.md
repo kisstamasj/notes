@@ -3,7 +3,7 @@
 ## Project structure
 - every service in a separate folder
 - every service generated with ```nest new app```
-- kubernets yaml files: ```infra/k8s```
+- kubernetes yaml files: ```infra/k8s```
 - common folder for common libraries, or just share codes
 
 ## Common Library
@@ -11,7 +11,7 @@
 - barrel export pattern
 - init tsc
 - tsconfig (optimize for NestJS)
-```
+```tsconfig
 {
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
@@ -53,7 +53,7 @@
 
 ```
 - package.json example:
-```
+```json
 {
   "name": "@cms-microservices/common",
   "version": "1.0.4",
@@ -84,7 +84,7 @@
 ```
 - own npm registry: https://verdaccio.org/
 
-```
+```dockerfile
 version: '3.1'
 
 services:
@@ -116,7 +116,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 ```
 
 ### NestJS docker image for a service:
-```
+```dockerfile
 FROM node:alpine As development
 
 WORKDIR /usr/src/app
@@ -132,7 +132,7 @@ CMD ["yarn", "start:dev"]
 ```
 
 ### Service deployment yaml:
-```
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -166,7 +166,7 @@ spec:
 ```
 
 ### Event Broker with RabbitMQ - deployment yaml
-```
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -200,7 +200,7 @@ spec:
 ```
 
 ### Ingress service
-```
+```yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
