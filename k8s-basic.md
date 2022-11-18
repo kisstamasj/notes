@@ -44,12 +44,15 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 ## kubectl commands
 - ```kubectl run nginx --image=nginx``` deploy an application on the cluster
 - ```kubectl run nginx --image=nginx --dry-run=client -o yaml > nginx.yaml``` generate a yaml configuration file
+
 - ```kubectl cluster-info``` get information about the cluster
+ 
 - ```kubectl get nodes``` list of all nodes
 - ```kubectl get pods``` list of all pods (```-o wide``` param gives more informations)
 - ```kubectl get replicaset``` list of all replicaset
 - ```kubectl get deployment``` list of all deployments
 - ```kubectl get all``` list of all created object (pods, services, deployments, replicaset)
+
 - ```kubectl create -f pod-definition.yml``` create a pod
 - ```kubectl apply -f pod-definition.yml``` create a pod (same as create)
 - ```kubectl replace -f replicaset-definition.yml``` replace the currant instance of a yaml
@@ -57,9 +60,12 @@ Is a tool to deploy and manage applications on a kubernets cluster.
 - ```kubectl scale --replicas=6 -f replicaset-definition.yml``` scale up/down the replicaset (with 6 replica)
 - ```kubectl scale replicaset myapp-replicaset --replicas=2```scale up/down the replicaset (with 2 replica)
 - ```kubectl describe pod <pod-NAME>``` describe detaild information about a pod
+- ```kubectl rollout status deployment/myapp-deployment``` get the deployment rollout statuses
+
 - ```kubectl delete pod nginx``` delete pod
 - ```kubectl delete replicaset myapp-replicaset``` delete replicaset
 - ```kubectl delete replicationController myapp-rc``` delete replication controller
+
 
 # Installing
 - enable Kubernetes on Docker Desktop
