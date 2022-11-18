@@ -21,7 +21,7 @@
 # K8s components
 
 ### API server: 
-Acts as a front end for kubernets. The users, managemenet devices, command line interfaces all talk to the api server
+Acts as a front end for kubernetes. The users, managemenet devices, command line interfaces all talk to the api server
 
 ### etcd key store
 Key-value store to store all data used to manage the cluster. Making sure that the containers are running on the nodes as expected.
@@ -39,7 +39,7 @@ Brain behind orchestration. They are responsible for noticing and responding whe
 Responsible distributed works accross multiple nodes.
 
 # kubectl (kube control)
-Is a tool to deploy and manage applications on a kubernets cluster.
+Is a tool to deploy and manage applications on a kubernetes cluster.
 
 ## kubectl commands
 - ```kubectl run nginx --image=nginx``` deploy an application on the cluster
