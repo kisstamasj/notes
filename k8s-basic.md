@@ -21,7 +21,7 @@
 # K8s components
 
 ### API server: 
-Acts as a front-end for kubernets. The users, managemenet devices and command line interfaces all talk to the api server
+Acts as a front-end for kubernetes. The users, managemenet devices and command line interfaces all talk to the api server
 
 ### etcd key store
 Key-value store to store all data used to manage the cluster. Making sure that the containers are running on the nodes as expected.
@@ -89,7 +89,7 @@ settigns:
 ```
 - Kubernetes
 
-# POD structure
+# YAML Structure
 - apiVersion: kubernetes API version
   - POD: v1
   - Service: v1
@@ -107,7 +107,7 @@ settigns:
     - etc...
 - spec: informations about the objects, it can be different in different objects
 
-## Example
+## POD Example
 
 ```yaml
 apiVersion: v1
