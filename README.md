@@ -37,13 +37,13 @@ These document are a collection of well sorted links and code parts to learn ser
     - [Example](./k8s-basic.md#Example)
 
 - ### [NextJS](./NextJS.md)
-  - [TypeScript basics](./NextJS.md#TypeScript-basics)
-  - [React basics](./NextJS.md#React-basics)
-  - [NextJS](./NextJS.md#NextJS)
-  - [FrameWorks](./NextJS.md#FrameWorks)
+  - **[TypeScript basics](./NextJS.md#TypeScript-basics)**
+  - **[React basics](./NextJS.md#React-basics)**
+  - **[NextJS](./NextJS.md#NextJS)**
+  - **[FrameWorks](./NextJS.md#FrameWorks)**
 
 - ### [NestJS - Microservices](./NestJS%20-%20Microservices.md)
-  - [Initialize project](./NestJS%20-%20Microservices.md#Initialize-project)
+  - **[Initialize project](./NestJS%20-%20Microservices.md#Initialize-project)**
     - [Project structure](./NestJS%20-%20Microservices.md#Project-structure)
     - [Common Library](./NestJS%20-%20Microservices.md#Common-Library)
     - [DevOps](./NestJS%20-%20Microservices.md#DevOps)
