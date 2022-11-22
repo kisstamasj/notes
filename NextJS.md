@@ -14,5 +14,5 @@
 - SEO Tips: https://blog.openreplay.com/seo-tips-for-next-js-sites/
 
 ---
-## FrameWorks
+## UI FrameWorks
 - **Mantine Framework**: https://mantine.dev/guides/next/
