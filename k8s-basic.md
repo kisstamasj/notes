@@ -195,7 +195,7 @@ When we are updating a deployment it will get a new deployment revision (Revisio
 
 ## Deployment Strategy
 - Recreate: shuts down the full application and recreates. The events will be cleard. !DANGEROUS!
-- Rolling update: it doen't destroy the full application but updates the services, one by one (This is the default strategy)
+- Rolling update: it doesn't destroy the full application but updates the services, one by one (This is the default strategy)
 
 ## Deployment upgrade
 1. Creates a new ReplicaSet
