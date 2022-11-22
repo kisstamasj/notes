@@ -108,7 +108,7 @@ networks:
 
 ## DevOps
 
-- enable kubernets in Docker desktop
+- enable kubernetes in Docker desktop
 - API Gateway/BFF (Backend for Frontends) pattern (https://microservices.io/patterns/apigateway.html)
 - apply the Nginx Ingress:
 ```
