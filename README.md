@@ -40,7 +40,7 @@ These document are a collection of well sorted links and code parts to learn ser
   - **[TypeScript basics](./NextJS.md#TypeScript-basics)**
   - **[React basics](./NextJS.md#React-basics)**
   - **[NextJS](./NextJS.md#NextJS)**
-  - **[FrameWorks](./NextJS.md#FrameWorks)**
+  - **[UI FrameWorks](./NextJS.md#FrameWorks)**
 
 - ### [NestJS - Microservices](./NestJS%20-%20Microservices.md)
   - **[Initialize project](./NestJS%20-%20Microservices.md#Initialize-project)**
