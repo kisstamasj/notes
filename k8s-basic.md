@@ -21,53 +21,53 @@
 # K8s components
 
 ### API server: 
-Acts as a front end for kubernetes. The users, managemenet devices, command line interfaces all talk to the api server
+Acts as a front-end for kubernetes. The users, managemenet devices and command line interfaces all talk to the api server
 
 ### etcd key store
 Key-value store to store all data used to manage the cluster. Making sure that the containers are running on the nodes as expected.
 
 ### kubelet:
-Its an agent that runs on each node in the cluster.
+It's an agent that runs on each node in the cluster.
 
 ### container runtime
-Underlying software that used to run containers.(Docker)
+Underlying software that is used to run containers.(Docker)
 
 ### controller
-Brain behind orchestration. They are responsible for noticing and responding when nodes, containers or end points goes down.
+Brain behind orchestration. They are responsible for noticing and responding when nodes, containers or end points are going down.
 
 ### scheduler
-Responsible distributed works accross multiple nodes.
+Responsible for distributing works accross multiple nodes.
 
 # kubectl (kube control)
 Is a tool to deploy and manage applications on a kubernetes cluster.
 
 ## kubectl commands
-- ```kubectl run nginx --image=nginx``` deploy an application on the cluster
-- ```kubectl run nginx --image=nginx --dry-run=client -o yaml > nginx.yaml``` generate a yaml configuration file
+- ```kubectl run nginx --image=nginx``` deploys an application on the cluster
+- ```kubectl run nginx --image=nginx --dry-run=client -o yaml > nginx.yaml``` generates a yaml configuration file
 
-- ```kubectl cluster-info``` get information about the cluster
+- ```kubectl cluster-info``` gets information about the cluster
  
-- ```kubectl get nodes``` list of all nodes
-- ```kubectl get pods``` list of all pods (```-o wide``` param gives more informations)
-- ```kubectl get replicaset``` list of all replicaset
-- ```kubectl get deployment``` list of all deployments
-- ```kubectl get all``` list of all created object (pods, services, deployments, replicaset)
+- ```kubectl get nodes``` lists all nodes
+- ```kubectl get pods``` lists all pods (```-o wide``` param gives more informations)
+- ```kubectl get replicaset``` lists all replicaset
+- ```kubectl get deployment``` lists all deployments
+- ```kubectl get all``` lists all created object (pods, services, deployments, replicaset)
 
-- ```kubectl create -f pod-definition.yml``` create a pod|deployment (```--record``` record all the change)
-- ```kubectl apply -f pod-definition.yml``` create/update a pod|deployment (same as create)
-- ```kubectl replace -f replicaset-definition.yml``` replace the currant instance of a yaml
-- ```kubectl edit  <replicaset|pod|deployment> the-name-of-the-object``` edit the currently running object
-- ```kubectl scale --replicas=6 -f replicaset-definition.yml``` scale up/down the replicaset (with 6 replica)
-- ```kubectl scale replicaset myapp-replicaset --replicas=2```scale up/down the replicaset (with 2 replica)
-- ```kubectl describe pod <pod-NAME>``` describe detaild information about a pod
+- ```kubectl create -f pod-definition.yml``` creates a pod|deployment (```--record``` records all the change)
+- ```kubectl apply -f pod-definition.yml``` creates/updates a pod|deployment (same as create)
+- ```kubectl replace -f replicaset-definition.yml``` replaces the current instance of a yaml
+- ```kubectl edit  <replicaset|pod|deployment> the-name-of-the-object``` edits the currently running object
+- ```kubectl scale --replicas=6 -f replicaset-definition.yml``` scales up/down the replicaset (with 6 replica)
+- ```kubectl scale replicaset myapp-replicaset --replicas=2```scales up/down the replicaset (with 2 replica)
+- ```kubectl describe pod <pod-NAME>``` describes detaild information about a pod
 
-- ```kubectl rollout status deployment.apps/<name-of-deployment>``` get the deployment rollout statuses
-- ```kubectl rollout history deployment.apps/<name-of-deployment>``` get the deployment history and revisions
-- ```kubectl rollout undo deployment.apps/<name-of-deployment>``` rollback to the previous revision of a deployment
+- ```kubectl rollout status deployment.apps/<name-of-deployment>``` gets the deployment rollout statuses
+- ```kubectl rollout history deployment.apps/<name-of-deployment>``` gets the deployment history and revisions
+- ```kubectl rollout undo deployment.apps/<name-of-deployment>``` rolls back to the previous revision of a deployment
 
-- ```kubectl delete pod nginx``` delete pod
-- ```kubectl delete replicaset myapp-replicaset``` delete replicaset
-- ```kubectl delete replicationController myapp-rc``` delete replication controller
+- ```kubectl delete pod nginx``` deletes the given pod
+- ```kubectl delete replicaset myapp-replicaset``` deletes the given replicaset
+- ```kubectl delete replicationController myapp-rc``` deletes the given replication controller
 
 
 # Installing
@@ -125,8 +125,8 @@ spec:
 ```
 
 # Replication controller
-Create multiple instance of pods. It can only handle that pods what it created itself.
-## Example
+Creates multiple instance of pods. It can only handle that pods what it created itself.
+## Replication controller Example
 
 ```yaml
 apiVersion: v1
@@ -151,9 +151,9 @@ spec:
 ```
 
 # ReplicaSet
-Create multiple instance of pods.
+Creates multiple instance of pods.
 There is a ```selector``` dictionary. Can manage other pods not just what it created itself.
-## Example
+## ReplicaSet Example
 
 ```yaml
 apiVersion: apps/v1
@@ -187,24 +187,24 @@ spec:
 - Create Replica Set
 
 ## Rollout and versioning
-When creating a new deployment it triggers a rollout, a rollout creates a new deployment revision (Revision 1)
-When updating a deployment it will get a new deployment revision (Revision 2). It helps us keep tracking the changes, and it enables us to rollback to the previous version of deployment if neccessery.
+When we are creating a new deployment it triggers a rollout, the rollout creates a new deployment revision (Revision 1)
+When we are updating a deployment it will get a new deployment revision (Revision 2). It helps us keep tracking the changes, and it enables us to rollback to the previous version of the deployment if neccessery.
 
-- ```kubectl rollout status deployment/myapp-deployment``` get the deployment rollout statuses
-- ```kubectl rollout history deployment/myapp-deployment``` get the deployment history and revisions
+- ```kubectl rollout status deployment/myapp-deployment``` gets the deployment rollout statuses
+- ```kubectl rollout history deployment/myapp-deployment``` gets the deployment history and revisions
 
 ## Deployment Strategy
-- Recreate: shut down the full application and recreate. The events will be cleard. !DANGEROUS!
-- Rolling update: Not destroy the full application, update one by one of the services (This is the default strategy)
+- Recreate: shuts down the full application and recreates. The events will be cleard. !DANGEROUS!
+- Rolling update: it doen't destroy the full application but updates the services, one by one (This is the default strategy)
 
 ## Deployment upgrade
-1. Create a new ReplicaSet
-2. Rolling update the pods inside the ReplicaSet (shut down in the old ReplicaSet and create in the new ReplicaSet one by one)
+1. Creates a new ReplicaSet
+2. Rolls an update to the pods inside the ReplicaSet (it shuts down the old ReplicaSet and creates a new one)
 
 ## Deployment upgrade rollback
 ```kubectl rollout undo deployment/myapp-deployment```
 
-## Example
+## Deployment Example
 ```yaml
 apiVersion: apps/v1
 kind: Deployment

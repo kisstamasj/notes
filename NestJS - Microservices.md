@@ -1,17 +1,17 @@
 # Initialize project
 
 ## Project structure
-- every service in a separate folder
-- every service generated with ```nest new app```
-- kubernetes yaml files: ```infra/k8s```
-- common folder for common libraries, or just share codes
+- every service is in a separate folder
+- every service is generated with ```nest new app```
+- place kubernetes yaml files into ```infra/k8s```
+- make a folder called "common" for common libraries, so all the services can use it from one place. or just share codes
 
 ## Common Library
-- efficient way to share code with npm package
-- barrel export pattern (https://medium.com/@klauskpm/do-a-barrel-export-aa5b79b76b05)
-- init tsc
-- tsconfig (optimize for NestJS)
-```
+- sharing code through npm package manager is an efficient way
+- [barrel export pattern](https://medium.com/@klauskpm/do-a-barrel-export-aa5b79b76b05)
+- initialize a new typescript project with ```init tsc```
+- optimize tsconfig for NestJS
+```tsconfig
 {
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
@@ -53,7 +53,7 @@
 
 ```
 - package.json example:
-```
+```json
 {
   "name": "@cms-microservices/common",
   "version": "1.0.4",
@@ -84,7 +84,7 @@
 ```
 - own npm registry: https://verdaccio.org/
 
-```
+```dockerfile
 version: '3.1'
 
 services:
@@ -111,12 +111,12 @@ networks:
 - enable kubernetes in Docker desktop
 - API Gateway/BFF (Backend for Frontends) pattern (https://microservices.io/patterns/apigateway.html)
 - apply the Nginx Ingress:
-```
+```bash
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.4.0/deploy/static/provider/cloud/deploy.yaml
 ```
 
 ### NestJS docker image for a service:
-```
+```dockerfile
 FROM node:alpine As development
 
 WORKDIR /usr/src/app
@@ -132,7 +132,7 @@ CMD ["yarn", "start:dev"]
 ```
 
 ### Service deployment yaml:
-```
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -166,7 +166,7 @@ spec:
 ```
 
 ### Event Broker with RabbitMQ - deployment yaml
-```
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -200,7 +200,7 @@ spec:
 ```
 
 ### Ingress service
-```
+```yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
@@ -224,13 +224,26 @@ spec:
 
 
 ## Basic dependencies
-- dto validation, class transformation: ```yarn add class-validator class-transformer```
+- dto validation, class transformation: 
+```bash
+yarn add class-validator class-transformer
+```
 
 ## Database dependencies (postgres)
-- ```yarn add @nestjs/typeorm typeorm pg```
+```bash
+yarn add @nestjs/typeorm typeorm pg
+```
 
 ## Authentication dependencies
-- ```yarn add bcrypt```
-- ```yarn add -D @types/bcrypt```
-- ```yarn add @nestjs/jwt @nestjs/passport cookie-parser passport passport-jwt passport-local```
-- ```yarn add -D @types/cookie-parser @types/passport-jwt @types/passport-local```
+```bash
+yarn add bcrypt
+```
+```bash
+yarn add -D @types/bcrypt
+```
+```bash
+yarn add @nestjs/jwt @nestjs/passport cookie-parser passport passport-jwt passport-local
+```
+```bash
+yarn add -D @types/cookie-parser @types/passport-jwt @types/passport-local
+```
