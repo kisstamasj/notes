@@ -1,3 +1,32 @@
+# Table of Contents
+  - **[Udemy course notes](#Udemy-course-notes)**
+  - **[K8s architecture](#K8s-architecture)**
+  - **[K8s components](#K8s-components)**
+    - [API server: ](#API-server)
+    - [etcd key store](#etcd-key-store)
+    - [kubelet:](#kubelet)
+    - [container runtime](#container-runtime)
+    - [controller](#controller)
+    - [scheduler](#scheduler)
+  - **[kubectl (kube control)](#kubectl-(kube-control))**
+    - [kubectl commands](#kubectl-commands)
+  - **[Installing](#Installing)**
+  - **[Useful Docker Desktop extensions](#Useful-Docker-Desktop-extensions)**
+  - **[VSCode extensions](#VSCode-extensions)**
+  - **[POD structure](#POD-structure)**
+    - [Example](#Example)
+  - **[Replication controller](#Replication-controller)**
+    - [Example](#Example)
+  - **[ReplicaSet](#ReplicaSet)**
+  - **[Example](#Example)**
+  - **[Deployments](#Deployments)**
+    - [Rollout and versioning](#Rollout-and-versioning)
+    - [Deployment Strategy](#Deployment-Strategy)
+    - [Deployment upgrade](#Deployment-upgrade)
+    - [Deployment upgrade rollback](#Deployment-upgrade-rollback)
+    - [Example](#Example)
+
+---
 # Udemy course notes
 
 [Kubernetes+For+Beginners+-+Mumshad+Mannambeth.pdf](https://github.com/kisstamasj/documents/files/9926473/Kubernetes%2BFor%2BBeginners%2B-%2BMumshad%2BMannambeth.pdf)
@@ -125,7 +154,7 @@ spec:
 ```
 
 # Replication controller
-Create multiple instance of pods. It can only handle that pods what it created itself.
+Creates multiple instance of pods. It can only handle that pods what it created itself.
 ## Example
 
 ```yaml
@@ -151,7 +180,7 @@ spec:
 ```
 
 # ReplicaSet
-Create multiple instance of pods.
+Creates multiple instance of pods.
 There is a ```selector``` dictionary. Can manage other pods not just what it created itself.
 ## Example
 
@@ -187,19 +216,19 @@ spec:
 - Create Replica Set
 
 ## Rollout and versioning
-When creating a new deployment it triggers a rollout, a rollout creates a new deployment revision (Revision 1)
-When updating a deployment it will get a new deployment revision (Revision 2). It helps us keep tracking the changes, and it enables us to rollback to the previous version of deployment if neccessery.
+When we are creating a new deployment it triggers a rollout, the rollout creates a new deployment revision (Revision 1)
+When we are updating a deployment it will get a new deployment revision (Revision 2). It helps us keep tracking the changes, and it enables us to rollback to the previous version of the deployment if neccessery.
 
-- ```kubectl rollout status deployment/myapp-deployment``` get the deployment rollout statuses
-- ```kubectl rollout history deployment/myapp-deployment``` get the deployment history and revisions
+- ```kubectl rollout status deployment/myapp-deployment``` gets the deployment rollout statuses
+- ```kubectl rollout history deployment/myapp-deployment``` gets the deployment history and revisions
 
 ## Deployment Strategy
-- Recreate: shut down the full application and recreate. The events will be cleard. !DANGEROUS!
-- Rolling update: Not destroy the full application, update one by one of the services (This is the default strategy)
+- Recreate: shuts down the full application and recreates. The events will be cleard. !DANGEROUS!
+- Rolling update: it doen't destroy the full application but updates the services, one by one (This is the default strategy)
 
 ## Deployment upgrade
-1. Create a new ReplicaSet
-2. Rolling update the pods inside the ReplicaSet (shut down in the old ReplicaSet and create in the new ReplicaSet one by one)
+1. Creates a new ReplicaSet
+2. Rolls an update to the pods inside the ReplicaSet (it shuts down the old ReplicaSet and creates a new one)
 
 ## Deployment upgrade rollback
 ```kubectl rollout undo deployment/myapp-deployment```
