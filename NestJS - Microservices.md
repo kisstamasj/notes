@@ -10,7 +10,7 @@
 - sharing code through npm package manager is an efficient way
 - [barrel export pattern](https://medium.com/@klauskpm/do-a-barrel-export-aa5b79b76b05)
 - initialize a new typescript project with ```init tsc```
-- optimize tsconfig (for NestJS)
+- optimize tsconfig for NestJS
 ```tsconfig
 {
   "compilerOptions": {
