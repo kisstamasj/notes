@@ -126,7 +126,7 @@ spec:
 
 # Replication controller
 Creates multiple instance of pods. It can only handle that pods what it created itself.
-## Example
+## Replication controller Example
 
 ```yaml
 apiVersion: v1
@@ -153,7 +153,7 @@ spec:
 # ReplicaSet
 Creates multiple instance of pods.
 There is a ```selector``` dictionary. Can manage other pods not just what it created itself.
-## Example
+## ReplicaSet Example
 
 ```yaml
 apiVersion: apps/v1
@@ -204,7 +204,7 @@ When we are updating a deployment it will get a new deployment revision (Revisio
 ## Deployment upgrade rollback
 ```kubectl rollout undo deployment/myapp-deployment```
 
-## Example
+## Deployment Example
 ```yaml
 apiVersion: apps/v1
 kind: Deployment

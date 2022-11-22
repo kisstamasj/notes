@@ -26,15 +26,15 @@ These document are a collection of well sorted links and code parts to learn ser
   - **[YAML structure](./k8s-basic.md#YAML-structure)**
     - [POD Example](./k8s-basic.md#POD-Example)
   - **[Replication controller](./k8s-basic.md#Replication-controller)**
-    - [Example](./k8s-basic.md#Example)
+    - [Replication controller Example](./k8s-basic.md#Replication-controller-Example)
   - **[ReplicaSet](./k8s-basic.md#ReplicaSet)**
-  - **[Example](./k8s-basic.md#Example)**
+    - [ReplicaSet Example](./k8s-basic.md#ReplicaSet-Example)
   - **[Deployments](./k8s-basic.md#Deployments)**
     - [Rollout and versioning](./k8s-basic.md#Rollout-and-versioning)
     - [Deployment Strategy](./k8s-basic.md#Deployment-Strategy)
     - [Deployment upgrade](./k8s-basic.md#Deployment-upgrade)
     - [Deployment upgrade rollback](./k8s-basic.md#Deployment-upgrade-rollback)
-    - [Example](./k8s-basic.md#Example)
+    - [Deployment Example](./k8s-basic.md#Deployment-Example)
 
 - ### [NextJS](./NextJS.md)
   - **[TypeScript basics](./NextJS.md#TypeScript-basics)**
