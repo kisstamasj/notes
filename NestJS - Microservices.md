@@ -1,16 +1,3 @@
-# Table of Contents
-- [Initialize project](#Initialize-project)
-  - [Project structure](#Project-structure)
-  - [Common Library](#Common-Library)
-  - [DevOps](#DevOps)
-    - [NestJS docker image for a service:](#NestJS-docker-image-for-a-service:)
-    - [Service deployment yaml:](#Service-deployment-yaml)
-    - [Event Broker with RabbitMQ - deployment yaml](#Event-Broker-with-RabbitMQ---deployment-yaml)
-    - [Ingress service](#Ingress-service)
-  - [Basic dependencies](#Basic-dependencies)
-  - [Database dependencies (postgres)](#Database-dependencies-(postgres))
-  - [Authentication dependencies](#Authentication-dependencies)
-
 # Initialize project
 
 ## Project structure

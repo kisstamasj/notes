@@ -1,32 +1,3 @@
-# Table of Contents
-  - **[Udemy course notes](#Udemy-course-notes)**
-  - **[K8s architecture](#K8s-architecture)**
-  - **[K8s components](#K8s-components)**
-    - [API server: ](#API-server)
-    - [etcd key store](#etcd-key-store)
-    - [kubelet:](#kubelet)
-    - [container runtime](#container-runtime)
-    - [controller](#controller)
-    - [scheduler](#scheduler)
-  - **[kubectl (kube control)](#kubectl-(kube-control))**
-    - [kubectl commands](#kubectl-commands)
-  - **[Installing](#Installing)**
-  - **[Useful Docker Desktop extensions](#Useful-Docker-Desktop-extensions)**
-  - **[VSCode extensions](#VSCode-extensions)**
-  - **[POD structure](#POD-structure)**
-    - [Example](#Example)
-  - **[Replication controller](#Replication-controller)**
-    - [Example](#Example)
-  - **[ReplicaSet](#ReplicaSet)**
-  - **[Example](#Example)**
-  - **[Deployments](#Deployments)**
-    - [Rollout and versioning](#Rollout-and-versioning)
-    - [Deployment Strategy](#Deployment-Strategy)
-    - [Deployment upgrade](#Deployment-upgrade)
-    - [Deployment upgrade rollback](#Deployment-upgrade-rollback)
-    - [Example](#Example)
-
----
 # Udemy course notes
 
 [Kubernetes+For+Beginners+-+Mumshad+Mannambeth.pdf](https://github.com/kisstamasj/documents/files/9926473/Kubernetes%2BFor%2BBeginners%2B-%2BMumshad%2BMannambeth.pdf)
