@@ -16,14 +16,14 @@
 ## Project structure
 - every service is in a separate folder
 - every service is generated with ```nest new app```
-- kubernetes yaml files: ```infra/k8s```
-- common folder for common libraries, or just share codes
+- place kubernetes yaml files into ```infra/k8s```
+- make a folder called "common" for common libraries, so all the services can use it from one place. or just share codes
 
 ## Common Library
-- efficient way to share code with npm package
-- barrel export pattern
-- init tsc
-- tsconfig (optimize for NestJS)
+- sharing code through npm package manager is an efficient way
+- [barrel export pattern](https://medium.com/@klauskpm/do-a-barrel-export-aa5b79b76b05)
+- initialize a new typescript project with ```init tsc```
+- optimize tsconfig (for NestJS)
 ```tsconfig
 {
   "compilerOptions": {
