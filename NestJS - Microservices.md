@@ -8,7 +8,7 @@
 
 ## Common Library
 - efficient way to share code with npm package
-- barrel export pattern
+- barrel export pattern (https://medium.com/@klauskpm/do-a-barrel-export-aa5b79b76b05)
 - init tsc
 - tsconfig (optimize for NestJS)
 ```
