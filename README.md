@@ -23,8 +23,8 @@ These document are a collection of well sorted links and code parts to learn ser
   - **[Installing](./k8s-basic.md#Installing)**
   - **[Useful Docker Desktop extensions](./k8s-basic.md#Useful-Docker-Desktop-extensions)**
   - **[VSCode extensions](./k8s-basic.md#VSCode-extensions)**
-  - **[POD structure](./k8s-basic.md#POD-structure)**
-    - [Example](./k8s-basic.md#Example)
+  - **[YAML structure](./k8s-basic.md#YAML-structure)**
+    - [POD Example](./k8s-basic.md#POD-Example)
   - **[Replication controller](./k8s-basic.md#Replication-controller)**
     - [Example](./k8s-basic.md#Example)
   - **[ReplicaSet](./k8s-basic.md#ReplicaSet)**
