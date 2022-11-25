@@ -40,6 +40,7 @@ These document are a collection of well sorted links and code parts to learn ser
     - [Services types](./k8s-basic.md#services-types)
       - [NodePort example](./k8s-basic.md#nodeport-example)
       - [ClusterIP example](./k8s-basic.md#clusterip-example)
+      - [LoadBalancer example](./k8s-basic.md#loadbalancer-example)
 
 - ### [NextJS](./NextJS.md)
   - **[TypeScript basics](./NextJS.md#TypeScript-basics)**
