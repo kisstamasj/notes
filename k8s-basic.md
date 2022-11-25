@@ -245,6 +245,12 @@ This shows how its work a NodePort
 
 ## Services types
 - NodePort: Makes an internal port accessibble on a port on the node.
+  - Three ports: 
+    - TargetPort: Where the service forwards the request to. For example a webserver listening on. (ex.: 80)
+    - Port: The port on the service it self
+    - NodePort: Use to access for example a webserver extrenally.
+![image](https://user-images.githubusercontent.com/48266482/203940337-f9f5a621-8d7e-4b22-84b1-f59de83bb16c.png)
+
 - ClusterIP: Creates a virtual IP inside the cluster to enable communication between different services, such as a set of ftont and servers to a set of backend servers.
 - LoadBalancer: It provisions a load balancer for our application in supported cloud providers
 
