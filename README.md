@@ -35,7 +35,7 @@ These document are a collection of well sorted links and code parts to learn ser
     - [Deployment upgrade](./k8s-basic.md#Deployment-upgrade)
     - [Deployment upgrade rollback](./k8s-basic.md#Deployment-upgrade-rollback)
     - [Deployment Example](./k8s-basic.md#Deployment-Example)
-  - **[Kubernetes networking](./k8s-basic.md#Kubernetes-Networking)
+  - **[Kubernetes networking](./k8s-basic.md#Kubernetes-Networking)**
 
 - ### [NextJS](./NextJS.md)
   - **[TypeScript basics](./NextJS.md#TypeScript-basics)**
