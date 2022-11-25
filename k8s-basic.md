@@ -248,7 +248,7 @@ This shows how its work a NodePort
   - Three ports: 
     - TargetPort: Where the service forwards the request to. For example a webserver listening on. (ex.: 80)
     - Port: The port on the service it self
-    - NodePort: Use to access for example a webserver extrenally.
+    - NodePort: Use to access for example a webserver extrenally. Available range is 30000-32767.
 ![image](https://user-images.githubusercontent.com/48266482/203940337-f9f5a621-8d7e-4b22-84b1-f59de83bb16c.png)
 
 - ClusterIP: Creates a virtual IP inside the cluster to enable communication between different services, such as a set of ftont and servers to a set of backend servers.
