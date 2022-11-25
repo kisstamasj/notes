@@ -267,5 +267,9 @@ spec:
     - targetPort: 80
       port: 80
       nodePort: 30008
+  # Matching NodePort service with POD with labels
+  selector:
+     app: app
+     type: front-end
 ```
 
