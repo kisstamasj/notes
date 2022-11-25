@@ -230,4 +230,11 @@ spec:
       type: front-end
 ```
 
+# Kubernetes Networking
+- Nodes has own IP addresses
+- PODs attatched to a private network (10.0.0.0)
+- IP addresses is assigned to all PODs
+- All containers/PODs can communicate to one another without NAT
+- All nodes can cmommunicate with all containers and vice-versa without NAT
+
 
