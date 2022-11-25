@@ -238,7 +238,7 @@ spec:
 - All nodes can cmommunicate with all containers and vice-versa without NAT
 
 # Kubernetes services
-Kubernetes services enable communication between various components within and outside of the application.
+It is also a kubernetes object like POD, Deployment or ReplicaSet. Kubernetes services enable communication between various components within and outside of the application. Services has own IP address called Cluster IP of the service.
 
 ![image](https://user-images.githubusercontent.com/48266482/203935334-272dfb05-8e07-45a5-9830-4c38fc6db331.png)
 This shows how its work a NodePort
@@ -249,8 +249,23 @@ This shows how its work a NodePort
     - TargetPort: Where the service forwards the request to. For example a webserver listening on. (ex.: 80)
     - Port: The port on the service it self
     - NodePort: Use to access for example a webserver extrenally. Available range is 30000-32767.
-![image](https://user-images.githubusercontent.com/48266482/203940337-f9f5a621-8d7e-4b22-84b1-f59de83bb16c.png)
+ 
+ ![image](https://user-images.githubusercontent.com/48266482/203940337-f9f5a621-8d7e-4b22-84b1-f59de83bb16c.png)
 
 - ClusterIP: Creates a virtual IP inside the cluster to enable communication between different services, such as a set of ftont and servers to a set of backend servers.
 - LoadBalancer: It provisions a load balancer for our application in supported cloud providers
+
+### NodePort Example
+```yaml
+apiVersion: v1
+kind: Service
+metadata: 
+  name: myapp-service
+spec:
+  type: NodePort
+  ports:
+    - targetPort: 80
+      port: 80
+      nodePort: 30008
+```
 
