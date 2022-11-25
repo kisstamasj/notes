@@ -253,7 +253,7 @@ This shows how its work a NodePort
  ![image](https://user-images.githubusercontent.com/48266482/203940337-f9f5a621-8d7e-4b22-84b1-f59de83bb16c.png)
 
 - ClusterIP: Creates a virtual IP inside the cluster to enable communication between different services, such as a set of frontend servers to a set of backend servers.
-- LoadBalancer: It provisions a load balancer for our application in supported cloud providers. It gives simple access to a POD wich runs in more than one instance.
+- LoadBalancer: It provisions a load balancer for our application in supported cloud providers (GCP, AWS, Azure etc.). It gives simple access to a POD wich runs in more than one instance.
 
 ### NodePort Example
 ```yaml
@@ -296,13 +296,13 @@ spec:
 apiVersion: v1
 kind: Service
 metadata: 
-  name: back-end
+  name: myapp-service
 spec:
-  # ClusterIP is the default service type, so not necessary to define
-  type: CulsterIP
+  type: LoadBalancer
   ports:
     - targetPort: 80
       port: 80
+      nodePort: 30008
   # Matching NodePort service with POD with labels
   selector:
      app: app
