@@ -38,6 +38,7 @@ These document are a collection of well sorted links and code parts to learn ser
   - **[Kubernetes networking](./k8s-basic.md#Kubernetes-Networking)**
   - **[Kubernetes services](./k8s-basic.md#kubernetes-services)**
     - [Services types](./k8s-basic.md#services-types)
+      - [NodePort example](./k8s-basic.md#nodeport-example)
 
 - ### [NextJS](./NextJS.md)
   - **[TypeScript basics](./NextJS.md#TypeScript-basics)**
