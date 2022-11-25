@@ -264,9 +264,9 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - targetPort: 80
-      port: 80
-      nodePort: 30008
+    - targetPort: 80 # Port exposed by container
+      port: 80 # Port on the service
+      nodePort: 30008 # Port to access from outside
   # Matching NodePort service with POD with labels
   selector:
      app: app
@@ -283,8 +283,8 @@ spec:
   # ClusterIP is the default service type, so not necessary to define
   type: CulsterIP
   ports:
-    - targetPort: 80
-      port: 80
+    - targetPort: 80 # Port exposed by container
+      port: 80 # Port on the service
   # Matching NodePort service with POD with labels
   selector:
      app: app
@@ -300,9 +300,9 @@ metadata:
 spec:
   type: LoadBalancer
   ports:
-    - targetPort: 80
-      port: 80
-      nodePort: 30008
+    - targetPort: 80 # Port exposed by container
+      port: 80 # Port on the service
+      nodePort: 30008 # Port to access from outside
   # Matching NodePort service with POD with labels
   selector:
      app: app
