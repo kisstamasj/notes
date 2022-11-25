@@ -237,4 +237,14 @@ spec:
 - All containers/PODs can communicate to one another without NAT
 - All nodes can cmommunicate with all containers and vice-versa without NAT
 
+# Kubernetes services
+Kubernetes services enable communication between various components within and outside of the application.
+
+![image](https://user-images.githubusercontent.com/48266482/203935334-272dfb05-8e07-45a5-9830-4c38fc6db331.png)
+This shows how its work a NodePort
+
+## Services types
+- NodePort: Makes an internal port accessibble on a port on the node.
+- ClusterIP: Creates a virtual IP inside the cluster to enable communication between different services, such as a set of ftont and servers to a set of backend servers.
+- LoadBalancer: It provisions a load balancer for our application in supported cloud providers
 
