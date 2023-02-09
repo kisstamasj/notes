@@ -41,3 +41,7 @@ Some organizations require high availability of availability zones and protectio
 - Networking (Virtual network, Load Balancer, DNS, Express Route, Traffic Manager, VPN Gateway, App Gateway)
 
 ![image](https://user-images.githubusercontent.com/48266482/217858022-7b92f201-2208-42a5-9840-95df3a68d8e1.png)
+
+### Iaas, PaaS and SaaS
+
+![image](https://user-images.githubusercontent.com/48266482/217859736-bcd2571b-4403-4214-9ff9-464c524c7bec.png)
