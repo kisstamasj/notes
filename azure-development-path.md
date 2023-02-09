@@ -42,17 +42,21 @@ Some organizations require high availability of availability zones and protectio
 
 ![image](https://user-images.githubusercontent.com/48266482/217858022-7b92f201-2208-42a5-9840-95df3a68d8e1.png)
 
-### Iaas, PaaS and SaaS
+#### Iaas, PaaS and SaaS
 
 ![image](https://user-images.githubusercontent.com/48266482/217860079-e5b3f20d-4a9b-4a04-9126-93cd69d76a69.png)
 
-### IaaS
+#### IaaS
 - Virtual servers
 - you are responsible for maintaining OS
 
-### PaaS
+#### PaaS
 - Cloud vendor maintains infrasturcure for you
 - You focus on application code and data
 
-### SaaS
+#### SaaS
 - Vendor provides full software stack
+
+#### Aure Resource Manager (ARM)
+![image](https://user-images.githubusercontent.com/48266482/217863706-b122f164-177f-470e-b041-1928ecd7a38a.png)
+
