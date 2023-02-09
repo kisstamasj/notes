@@ -61,3 +61,5 @@ These document are a collection of well sorted links and code parts to learn ser
     - [Database dependencies (postgres)](./NestJS%20-%20Microservices.md#Database-dependencies-(postgres))
     - [Authentication dependencies](./NestJS%20-%20Microservices.md#Authentication-dependencies)
 - ### [Useful links for microservices](./microservices-useful-links.md)
+- ### [Azure developer path](./azure-developer-path.md)
+  - []
