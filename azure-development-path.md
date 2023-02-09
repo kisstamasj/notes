@@ -46,3 +46,13 @@ Some organizations require high availability of availability zones and protectio
 
 ![image](https://user-images.githubusercontent.com/48266482/217860079-e5b3f20d-4a9b-4a04-9126-93cd69d76a69.png)
 
+### IaaS
+- Virtual servers
+- you are responsible for maintaining OS
+
+### PaaS
+- Cloud vendor maintains infrasturcure for you
+- You focus on application code and data
+
+### SaaS
+- Vendor provides full sofware stack
