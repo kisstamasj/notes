@@ -62,4 +62,4 @@ These document are a collection of well sorted links and code parts to learn ser
     - [Authentication dependencies](./NestJS%20-%20Microservices.md#Authentication-dependencies)
 - ### [Useful links for microservices](./microservices-useful-links.md)
 - ### [Azure development path](./azure-development-path.md)
-  - [Azure Global infrasturucture](./azure-developer-path.md#azure-global-infrastructure)
+  - [Azure Global infrasturucture](./azure-development-path.md#azure-global-infrastructure)
