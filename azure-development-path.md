@@ -24,3 +24,20 @@ Some organizations require high availability of availability zones and protectio
 
 ![image](https://user-images.githubusercontent.com/48266482/217852737-f0a10b65-dc0c-481d-aa17-8c4628528c2a.png)
 
+
+## Azure Services
+### Platform services
+- Media & CDN (Media services, Media analytics, Content Delivery Network)
+- Application patform (Web apps, Mobile apps, API apps, Cloud services, Service Fabric, Notification hubs, Functions)
+- Data (SQL databases, Azure Synapse Analytics, Cosmos DB, SQL Server Strech Dtabase, Azure Cache for Redis, Table Storage, Azure Search)
+- Integration (API management, Service Bus, Azure Logic Apps)
+- Compure Services (Container services, VM Scale Sets, Azure Batch, Dev/Test Lab)
+- Developer services (Visual Studio, Azure DevOps, Application Insights, Mobile Engadgement, Xamarin, Visual Studio App Center)
+- Analytics IoT
+
+### Infrastucture service
+- Compute (Virtual machines, Containers and Azure kubernetes)
+- Storage
+- Networking
+
+![image](https://user-images.githubusercontent.com/48266482/217858022-7b92f201-2208-42a5-9840-95df3a68d8e1.png)
