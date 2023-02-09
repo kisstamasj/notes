@@ -37,7 +37,7 @@ Some organizations require high availability of availability zones and protectio
 
 ### Infrastucture service
 - Compute (Virtual machines, Containers and Azure kubernetes)
-- Storage
-- Networking
+- Storage (Blob, Queues, Files, Disks)
+- Networking (Virtual network, Load Balancer, DNS, Express Route, Traffic Manager, VPN Gateway, App Gateway)
 
 ![image](https://user-images.githubusercontent.com/48266482/217858022-7b92f201-2208-42a5-9840-95df3a68d8e1.png)
