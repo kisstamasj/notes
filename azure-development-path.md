@@ -55,4 +55,4 @@ Some organizations require high availability of availability zones and protectio
 - You focus on application code and data
 
 ### SaaS
-- Vendor provides full sofware stack
+- Vendor provides full software stack
