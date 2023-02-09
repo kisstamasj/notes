@@ -44,4 +44,5 @@ Some organizations require high availability of availability zones and protectio
 
 ### Iaas, PaaS and SaaS
 
-![image](https://user-images.githubusercontent.com/48266482/217859736-bcd2571b-4403-4214-9ff9-464c524c7bec.png)
+![image](https://user-images.githubusercontent.com/48266482/217860079-e5b3f20d-4a9b-4a04-9126-93cd69d76a69.png)
+
