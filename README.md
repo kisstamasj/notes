@@ -63,3 +63,4 @@ These document are a collection of well sorted links and code parts to learn ser
 - ### [Useful links for microservices](./microservices-useful-links.md)
 - ### [Azure development path](./azure-development-path.md)
   - [Azure Global infrasturucture](./azure-development-path.md#azure-global-infrastructure)
+  - [Azure Services](./azure-development-path.md#azure-services)
