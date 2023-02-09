@@ -1,4 +1,4 @@
-# Azure developer path
+# Azure development path
 
 ## Azure Global infrastructure
 ### Regions:
