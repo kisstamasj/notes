@@ -69,3 +69,6 @@ Some organizations require high availability of availability zones and protectio
 - Centralized management
 - Parent can have multiple children - child can only have one parent
 - Similar to OS file structure
+
+![image](https://user-images.githubusercontent.com/48266482/218101957-63ca5bf0-69d4-482e-8e8f-010d7251ce5d.png)
+
