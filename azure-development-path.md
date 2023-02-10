@@ -57,6 +57,6 @@ Some organizations require high availability of availability zones and protectio
 #### SaaS
 - Vendor provides full software stack
 
-### Azure Resource Manager (ARM)
+## Azure Resource Manager (ARM)
 ![image](https://user-images.githubusercontent.com/48266482/217863706-b122f164-177f-470e-b041-1928ecd7a38a.png)
 
