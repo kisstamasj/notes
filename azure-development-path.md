@@ -66,4 +66,6 @@ Some organizations require high availability of availability zones and protectio
 ### Fundamentals
 - Parent-child relationship
 - Access/policies granted to pranet inherited by child levels
-
+- Centralized management
+- Parent can have multiple children - child can only have one parent
+- Similar to OS file structure
