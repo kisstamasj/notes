@@ -75,4 +75,11 @@ Some organizations require high availability of availability zones and protectio
 
 ![image](https://user-images.githubusercontent.com/48266482/218102916-f3d6d54b-4e89-49b1-aa93-62a3501e5166.png)
 
-## Identity and access management
+## Identity and access management (IAM)
+
+### Who can do what on which resources?
+![image](https://user-images.githubusercontent.com/48266482/218103674-2cef454c-59df-4c0f-abbe-cf30a9440957.png)
+
+### Azure Active Directory (Azure AD)
+
+
