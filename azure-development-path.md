@@ -63,3 +63,7 @@ Some organizations require high availability of availability zones and protectio
 ## Azre Resource Hierarchy
 ![image](https://user-images.githubusercontent.com/48266482/218100072-071d11e1-297e-4e8b-9128-7be34d812bba.png)
 
+### Fundamentals
+- Parent-child relationship
+- Access/policies granted to pranet inherited by child levels
+
