@@ -62,6 +62,8 @@ Some organizations require high availability of availability zones and protectio
 
 ## Azre Resource Hierarchy
 ![image](https://user-images.githubusercontent.com/48266482/218100072-071d11e1-297e-4e8b-9128-7be34d812bba.png)
+![image](https://user-images.githubusercontent.com/48266482/218102916-f3d6d54b-4e89-49b1-aa93-62a3501e5166.png)
+
 
 ### Fundamentals
 - Parent-child relationship
