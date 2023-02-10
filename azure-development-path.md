@@ -81,9 +81,11 @@ Some organizations require high availability of availability zones and protectio
 ![image](https://user-images.githubusercontent.com/48266482/218103674-2cef454c-59df-4c0f-abbe-cf30a9440957.png)
 
 ### Azure Active Directory (Azure AD)
-- Cloud-based identiy service
-  - one per tenant (company)
-  - Provides identity - "who are you?"
-  - Identity = security principal
-  - Manage end users (people) or applications
-  - Email format (end user) - matthhew@mycompany.com
+![image](https://user-images.githubusercontent.com/48266482/218105032-bd8570e7-b171-48a5-b5c0-77a5dea2e134.png)
+
+### Azure Role-Based Access Control (Azure RBAC)
+![image](https://user-images.githubusercontent.com/48266482/218105583-7b4937ad-6120-4464-85dd-a97510b0f71a.png)
+
+### Scope
+![image](https://user-images.githubusercontent.com/48266482/218105858-aaa3c44b-224e-473f-a065-0f7da51dab2a.png)
+
