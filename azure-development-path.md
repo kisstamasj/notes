@@ -89,3 +89,5 @@ Some organizations require high availability of availability zones and protectio
 ### Scope
 ![image](https://user-images.githubusercontent.com/48266482/218105858-aaa3c44b-224e-473f-a065-0f7da51dab2a.png)
 
+## Monitoring Azure Environment
+
