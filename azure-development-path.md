@@ -97,4 +97,5 @@ Some organizations require high availability of availability zones and protectio
 - Metrics (Telemetry-based performance data)
   - CPU utilization
   - Website latency
+
 ![image](https://user-images.githubusercontent.com/48266482/218106842-9a6d4025-238c-4fd7-843c-8082a6adba30.png)
