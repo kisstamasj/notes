@@ -81,5 +81,9 @@ Some organizations require high availability of availability zones and protectio
 ![image](https://user-images.githubusercontent.com/48266482/218103674-2cef454c-59df-4c0f-abbe-cf30a9440957.png)
 
 ### Azure Active Directory (Azure AD)
-
-
+- Cloud-based identiy service
+  - one per tenant (company)
+  - Provides identity - "who are you?"
+  - Identity = security principal
+  - Manage end users (people) or applications
+  - Email format (end user) - matthhew@mycompany.com
