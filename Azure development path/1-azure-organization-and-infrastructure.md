@@ -139,13 +139,26 @@ Some organizations require high availability of availability zones and protectio
 - Managed infrasturcture (just store your stuff and go)
 - Flexible access options
 - Multiple data storage scenarios:
-  - Blob (object)
+  - Blob (Binary Large Object)
+    - Object storage
+    - Unstructured data
+    - All file types (image, video, scripts, etc..)
   - Files
+    - Network file share in the cloud
   - Disks
+    - Virtual hard drives for VMs ()
   - Queues
+    - Asynchronous messaging between apps and services
   - Tables (...kind of)
+    - NoSQL datrabase storage
+    - Gradually transitioning to Cosmos DB
 
 ![image](https://user-images.githubusercontent.com/48266482/218402331-d1c0b7e8-c487-472b-bceb-b14538bbf0f9.png)
 
 ### Databases and Analytics
+- Structured data
+- PaaS
+
+![image](https://user-images.githubusercontent.com/48266482/218404914-41575cc6-8447-433b-8812-d06753a8bbd9.png)
+
 ### App Service and Serverless Compute
