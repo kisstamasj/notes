@@ -171,7 +171,7 @@ Some organizations require high availability of availability zones and protectio
 
 ### App Service and Serverless Compute
 Azure handles all the resources that our app needs.
-If we use VMs we have to deal with setting up the environment with and all the necessary resources.
+If we use VMs we have to deal with setting up the environment and all the necessary resources.
 - Web Apps
 - Mobile Apps
 - API Apps
