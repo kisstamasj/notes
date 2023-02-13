@@ -188,3 +188,13 @@ If we use VMs we have to deal with setting up the environment and all the necess
 **Developer/coding focused tool**
 - Non-developers will not get much use
 
+## Azure Managed Services (Examples)
+### Azure SQL 
+#### Azure Manages:
+- OS updates/patching
+- Backups
+#### You manage:
+- Compute and storage configuration
+- Loading and working with your data
+
+Different managed services handle different management responsibilities
