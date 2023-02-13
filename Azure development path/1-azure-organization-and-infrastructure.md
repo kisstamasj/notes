@@ -223,7 +223,13 @@ Solutions for entire data colletion process
 ## Cloud Advantages
 - fault tolerance
 - highg availability
-- scalability
-- elasticity
+- scalability 
+- elasticity 
+
+### How?
+- Automatic, on-demand resources when needed
+- automatic failover in case of error
+- separation of storage and compute
+- global presence
 
 
