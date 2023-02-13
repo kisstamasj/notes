@@ -115,6 +115,17 @@ Some organizations require high availability of availability zones and protectio
   - Scaling copies of application
   - Enables scaling, and elasticity 
 ### Networking
+- Virtual network
+- Load Balancer
+- DNS
+- Express Route
+- Traffic Manager
+- VPN Gateway
+- App Gateway
+#### Virtual network (VNet)
+- Provides **private** and **public** network communication among Azure resources
+- Uses familiar network concepts in virtual format: subnets, firewalls, routes, etc
+  - Virtual format - **Software Defined Networking (SDN)**
 ### Storage
 ### Databases and Analytics
 ### App Service and Serverless Compute
