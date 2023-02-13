@@ -199,15 +199,15 @@ If we use VMs we have to deal with setting up the environment and all the necess
 
 Different managed services handle different management responsibilities
 
-## Container/Kubernetes services
+### Container/Kubernetes services
 Azure handels the container management infrastructure, you focus on your containers.
 
-## Artificial Intelligence/Machine Learning
+### Artificial Intelligence/Machine Learning
 Azure manages different parts depending on the exact service:
 - Pre-traind models - just bring your data
 - Custom models - you bring the model and Azure provides the scaling training infrastructure
 
-## Big Data Solutions
+### Big Data Solutions
 Terabytes, petabytes and more
 
 Multiple serviec for different workflow
@@ -215,7 +215,15 @@ Multiple serviec for different workflow
 - Azre Synapse - query massive amounts of data in fully serverless format
 - Power BI - SaaS dashboards for visualizing data analytics 
 
-## Internet of Things (IoT) Solutions
+### Internet of Things (IoT) Solutions
 Solutions for entire data colletion process
 - Ingestion, storage, analysis
 - Integrates with big data tools
+
+## Cloud Advantages
+- fault tolerance
+- highg availability
+- scalability
+- elasticity
+
+
