@@ -129,6 +129,8 @@ Some organizations require high availability of availability zones and protectio
   -  Enables public access or extends private networking to other networks
 
 ![image](https://user-images.githubusercontent.com/48266482/218400123-39d579a6-155d-4518-8df4-8861e45d5b8c.png)
+![image](https://user-images.githubusercontent.com/48266482/218400384-ef4464b7-400e-44d2-a99b-0048cc2ff1b8.png)
+
 
 ### Storage
 ### Databases and Analytics
