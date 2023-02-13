@@ -126,6 +126,9 @@ Some organizations require high availability of availability zones and protectio
 - Provides **private** and **public** network communication among Azure resources
 - Uses familiar network concepts in virtual format: subnets, firewalls, routes, etc
   - Virtual format - **Software Defined Networking (SDN)**
+  -  Enables public access or extends private networking to other networks
+![image](https://user-images.githubusercontent.com/48266482/218400123-39d579a6-155d-4518-8df4-8861e45d5b8c.png)
+
 ### Storage
 ### Databases and Analytics
 ### App Service and Serverless Compute
