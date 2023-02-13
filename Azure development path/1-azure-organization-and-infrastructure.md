@@ -100,3 +100,21 @@ Some organizations require high availability of availability zones and protectio
   - Website latency
 
 ![image](https://user-images.githubusercontent.com/48266482/218106842-9a6d4025-238c-4fd7-843c-8082a6adba30.png)
+
+## Core Services
+### Virtual Machines (compute)
+- IaaS
+![image](https://user-images.githubusercontent.com/48266482/218398271-024ce87d-8d7c-4f96-a979-089a4b4ebb4f.png)
+- Flexibility (you can do everything you want)
+- Availability set
+  - VM replication (copy)
+  - Replicate VM for better faukt tolearance
+  - If a VM goes down, a coped VM can take over
+- Scale sets
+  - Multiple copies of VMs
+  - Scaling copies of application
+  - Enables scaling, and elasticity 
+### Networking
+### Storage
+### Databases and Analytics
+### App Service and Serverless Compute
