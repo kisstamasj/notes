@@ -156,9 +156,17 @@ Some organizations require high availability of availability zones and protectio
 ![image](https://user-images.githubusercontent.com/48266482/218402331-d1c0b7e8-c487-472b-bceb-b14538bbf0f9.png)
 
 ### Databases and Analytics
+#### Databases
 - Structured data
 - PaaS
 
 ![image](https://user-images.githubusercontent.com/48266482/218404914-41575cc6-8447-433b-8812-d06753a8bbd9.png)
+
+#### Analytics
+- Analyzing data (in databases) for insights ("What are our most popular features?")
+- Massive amounts of queried data ("How happy are our customers?")
+- Ex.:
+  - Azure Synapse (Query and visualization)
+  - Azure Data Lake (Customer metrics)
 
 ### App Service and Serverless Compute
