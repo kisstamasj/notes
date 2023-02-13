@@ -135,10 +135,14 @@ Some organizations require high availability of availability zones and protectio
 - **Network Security Groups/Firewall**: Control access to VNet resources by network protocol, port, or source locations
 
 ### Storage (Storage Accounts)
-- Blob (object)
-- Files
-- Disks
-- Queues
-- Tables (...kind of)
+- Massivly scalable (petabytes and up)
+- Managed infrasturcture (just store your stuff and go)
+- Flexible access options
+- Multiple data storage scenarios:
+  - Blob (object)
+  - Files
+  - Disks
+  - Queues
+  - Tables (...kind of)
 ### Databases and Analytics
 ### App Service and Serverless Compute
