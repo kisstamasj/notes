@@ -144,5 +144,8 @@ Some organizations require high availability of availability zones and protectio
   - Disks
   - Queues
   - Tables (...kind of)
+
+![image](https://user-images.githubusercontent.com/48266482/218402331-d1c0b7e8-c487-472b-bceb-b14538bbf0f9.png)
+
 ### Databases and Analytics
 ### App Service and Serverless Compute
