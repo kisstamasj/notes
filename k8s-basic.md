@@ -241,6 +241,7 @@ spec:
 It is also a kubernetes object like POD, Deployment or ReplicaSet. Kubernetes services enable communication between various components within and outside of the application. Services has own IP address called Cluster IP of the service. It works also with multiple nodes.
 
 ![image](https://user-images.githubusercontent.com/48266482/203935334-272dfb05-8e07-45a5-9830-4c38fc6db331.png)
+
 This shows how its work a NodePort
 
 ## Services types
