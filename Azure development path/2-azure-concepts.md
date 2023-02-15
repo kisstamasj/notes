@@ -22,3 +22,7 @@
      - Restore data/apps/resources to different availability zones or regions
      - Deploy to different availability zones or regions   
 - Disaster recovery
+   - On-premises to on-premises
+   - On-premises to Azrue
+   - Other cloud to Azure
+   - Azure to Azure
