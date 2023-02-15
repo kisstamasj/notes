@@ -95,6 +95,9 @@ Everything in azure built in top of these pillars:
 ## Azure Resource Manager (ARM)
 ![image](https://user-images.githubusercontent.com/48266482/217863706-b122f164-177f-470e-b041-1928ecd7a38a.png)
 
+ARM with bicep:
+https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep
+
 ## Azure Resource Hierarchy
 ![image](https://user-images.githubusercontent.com/48266482/218100072-071d11e1-297e-4e8b-9128-7be34d812bba.png)
 
