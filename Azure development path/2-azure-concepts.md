@@ -1,2 +1,2 @@
 # Azure development path
-## Azure Concepts
+# Azure Concepts
