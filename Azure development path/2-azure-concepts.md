@@ -66,3 +66,6 @@ Communication between devices or resources.
 
 ## Virtual Machines (VMs)
 ![image](https://user-images.githubusercontent.com/48266482/219035740-2f575e19-562c-4dd9-bd3d-5f0413823363.png)
+
+### What for?
+- Processor intensive activities (calculation in a database table)
