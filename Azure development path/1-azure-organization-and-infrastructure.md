@@ -137,6 +137,9 @@ https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?ta
   - CPU utilization
   - Website latency
 
+### Azure Chaos studio
+- measure, understand, improve and maintain product resilience
+
 ![image](https://user-images.githubusercontent.com/48266482/218106842-9a6d4025-238c-4fd7-843c-8082a6adba30.png)
 
 ## Core Services
