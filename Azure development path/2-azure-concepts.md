@@ -29,3 +29,22 @@
 
 Inside Azure data center:
 https://www.youtube.com/watch?v=69PrhWQorEM
+
+## Scalability
+The ability to incrase the instace count or size of existing resources
+- Scaling Out
+  - Incrase instace count if existing resources
+  - Incrasing the servers number to handle more request
+  - Non-disruptive
+- Scaling Up
+  - Incrase instace size of existing resource
+  - Get a bigger server: more CPU, RAM etc..
+  - Disruptive
+
+## Elasticity
+The ability to incrase or decrase the instance count or size of existing resource based on fluctuatuins in traffic or load, or in resource workload.
+- Ability to scale in both directions (in + out, up + down)
+- Can be manual or automatic
+- Based on changes in load or workload
+- Pay only for what you use
+
