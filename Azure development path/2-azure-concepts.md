@@ -56,5 +56,7 @@ An organisation's ability to rapidly adapt to market and environmental changes i
 ## Subscriptions
 ![image](https://user-images.githubusercontent.com/48266482/219029871-a7872364-64e7-4f4c-beb7-8d4c7c251ee2.png)
 
+## Active Directory
+![image](https://user-images.githubusercontent.com/48266482/219032348-69efb058-5e15-4099-b2c9-54fc19522e51.png)
 
 
