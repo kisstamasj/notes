@@ -26,3 +26,6 @@
    - On-premises to Azrue
    - Other cloud to Azure
    - Azure to Azure
+
+Inside Azure data center:
+https://www.youtube.com/watch?v=69PrhWQorEM
