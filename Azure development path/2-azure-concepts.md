@@ -59,4 +59,9 @@ An organisation's ability to rapidly adapt to market and environmental changes i
 ## Active Directory
 ![image](https://user-images.githubusercontent.com/48266482/219032348-69efb058-5e15-4099-b2c9-54fc19522e51.png)
 
+## Virtual networks
+Communication between devices or resources.
+
+![image](https://user-images.githubusercontent.com/48266482/219034535-50b5217c-77f1-4966-86c5-fde8940883cd.png)
+
 
