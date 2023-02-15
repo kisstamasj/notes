@@ -48,3 +48,9 @@ The ability to incrase or decrase the instance count or size of existing resourc
 - Based on changes in load or workload
 - Pay only for what you use
 
+## Buisness Afility
+An organisation's ability to rapidly adapt to market and environmental changes in productive and cost-effective ways and take advantage of scalable resources to meet customer demands
+
+![image](https://user-images.githubusercontent.com/48266482/219025849-5b7102c3-bbf0-4d3b-bccc-83ba499f78db.png)
+
+
