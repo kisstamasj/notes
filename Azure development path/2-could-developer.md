@@ -1,9 +1,7 @@
 # Azure development path
-# Azure Organization and Infrastructure
+# Cloud Developer
 
-## Cloud Developer
-
-### What is cloud development?
+## What is cloud development?
 
 It is software development, but focused on the cloud. Cloud development specifically is developing applications that take advantage of cloud platforms.
 
