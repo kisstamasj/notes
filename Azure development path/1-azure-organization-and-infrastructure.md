@@ -1,11 +1,22 @@
 # Azure development path
 # Azure Organization and Infrastructure
 
+## Azure main strenghts
+- There are lot of data centers and they keep expanding. (Services and your applications will be closer to users)
+- 
+
 ## Azure Global infrastructure
 ### Regions:
+**One or more data centers.**
+
 Each Azure region features datacenters deployed within a latency-defined perimeter. They're connected through a dedicated regional low-latency network. This design ensures that Azure services within any region offer the best possible performance and security.
 
+There are government regions, wich are available only for us government. 
+
+**Most regions have most services.**
+
 ### Availability zones
+One or more data centers equiped independent power, cooling and networking.
 Failures can range from software and hardware failures to events such as earthquakes, floods, and fires. Tolerance to failures is achieved because of redundancy and logical isolation of Azure services. To ensure resiliency, a minimum of three separate availability zones are present in all availability zone-enabled regions.
 
 Azure availability zones are connected by a high-performance network with a round-trip latency of less than 2ms. They help your data stay synchronized and accessible when things go wrong. Each zone is composed of one or more datacenters equipped with independent power, cooling, and networking infrastructure. Availability zones are designed so that if one zone is affected, regional services, capacity, and high availability are supported by the remaining two zones.
@@ -25,6 +36,11 @@ Some organizations require high availability of availability zones and protectio
 
 ![image](https://user-images.githubusercontent.com/48266482/217852737-f0a10b65-dc0c-481d-aa17-8c4628528c2a.png)
 
+## Azure basic pillars
+Everything in azure built in top of these pillars:
+- Compute
+- Network
+- Storage
 
 ## Azure Services
 ### Platform services
