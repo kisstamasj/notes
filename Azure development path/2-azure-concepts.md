@@ -56,12 +56,13 @@ An organisation's ability to rapidly adapt to market and environmental changes i
 ## Subscriptions
 ![image](https://user-images.githubusercontent.com/48266482/219029871-a7872364-64e7-4f4c-beb7-8d4c7c251ee2.png)
 
-## Active Directory
+## Active Directory (AD)
 ![image](https://user-images.githubusercontent.com/48266482/219032348-69efb058-5e15-4099-b2c9-54fc19522e51.png)
 
-## Virtual networks
+## Virtual networks (VNs)
 Communication between devices or resources.
 
 ![image](https://user-images.githubusercontent.com/48266482/219034535-50b5217c-77f1-4966-86c5-fde8940883cd.png)
 
-
+## Virtual Machines (VMs)
+![image](https://user-images.githubusercontent.com/48266482/219035740-2f575e19-562c-4dd9-bd3d-5f0413823363.png)
