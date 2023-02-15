@@ -32,11 +32,11 @@ https://www.youtube.com/watch?v=69PrhWQorEM
 
 ## Scalability
 The ability to incrase the instace count or size of existing resources
-- Scaling Out
+- Scaling Out (Horizontal scaling)
   - Incrase instace count of existing resources
   - Incrasing the servers number to handle more request
   - Non-disruptive
-- Scaling Up
+- Scaling Up (Vertical scaling)
   - Incrase instace size of existing resource
   - Get a bigger server: more CPU, RAM etc..
   - Disruptive
