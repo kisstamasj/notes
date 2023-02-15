@@ -1,9 +1,27 @@
 # Azure development path
 # Azure Organization and Infrastructure
 
-## Azure main strenghts
+## Azure main strengths and weaknesses
+### Strengths
 - There are lot of data centers and they keep expanding. (Services and your applications will be closer to users)
-- 
+- legal requirements for certain countries when it comes to cloud computing are more likely to be met
+- they have an extensive hybrid cloud offering 
+- good integragtion existing tools and technologies (visual studio, active directory, file storage)
+- application written in .NET framework azure is almost a no-brainer.
+- azure has the most industry certifications of any cloud provider
+- documentation is decent
+
+### Weaknesses
+- Because azure trying to all things to all cloud computing crowds at times some services just don't get enough attention
+- a number of new services and renamed services can be overwhelming. (key is to focus on just the ones you neeed for your project)
+
+## Real world use cases for azure
+- Hybrid clouding (Azure Sentinel)
+  - You can monitor your both cloud assests and you on-prem services
+- Cosmos DB is one of the most impressive service on Azure
+  - automatic and instantly scalable
+  - global secure
+  - no SQL database
 
 ## Azure Global infrastructure
 ### Regions:
