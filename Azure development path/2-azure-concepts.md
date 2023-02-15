@@ -33,7 +33,7 @@ https://www.youtube.com/watch?v=69PrhWQorEM
 ## Scalability
 The ability to incrase the instace count or size of existing resources
 - Scaling Out
-  - Incrase instace count if existing resources
+  - Incrase instace count of existing resources
   - Incrasing the servers number to handle more request
   - Non-disruptive
 - Scaling Up
