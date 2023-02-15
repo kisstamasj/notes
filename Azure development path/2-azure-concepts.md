@@ -69,3 +69,10 @@ Communication between devices or resources.
 
 ### What for?
 - Processor intensive activities (calculation in a database table)
+
+## Azure Storage 
+![image](https://user-images.githubusercontent.com/48266482/219042316-71ef0ae8-9da4-4f72-93e9-62dce0d72a62.png)
+
+- distributed storage (multiple computers and storage)
+  - fault tolerant: different network, different power
+
