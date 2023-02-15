@@ -12,7 +12,7 @@
 - documentation is decent
 
 ### Weaknesses
-- Because azure trying to all things to all cloud computing crowds at times some services just don't get enough attention
+- Because azure trying to all things to all cloud computing crowds, at times some services just don't get enough attention
 - a number of new services and renamed services can be overwhelming. (key is to focus on just the ones you neeed for your project)
 
 ## Real world use cases for azure
