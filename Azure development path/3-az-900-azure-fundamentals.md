@@ -24,6 +24,7 @@ az vm create  `
 >> --admin-username azureuser `
 >> --generate-ssh-keys
 ``` 
+> The ssh key is stored in a ephemeral storage, so we have to save to a permanent storage location.
 
 ## Azure PowerShell
 - PowerShell is pre-installed on windows 
