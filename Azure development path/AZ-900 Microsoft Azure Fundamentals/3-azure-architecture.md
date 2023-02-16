@@ -68,10 +68,10 @@ Each resource can only exist on a single resource group.
 You can add ore remove resources to any resource group at any time.
 
 ### Move resource: 
-You can move a resooureve from one resource group to another.
+You can move a resourece from one resource group to another.
 
 ### Multiple Regions
-Resources from multiple regions can be in one resource group. You could have a central database server in East US and your web application could be hosted in Eaast US2, but they are in the same resource group, as they are related.
+Resources from multiple regions can be in one resource group. You could have a central database server in East US and your web application could be hosted in East US2, but they are in the same resource group, as they are related.
 
 ### Access Control
 You can give users access to resource group and everything in it.
