@@ -94,5 +94,17 @@ You can deploy, manage and monitor resources as a group.
 #### Consistency
 Deploying resources from various tools will always result in the same consistent state.
 
+#### Dependencies
+Define dependencies between resources to make sure they don't get in a fight.
+
+#### Access Control
+Built-in features in the ARM make it easy to assign access rights users.
+
+#### Tagging 
+Tag resources to easily identify them for future scenarios. Tagging is a way to label individual resources.
+
+#### Billing
+Use tagging to stay on top of billing for groups of resource.
+
 
 
