@@ -55,7 +55,7 @@ Each region has a minimum of three zones.
 ![image](https://user-images.githubusercontent.com/48266482/219389259-6b108948-123b-4f73-a22d-e1a2e8a0efcd.png)
 
 ## Resource Groups
-Everything in Azure is in a Resource Group, there are no exceptions.
+Every resource in Azure is in a Resource Group, there are no exceptions.
 
 ![image](https://user-images.githubusercontent.com/48266482/219393746-727782dd-047b-4653-8fdb-4ae8807d30a5.png)
 
