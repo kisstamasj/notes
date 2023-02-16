@@ -99,6 +99,12 @@ The Advisor will provide recommendation to improve availability of resources, sa
 > I have 10 virtual machines, where 2 of them are only used infrequently the Advisor will tell me to 
 > turn off those 2 virtual machines, or at least make them a smaller size.
 
+Security is also a large part of the recommandations given by the advisor.
+
+> **Example**: You should have more then 1 assigned owner to your subscription.
+> **Example**: FTPS should be required in your Functions app.
+> **Example**: You should enable Azure Defender for DNS
+
 
 
 
