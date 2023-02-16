@@ -134,6 +134,26 @@ Low usage = Low cost
 - SaaS is when a service is built on top of PaaS, like Office 365
 - Serverless means that you don't have any servers. Let's a single function be hosted, deployed, run and managed on its own
 
+## Azure Marketplace
+- Solutions and Services
+  - Large selection from Microsoft and partners. Apps, VMs, templates, services and much more.
+- Azure App store
+  - Buy cloud services with a single click (almost). Many categories of itmes to acquire.
+- Easy to Integrate
+  - Use from Portal, Cli or PowerShell. Some are free, some are paid.
+- Publish Your Own
+  - If you are a Microsoft Partner, publish your own services in the Marketplace.
+
+### Benefits
+- Certified and less maintenance
+  - Less maintenance than creating your own service or application from scratch. All Marketplace offerings are certified by Microsoft.
+- Efficient
+  - It is much faster to build a project prototype by using ready-to-go services on the Marketplace
+- New Markets 
+  - You can venture into new markets by getting the full exposure of the Marketplace
+- Suppert
+  - There is both technical, design and architectural design support available when you list a service on the Marketplace.
+
 
 
 
