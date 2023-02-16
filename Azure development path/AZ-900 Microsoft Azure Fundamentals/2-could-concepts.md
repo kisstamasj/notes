@@ -69,7 +69,7 @@ Is standardizing cloud deployments to meet requirements/compony standards
 ### Capital and Operational Expenditure
 
 #### Capital Expenditure (CapEx)
-- Money spent by a business or organisation on acquiring or maintaining fixed, such as land, builings, and equipment.
+- Money spent by a business or organisation on acquiring or maintaining fixed, such as land, buildings, and equipment.
 - Ex: Buying more servers
 - Large upfront investment.
 
