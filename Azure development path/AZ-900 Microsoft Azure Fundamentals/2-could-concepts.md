@@ -82,6 +82,9 @@ Governance is all about standardization and compliance, which is especially usef
 - Ex: The power that could be the power to run the server.
 - Pay-as-you-go
 
+### Difference between CapEx and OpEx
+Knowing the difference between OpEx and CapEx is critical to get the best value out of Azure for your company. Capital expenditures (CapEx) generally result in the acquisition and maintenance of assets, such as server hardware. Operating expenditures (OpEx) are the ongoing costs of running a business, such as paying for cloud services on a recurring basis. By moving costs to OpEx, businesses can plan for ongoing costs rather than large investments.
+
 ### Cloud pricing models
 ![image](https://user-images.githubusercontent.com/48266482/219339858-1586da84-3271-44e6-9286-28b39ba2abf3.png)
 
