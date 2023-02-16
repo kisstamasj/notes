@@ -1,6 +1,9 @@
 # Azure development path
 # AZ-900 Azure Fundamentals
 
+## Azure Portal
+- Access from the browser: https://azure.microsoft.com/
+
 ## Azure CLI
 ### Advantages
 - Stable (Text commands don't change and the CLI is in a stable state)
