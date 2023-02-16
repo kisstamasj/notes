@@ -8,7 +8,8 @@
 ## Azure CLI
 
 The Azure CLI is all text-based, so there is no user interface to change. This means the commands and procedures stay very static in the tool. You can use all products and services with the CLI.
-While most Azure services can be managed through both the Azure portal and the Azure CLI, some tasks can only be done in the Azure CLI. Some tasks are easier in in the Azure Portal, and other tasks are easier in the Azure CLI.
+
+**While most Azure services can be managed through both the Azure portal and the Azure CLI, some tasks can only be done in the Azure CLI. Some tasks are easier in in the Azure Portal, and other tasks are easier in the Azure CLI.**
 
 ### Advantages
 - Stable (Text commands don't change and the CLI is in a stable state)
