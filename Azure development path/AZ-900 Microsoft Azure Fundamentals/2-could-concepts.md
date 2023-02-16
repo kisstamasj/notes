@@ -64,7 +64,7 @@ Is standardizing cloud deployments to meet requirements/compony standards
   - CLI
   - APIs
 
-## The Language of Cloud Ecomomics
+## The Language of Cloud Economics
 
 ### Capital and Operational Expenditure
 
