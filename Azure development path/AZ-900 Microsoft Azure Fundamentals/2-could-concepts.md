@@ -56,6 +56,8 @@ Is standardizing cloud deployments to meet requirements/compony standards
 - regulatory requirements
 - audit for compliance
 
+Governance is all about standardization and compliance, which is especially useful for meeting corporate standards and/or meeting government regulations.
+
 ### Manageability
 - Management of the cloud:
   - Autoscaling
