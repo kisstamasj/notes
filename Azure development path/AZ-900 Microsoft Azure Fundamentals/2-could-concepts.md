@@ -37,7 +37,9 @@ Scalability is the process of adding more resource on an as-needed basis.
   - Decrase instace size of existing resource
 
 ### Predicatability
-Predictable performance and costs
+Predictability includes transparent cost usage, including accurate forecasts on future costs based on current usage.
+
+One aspect of predictability is knowing that your application will consistently perform as expected even if user load increases. This is accomplished with cloud computing features such as load balancing, high availability, and autoscaling.
 
 - Performance
   - Consistent experience for customers regardless of traffic
