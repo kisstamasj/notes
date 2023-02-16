@@ -127,7 +127,7 @@ Low usage = Low cost
 ![image](https://user-images.githubusercontent.com/48266482/219366346-a5da7611-cbda-4318-9210-f5b6a655c6b8.png)
 
 ### Exam Tips
-**Service is the core of Azre, and there are three main ways to go about it.**
+**Service is the core of Azure, and there are three main ways to go about it.**
 
 - IaaS provides servers, storage and networking as a service
 - PaaS is a superset of IaaS and also includes middleware, such as database management tools
