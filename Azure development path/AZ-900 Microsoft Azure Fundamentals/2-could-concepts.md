@@ -21,6 +21,8 @@
   - Resource in multiple locations
   - If one computer goes down, others pick up the load
 
+Reliability means a failure can occur on Azure services and applications, but it will not affect its availability.
+
 ### Scalability
 Scalability is the process of adding more resource on an as-needed basis.
 - Scaling Out (Horizontal scaling)
