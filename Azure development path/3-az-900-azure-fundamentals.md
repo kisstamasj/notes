@@ -68,7 +68,7 @@ Browser-accessible shell for managing Azure resources
 
 ## Azure Resource Group (ARM) templates
 - Describe Resource usage
-  - What are you updateing, deleting, creating
+  - What are you updating, deleting, creating
 - Common Syntax
   - Defined language for all ARM templates, making it easier to formalize and learn
 - Idempotent
