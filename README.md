@@ -1,4 +1,4 @@
-# Programming learning Notes
+# Notes
 
 These document are a collection of well sorted links and code parts to learn services, technologies and programming languages like
 - [Typescript](./NextJS.md)
