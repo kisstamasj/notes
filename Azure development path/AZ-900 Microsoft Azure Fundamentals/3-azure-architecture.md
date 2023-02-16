@@ -64,7 +64,7 @@ The resource group is not a resource.
 ### One Resource
 Each resource can only exist on a single resource group.
 
-### Addd/Remov
+### Add/Remove
 You can add ore remove resources to any resource group at any time.
 
 ### Move resource: 
