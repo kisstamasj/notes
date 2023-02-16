@@ -3,11 +3,15 @@
 ## The Language of Cloud Computing
 
 ### High availability
+High availability is a quality of computing infrastructure that allows it to continue functioning, even when some of its components fail. This is important for mission-critical systems that cannot tolerate interruption in service, and any downtime can cause damage or result in financial loss.
+
 - Core to the cloud
 - you don't own the hardware
 - add more servers with a click
 - If hardware fails, replace it instantly
 - Use clusters to ensure high availability
+
+https://bluexp.netapp.com/blog/azure-high-availability-basic-concepts-and-a-checklist
 
 ### Reliability
 
