@@ -80,6 +80,17 @@ Browser-accessible shell for managing Azure resources
 
 ![image](https://user-images.githubusercontent.com/48266482/219310785-bc7e0087-781c-4e57-bab3-9de77b83d9b7.png)
 
+### Benefits
+- Idempotent
+  - Run the same templates once, twice, or as many times as you like. It will have the same outcome
+- Source Control
+  - Keep track of all changes to the ARM templates
+- Reuse
+  - Use a combination of multiple partial ARM templates to achive glory - or at least complatex templates
+- Declarative
+  - Specify what you want, not how it is done
+- No Human Errors
+  - Automation means humans don't repeat the same mistakes
 
 
 
