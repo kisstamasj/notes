@@ -107,7 +107,7 @@ Low usage = Low cost
 ![image](https://user-images.githubusercontent.com/48266482/219363567-6a6f87bd-39c1-4c33-84bd-93229262676b.png)
 
 ### Software-as-a-Service
-- Provideing a managed service
+- Providing a managed service
 - Pay an access fee to use
 - No maintenancet and latest features
 
