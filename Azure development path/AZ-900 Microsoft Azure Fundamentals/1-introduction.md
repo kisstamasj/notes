@@ -1,5 +1,4 @@
-# Azure development path
-# AZ-900 Azure Fundamentals
+# Introduction
 
 ## Azure free account
 When you start using Azure with a free account, you get USD200 credit to spend in the first 30 days after you sign up. In addition, you get free monthly amounts of two groups of services: popular services (which are free for 12 months), and more than 25 other services (which are free always).
@@ -22,7 +21,7 @@ The Azure CLI is all text-based, so there is no user interface to change. This m
 - Logging (Keep track of who ran what command and when in various ways)
 - Install Azure CLI:
   https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
-  
+
 ### Basic Commands
 - ```az group list``` list resource groups
 - ```az storage acount list``` list the storage account
@@ -35,14 +34,14 @@ az vm create  `
 >> --image UbuntuLTS `
 >> --admin-username azureuser `
 >> --generate-ssh-keys
-``` 
+```
 > The ssh key is stored in a ephemeral storage, so we have to save to a permanent storage location.
 
 ## Azure PowerShell
-- PowerShell is pre-installed on windows 
+- PowerShell is pre-installed on windows
 - install Azure modul in PowerShell:
   https://learn.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-9.4.0&viewFallbackFrom=azps-2.8.0
-  
+
  ### Basic commands
  - ```Get-AzResourceGroup``` list resource groups
  - ```Get-AzStorageAccount``` list the storage account
@@ -117,8 +116,8 @@ The Azure mobile app provides a quick overview of your resources.
 ## Azure Advisor
 The Advisor will provide recommendation to improve availability of resources, save costs on services increase reliability and a whole lot more.
 
-> **Example**: 
-> I have 10 virtual machines, where 2 of them are only used infrequently the Advisor will tell me to 
+> **Example**:
+> I have 10 virtual machines, where 2 of them are only used infrequently the Advisor will tell me to
 > turn off those 2 virtual machines, or at least make them a smaller size.
 
 Security is also a large part of the recommandations given by the advisor.
