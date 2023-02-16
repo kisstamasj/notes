@@ -10,3 +10,6 @@ https://www.developer.com/design/microservices-design-principles/
 
 ### Modern Open Source Messaging: NATS, RabbitMQ, Apache Kafka, hmbdc, Synapse, NSQ and Pulsar
 https://medium.com/@philipfeng/modern-open-source-messaging-apache-kafka-rabbitmq-nats-pulsar-and-nsq-ca3bf7422db5
+
+### APIs for building portable and reliable microservices
+https://dapr.io
