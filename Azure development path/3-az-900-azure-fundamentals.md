@@ -6,6 +6,10 @@
 - You can access all generally available Azure products and services through the Azure portal with any type of subscription. You will also see services in both private and public preview available in the Azure portal.
 
 ## Azure CLI
+
+The Azure CLI is all text-based, so there is no user interface to change. This means the commands and procedures stay very static in the tool. You can use all products and services with the CLI.
+While most Azure services can be managed through both the Azure portal and the Azure CLI, some tasks can only be done in the Azure CLI. Some tasks are easier in in the Azure Portal, and other tasks are easier in the Azure CLI.
+
 ### Advantages
 - Stable (Text commands don't change and the CLI is in a stable state)
 - Structured (CLI commands are structured very logically and all follow the same pattern)
