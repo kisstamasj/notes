@@ -8,9 +8,27 @@
 - Cross platform (The CLI works on Windows, Mac and Linux)
 - Automation (It is simple to automate the CLI commands for future use)
 - Logging (Keep track of who ran what command and when in various ways)
+- Install Azure CLI:
+  https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
 
-### Install Azure CLI
+## Azure PowerShell
+- PowerShell is pre-installed on windows 
+- install Azure modul in PowerShell:
+  https://learn.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-9.4.0&viewFallbackFrom=azps-2.8.0
+  
+## Cloud Shell
+- browser-accessible shell for managing Azure resources
 
-https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
+### Featers
+- Access from anywhere using web or mobile app. Authenticated and secure
+- Choose between Bash (Azure CLI) or PowerShell
+- Included tools:
+  - Interpretres
+  - moduls,
+  - Azure tools
+- Language support for Node.JS, .NET and Python
+- Dedicated storage to persist data between sessions
+- A complete file editor
+
 
 
