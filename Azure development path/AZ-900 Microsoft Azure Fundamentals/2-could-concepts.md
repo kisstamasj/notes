@@ -154,6 +154,22 @@ Low usage = Low cost
 - Suppert
   - There is both technical, design and architectural design support available when you list a service on the Marketplace.
 
+## Cloud Architecture Models
+### Private Cloud
+![image](https://user-images.githubusercontent.com/48266482/219373937-654a6a82-09a9-4e06-a145-c0ef27a78b3f.png)
+
+### Public Cloud
+![image](https://user-images.githubusercontent.com/48266482/219374242-fb435926-f377-4dd3-bac5-87f0269f2098.png)
+
+### Hybrid Cloud
+![image](https://user-images.githubusercontent.com/48266482/219374502-6ebce696-00b1-43b2-8f21-f6b7a75579ee.png)
+
+### Exam Tips
+**Choose your cloud architecture model wisly
+
+- Private cloud is Azure on your own hardware in a location of your choice. All the benefits of puvlic cloud, but you can lock it down. A lot of staff required.
+- Public cloud is Azure, AWS, GCP. Nu upfront costs, but monthly usage. Little control over services and infrastucture.
+- A hybrid cloud model is the best of private and public, but could be complex
 
 
 
