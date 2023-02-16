@@ -93,6 +93,8 @@ Low usage = Low cost
 ![image](https://user-images.githubusercontent.com/48266482/217860079-e5b3f20d-4a9b-4a04-9126-93cd69d76a69.png)
 
 ### Infrastructure-as-a-Service (IaaS)
+Infrastructure as a service (IaaS) is a type of cloud computing service that offers essential compute, storage, and networking resources on demand, on a pay-as-you-go basis. IaaS lets you bypass the cost and complexity of buying and managing physical servers and datacenter infrastructure. Each resource is offered as a separate service component, and you only pay for a particular resource for as long as you need it.
+
 - Infrastructure = actual servers
 - Scaling is fast
 - No ownership of hardware
