@@ -115,7 +115,7 @@ Low usage = Low cost
 
 ### Serverless
 - Of course there are servers!
-- Azure Functions is the best known serverkess service
+- Azure Functions is the best known serverless service
 - Extreme PaaS
 
 ![image](https://user-images.githubusercontent.com/48266482/219364265-78ddb4f0-bc00-4de6-b104-a078ca3cc34f.png)
