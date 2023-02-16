@@ -98,3 +98,30 @@ Low usage = Low cost
 - [More](https://github.com/kisstamasj/notes/blob/main/Azure%20development%20path/1-azure-organization-and-infrastructure.md#iaas-paas-and-saas)
 
 ![image](https://user-images.githubusercontent.com/48266482/219362881-8565801e-0511-423e-bb89-a2e65172c140.png)
+
+### Platfrom-as-a-Service
+- Superset of IaaS
+- PaaS supports web application life cycle
+- Avoid software license hell
+
+![image](https://user-images.githubusercontent.com/48266482/219363567-6a6f87bd-39c1-4c33-84bd-93229262676b.png)
+
+### Software-as-a-Service
+- Provideing a managed service
+- Pay an access fee to use
+- No maintenancet and latest features
+
+![image](https://user-images.githubusercontent.com/48266482/219363985-eae7d422-d34f-4ab3-a933-c8941749d3ea.png)
+
+### Serverless
+- Of course there are servers!
+- Azure Functions is the best known serverkess service
+- Extreme PaaS
+
+![image](https://user-images.githubusercontent.com/48266482/219364265-78ddb4f0-bc00-4de6-b104-a078ca3cc34f.png)
+
+### Identifying Cloud Service Models
+![image](https://user-images.githubusercontent.com/48266482/219364364-f69e4f79-6e50-4b7e-bc4a-9281f9a87443.png)
+
+
+
