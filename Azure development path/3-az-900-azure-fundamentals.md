@@ -3,6 +3,7 @@
 
 ## Azure Portal
 - Access from the browser: https://azure.microsoft.com/
+- You can access all generally available Azure products and services through the Azure portal with any type of subscription. You will also see services in both private and public preview available in the Azure portal.
 
 ## Azure CLI
 ### Advantages
