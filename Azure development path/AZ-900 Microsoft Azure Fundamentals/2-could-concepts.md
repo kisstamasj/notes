@@ -123,5 +123,18 @@ Low usage = Low cost
 ### Identifying Cloud Service Models
 ![image](https://user-images.githubusercontent.com/48266482/219364364-f69e4f79-6e50-4b7e-bc4a-9281f9a87443.png)
 
+### Shared Responsibility Model
+![image](https://user-images.githubusercontent.com/48266482/219366346-a5da7611-cbda-4318-9210-f5b6a655c6b8.png)
+
+### Exam Tips
+**Service is the core of Azre, and there are three main ways to go about it.**
+
+- IaaS provides servers, storage and networking as a service
+- PaaS is a superset of IaaS and also includes middleware, such as database management tools
+- SaaS is when a service is built on top of PaaS, like Office 365
+- Serverless means that you don't have any servers. Let's a single function be hosted, deployed, run and managed on its own
+
+
+
 
 
