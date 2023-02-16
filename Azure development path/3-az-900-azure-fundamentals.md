@@ -30,6 +30,13 @@ az vm create  `
 - PowerShell is pre-installed on windows 
 - install Azure modul in PowerShell:
   https://learn.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-9.4.0&viewFallbackFrom=azps-2.8.0
+  
+ ### Basic commands
+ - ```Get-AzResourceGroup``` list resource groups
+ - ```Get-AzStorageAccount``` list the storage account
+ - ```Get-AzVM``` list virtual machines
+ - ```Get-AzResource | ft``` get all the resources with format
+ - ```Remove-AzVM -Name LabVM -ResourceGroupName 72-3087af2d-accessing-and-using-the-azure-cloud-sh``` remove virtual machine
 
 ## Cloud Shell
 Browser-accessible shell for managing Azure resources
