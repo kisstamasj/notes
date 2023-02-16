@@ -44,13 +44,57 @@ Some services used paired regions for replication.
 
 
 ## Availability Zones
-- Phisical Location: Each availability zone is a physical location within a region.
-- Independent: Each zone has itsh own power, cooling and networking.
-- Zones: Each region has a minimum of three zones.
+### Phisical Location
+Each availability zone is a physical location within a region.
+
+### Independent
+Each zone has itsh own power, cooling and networking.
+
+### Zones
+Each region has a minimum of three zones.
 
 ![image](https://user-images.githubusercontent.com/48266482/219389259-6b108948-123b-4f73-a22d-e1a2e8a0efcd.png)
 
 
 ## Resource Groups
+Everything in Azure is in a Resource Group, there are no exceptions.
 
-## Azure Resource Manager
+![image](https://user-images.githubusercontent.com/48266482/219393746-727782dd-047b-4653-8fdb-4ae8807d30a5.png)
+
+The resource group is not a resource.
+
+### One Resource
+Each resource can only exist on a single resource group.
+
+### Addd/Remov
+You can add ore remove resources to any resource group at any time.
+
+### Move resource: 
+You can move a resooureve from one resource group to another.
+
+### Multiple Regions
+Resources from multiple regions can be in one resource group. You could have a central database server in East US and your web application could be hosted in Eaast US2, but they are in the same resource group, as they are related.
+
+### Access Control
+You can give users access to resource group and everything in it.
+
+### Interact
+Resources can interact with other resources in different resource groups.
+
+### Location
+A resource group has a location, or region, as it stores data about the resources in it.
+
+## Azure Resource Manager (ARM)
+Azure Resource Manager (ARM) is the underpinning of everything on Azure when it comes to createing, updateing, or deleting resources. It is deployment and management services for Azure. The key thing to knwo is that if you interact with any of the resources on Azure, it goes through the ARM.
+
+![image](https://user-images.githubusercontent.com/48266482/219397084-898a0c18-305f-4cac-b47d-e485b0460987.png)
+
+### ARM Benefits
+####  Group Resource Handeling
+You can deploy, manage and monitor resources as a group.
+
+#### Consistency
+Deploying resources from various tools will always result in the same consistent state.
+
+
+
