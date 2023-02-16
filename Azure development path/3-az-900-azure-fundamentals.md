@@ -79,6 +79,10 @@ Browser-accessible shell for managing Azure resources
 - Written in JSON
 - It can contain variables: ```{provided-unique-name}```
 
+> You only say "what" you want to create, not "how." Azure takes care of the "how."
+> Use source control to track changes to the ARM template over time. This can identify any issues that come from changes to the template.
+> You can execute a template any number of times with the same result.
+
 > Azure ARM Templates: https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-resource-manager
 
 ![image](https://user-images.githubusercontent.com/48266482/219310785-bc7e0087-781c-4e57-bab3-9de77b83d9b7.png)
