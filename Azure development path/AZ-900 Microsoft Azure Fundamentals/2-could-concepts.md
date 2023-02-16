@@ -79,3 +79,4 @@ Is standardizing cloud deployments to meet requirements/compony standards
 - Pay-as-you-go
 
 ### Cloud pricing models
+![image](https://user-images.githubusercontent.com/48266482/219339858-1586da84-3271-44e6-9286-28b39ba2abf3.png)
