@@ -92,6 +92,13 @@ Browser-accessible shell for managing Azure resources
 - No Human Errors
   - Automation means humans don't repeat the same mistakes
 
+## Azure Advisor
+The Advisor will provide recommendation to improve availability of resources, save costs on services increase reliability and a whole lot more.
+
+> **Example**
+> I have 10 virtual machines, where 2 of them are only used infrequently the Advisor will tell me to 
+> turn off those 2 virtual machines, or at least make them a smaller size.
+
 
 
 
