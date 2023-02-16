@@ -21,9 +21,14 @@
 - PowerShell is pre-installed on windows 
 - install Azure modul in PowerShell:
   https://learn.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-9.4.0&viewFallbackFrom=azps-2.8.0
+  
+### Basic Commands
+- ```Get-AzRescourceGroup``` list resource groups
+- ```Get-AzStorageAccount``` list the storage account
+- ```Get-AzVM``` list virtual machines
 
 ## Cloud Shell
-- browser-accessible shell for managing Azure resources
+Browser-accessible shell for managing Azure resources
 
 ### Featers
 - Access from anywhere using web or mobile app. Authenticated and secure
