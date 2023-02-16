@@ -105,6 +105,11 @@ Security is also a large part of the recommandations given by the advisor.
 > **Example**: FTPS should be required in your Functions app.
 > **Example**: You should enable Azure Defender for DNS
 
+Advisor will check all the little things that you might not be aware of, but a part of a sanitized cloud infrastructure.
+
+![image](https://user-images.githubusercontent.com/48266482/219319441-7b0b957d-8099-4cd6-8097-e36b1e5a04a3.png)
+
+
 
 
 
