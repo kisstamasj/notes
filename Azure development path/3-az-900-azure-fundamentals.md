@@ -15,7 +15,15 @@
 - ```az group list``` list resource groups
 - ```az storage acount list``` list the storage account
 - ```az vm list``` list virtual machines
-- ```az vm create``` create virtual machine
+- create virtual machine:
+```
+az vm create  `
+>> --name LabVM `
+>> --resource-group 72-3087af2d-accessing-and-using-the-azure-cloud-sh `
+>> --image UbuntuLTS `
+>> --admin-username azureuser `
+>> --generate-ssh-keys
+``` 
 
 ## Azure PowerShell
 - PowerShell is pre-installed on windows 
