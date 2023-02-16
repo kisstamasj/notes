@@ -89,7 +89,8 @@ You pay:
 
 Low usage = Low cost
 
-## [Cloud Service Models](https://github.com/kisstamasj/notes/blob/main/Azure%20development%20path/1-azure-organization-and-infrastructure.md#iaas-paas-and-saas)
+## Cloud Service Models
+![image](https://user-images.githubusercontent.com/48266482/217860079-e5b3f20d-4a9b-4a04-9126-93cd69d76a69.png)
 
 ### Infrastructure-as-a-Service (IaaS)
 - Infrastructure = actual servers
