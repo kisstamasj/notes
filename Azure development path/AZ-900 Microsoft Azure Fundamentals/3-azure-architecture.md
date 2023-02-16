@@ -1,7 +1,7 @@
 # Azure Architecture
 
 ## Regions 
-A region is a set of datacenters deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network
+An Azure region is a set of datacenters, deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network. With more global regions than any other cloud service provider, Azure gives customers the flexibility to deploy applications where they need. An Azure region has discrete pricing and service availability.
 
 ### "A set of datacenters"
 Each region has more than one data center, which is a physical location.
