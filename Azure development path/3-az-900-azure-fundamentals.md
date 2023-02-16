@@ -10,12 +10,33 @@
 - Logging (Keep track of who ran what command and when in various ways)
 - Install Azure CLI:
   https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
+  
+### Basic Commands
+
 
 ## Azure PowerShell
 - PowerShell is pre-installed on windows 
 - install Azure modul in PowerShell:
   https://learn.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-9.4.0&viewFallbackFrom=azps-2.8.0
   
+### Basic Commands
+- ```az group list``` list resource groups
+```
+[                
+  {
+    "id": "/subscriptions/0f39574d-d756-48cf-b622-0e27a6943bd2/resourceGroups/72-6f955b93-accessing-and-using-the-azure-cloud-sh",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "72-6f955b93-accessing-and-using-the-azure-cloud-sh",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  }
+]
+```
+
 ## Cloud Shell
 - browser-accessible shell for managing Azure resources
 
