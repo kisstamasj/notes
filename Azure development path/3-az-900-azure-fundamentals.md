@@ -74,6 +74,7 @@ Browser-accessible shell for managing Azure resources
 - Idempotent
   - Every ARM template can be applied multiple times, and the result is always the same
 
+> Azure ARM Templates: https://learn.microsoft.com/en-us/samples/browse/?expanded=azure&products=azure-resource-manager
 
 
 
