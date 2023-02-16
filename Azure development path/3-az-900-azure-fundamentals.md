@@ -52,5 +52,29 @@ Browser-accessible shell for managing Azure resources
 - Dedicated storage to persist data between sessions
 - A complete file editor
 
+## Azure Mobile App
+- available on Android and iOS also
+
+### Features
+- The main aim of the app is to give you quick information on the go.
+  - Alerts
+  - Recently used resources
+  - The health of your system
+  - favourite resources
+  - etc.
+- Quick diagnose and potentially fix any issues
+- It uses the Azure Resource Manager (ARM)
+  - Azure CLI
+
+## Azure Resource Group (ARM) templates
+- Describe Resource usage
+  - What are you updateing, deleting, creating
+- Common Syntax
+  - Defined language for all ARM templates, making it easier to formalize and learn
+- Idempotent
+  - Every ARM template can be applied multiple times, and the result is always the same
+
+
+
 
 
