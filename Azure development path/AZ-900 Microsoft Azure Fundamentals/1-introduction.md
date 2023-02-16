@@ -83,7 +83,7 @@ The Azure mobile app provides a quick overview of your resources.
 - It uses the Azure Resource Manager (ARM)
   - Azure CLI
 
-## Azure Resource Group (ARM) templates
+## Azure Resource Group templates
 - Describe Resource usage
   - What are you updating, deleting, creating
 - Common Syntax
