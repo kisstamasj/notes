@@ -45,7 +45,7 @@ az vm create  `
 ## Cloud Shell
 Browser-accessible shell for managing Azure resources
 
-### Featers
+### Features
 - Access from anywhere using web or mobile app. Authenticated and secure
 - Choose between Bash (Azure CLI) or PowerShell
 - Included tools:
