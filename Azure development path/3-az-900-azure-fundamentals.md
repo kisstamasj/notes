@@ -62,7 +62,13 @@ Browser-accessible shell for managing Azure resources
 - A complete file editor
 
 ## Azure Mobile App
-- available on Android and iOS also
+All of your resources and subscriptions are visible on the mobile app. You can even manage resources in the CloudShell too. The Azure mobile app uses the Azure Resource Manager to interact with your Azure resources, which means it is in sync with the Azure CLI, Azure portal, or whatever else you use to interact with Azure.
+
+Alerts are instantly visible, and you can investigate all your resources as well.
+
+The Azure mobile app provides a quick overview of your resources.
+
+> Available on Android and iOS also
 
 ### Features
 - The main aim of the app is to give you quick information on the go.
