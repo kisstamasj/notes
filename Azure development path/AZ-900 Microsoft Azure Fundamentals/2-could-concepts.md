@@ -164,6 +164,12 @@ Infrastructure as a service (IaaS) is a type of cloud computing service that off
 ![image](https://user-images.githubusercontent.com/48266482/219374242-fb435926-f377-4dd3-bac5-87f0269f2098.png)
 
 ### Hybrid Cloud
+Microsoft defines hybrid cloud as combining a public cloud (such as Azure) with on-premises infrastructure (private cloud).
+
+A private cloud consists of cloud computing resources used exclusively by one business or organization. The private cloud can be physically located at your organization’s on-site datacenter, or it can be hosted by a third-party service provider. But in a private cloud, the services and infrastructure are always maintained on a private network, and the hardware and software are dedicated solely to your organization. Reference: What is a private cloud?
+
+Microsoft defines private clouds as being able to be hosted at your datacenter or hosted by a third-party service. Microsoft considers private clouds as offering more flexibility, control, and scalability. Note: Other cloud vendors would not agree with those advantages of private clouds, but it is best to be aware of Microsoft's view in case it comes up on the exam.
+
 ![image](https://user-images.githubusercontent.com/48266482/219374502-6ebce696-00b1-43b2-8f21-f6b7a75579ee.png)
 
 ### Exam Tips
