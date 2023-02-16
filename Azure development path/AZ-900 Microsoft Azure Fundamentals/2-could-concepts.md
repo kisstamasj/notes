@@ -165,7 +165,7 @@ Low usage = Low cost
 ![image](https://user-images.githubusercontent.com/48266482/219374502-6ebce696-00b1-43b2-8f21-f6b7a75579ee.png)
 
 ### Exam Tips
-**Choose your cloud architecture model wisly
+**Choose your cloud architecture model wisly**
 
 - Private cloud is Azure on your own hardware in a location of your choice. All the benefits of puvlic cloud, but you can lock it down. A lot of staff required.
 - Public cloud is Azure, AWS, GCP. Nu upfront costs, but monthly usage. Little control over services and infrastucture.
