@@ -1,6 +1,9 @@
 # Azure development path
 # AZ-900 Azure Fundamentals
 
+## Azure free account
+When you start using Azure with a free account, you get USD200 credit to spend in the first 30 days after you sign up. In addition, you get free monthly amounts of two groups of services: popular services (which are free for 12 months), and more than 25 other services (which are free always).
+
 ## Azure Portal
 - Access from the browser: https://azure.microsoft.com/
 - You can access all generally available Azure products and services through the Azure portal with any type of subscription. You will also see services in both private and public preview available in the Azure portal.
