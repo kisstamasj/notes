@@ -12,17 +12,15 @@
   https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?view=azure-cli-latest
   
 ### Basic Commands
-
+- ```az group list``` list resource groups
+- ```az storage acount list``` list the storage account
+- ```az vm list``` list virtual machines
+- ```az vm create``` create virtual machine
 
 ## Azure PowerShell
 - PowerShell is pre-installed on windows 
 - install Azure modul in PowerShell:
   https://learn.microsoft.com/en-us/powershell/azure/install-az-ps?view=azps-9.4.0&viewFallbackFrom=azps-2.8.0
-  
-### Basic Commands
-- ```az group list``` list resource groups
-- ```az storage acount list``` list the storage account
-- ```az vm list``` list virtual machines
 
 ## Cloud Shell
 - browser-accessible shell for managing Azure resources
