@@ -21,21 +21,8 @@
   
 ### Basic Commands
 - ```az group list``` list resource groups
-```
-[                
-  {
-    "id": "/subscriptions/0f39574d-d756-48cf-b622-0e27a6943bd2/resourceGroups/72-6f955b93-accessing-and-using-the-azure-cloud-sh",
-    "location": "centralus",
-    "managedBy": null,
-    "name": "72-6f955b93-accessing-and-using-the-azure-cloud-sh",
-    "properties": {
-      "provisioningState": "Succeeded"
-    },
-    "tags": null,
-    "type": "Microsoft.Resources/resourceGroups"
-  }
-]
-```
+- ```az storage acount list``` list the storage account
+- ```az vm list``` list virtual machines
 
 ## Cloud Shell
 - browser-accessible shell for managing Azure resources
