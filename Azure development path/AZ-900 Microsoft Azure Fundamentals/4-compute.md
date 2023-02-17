@@ -28,6 +28,12 @@ With Azure Virtual Machines, you can create and use VMs in the cloud. Virtual Ma
 - **Cons**:
   - **Not for everything**: If you can use another Azure service instead, it is often worth it.
   -  **Maintenance**: A lot of maintenance with VMs. Operating system updates, patches, security concerns.
+
+### Examples of when to use VMs
+- **During testing and development**. VMs provide a quick and easy way to create different OS and application configurations. Test and development personnel can then easily delete the VMs when they no longer need them.
+- **When running applications in the cloud**. The ability to run certain applications in the public cloud as opposed to creating a traditional infrastructure to run them can provide substantial economic benefits. For example, an application might need to handle fluctuations in demand. Shutting down VMs when you don't need them or quickly starting them up to meet a sudden increase in demand means you pay only for the resources you use.
+- **When extending your datacenter to the cloud**. An organization can extend the capabilities of its own on-premises network by creating a virtual network in Azure and adding VMs to that virtual network. Applications like SharePoint can then run on an Azure VM instead of running locally. This arrangement makes it easier or less expensive to deploy than in an on-premises environment.
+- **During disaster recovery**. As with running certain types of applications in the cloud and extending an on-premises network to the cloud, you can get significant cost savings by using an IaaS-based approach to disaster recovery. If a primary datacenter fails, you can create VMs running on Azure to run your critical applications and then shut them down when the primary datacenter becomes operational again.
   
 ### Exam tips
 Virtual Machines are at the core of Azure compute and are widely used.
