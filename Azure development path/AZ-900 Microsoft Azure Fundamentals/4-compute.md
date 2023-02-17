@@ -14,7 +14,6 @@ With Azure Virtual Machines, you can create and use VMs in the cloud. Virtual Ma
 - **Recommendations:** Azure will recommend improvements to ensure better scurity, higher availability and greater performance.
 - **Choice:**: Choose amount of RAM, number of CPUs, Windows or Linux
 - There are new virtual machines with dedicated GPUs for artificial intelligence and deep learning scenarios.
-- 
 
 ### Pricing
 - Calculated hourly
@@ -61,7 +60,7 @@ Intermittent load.
 ### Exam tips
 Scale sets are taking virtual machines to the next level. And keeping your sanity.
 - Scale sets are identical VMs. They can be activated or deactivated as needed.
-- A basline VM for the scale set ensures application stability. A basline VM is what you copy to make up the scale set VMs.
+- A baseline VM for the scale set ensures application stability. A baseline VM is what you copy to make up the scale set VMs.
 - As resource usage increases, more VMs are activated to take the load.
 - You only pay for the VM, storage and networking resources you use. Nothing addittional for scale sets.
 
