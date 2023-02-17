@@ -133,8 +133,25 @@ App services is an easy way to host and manage your web application.
 - Web Apps for Containers can host your existing container images.
 - API Apps can host your data backend services
 
-## Azure Container Instances
-Container Instances and Azure Kubernetes Service are Azure compute resources that you can use to deploy and manage containers. Containers are lightweight, virtualized application environments. They're designed to be quickly created, scaled out, and stopped dynamically. You can run multiple instances of a containerized application on a single host machine.
+## Azure Container Instances (ACI)
+Container Instances and Azure Kubernetes Service are Azure compute resources that you can use to deploy and manage containers. Containers are lightweight, virtualized application environments. They're designed to be quickly created, scaled out, and stopped dynamically. You can run multiple instances of a containerized application on a single host machine. Useful when your application or software designed with different component, such as multiple Node.JS service, Redis in memory database or SQL database as well.
+
+### What are Containers?
+Containers are a virtualization environment. Much like running multiple virtual machines on a single physical host, you can run multiple containers on a single physical or virtual host. Unlike virtual machines, you don't manage the operating system for a container. Virtual machines appear to be an instance of an operating system that you can connect to and manage, but containers are lightweight and designed to be created, scaled out, and stopped dynamically. While it's possible to create and deploy virtual machines as application demand increases, containers are designed to allow you to respond to changes on demand. With containers, you can quickly restart in case of a crash or hardware interruption. One of the most popular container engines is Docker, which is supported by Azure.
+
+> VM vs Container: VM virtualize the computer while Container virtualize the OS. Virtual Machine needs much more power and resource like containers. Containers are lightweight virtualization solutions.
+
+### Features
+- **Manage Application Dependencies**: All the dependencies for an application are included in the container image. You can manage the application and its dependencies with confidence.
+- **Less Overhead**: Virtual machines required a lot more maintenance and updates. Containers don't have any components relating to the operating system tahe require maintenace.
+- **Increased Portability**: Applications running in containers can be deployed easily to multiple differen operating systems and hardware platforms.
+- **Efficiency**: Development, deployment and maintenance are all more efficient when using containers. Scaling and patching is much simpler.
+- **Consistency**: The operations team can rely on containers being the same every time, no matter which target they are being deployed to.
+
+### Workflow
+1. Develop your software
+2. Build container image
+3. Deploy to Azure Container Instances
 
 ## Azure Kubernetes Services
 
