@@ -69,6 +69,8 @@ With Azure App Service, you can quickly build, deploy, and scale enterprise-grad
 App Service enables you to build and host web apps, background jobs, mobile back-ends, and RESTful APIs in the programming language of your choice without managing infrastructure. It offers automatic scaling and high availability. App Service supports Windows and Linux and enables automated deployments from GitHub, Azure DevOps, or any Git repo to support a continuous deployment model.
 This platform as a service (PaaS) environment allows you to focus on the website and API logic while Azure handles the infrastructure to run and scale your web applications.
 
+![image](https://user-images.githubusercontent.com/48266482/219681031-9ab09aee-0bd3-4b80-9969-347e8e1a3274.png)
+
 ### Azure App Service costs
 You pay for the Azure compute resources your app uses while it processes requests based on the App Service plan you choose. The App Service plan determines how much hardware is devoted to your host. For example, the plan determines whether it's dedicated or shared hardware and how much memory is reserved for it. There's even a free tier you can use to host small, low-traffic sites.
 
@@ -133,8 +135,6 @@ App services is an easy way to host and manage your web application.
 
 ## Azure Container Instances
 Container Instances and Azure Kubernetes Service are Azure compute resources that you can use to deploy and manage containers. Containers are lightweight, virtualized application environments. They're designed to be quickly created, scaled out, and stopped dynamically. You can run multiple instances of a containerized application on a single host machine.
-
-![image](https://user-images.githubusercontent.com/48266482/219669546-fa5e3435-c67e-4fd9-9cb0-fe492f97b591.png)
 
 ## Azure Kubernetes Services
 
