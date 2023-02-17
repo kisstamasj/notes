@@ -13,7 +13,8 @@ With Azure Virtual Machines, you can create and use VMs in the cloud. Virtual Ma
 - **Compliance:** Use Azure blueprints to make your VMs comply with a company guidlines
 - **Recommendations:** Azure will recommend improvements to ensure better scurity, higher availability and greater performance.
 - **Choice:**: Choose amount of RAM, number of CPUs, Windows or Linux
-- There are new virtual machines with dedicated GPUs for artificatl inteligence and deep learning scenarios.
+- There are new virtual machines with dedicated GPUs for artificial intelligence and deep learning scenarios.
+- 
 
 ### Pricing
 - Calculated hourly
@@ -21,7 +22,7 @@ With Azure Virtual Machines, you can create and use VMs in the cloud. Virtual Ma
 
 ### Use Cases
 - **Pros**:
-  - **Control**: Use virtual machines when you need to control all aspects of an environment or machine.
+  - **Control**: Use virtual machines when you need to control all aspects of an environment or machine. (OS, hosting configurations etc..)
   - **Application**: Install specific applications on your Windows or Linux machines
   - **Existing infrastructure**: You can move existing resources and virtual machines to Azure from on-premises or another cloud provider.
 - **Cons**:
