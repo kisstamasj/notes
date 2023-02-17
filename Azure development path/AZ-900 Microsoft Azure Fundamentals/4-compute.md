@@ -44,7 +44,26 @@ Virtual Machines are at the core of Azure compute and are widely used.
 - Pricing goes up as resources go up, and you pay by the hour.
 
 ## Scale Sets
-Virtual machine scale sets are an Azure compute resource that you can use to deploy and manage a set of identical VMs. With all VMs configured the same, virtual machine scale sets are designed to support true autoscale. No pre-provisioning of VMs is required. For this reason, it's easier to build large-scale services targeting big compute, big data, and containerized workloads. As demand goes up, more VM instances can be added. As demand goes down, VM instances can be removed. The process can be manual, automated, or a combination of both.
+Virtual machine scale sets are an Azure compute resource that you can use to deploy and manage a set of identical VMs. With all VMs configured the same, virtual machine scale sets are designed to support true autoscale. No pre-provisioning of VMs is required. For this reason, it's easier to build large-scale services targeting big compute, big data, and containerized workloads. As demand goes up, more VM instances can be added. As demand goes down, VM instances can be removed. The process can be manual, automated, or a combination of both (schedule the scaling). 
+
+![image](https://user-images.githubusercontent.com/48266482/219665789-86139135-90d6-4403-85bc-c4bec5065f51.png)
+
+### Benefits
+- **Multiple VMs**: Simple multiple identical VMs using a load balancer.
+- **High Availability**: If one VM fails or stops, the others in the scale set will keep working.
+- **Auto Scaling**: Automatically match demand by adding or removing VMs from the scale set.
+- **Large Scale**: Run up to 1000 VMs in a single scale set.
+- **No extra cost**: No added cost for using scale sets.
+
+### Use Cases
+Intermittent load.
+
+### Exam tips
+Scale sets are taking virtual machines to the next level. And keeping your sanity.
+- Scale sets are identical VMs. They can be activated or deactivated as needed.
+- A basline VM for the scale set ensures application stability. A basline VM is what you copy to make up the scale set VMs.
+- As resource usage increases, more VMs are activated to take the load.
+- You only pay for the VM, storage and networking resources you use. Nothing addittional for scale sets.
 
 ## App Services
 With Azure App Service, you can quickly build, deploy, and scale enterprise-grade web, mobile, and API apps running on any platform. You can meet rigorous performance, scalability, security, and compliance requirements while using a fully managed platform to perform infrastructure maintenance. App Service is a platform as a service (PaaS) offering.
