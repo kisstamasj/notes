@@ -59,7 +59,7 @@ Every resource in Azure is in a Resource Group, there are no exceptions.
 
 ![image](https://user-images.githubusercontent.com/48266482/219393746-727782dd-047b-4653-8fdb-4ae8807d30a5.png)
 
-The resource group is not a resource.
+> The resource group is not a resource.
 
 ### One Resource
 Each resource can only exist on a single resource group.
