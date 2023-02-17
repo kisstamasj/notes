@@ -43,7 +43,7 @@ Only one region in a pair is updated at any one time.
 Some services used paired regions for replication.
 
 ## Availability Zones
-### Phisical Location
+### Physical Location
 Each availability zone is a physical location within a region.
 
 ### Independent
