@@ -153,7 +153,26 @@ Containers are a virtualization environment. Much like running multiple virtual 
 2. Build container image
 3. Deploy to Azure Container Instances
 
-## Azure Kubernetes Services
+## Azure Kubernetes Services (AKS)
+The task of automating, managing, scaling and interacting with a large number of containers is known as orchestration. Azure Kubernetes Service is a complete orchestration service for containers with distributed architectures and large volumes of containers. Kubernetes is open-source.
+
+- **Open source**: Public code base and community involvment in the product.
+- **Orchestration**: Keeps track of lots of parts of a system. Makes sure containers are configured correctly to work together.
+- **Automatic application deployment**: Kubernetes will deploy more images of containers as needed.
+- **Automatic scaling**: Automatic monitoring of application load to determine when to scale the number of containers used.
+
+### Features
+- **Replicate Containers Architectures**: Reuse your container architecture by managing it in Kubernetes. This makes your setup yuicker and confidence in the system increase
+- **Standard Azure Services Included**: You don't have to worry about infrastructure and hardware. Get identity access management, elastic provisioning and much more.
+- **Global Reach**: Use Kubernetes with supported Azure regions and on-premises installations using Azure Stack.á
+
+### Azure Container Registry (ACR)
+- Keep track of the current valid container images
+- Manages files and artifacts for containers
+- Feeds container images to ACI and AKs
+- Use Azure identify and security features
+
+![image](https://user-images.githubusercontent.com/48266482/219695471-277734cd-f0fa-4f14-b0a4-3228b42353ac.png)
 
 ## Windows Virtual Desktop
 
