@@ -139,7 +139,6 @@ Infrastructure as a service (IaaS) is a type of cloud computing service that off
 ![image](https://user-images.githubusercontent.com/48266482/219364364-f69e4f79-6e50-4b7e-bc4a-9281f9a87443.png)
 
 ### Shared Responsibility Model
-You may have heard of the shared responsibility model, but you may not understand what it means or how it impacts cloud computing.
 
 Start with a traditional corporate datacenter. The company is responsible for maintaining the physical space, ensuring security, and maintaining or replacing the servers if anything happens. The IT department is responsible for maintaining all the infrastructure and software needed to keep the datacenter up and running. They’re also likely to be responsible for keeping all systems patched and on the correct version.
 
