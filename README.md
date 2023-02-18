@@ -1,12 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-TOC
-
-- [Notes](#notes)
-- [Table of Contents](#table-of-contents)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Notes
 
 These document are a collection of well sorted links and code parts to learn services, technologies and programming languages like
