@@ -217,6 +217,8 @@ Microsoft defines hybrid cloud as combining a public cloud (such as Azure) with 
 ![image](https://user-images.githubusercontent.com/48266482/219373937-654a6a82-09a9-4e06-a145-c0ef27a78b3f.png)
 
 ### Public Cloud
+A public cloud is built, controlled, and maintained by a third-party cloud provider. With a public cloud, anyone that wants to purchase cloud services can access and use resources. The general public availability is a key difference between public and private clouds.
+
 ![image](https://user-images.githubusercontent.com/48266482/219374242-fb435926-f377-4dd3-bac5-87f0269f2098.png)
 
 ### Hybrid Cloud
