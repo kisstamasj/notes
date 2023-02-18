@@ -80,14 +80,14 @@ Governance is all about standardization and compliance, which is especially usef
 ### Capital and Operational Expenditure (Consumption-based model)
 When comparing IT infrastructure models, there are two types of expenses to consider. Capital expenditure (CapEx) and operational expenditure (OpEx).
 
-#### Capital Expenditure (CapEx)
+### Capital Expenditure (CapEx)
 CapEx is typically a one-time, up-front expenditure to purchase or secure tangible resources. A new building, repaving the parking lot, building a datacenter, or buying a company vehicle are examples of CapEx.
 
 - Money spent by a business or organisation on acquiring or maintaining fixed, such as land, buildings, and equipment.
 - Ex: Buying more servers
 - Large upfront investment.
 
-#### Operational Expenditure (OpEx)
+### Operational Expenditure (OpEx)
 In contrast, OpEx is spending money on services or products over time. Renting a convention center, leasing a company vehicle, or signing up for cloud services are all examples of OpEx.
 
 - An ongoing cost of running a product,  buisness, or system on a day-to-day basis, including annual costs
@@ -112,7 +112,7 @@ In a cloud-based model, you don’t have to worry about getting the resource nee
 
 ![image](https://user-images.githubusercontent.com/48266482/219339858-1586da84-3271-44e6-9286-28b39ba2abf3.png)
 
-#### Compare cloud pricing models
+### Compare cloud pricing models
 Cloud computing is the delivery of computing services over the internet by using a pay-as-you-go pricing model. You typically pay only for the cloud services you use, which helps you:
 
 - Plan and manage your operating costs.
