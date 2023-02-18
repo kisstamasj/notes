@@ -110,16 +110,7 @@ With a traditional datacenter, you try to estimate the future resource needs. If
 
 In a cloud-based model, you don’t have to worry about getting the resource needs just right. If you find that you need more virtual machines, you add more. If the demand drops and you don’t need as many virtual machines, you remove machines as needed. Either way, you’re only paying for the virtual machines that you use, not the “extra capacity” that the cloud provider has on hand.
 
-### Cloud pricing models
 ![image](https://user-images.githubusercontent.com/48266482/219339858-1586da84-3271-44e6-9286-28b39ba2abf3.png)
-
-#### Consumption-based Model
-You pay:
-- Per Execution
-- Per Second
-- Combination
-
-Low usage = Low cost
 
 #### Compare cloud pricing models
 Cloud computing is the delivery of computing services over the internet by using a pay-as-you-go pricing model. You typically pay only for the cloud services you use, which helps you:
