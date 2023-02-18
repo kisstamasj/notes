@@ -1,14 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-TOC
-
-- [TypeScript basics](#typescript-basics)
-- [React basics](#react-basics)
-- [NextJS](#nextjs)
-- [UI FrameWorks](#ui-frameworks)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 ## TypeScript basics
 - https://www.youtube.com/watch?v=d56mG7DezGskk
 ---
