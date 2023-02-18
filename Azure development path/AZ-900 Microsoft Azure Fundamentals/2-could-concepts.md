@@ -87,14 +87,21 @@ On the security side, you can find a cloud solution that matches your security n
 And because the cloud is intended as an over-the-internet delivery of IT resources, cloud providers are typically well suited to handle things like distributed denial of service (DDoS) attacks, making your network more robust and secure.
 
 ### Manageability
-- Management of the cloud:
-  - Autoscaling
-  - Monitoring
-  - Templage-based deployments
-- Management in the cloud
-  - Portal
-  - CLI
-  - APIs
+A major benefit of cloud computing is the manageability options. There are two types of manageability for cloud computing that you’ll learn about in this series, and both are excellent benefits.
+
+#### Management of the cloud:
+Management of the cloud speaks to managing your cloud resources. In the cloud, you can:
+- Automatically scale resource deployment based on need.
+- Monitor the health of resources and automatically replace failing resources.
+- Deploy resources based on a preconfigured template, removing the need for manual configuration.
+- Receive automatic alerts based on configured metrics, so you’re aware of performance in real time.
+
+#### Management in the cloud
+Management in the cloud speaks to how you’re able to manage your cloud environment and resources. You can manage these:
+- Through a web portal. (Azure Portal)
+- Using a command line interface. (CLI)
+- Using APIs.
+- Using PowerShell.
 
 ## The Language of Cloud Economics
 
