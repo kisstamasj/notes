@@ -120,6 +120,17 @@ You pay:
 
 Low usage = Low cost
 
+#### Compare cloud pricing models
+Cloud computing is the delivery of computing services over the internet by using a pay-as-you-go pricing model. You typically pay only for the cloud services you use, which helps you:
+
+- Plan and manage your operating costs.
+- Run your infrastructure more efficiently.
+- Scale as your business needs change.
+
+To put it another way, cloud computing is a way to rent compute power and storage from someone else’s datacenter. You can treat cloud resources like you would resources in your own datacenter. However, unlike in your own datacenter, when you're done using cloud resources, you give them back. You’re billed only for what you use.
+
+Instead of maintaining CPUs and storage in your datacenter, you rent them for the time that you need them. The cloud provider takes care of maintaining the underlying infrastructure for you. The cloud enables you to quickly solve your toughest business challenges and bring cutting-edge solutions to your users.
+
 ## Cloud Service Models
 ![image](https://user-images.githubusercontent.com/48266482/217860079-e5b3f20d-4a9b-4a04-9126-93cd69d76a69.png)
 
