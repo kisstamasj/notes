@@ -10,6 +10,9 @@ When you’re architecting your solution, you’ll need to account for service a
 https://bluexp.netapp.com/blog/azure-high-availability-basic-concepts-and-a-checklist
 
 ### Reliability
+Reliability is the ability of a system to recover from failures and continue to function. It's also one of the pillars of the Microsoft Azure Well-Architected Framework.
+
+The cloud, by virtue of its decentralized design, naturally supports a reliable and resilient infrastructure. With a decentralized design, the cloud enables you to have resources deployed in regions around the world. With this global scale, even if one region has a catastrophic event other regions are still up and running. You can design your applications to automatically take advantage of this increased reliability. In some cases, your cloud environment itself will automatically shift to a different region for you, with no action needed on your part. You’ll learn more about how Azure leverages global scale to provide reliability later in this series.
 
 > a.k.a Fault Tolearance/Disaster recovery
 
@@ -30,29 +33,44 @@ The other benefit of scalability is that you aren't overpaying for services. Bec
 
 Scaling generally comes in two varieties: vertical and horizontal. Vertical scaling is focused on increasing or decreasing the capabilities of resources. Horizontal scaling is adding or subtracting the number of resources.
 
-- Scaling Out (Horizontal scaling)
-  - Incrase instace count of existing resources
-  - Incrasing the servers number to handle more request
-  - Non-disruptive
-- Scaling Up (Vertical scaling)
-  - Incrase instace size of existing resource
-  - Get a bigger server: more CPU, RAM etc..
-  - Disruptive
-- Scaling down
-  - Decrase instace size of existing resource
+#### Scaling Out (Horizontal scaling)
+  
+With horizontal scaling, if you suddenly experienced a steep jump in demand, your deployed resources could be scaled out (either automatically or manually). For example, you could add additional virtual machines or containers, scaling out. In the same manner, if there was a significant drop in demand, deployed resources could be scaled in (either automatically or manually), scaling in.
+
+- Incrase instace count of existing resources
+- Incrasing the servers number to handle more request
+- Non-disruptive
+
+#### Scaling Up (Vertical scaling)
+  
+With vertical scaling, if you were developing an app and you needed more processing power, you could vertically scale up to add more CPUs or RAM to the virtual machine. Conversely, if you realized you had over-specified the needs, you could vertically scale down by lowering the CPU or RAM specifications.
+  
+- Incrase instace size of existing resource
+- Get a bigger server: more CPU, RAM etc..
+- Disruptive
+
+#### Scaling down
+Decrase instace size of existing resource
 
 ### Predicatability
 Predictability includes transparent cost usage, including accurate forecasts on future costs based on current usage.
 
 One aspect of predictability is knowing that your application will consistently perform as expected even if user load increases. This is accomplished with cloud computing features such as load balancing, high availability, and autoscaling.
 
-- Performance
-  - Consistent experience for customers regardless of traffic
-  - Autoscaling, load balancing, and high availability provide a consistence experience
-- Costs
-  - No unexpected surprises
-  - Track and forecast resource usage (costs) in real time
-  - Analytics provide patterns/trends to optimize usage
+Predictability in the cloud lets you move forward with confidence. Predictability can be focused on performance predictability or cost predictability. Both performance and cost predictability are heavily influenced by the Microsoft Azure Well-Architected Framework. Deploy a solution that’s built around this framework and you have a solution whose cost and performance are predictable.
+
+###  Performance
+Performance predictability focuses on predicting the resources needed to deliver a positive experience for your customers. Autoscaling, load balancing, and high availability are just some of the cloud concepts that support performance predictability. If you suddenly need more resources, autoscaling can deploy additional resources to meet the demand, and then scale back when the demand drops. Or if the traffic is heavily focused on one area, load balancing will help redirect some of the overload to less stressed areas.
+
+- Consistent experience for customers regardless of traffic
+- Autoscaling, load balancing, and high availability provide a consistence experience
+
+#### Costs
+Cost predictability is focused on predicting or forecasting the cost of the cloud spend. With the cloud, you can track your resource use in real time, monitor resources to ensure that you’re using them in the most efficient way, and apply data analytics to find patterns and trends that help better plan resource deployments. By operating in the cloud and using cloud analytics and information, you can predict future costs and adjust your resources as needed. You can even use tools like the Total Cost of Ownership (TCO) or Pricing Calculator to get an estimate of potential cloud spend.
+
+- No unexpected surprises
+- Track and forecast resource usage (costs) in real time
+- Analytics provide patterns/trends to optimize usage
 
 ### Security
 Full control of the security of your cloud environment. Patches, maintenance, network control, and more.
