@@ -72,16 +72,19 @@ Cost predictability is focused on predicting or forecasting the cost of the clou
 - Track and forecast resource usage (costs) in real time
 - Analytics provide patterns/trends to optimize usage
 
-### Security
-Full control of the security of your cloud environment. Patches, maintenance, network control, and more.
-
 ### Governance
-Is standardizing cloud deployments to meet requirements/compony standards
+Whether you’re deploying infrastructure as a service or software as a service, cloud features support governance and compliance. Things like set templates help ensure that all your deployed resources meet corporate standards and government regulatory requirements. Plus, you can update all your deployed resources to new standards as standards change. Cloud-based auditing helps flag any resource that’s out of compliance with your corporate standards and provides mitigation strategies. Depending on your operating model, software patches and updates may also automatically be applied, which helps with both governance and security.
+
 - Standardized environments
 - regulatory requirements
 - audit for compliance
 
 Governance is all about standardization and compliance, which is especially useful for meeting corporate standards and/or meeting government regulations.
+
+### Security
+On the security side, you can find a cloud solution that matches your security needs. If you want maximum control of security, infrastructure as a service provides you with physical resources but lets you manage the operating systems and installed software, including patches and maintenance. If you want patches and maintenance taken care of automatically, platform as a service or software as a service deployments may be the best cloud strategies for you.
+
+And because the cloud is intended as an over-the-internet delivery of IT resources, cloud providers are typically well suited to handle things like distributed denial of service (DDoS) attacks, making your network more robust and secure.
 
 ### Manageability
 - Management of the cloud:
