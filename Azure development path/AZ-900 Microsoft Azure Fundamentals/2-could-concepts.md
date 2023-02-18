@@ -119,7 +119,7 @@ With an on-premises datacenter, you’re responsible for everything. With cloud 
 
 The following diagram highlights how the Shared Responsibility Model informs who is responsible for what, depending on the cloud service type.
 
-![image](https://user-images.githubusercontent.com/48266482/219850306-a52c09b1-f103-4a55-b952-769f263c8031.png)
+![image](https://learn.microsoft.com/hu-hu/training/wwl-azure/describe-cloud-compute/media/shared-responsibility-b3829bfe.svg)
 
 You’ll always be responsible for:
 
