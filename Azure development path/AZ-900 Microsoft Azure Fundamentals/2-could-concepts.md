@@ -161,12 +161,12 @@ Infrastructure as a service (IaaS) is the most flexible category of cloud servic
 - Scaling is fast
 - No ownership of hardware
 
-![image](https://learn.microsoft.com/en-us/training/wwl-azure/describe-cloud-service-types/media/shared-responsibility-b3829bfe.svg)
-
 ![image](https://user-images.githubusercontent.com/48266482/219362881-8565801e-0511-423e-bb89-a2e65172c140.png)
 
 #### Shared responsibility model
 The shared responsibility model applies to all the cloud service types. IaaS places the largest share of responsibility with you. The cloud provider is responsible for maintaining the physical infrastructure and its access to the internet. You’re responsible for installation and configuration, patching and updates, and security.
+
+![image](https://learn.microsoft.com/en-us/training/wwl-azure/describe-cloud-service-types/media/shared-responsibility-b3829bfe.svg)
 
 #### Scenarios
 Some common scenarios where IaaS might make sense include:
