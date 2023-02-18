@@ -26,7 +26,7 @@ Reliability means a failure can occur on Azure services and applications, but it
 ### Scalability
 Another major benefit of cloud computing is the scalability of cloud resources. Scalability refers to the ability to adjust resources to meet demand. If you suddenly experience peak traffic and your systems are overwhelmed, the ability to scale means you can add more resources to better handle the increased demand.
 
-The other benefit of scalability is that you aren't overpaying for services. Because the cloud is a [consumption-based]() model, you only pay for what you use. If demand drops off, you can reduce your resources and thereby reduce your costs.
+The other benefit of scalability is that you aren't overpaying for services. Because the cloud is a [consumption-based](./2-could-concepts.md#consumption-based-model) model, you only pay for what you use. If demand drops off, you can reduce your resources and thereby reduce your costs.
 
 Scaling generally comes in two varieties: vertical and horizontal. Vertical scaling is focused on increasing or decreasing the capabilities of resources. Horizontal scaling is adding or subtracting the number of resources.
 
