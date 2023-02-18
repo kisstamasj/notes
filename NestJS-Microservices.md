@@ -1,21 +1,3 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-TOC
-
-- [Initialize project](#initialize-project)
-  - [Project structure](#project-structure)
-  - [Common Library](#common-library)
-  - [DevOps](#devops)
-    - [NestJS docker image for a service:](#nestjs-docker-image-for-a-service)
-    - [Service deployment yaml:](#service-deployment-yaml)
-    - [Event Broker with RabbitMQ - deployment yaml](#event-broker-with-rabbitmq---deployment-yaml)
-    - [Ingress service](#ingress-service)
-  - [Basic dependencies](#basic-dependencies)
-  - [Database dependencies (postgres)](#database-dependencies-postgres)
-  - [Authentication dependencies](#authentication-dependencies)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
 # Initialize project
 
 ## Project structure
