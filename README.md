@@ -1,8 +1,5 @@
 # Table of contents
 
-## [mds](./)
-
-
 ## [Azure-development-path](./Azure-development-path/)
 
   - [Azure development path](./Azure-development-path/1-azure-organization-and-infrastructure.md#azure-development-path)
