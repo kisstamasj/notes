@@ -1,5 +1,5 @@
 # Table of contents
-## [Azuredevelopmentpath](./Azure development path/)
+## [Azure development path](./Azure development path/)
   - [Azure development path](./Azure development path/1-azure-organization-and-infrastructure.md#azure-development-path)
   - [Azure Organization and Infrastructure](./Azure development path/1-azure-organization-and-infrastructure.md#azure-organization-and-infrastructure)
     * [Azure main strengths and weaknesses](./Azure development path/1-azure-organization-and-infrastructure.md#azure-main-strengths-and-weaknesses)
