@@ -20,7 +20,7 @@ jobs:
         run: chmod +x ./toc-generator/src/index.js
         shell: bash
       - name: run README.md generator
-        run: ./toc-generator/src/index.js -F ../ -R ../README.md
+        run: ./toc-generator/src/index.js -F ../ -r ../README.md
         shell: bash
       - name: show result
         run: cat ./toc-generator/README.md
