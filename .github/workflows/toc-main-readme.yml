@@ -12,7 +12,7 @@ jobs:
         run: git clone https://github.com/kisstamasj/toc-generator.git
         shell: bash
       - name: install deps
-        run: yarn install
+        run: cd ./toc-generator && yarn install
         shell: bash
       - name: make executeable
         run: chmod +x ./toc-generator/src/index.js
