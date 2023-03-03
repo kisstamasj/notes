@@ -23,7 +23,7 @@ jobs:
         run: ./toc-generator/src/index.js -F ../ -r ../README.md
         shell: bash
       - name: show result
-        run: cat ./toc-generator/README.md
+        run: cat README.md
         shell: bash
       - name: clear toc-generator
         run: rm -R toc-generator
