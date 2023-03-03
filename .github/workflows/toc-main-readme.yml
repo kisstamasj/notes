@@ -25,4 +25,9 @@ jobs:
       - name: show result
         run: cat README.md
         shell: bash
+      - name: clear toc-generator
+        run: rm -R toc-generator
+        shell: bash
       - uses: stefanzweifel/git-auto-commit-action@v4
+        with: 
+          commit_message: Main README.md updated
