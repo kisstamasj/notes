@@ -14,6 +14,6 @@ jobs:
       - name: install deps
         run: yarn install
         shell: bash
-      - name: ls command
-        run: ls -l 
+      - name: run README.md generator
+        run: ./toc-generator/src/index.js -F ./ -R ./README.md
         shell: bash
