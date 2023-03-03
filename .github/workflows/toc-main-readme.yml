@@ -1,0 +1,19 @@
+name: Main README TOC generator
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-toc:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v2
+      - name: clone toc git repo
+        run: git clone git@github.com:kisstamasj/toc-generator.git
+        shell: bash
+      - name: install deps
+        run: yarn install
+        shell: bash
+      - name: ls command
+        run: ls -l 
+        shell: bash
