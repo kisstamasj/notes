@@ -1,8 +1,6 @@
 # Table of contents
 
 ## [Azure-development-path](./notes/Azure-development-path/)
-
-
 ## [AZ-900-Microsoft-Azure-Fundamentals](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/)
 
   - [Introduction](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/1-introduction.md#introduction)
