@@ -1,0 +1,33 @@
+name: Main README TOC generator
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-toc:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+      - name: clone toc git repo
+        run: git clone https://github.com/kisstamasj/toc-generator.git
+        shell: bash
+      - name: install deps
+        run: cd ./toc-generator && yarn install
+        shell: bash
+      - name: make executeable
+        run: chmod +x ./toc-generator/src/index.js
+        shell: bash
+      - name: run README.md generator
+        run: ./toc-generator/src/index.js -F ./ -r ./README.md
+        shell: bash
+      - name: show result
+        run: cat README.md
+        shell: bash
+      - name: clear toc-generator
+        run: rm -R toc-generator
+        shell: bash
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with: 
+          commit_message: Main README.md updated
