@@ -1,7 +1,9 @@
 name: Main README TOC generator
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - 'main'
 
 jobs:
   generate-toc:
