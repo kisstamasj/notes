@@ -199,6 +199,7 @@
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
   - [UI FrameWorks](./notes/Frontend/NextJS.md#ui-frameworks)
+  - [Something new](./notes/Frontend/NextJS.md#something-new)
 
 ## [Microservices](./notes/Microservices/)
 
