@@ -134,7 +134,6 @@
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
-  - [Azure development path](./notes/Azure-development-path/Basics/1-azure-organization-and-infrastructure.md#azure-development-path)
   - [Azure Organization and Infrastructure](./notes/Azure-development-path/Basics/1-azure-organization-and-infrastructure.md#azure-organization-and-infrastructure)
     * [Azure main strengths and weaknesses](./notes/Azure-development-path/Basics/1-azure-organization-and-infrastructure.md#azure-main-strengths-and-weaknesses)
       + [Strengths](./notes/Azure-development-path/Basics/1-azure-organization-and-infrastructure.md#strengths)
