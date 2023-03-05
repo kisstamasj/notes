@@ -16,5 +16,3 @@
 ---
 # UI FrameWorks
 - **Mantine Framework**: https://mantine.dev/guides/next/
-
-# Something new
