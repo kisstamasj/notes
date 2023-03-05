@@ -1,4 +1,4 @@
-name: Main README TOC generator
+name: Azure Development path README TOC generator
 
 on:
   push:
