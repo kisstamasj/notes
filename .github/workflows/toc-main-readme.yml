@@ -14,7 +14,7 @@ jobs:
       - name: Wait for other TOC generation
         uses: lewagon/wait-on-check-action@v1.3.1
         with:
-          ref: ${{ github.ref }}
+          ref: main
           check-name: 'Wait'
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           wait-interval: 30
