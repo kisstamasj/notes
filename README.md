@@ -195,10 +195,10 @@
 
 ## [Frontend](./notes/Frontend/)
 
-    * [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
-    * [React basics](./notes/Frontend/NextJS.md#react-basics)
-    * [NextJS](./notes/Frontend/NextJS.md#nextjs)
-    * [UI FrameWorks](./notes/Frontend/NextJS.md#ui-frameworks)
+  - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
+  - [React basics](./notes/Frontend/NextJS.md#react-basics)
+  - [NextJS](./notes/Frontend/NextJS.md#nextjs)
+  - [UI FrameWorks](./notes/Frontend/NextJS.md#ui-frameworks)
 
 ## [Microservices](./notes/Microservices/)
 
