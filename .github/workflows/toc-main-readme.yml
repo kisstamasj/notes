@@ -11,6 +11,13 @@ jobs:
     permissions:
       contents: write
     steps:
+      - name: Wait for other TOC generation
+        uses: lewagon/wait-on-check-action@v1.3.1
+        with:
+          ref: ${{ github.ref }}
+          check-name: 'Wait'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          wait-interval: 30
       - uses: actions/checkout@v3
       - name: clone toc git repo
         run: git clone https://github.com/kisstamasj/toc-generator.git
