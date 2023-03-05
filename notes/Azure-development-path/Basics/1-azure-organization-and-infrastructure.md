@@ -1,4 +1,3 @@
-# Azure development path
 # Azure Organization and Infrastructure
 
 ## Azure main strengths and weaknesses
