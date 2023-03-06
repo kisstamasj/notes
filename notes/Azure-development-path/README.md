@@ -130,7 +130,9 @@
       + [Features](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#features-2)
       + [Azure Container Registry ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#azure-container-registry-acr)
     * [Windows Virtual Desktop](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#windows-virtual-desktop)
-    * [Functions](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#functions)
+    * [Functions / Serverless](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#functions--serverless)
+      + [Benefits](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#benefits-1)
+      + [Example](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#example)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
