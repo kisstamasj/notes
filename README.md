@@ -1,7 +1,5 @@
 # Table of contents
 
-## [notes](./notes/)
-
 
 ## [Azure-development-path](./notes/Azure-development-path/)
 
