@@ -175,6 +175,24 @@ The task of automating, managing, scaling and interacting with a large number of
 ![image](https://user-images.githubusercontent.com/48266482/219695471-277734cd-f0fa-4f14-b0a4-3228b42353ac.png)
 
 ## Windows Virtual Desktop
+- Azure Virtual Desktop is a completely virtualized version of windows, meaning it runs 100% in the cloud
+- Reuse Windows 10 Licenses
+- Concurrency: Multiple user can use the same VM instance
+- Access Anywhere: Use Windows 10/11 from anywhere on any device with an internet browser
+- Secure Data: Use Azure Storage to secure your data
 
-## Functions
+## Functions / Serverless
 Functions are ideal when you're concerned only about the code running your service and not the underlying platform or infrastructure. They're commonly used when you need to perform work in response to an event (often via a REST request), timer, or message from another Azure service, and when that work can be completed quickly, within seconds or less.
+
+![image](https://user-images.githubusercontent.com/48266482/223036972-5de32cb9-fd60-4cd1-91ee-788e094fed50.png)
+
+### Benefits
+- Only Runs When Needed: The Azure Functions only runs when there is data to process. No traffic = No resource usage
+- Save Mony
+- Resilience: If your functions fails, iot doesn't affect other functions instances
+
+
+### Example
+You have a website in the www.example.com where you upload images. For optimizing and scaling the images you can use Azure Functions, which runs ony if needed, and that only function which optimize images.
+
+
