@@ -53,6 +53,7 @@ az vm create  `
  - ```Get-AzVM``` list virtual machines
  - ```Get-AzResource | ft``` get all the resources with format
  - ```Remove-AzVM -Name LabVM -ResourceGroupName 72-3087af2d-accessing-and-using-the-azure-cloud-sh``` remove virtual machine
+ - ```az interactive``` azure interactive CLI, auto-complete etc..
 
 ## Cloud Shell
 Browser-accessible shell for managing Azure resources
