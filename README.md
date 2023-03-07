@@ -136,6 +136,7 @@
     * [Functions / Serverless](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#functions--serverless)
       + [Benefits](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#benefits-1)
       + [Example](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#example)
+  - [Networking](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#networking)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
