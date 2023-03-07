@@ -1,4 +1,4 @@
-# Azure Architecture
+# [Azure Architecture](https://learn.microsoft.com/hu-hu/training/modules/describe-core-architectural-components-of-azure/5-describe-azure-physical-infrastructure)
 
 ## Physical infrastructure
 The physical infrastructure for Azure starts with datacenters. Conceptually, the datacenters are the same as large corporate datacenters. They’re facilities with resources arranged in racks, with dedicated power, cooling, and networking infrastructure.
