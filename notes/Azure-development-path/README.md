@@ -68,6 +68,7 @@
       + [Azure VMware Solution](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/2-could-concepts.md#azure-vmware-solution)
       + [Exam Tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/2-could-concepts.md#exam-tips-1)
   - [Azure Architecture](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#azure-architecture)
+    * [Physical infrastructure](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#physical-infrastructure)
     * [Regions](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#regions)
       + ["A set of datacenters"](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#a-set-of-datacenters)
       + ["Latency defined perimeter"](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#latency-defined-perimeter)
