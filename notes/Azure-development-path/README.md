@@ -133,6 +133,13 @@
     * [Functions / Serverless](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#functions--serverless)
       + [Benefits](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#benefits-1)
       + [Example](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#example)
+  - [Networking](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#networking)
+    * [Virtual Network ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#virtual-network-vnet)
+    * [Load Balancer](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#load-balancer)
+    * [VPN Gateway](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#vpn-gateway)
+    * [Application Gateway](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#application-gateway)
+    * [ExpressRoute](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#expressroute)
+    * [Content Delivery Network ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#content-delivery-network-cdn)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
