@@ -92,7 +92,7 @@ Availability zones are primarily for VMs, managed disks, load balancers, and SQL
 - Non-regional services: Services are always available from Azure geographies and are resilient to zone-wide outages as well as region-wide outages.
 Even with the additional resiliency that availability zones provide, it’s possible that an event could be so large that it impacts multiple availability zones in a single region. To provide even further resilience, Azure has Region Pairs.
 
-## Resource Groups
+## [Resource Groups](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure)
 Every resource in Azure is in a Resource Group, there are no exceptions.
 
 ![image](https://user-images.githubusercontent.com/48266482/219393746-727782dd-047b-4653-8fdb-4ae8807d30a5.png)
