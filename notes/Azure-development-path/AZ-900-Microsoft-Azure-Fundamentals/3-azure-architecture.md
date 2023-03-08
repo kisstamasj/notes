@@ -91,9 +91,19 @@ Availability zones are primarily for VMs, managed disks, load balancers, and SQL
 Even with the additional resiliency that availability zones provide, it’s possible that an event could be so large that it impacts multiple availability zones in a single region. To provide even further resilience, Azure has Region Pairs.
 
 ## [Resource Groups](https://learn.microsoft.com/en-us/training/modules/describe-core-architectural-components-of-azure/6-describe-azure-management-infrastructure)
-Every resource in Azure is in a Resource Group, there are no exceptions.
+A resource is the basic building block of Azure. Anything you create, provision, deploy, etc. is a resource. Virtual Machines (VMs), virtual networks, databases, cognitive services, etc. are all considered resources within Azure.
 
-![image](https://user-images.githubusercontent.com/48266482/219393746-727782dd-047b-4653-8fdb-4ae8807d30a5.png)
+![image](https://user-images.githubusercontent.com/48266482/223632841-96f5bdbc-38fa-4c9a-b55a-4d74cad01676.png)
+
+Resource groups are simply groupings of resources. When you create a resource, you’re required to place it into a resource group. While a resource group can contain many resources, a single resource can only be in one resource group at a time. Some resources may be moved between resource groups, but when you move a resource to a new group, it will no longer be associated with the former group. Additionally, resource groups can't be nested, meaning you can’t put resource group B inside of resource group A.
+
+Resource groups provide a convenient way to group resources together. When you apply an action to a resource group, that action will apply to all the resources within the resource group. If you delete a resource group, all the resources will be deleted. If you grant or deny access to a resource group, you’ve granted or denied access to all the resources within the resource group.
+
+When you’re provisioning resources, it’s good to think about the resource group structure that best suits your needs.
+
+For example, if you’re setting up a temporary dev environment, grouping all the resources together means you can deprovision all of the associated resources at once by deleting the resource group. If you’re provisioning compute resources that will need three different access schemas, it may be best to group resources based on the access schema, and then assign access at the resource group level.
+
+There aren’t hard rules about how you use resource groups, so consider how to set up your resource groups to maximize their usefulness for you.
 
 > The resource group is not a resource.
 
