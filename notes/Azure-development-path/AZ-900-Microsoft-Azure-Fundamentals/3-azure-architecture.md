@@ -51,6 +51,7 @@ Some services used paired regions for replication.
 
 ## Availability Zones
 Availability zones are physically separate datacenters within an Azure region. Each availability zone is made up of one or more datacenters equipped with independent power, cooling, and networking. An availability zone is set up to be an isolation boundary. If one zone goes down, the other continues working. Availability zones are connected through high-speed, private fiber-optic networks.
+
 ![image](https://user-images.githubusercontent.com/48266482/223627489-ddb70c9c-01db-4fa9-a5a1-82cb111973f7.png)
 
 > To ensure resiliency, a minimum of three separate availability zones are present in all availability zone-enabled regions. However, not all Azure Regions currently support availability zones.
