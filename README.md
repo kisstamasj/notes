@@ -121,6 +121,7 @@
       + [Benefits](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#benefits)
       + [Use Cases](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#use-cases-1)
       + [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#exam-tips-1)
+    * [Availability sets](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#availability-sets)
     * [App Services](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#app-services)
       + [Azure App Service costs](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#azure-app-service-costs)
       + [Types of app services](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#types-of-app-services)
