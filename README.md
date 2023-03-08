@@ -89,6 +89,7 @@
       + [Physical Location](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#physical-location)
       + [Independent](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#independent)
       + [Zones](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#zones)
+      + [Use availability zones in your apps](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#use-availability-zones-in-your-apps)
     * [Resource Groups](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#resource-groups)
       + [One Resource](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#one-resource)
       + [Add/Remove](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#addremove)
