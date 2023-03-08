@@ -66,6 +66,18 @@ Each region has a minimum of three zones.
 
 ![image](https://user-images.githubusercontent.com/48266482/219389259-6b108948-123b-4f73-a22d-e1a2e8a0efcd.png)
 
+### Use availability zones in your apps
+You want to ensure your services and data are redundant so you can protect your information in case of failure. When you host your infrastructure, setting up your own redundancy requires that you create duplicate hardware environments. Azure can help make your app highly available through availability zones.
+
+You can use availability zones to run mission-critical applications and build high-availability into your application architecture by co-locating your compute, storage, networking, and data resources within an availability zone and replicating in other availability zones. Keep in mind that there could be a cost to duplicating your services and transferring data between availability zones.
+
+Availability zones are primarily for VMs, managed disks, load balancers, and SQL databases. Azure services that support availability zones fall into three categories:
+
+- Zonal services: You pin the resource to a specific zone (for example, VMs, managed disks, IP addresses).
+- Zone-redundant services: The platform replicates automatically across zones (for example, zone-redundant storage, SQL Database).
+- Non-regional services: Services are always available from Azure geographies and are resilient to zone-wide outages as well as region-wide outages.
+Even with the additional resiliency that availability zones provide, it’s possible that an event could be so large that it impacts multiple availability zones in a single region. To provide even further resilience, Azure has Region Pairs.
+
 ## Resource Groups
 Every resource in Azure is in a Resource Group, there are no exceptions.
 
