@@ -83,6 +83,7 @@
     * [Paired Region](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#paired-region)
       + [Each Region is Paired](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#each-region-is-paired)
       + [Additional advantages of region pairs:](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#additional-advantages-of-region-pairs)
+      + [Sovereign Regions](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#sovereign-regions)
     * [Availability Zones](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#availability-zones)
       + [Physical Location](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#physical-location)
       + [Independent](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/3-azure-architecture.md#independent)
