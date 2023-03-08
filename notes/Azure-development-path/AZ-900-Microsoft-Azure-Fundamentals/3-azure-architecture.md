@@ -78,8 +78,6 @@ Each zone has itsh own power, cooling and networking.
 ### Zones
 Each region has a minimum of three zones.
 
-![image](https://user-images.githubusercontent.com/48266482/219389259-6b108948-123b-4f73-a22d-e1a2e8a0efcd.png)
-
 ### Use availability zones in your apps
 You want to ensure your services and data are redundant so you can protect your information in case of failure. When you host your infrastructure, setting up your own redundancy requires that you create duplicate hardware environments. Azure can help make your app highly available through availability zones.
 
