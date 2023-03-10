@@ -88,3 +88,8 @@ az network nsg rule list \
   --query '[].{Name:name, Priority:priority, Port:destinationPortRange, Access:access}' \
   --output table
 ```
+
+### Access your web server again
+```
+curl --connect-timeout 5 http://$IPADDRESS
+```
