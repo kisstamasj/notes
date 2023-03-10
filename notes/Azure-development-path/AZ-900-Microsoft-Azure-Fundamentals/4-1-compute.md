@@ -78,3 +78,4 @@ az network nsg rule create \
   --destination-port-range 80 \
   --access Allow
 ```
+>For learning purposes, here you set the priority to 100. In this case, the priority doesn't matter. You would need to consider the priority if you had overlapping port ranges.
