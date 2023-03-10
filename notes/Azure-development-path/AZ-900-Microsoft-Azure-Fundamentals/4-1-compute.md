@@ -48,3 +48,4 @@ az network nsg list \
   --query '[].name' \
   --output tsv
 ```
+>Every VM on Azure is associated with at least one network security group. In this case, Azure created an NSG for you called my-vmNSG.
