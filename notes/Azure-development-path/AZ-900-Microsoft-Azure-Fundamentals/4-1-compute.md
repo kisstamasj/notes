@@ -26,11 +26,25 @@ az vm extension set \
   --protected-settings '{"commandToExecute": "./configure-nginx.sh"}'
 ```
 
-### Get VM IP addresses
+### Get VM IP address
 ```
 IPADDRESS="$(az vm list-ip-addresses \
   --resource-group learn-9b4767ac-5b7a-4496-960e-9dfa3506898f \
   --name my-vm \
   --query "[].virtualMachine.network.publicIpAddresses[*].ipAddress" \
   --output tsv)"
+```
+
+### Download the home page
+```
+curl --connect-timeout 5 http://$IPADDRESS
+```
+It will time out. :) 
+
+### List the current network security group rules
+```
+az network nsg list \
+  --resource-group learn-9b4767ac-5b7a-4496-960e-9dfa3506898f \
+  --query '[].name' \
+  --output tsv
 ```
