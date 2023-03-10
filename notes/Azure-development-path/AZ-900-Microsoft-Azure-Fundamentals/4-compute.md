@@ -42,16 +42,6 @@ Virtual Machines are at the core of Azure compute and are widely used.
 - Azure virtual machines take advantage of Azure tools.
 - Pricing goes up as resources go up, and you pay by the hour.
 
-### Create VMs with PowerShell
-```
-az vm create \
-  --resource-group learn-9b4767ac-5b7a-4496-960e-9dfa3506898f \
-  --name my-vm \
-  --image UbuntuLTS \
-  --admin-username azureuser \
-  --generate-ssh-keys
-```
-
 ## Scale Sets
 Virtual machine scale sets are an Azure compute resource that you can use to deploy and manage a set of identical VMs. With all VMs configured the same, virtual machine scale sets are designed to support true autoscale. No pre-provisioning of VMs is required. For this reason, it's easier to build large-scale services targeting big compute, big data, and containerized workloads. As demand goes up, more VM instances can be added. As demand goes down, VM instances can be removed. The process can be manual, automated, or a combination of both (schedule the scaling). 
 
