@@ -93,3 +93,5 @@ az network nsg rule list \
 ```
 curl --connect-timeout 5 http://$IPADDRESS
 ```
+
+Nice work. In practice, you can create a standalone network security group that includes the inbound and outbound network access rules you need. If you have multiple VMs that serve the same purpose, you can assign that NSG to each VM at the time you create it. This technique enables you to control network access to multiple VMs under a single, central set of rules.
