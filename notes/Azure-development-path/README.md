@@ -116,6 +116,7 @@
       + [List the current network security group rules](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-1-compute.md#list-the-current-network-security-group-rules)
       + [List the rules](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-1-compute.md#list-the-rules)
       + [Create the network security rule](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-1-compute.md#create-the-network-security-rule)
+      + [Check the security rules](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-1-compute.md#check-the-security-rules)
   - [Compute](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#compute)
     * [Virtual Machines ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#virtual-machines-vms)
       + [Features](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#features)
