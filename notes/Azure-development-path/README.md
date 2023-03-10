@@ -114,7 +114,6 @@
       + [Use Cases](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#use-cases)
       + [Examples of when to use VMs](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#examples-of-when-to-use-vms)
       + [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#exam-tips)
-      + [Create VMs with PowerShell](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#create-vms-with-powershell)
     * [Scale Sets](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#scale-sets)
       + [Benefits](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#benefits)
       + [Use Cases](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/4-compute.md#use-cases-1)
