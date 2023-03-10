@@ -79,3 +79,12 @@ az network nsg rule create \
   --access Allow
 ```
 >For learning purposes, here you set the priority to 100. In this case, the priority doesn't matter. You would need to consider the priority if you had overlapping port ranges.
+
+### Check the security rules
+```
+az network nsg rule list \
+  --resource-group learn-9b4767ac-5b7a-4496-960e-9dfa3506898f \
+  --nsg-name my-vmNSG \
+  --query '[].{Name:name, Priority:priority, Port:destinationPortRange, Access:access}' \
+  --output table
+```
