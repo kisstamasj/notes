@@ -66,3 +66,15 @@ az network nsg rule list \
   --output table
 ```
 >You see the default rule, default-allow-ssh. This rule allows inbound connections over port 22 (SSH). SSH (Secure Shell) is a protocol that's used on Linux to allow administrators to access the system remotely. The priority of this rule is 1000. Rules are processed in priority order, with lower numbers processed before higher numbers.
+
+### Create the network security rule
+```
+az network nsg rule create \
+  --resource-group learn-9b4767ac-5b7a-4496-960e-9dfa3506898f \
+  --nsg-name my-vmNSG \
+  --name allow-http \
+  --protocol tcp \
+  --priority 100 \
+  --destination-port-range 80 \
+  --access Allow
+```
