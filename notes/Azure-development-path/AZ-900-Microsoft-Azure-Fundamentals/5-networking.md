@@ -134,6 +134,24 @@ VPN Gateways are instrumental in a hybrid cloud architecture.
 - Azure Gateway Subnet, secure tunnel and on-premises gateway makes up a VPN Gateway scenario.
 
 ## Application Gateway
+![image](https://user-images.githubusercontent.com/48266482/224476898-a0966da3-bc42-4440-9423-1a37922f3cf4.png)
+
+With applicaiton gateway you can specify specific URL to a specific VM.
+For example: In the URL of http://example.com/images can goes to a specific VM.
+
+### Benefits
+- **Scaling**: Scale the Application Gateway up or down based on the amount of traffic received.
+- **Encryption**: Comply with any security policies. Disable or enable traffic encryption to the backend.
+- **Zone Redundancy**: Span multiple availability zones and improve fault resiliency.
+- **Multi-site Hosting**: Use the same application gateway for up to 100 websites.
+
+### Exam tips
+An application gateway is a higher level load balancer.
+
+- It works on the HTTP request of the traffic, instead of the IP address and port.
+- Traffic from a specific web address can go to a specific machine.
+- Is a fit for most other Azire services
+- Supports auto-scaling, and-to-and encryption, zone redundancy and multi-site hosting.
 
 ## ExpressRoute
 Azure ExpressRoute lets you extend your on-premises networks into the Microsoft cloud over a private connection, with the help of a connectivity provider. This connection is called an ExpressRoute Circuit. With ExpressRoute, you can establish connections to Microsoft cloud services, such as Microsoft Azure and Microsoft 365. This allows you to connect offices, datacenters, or other facilities to the Microsoft cloud. Each location would have its own ExpressRoute circuit.
