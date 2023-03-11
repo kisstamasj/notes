@@ -136,7 +136,7 @@ VPN Gateways are instrumental in a hybrid cloud architecture.
 ## Application Gateway
 ![image](https://user-images.githubusercontent.com/48266482/224476898-a0966da3-bc42-4440-9423-1a37922f3cf4.png)
 
-With applicaiton gateway you can specify specific URL to a specific VM.
+With applicaiton gateway you can specify specific URL or host header to a specific VM.
 For example: In the URL of http://example.com/images can goes to a specific VM.
 
 ### Benefits
