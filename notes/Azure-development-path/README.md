@@ -163,6 +163,7 @@
         - [Peering Benefits](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#peering-benefits)
       + [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#exam-tips)
     * [Load Balancer](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#load-balancer)
+      + [Scenarios](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#scenarios)
     * [VPN Gateway](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#vpn-gateway)
       + [High-availability scenarios](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#high-availability-scenarios)
         - [Active/standby](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#activestandby)
