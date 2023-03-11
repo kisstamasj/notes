@@ -243,6 +243,7 @@ Azure DNS also supports alias record sets. You can use an alias record set to re
 
 ## Content Delivery Network (CDN)
 It is a distibuted network of servers that can deliver web content close to users.
+Stores a cached version of your application on an edge node. Provides better performance and less traffic to your main server. Content cache is updated as necessary.
 
 ### Benefits
 - **Better performance**: Improve the user experience and performance of your application
