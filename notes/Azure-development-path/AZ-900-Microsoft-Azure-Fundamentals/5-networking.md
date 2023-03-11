@@ -56,6 +56,21 @@ You can link virtual networks together by using virtual network peering. Peering
 
 User-defined routes (UDR) allow you to control the routing tables between subnets within a virtual network or between virtual networks. This allows for greater control over network traffic flow.
 
+### VNet Peering
+Lets you connrct 2 or more virtual networks in Azure. Traffic between virtual machines in a peered network uses the private Microsoft backbone network and never passes through the public internet.
+
+#### Peering Benefits
+- Low Latency, High Bandwith: Resources in virtual networks are connected with a low-latency, high-bandwidth connection.
+- Link Separate Networks: Resource in separate virtual networks can communicate with each other.
+- Data Transfer: Transfer data easily between subscriptions and deployment models in separate regions.
+
+### Exam tips
+A virtual network is a fundamental part of your Azure infrastucture.
+- An address is a range of IP addresses you can use for your resurces
+- Subnet is a smaller network, which is part of your VNet. Use these for secruirty and logical divison if resources.
+- A VNet is in a single region and single subscription.
+- VNets in the cloud can scale, have high availability and isolation.
+
 ## Load Balancer
 
 ## VPN Gateway
