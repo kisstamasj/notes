@@ -198,6 +198,15 @@
       + [Terminology](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#terminology)
         - [Cache](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#cache)
         - [Origin Server](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#origin-server)
+  - [Storage](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#storage)
+    * [Blob](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#blob)
+    * [Disc](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#disc)
+    * [File](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#file)
+    * [Archive](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#archive)
+    * [Storage Redundancy](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#storage-redundancy)
+    * [Moving Data](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#moving-data)
+    * [Additional Migration Options](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#additional-migration-options)
+    * [Premium Performance Options](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#premium-performance-options)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
