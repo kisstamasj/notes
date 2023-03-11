@@ -172,6 +172,8 @@
         - [Zone-redundant gateways](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#zone-redundant-gateways)
       + [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#exam-tips-1)
     * [Application Gateway](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#application-gateway)
+      + [Benefits](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#benefits)
+      + [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#exam-tips-2)
     * [ExpressRoute](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#expressroute)
       + [Features and benefits of ExpressRoute](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#features-and-benefits-of-expressroute)
         - [Connectivity to Microsoft cloud services](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#connectivity-to-microsoft-cloud-services)
@@ -192,6 +194,10 @@
         - [Customizable virtual networks with private domains](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#customizable-virtual-networks-with-private-domains)
         - [Alias records](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#alias-records)
     * [Content Delivery Network ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#content-delivery-network-cdn)
+      + [Benefits](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#benefits-1)
+      + [Terminology](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#terminology)
+        - [Cache](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#cache)
+        - [Origin Server](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#origin-server)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
