@@ -110,7 +110,7 @@ There are several benefits to using ExpressRoute as the connection service betwe
 - Dynamic routing between your network and Microsoft via Border Gateway Protocol (BGP).
 - Built-in redundancy in every peering location for higher reliability.
 
-### Connectivity to Microsoft cloud services
+#### Connectivity to Microsoft cloud services
 ExpressRoute enables direct access to the following services in all regions:
 
 - Microsoft Office 365
@@ -118,13 +118,13 @@ ExpressRoute enables direct access to the following services in all regions:
 - Azure compute services, such as Azure Virtual Machines
 - Azure cloud services, such as Azure Cosmos DB and Azure Storage
 
-### Global connectivity
+#### Global connectivity
 You can enable ExpressRoute Global Reach to exchange data across your on-premises sites by connecting your ExpressRoute circuits. For example, say you had an office in Asia and a datacenter in Europe, both with ExpressRoute circuits connecting them to the Microsoft network. You could use ExpressRoute Global Reach to connect those two facilities, allowing them to communicate without transferring data over the public internet.
 
-### Dynamic routing
+#### Dynamic routing
 ExpressRoute uses the BGP. BGP is used to exchange routes between on-premises networks and resources running in Azure. This protocol enables dynamic routing between your on-premises network and services running in the Microsoft cloud.
 
-### Built-in redundancy
+#### Built-in redundancy
 Each connectivity provider uses redundant devices to ensure that connections established with Microsoft are highly available. You can configure multiple circuits to complement this feature.
 
 ### ExpressRoute connectivity models
@@ -135,16 +135,16 @@ ExpressRoute supports four models that you can use to connect your on-premises n
 - Any-to-any connection
 - Directly from ExpressRoute sites
 
-### Co-location at a cloud exchange
+#### Co-location at a cloud exchange
 Co-location refers to your datacenter, office, or other facility being physically co-located at a cloud exchange, such as an ISP. If your facility is co-located at a cloud exchange, you can request a virtual cross-connect to the Microsoft cloud.
 
-### Point-to-point Ethernet connection
+#### Point-to-point Ethernet connection
 Point-to-point ethernet connection refers to using a point-to-point connection to connect your facility to the Microsoft cloud.
 
-### Any-to-any networks
+#### Any-to-any networks
 With any-to-any connectivity, you can integrate your wide area network (WAN) with Azure by providing connections to your offices and datacenters. Azure integrates with your WAN connection to provide a connection like you would have between your datacenter and any branch offices.
 
-### Directly from ExpressRoute sites
+#### Directly from ExpressRoute sites
 You can connect directly into the Microsoft's global network at a peering location strategically distributed across the world. ExpressRoute Direct provides dual 100 Gbps or 10-Gbps connectivity, which supports Active/Active connectivity at scale.
 
 ### Security considerations
