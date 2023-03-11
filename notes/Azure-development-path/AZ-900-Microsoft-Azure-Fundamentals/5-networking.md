@@ -242,3 +242,18 @@ Azure DNS also supports alias record sets. You can use an alias record set to re
 >You can't use Azure DNS to buy a domain name. For an annual fee, you can buy a domain name by using App Service domains or a third-party domain name registrar. Once purchased, your domains can be hosted in Azure DNS for record management.
 
 ## Content Delivery Network (CDN)
+It is a distibuted network of servers that can deliver web content close to users.
+
+### Benefits
+- **Better performance**: Improve the user experience and performance of your application
+- **Scaling**: Scale to suit any spikes in traffic, and also protect your main backend server instance from high loads.
+- **Distribution**: Edge servers will serve requests closest to the user. Less traffic is the sent to the server hosting your application.
+
+### Terminology
+
+#### Cache
+Collection of temprary copies of original files. The primary purposes is to minimize speed for an application.
+When a copy expires, a new copy is needed.
+
+#### Origin Server
+The original location of the files, such as a web application. It is the master copy of your application.
