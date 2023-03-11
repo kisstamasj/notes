@@ -125,6 +125,14 @@ Another high-availability option is to configure a VPN gateway as a secure failo
 #### Zone-redundant gateways
 In regions that support availability zones, VPN gateways and ExpressRoute gateways can be deployed in a zone-redundant configuration. This configuration brings resiliency, scalability, and higher availability to virtual network gateways. Deploying gateways in Azure availability zones physically and logically separates gateways within a region while protecting your on-premises network connectivity to Azure from zone-level failures. These gateways require different gateway stock keeping units (SKUs) and use Standard public IP addresses instead of Basic public IP addresses.
 
+### Exam tips
+VPN Gateways are instrumental in a hybrid cloud architecture.
+
+- A VPN Gateway is a specifix VNet GateWay. It consists of two or more dedicated VMs.
+- VNet Gateway + "vpn" becomes a VPN Gateway
+- Sends encrypted data between Azre and on premises network.
+- Azure Gateway Subnet, secure tunnel and on-premises gateway makes up a VPN Gateway scenario.
+
 ## Application Gateway
 
 ## ExpressRoute
