@@ -72,6 +72,21 @@ A virtual network is a fundamental part of your Azure infrastucture.
 - VNets in the cloud can scale, have high availability and isolation.
 
 ## Load Balancer
+![image](https://user-images.githubusercontent.com/48266482/224476151-22957228-ae6d-46ad-9356-632c05592c78.png)
+
+Load Balancer distributes new inbound flows that arrive on the Load Balancer's frontend to backend pool instances, according to rules and health probes.
+
+- **Inbound flows**: Traffic from the Internet or local network
+- **Frontend**: The access point for the load balancer. All traffic goes here first.
+- **Backend Pool**: The VM instances receiving traffic.
+- **Rules & Health Probes**: Checks to ensure backend instance can receive the data.
+
+### Scenarios
+
+- **Internet Traffic**: Balance the load of incoming Internet traffic into a system or application.
+- **Internal Networks**: A load balancer works well with internal applications.
+- **Port Forwarding**: Traffic can be forwarded to a specific machine in the backend pool.
+- **Outbound Traffic**: Allow outbound connectivity for backend pool VMs.
 
 ## VPN Gateway
 A virtual private network (VPN) uses an encrypted tunnel within another network. VPNs are typically deployed to connect two or more trusted private networks to one another over an untrusted network (typically the public internet). Traffic is encrypted while traveling over the untrusted network to prevent eavesdropping or other attacks. VPNs can enable networks to safely and securely share sensitive information.
