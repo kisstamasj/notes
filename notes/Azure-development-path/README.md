@@ -170,6 +170,7 @@
         - [Active/active](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#activeactive)
         - [ExpressRoute failover](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#expressroute-failover)
         - [Zone-redundant gateways](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#zone-redundant-gateways)
+      + [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#exam-tips-1)
     * [Application Gateway](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#application-gateway)
     * [ExpressRoute](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#expressroute)
       + [Features and benefits of ExpressRoute](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#features-and-benefits-of-expressroute)
