@@ -51,17 +51,64 @@ Storage Account = Unique Azre Namespace
 
 ## Storage Redundancy
 Azure Storage always create multiple copies of your data:
-  - Automatic
-  - Minimum of three copies
-  - Invisible to end user
+- Automatic
+- Minimum of three copies
+- Invisible to end user
   
 ### Multiple Redundancy options
-  - Different location scopes
-    - Single zone, multi zone, multi regions
-  - Higher availablity = higher cost
+- Different location scopes
+  - Single zone, multi zone, multi regions
+- Higher availablity = higher cost
   
 ### Single Region
+  - Locally Redundant Sotrage (LRS)
+  - Zone-Redundant Storage (ZRS)
 
+### Multi Region
+  - Geo-Redundant Storage (GRS)
+  - Geo-Zone-Redundant Storage (GZRS)
+  
+ ### All options include:
+  - Three copies in primary region
+  - Three copies in secondary region (multi-region options)
+  
+### Locally Redundant Sotrage (LRS)
+Three copies in single location (datacenter/zone)
+
+![image](https://user-images.githubusercontent.com/48266482/224627316-19996fef-79b9-4ff0-b7f1-5b9a9fa0b9d9.png)
+  
+  - Lowest-cost option
+  - Protect against single disk failure
+  - Does not protect against zome or regional outage.
+
+### Zone-Redundant Storage (ZRS)
+Three copies across three availability zones.
+  
+![image](https://user-images.githubusercontent.com/48266482/224627647-b967343e-149c-4ad1-9c99-6022e0d50074.png)
+
+  - One copy in each zone
+  - Protect against zone outage but not regional outage
+  
+### Geo-Redundant Storage (GRS)
+Three copies in two different regions
+
+![image](https://user-images.githubusercontent.com/48266482/224628282-dff1103e-6b4e-4499-9a9c-de174c8539b1.png)
+  
+  - Three copies in primary regional physical location (LRS)
+  - Three copies in secondary (paired) region physical location (LRS)
+  - Protect against primary region failure but no primary region zone redundancy
+  - Can configure read access from seconday region for high availability
+  
+### Geo-Zone-Redundant Storage (GZRS)
+Maximum redundancy
+ 
+![image](https://user-images.githubusercontent.com/48266482/224629110-5ca468f2-0bc8-4c0d-842c-94dbdd043d87.png)
+ 
+  - Copy acreoss three availability zones in primary region (ZRS)
+  - Three copies in secondary region physical location/zone (LRS)
+  - Protect against primary region failure AND primary region zone failure
+  - Can also configure read access from seconday region for high availablity
+  
 ## Moving Data
 
 ## Additional Migration Options
