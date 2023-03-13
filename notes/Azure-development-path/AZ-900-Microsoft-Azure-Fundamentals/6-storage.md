@@ -33,8 +33,21 @@ Storage Account = Unique Azre Namespace
 - Ultra Disk: For the most demanding, dataintensive workloads. Disks up to 64TB.
 
 ## File
+- Sharing: Share access to the Azure file storage across machines and provide acess to your on-premises infrastructure.
+- Managed: You don't have to worry about hardware or operating system.
+- Resilient: Network and power outages won't affect your storage.
+
+### Scanario
+- Hybrid: Supplement or replace your existing on-premises file storage solution.
+- Lift and shift: Move your existing file storages and related services to Azure.
 
 ## Archive
+- Requirement: Policies, legislation and recovery can be requirements for archiving data. These can be very large amounts of data.
+- Lowest Price: The archive tier is the lowest price for storage on Azure. A few dollars a month can get you terabytes of space.
+- Features: Durable, encrypted and stable. Perfectly suited for data that is accessed infrequently.
+- Free Up Premium Storage: With cheap archive storage you can free up your more premium on-premisies storage.
+- Secure: Fully secure to allow for any personal data such as financial records, medical data and more.
+- Blob: Archive storage is blob storage, so the same tools will work for both.
 
 ## Storage Redundancy
 
