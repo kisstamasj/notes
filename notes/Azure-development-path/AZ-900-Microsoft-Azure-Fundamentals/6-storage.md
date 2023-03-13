@@ -61,7 +61,7 @@ Azure Storage always create multiple copies of your data:
 - Higher availablity = higher cost
   
 ### Single Region
-  - Locally Redundant Sotrage (LRS)
+  - Locally Redundant Storage (LRS)
   - Zone-Redundant Storage (ZRS)
 
 ### Multi Region
