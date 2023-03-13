@@ -50,6 +50,17 @@ Storage Account = Unique Azre Namespace
 - Blob: Archive storage is blob storage, so the same tools will work for both.
 
 ## Storage Redundancy
+Azure Storage always create multiple copies of your data:
+  - Automatic
+  - Minimum of three copies
+  - Invisible to end user
+  
+### Multiple Redundancy options
+  - Different location scopes
+    - Single zone, multi zone, multi regions
+  - Higher availablity = higher cost
+  
+### Single Region
 
 ## Moving Data
 
