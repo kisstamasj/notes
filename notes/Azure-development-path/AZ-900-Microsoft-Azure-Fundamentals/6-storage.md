@@ -257,3 +257,32 @@ Here are the various scenarios where Data Box can be used to export data from Az
 Once the data from your import order is uploaded to Azure, the disks on the device are wiped clean in accordance with NIST 800-88r1 standards. For an export order, the disks are erased once the device reaches the Azure datacenter.
 
 ## Premium Performance Options
+- Stored on SSDs: Separate considerations from managed disk types
+- Key considerations: 
+  - Available storage types for each performanece option
+  - Redundancy options
+    - Trade more perfomance for less redundancy
+
+### Standard
+Standard general-purposes v2
+- The default - supports all storage types
+- All redundancy options
+
+### Premium
+- Premium block blobs
+  - Blob storage
+  - Ideal for low-latancy blob storage workloads (AI applications, IoT analytics)
+  - Redundancy: LRS/ZRS only
+- Premium page blobs
+  - Page blobs
+    - Unmanaged virtual disk
+  - Redundancy: LRS only (single zone)
+- Premium file shares
+  - Azure Files
+  - Ideal for high-performanve entreprise (file server) applications
+  - Supports both Server Message Block (SMB) and Network File System (NFS) file shares
+  - Windows/Linux file shares
+  - Redundancy: LRS/ZRS only
+
+![image](https://user-images.githubusercontent.com/48266482/224920016-4b837578-3fac-4bf2-b88f-6d0fdf74568c.png)
+
