@@ -55,6 +55,8 @@ Azure Storage always create multiple copies of your data:
 - Minimum of three copies
 - Invisible to end user
   
+![image](https://user-images.githubusercontent.com/48266482/224895390-70e64578-7cb4-47db-8ab6-6cc05487a27e.png)
+  
 ### Multiple Redundancy options
 - Different location scopes
   - Single zone, multi zone, multi regions
