@@ -61,7 +61,9 @@ The following considerations apply to the different access tiers:
 - Data in the cool access tier can tolerate slightly lower availability, but still requires high durability, retrieval latency, and throughput characteristics similar to hot data. For cool data, a slightly lower availability service-level agreement (SLA) and higher access costs compared to hot data are acceptable trade-offs for lower storage costs.
 - Archive storage stores data offline and offers the lowest storage costs, but also the highest costs to rehydrate and access data.
 
-## Disc
+## Disk storage
+Disk storage, or Azure managed disks, are block-level storage volumes managed by Azure for use with Azure VMs. Conceptually, they’re the same as a physical disk, but they’re virtualized – offering greater resiliency and availability than a physical disk. With managed disks, all you have to do is provision the disk, and Azure will take care of the rest.
+
 - Azure Manages: You don't have to worry aboout backup and uptime
 - Size and Performance: MIcrosoft and Azure guarantees size and perfromance as per your agreement with them.
 - Upgrade: Easy to upgrade your disk and type.
@@ -85,6 +87,11 @@ Azure Files offers fully managed file shares in the cloud that are accessible vi
 ### Scanario
 - Hybrid: Supplement or replace your existing on-premises file storage solution.
 - Lift and shift: Move your existing file storages and related services to Azure.
+
+## Queue storage
+Azure Queue Storage is a service for storing large numbers of messages. Once stored, you can access the messages from anywhere in the world via authenticated calls using HTTP or HTTPS. A queue can contain as many messages as your storage account has room for (potentially millions). Each individual message can be up to 64 KB in size. Queues are commonly used to create a backlog of work to process asynchronously.
+
+Queue storage can be combined with compute functions like Azure Functions to take an action when a message is received. For example, you want to perform an action after a customer uploads a form to your website. You could have the submit button on the website trigger a message to the Queue storage. Then, you could use Azure Functions to trigger an action once the message was received.
 
 ## Archive
 - Requirement: Policies, legislation and recovery can be requirements for archiving data. These can be very large amounts of data.
