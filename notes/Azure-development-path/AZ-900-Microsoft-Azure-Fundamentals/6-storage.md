@@ -1,4 +1,4 @@
-# Storage
+# [Storage](https://learn.microsoft.com/hu-hu/training/modules/describe-azure-storage-services/2-accounts)
 Storage Account = Unique Azre Namespace
 
 - Every object in Azure has its own web address
