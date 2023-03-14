@@ -233,6 +233,8 @@
       + [Azure Data Box](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#azure-data-box)
         - [Use cases](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#use-cases)
     * [Premium Performance Options](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#premium-performance-options)
+      + [Standard](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#standard)
+      + [Premium](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#premium)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
