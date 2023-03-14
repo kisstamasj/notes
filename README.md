@@ -227,8 +227,12 @@
       + [Geo-Zone-Redundant Storage ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#geo-zone-redundant-storage-gzrs)
       + [Read access to data in the secondary region](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#read-access-to-data-in-the-secondary-region)
     * [Moving Data](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#moving-data)
-    * [Additional Migration Options](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#additional-migration-options)
+    * [Azure data migration options](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#azure-data-migration-options)
+      + [Azure Migrate](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#azure-migrate)
+      + [Integrated tools](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#integrated-tools)
     * [Premium Performance Options](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#premium-performance-options)
+      + [Azure Data Box](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#azure-data-box)
+        - [Use cases](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#use-cases)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
