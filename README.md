@@ -202,6 +202,7 @@
         - [Cache](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#cache)
         - [Origin Server](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/5-networking.md#origin-server)
   - [Storage](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#storage)
+    * [Storage account endpoints](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#storage-account-endpoints)
     * [Blob](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#blob)
       + [Blob types](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#blob-types)
       + [Pricing Tiers](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#pricing-tiers)
