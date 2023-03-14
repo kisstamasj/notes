@@ -1,8 +1,16 @@
 # [Storage](https://learn.microsoft.com/hu-hu/training/modules/describe-azure-storage-services/2-accounts)
-Storage Account = Unique Azre Namespace
+Storage Account = Unique Azure Namespace
 
-- Every object in Azure has its own web address
-  - Example: acloudguru.<storage-type>.core.windows.net
+## Storage account endpoints
+One of the benefits of using an Azure Storage Account is having a unique namespace in Azure for your data. In order to do this, every storage account in Azure must have a unique-in-Azure account name. The combination of the account name and the Azure Storage service endpoint forms the endpoints for your storage account.
+
+When naming your storage account, keep these rules in mind:
+
+- Storage account names must be between 3 and 24 characters in length and may contain numbers and lowercase letters only.
+- Your storage account name must be unique within Azure. No two storage accounts can have the same name. This supports the ability to have a unique, accessible namespace in Azure.
+The following table shows the endpoint format for Azure Storage services.
+
+![image](https://user-images.githubusercontent.com/48266482/224895641-8191146a-2433-42d6-8853-21490a26a9ee.png)
   
 ## Blob
 - Images
