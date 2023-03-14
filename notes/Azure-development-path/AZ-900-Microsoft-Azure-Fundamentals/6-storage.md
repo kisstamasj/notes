@@ -119,25 +119,32 @@ By default, data in the secondary region isn't available for read or write acces
 >Because data is replicated to the secondary region asynchronously, a failure that affects the primary region may result in data loss if the primary region can't be recovered. The interval between the most recent writes to the primary region and the last write to the secondary region is known as the recovery point objective (RPO). The RPO indicates the point in time to which data can be recovered. Azure Storage typically has an RPO of less than 15 minutes, although there's currently no SLA on how long it takes to replicate data to the secondary region.
 
 ### Geo-Redundant Storage (GRS)
-Three copies in two different regions
+GRS copies your data synchronously three times within a single physical location in the primary region using LRS. It then copies your data asynchronously to a single physical location in the secondary region (the region pair) using LRS. GRS offers durability for Azure Storage data objects of at least 16 nines (99.99999999999999%) over a given year.
 
-![image](https://user-images.githubusercontent.com/48266482/224628282-dff1103e-6b4e-4499-9a9c-de174c8539b1.png)
+![image](https://user-images.githubusercontent.com/48266482/224897847-ffcfb5c3-2c8f-42c2-a721-2845c2848b11.png)
   
-  - Three copies in primary regional physical location (LRS)
-  - Three copies in secondary (paired) region physical location (LRS)
-  - Protect against primary region failure but no primary region zone redundancy
-  - Can configure read access from seconday region for high availability
+- Three copies in primary regional physical location (LRS)
+- Three copies in secondary (paired) region physical location (LRS)
+- Protect against primary region failure but no primary region zone redundancy
+- Can configure read access from seconday region for high availability
   
 ### Geo-Zone-Redundant Storage (GZRS)
-Maximum redundancy
+GZRS combines the high availability provided by redundancy across availability zones with protection from regional outages provided by geo-replication. Data in a GZRS storage account is copied across three Azure availability zones in the primary region (similar to ZRS) and is also replicated to a secondary geographic region, using LRS, for protection from regional disasters. Microsoft recommends using GZRS for applications requiring maximum consistency, durability, and availability, excellent performance, and resilience for disaster recovery.
+GZRS is designed to provide at least 16 nines (99.99999999999999%) of durability of objects over a given year.
  
-![image](https://user-images.githubusercontent.com/48266482/224629110-5ca468f2-0bc8-4c0d-842c-94dbdd043d87.png)
+![image](https://user-images.githubusercontent.com/48266482/224898092-985f9f0b-fbb0-4ede-88d5-2f46f0d3a790.png)
  
-  - Copy acreoss three availability zones in primary region (ZRS)
-  - Three copies in secondary region physical location/zone (LRS)
-  - Protect against primary region failure AND primary region zone failure
-  - Can also configure read access from seconday region for high availablity
-  
+- Copy accross three availability zones in primary region (ZRS)
+- Three copies in secondary region physical location/zone (LRS)
+- Protect against primary region failure AND primary region zone failure
+- Can also configure read access from seconday region for high availablity
+
+### Read access to data in the secondary region
+Geo-redundant storage (with GRS or GZRS) replicates your data to another physical location in the secondary region to protect against regional outages. However, that data is available to be read only if the customer or Microsoft initiates a failover from the primary to secondary region. However, if you enable read access to the secondary region, your data is always available, even when the primary region is running optimally. For read access to the secondary region, enable read-access geo-redundant storage (RA-GRS) or read-access geo-zone-redundant storage (RA-GZRS).
+
+> **Important:**
+> Remember that the data in your secondary region may not be up-to-date due to RPO.
+
 ## Moving Data
 
 ## Additional Migration Options
