@@ -255,6 +255,7 @@
     * [PostgreSQL](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#postgresql)
       + [Features](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#features)
       + [Use Cases](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#use-cases)
+      + [Quickstart](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#quickstart-3)
     * [Database Migration Services](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#database-migration-services)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
