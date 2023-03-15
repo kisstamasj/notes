@@ -254,6 +254,15 @@
       + [Use Cases](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#use-cases)
       + [Quickstart](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#quickstart-3)
     * [Database Migration Services](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#database-migration-services)
+  - [Authentication and Authorization](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#authentication-and-authorization)
+    * [Azure authentication methods](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#azure-authentication-methods)
+      + [What's single sign-on?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#whats-single-sign-on)
+      + [What’s Multifactor Authentication?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#whats-multifactor-authentication)
+      + [What's Azure AD Multi-Factor Authentication?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#whats-azure-ad-multi-factor-authentication)
+      + [What’s passwordless authentication?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#whats-passwordless-authentication)
+        - [Windows Hello for Business](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#windows-hello-for-business)
+        - [Microsoft Authenticator App](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#microsoft-authenticator-app)
+        - [FIDO2 security keys](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#fido2-security-keys)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
