@@ -235,6 +235,17 @@
     * [Premium Performance Options](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#premium-performance-options)
       + [Standard](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#standard)
       + [Premium](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/6-storage.md#premium)
+  - [Databases](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#databases)
+    * [Cosmos DB](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#cosmos-db)
+      + [Syncronization](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#syncronization)
+      + [Scalability](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#scalability)
+      + [Connectivity](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#connectivity)
+      + [Price](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#price)
+      + [Quickstart](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#quickstart)
+    * [Azure SQL](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#azure-sql)
+    * [MySQL](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#mysql)
+    * [PostgreSQL](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#postgresql)
+    * [Database Migration Services](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#database-migration-services)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
