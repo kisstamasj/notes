@@ -83,3 +83,7 @@ Costs can run up quickly!
 [Official Microsoft Guid with Node.JS](https://learn.microsoft.com/en-us/azure/postgresql/single-server/connect-nodejs)
 
 ## Database Migration Services
+
+- Single tool: One step migration for Microsoft SQL toAzure SQL
+- Documentation: Comprehensive step-by-step guides and documentation for helping your migrate.
+- Guides for non-MS: Very detaild guides for migrating from non-Microsoft databases.
