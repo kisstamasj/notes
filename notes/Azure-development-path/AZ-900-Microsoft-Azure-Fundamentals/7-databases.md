@@ -78,4 +78,8 @@ Costs can run up quickly!
 
 ![image](https://user-images.githubusercontent.com/48266482/225220901-5d311461-c5b9-48ec-b6ec-39a041a0cc77.png)
 
+### Quickstart
+
+[Official Microsoft Guid with Node.JS](https://learn.microsoft.com/en-us/azure/postgresql/single-server/connect-nodejs)
+
 ## Database Migration Services
