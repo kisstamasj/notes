@@ -243,7 +243,11 @@
       + [Price](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#price)
       + [Quickstart](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#quickstart)
     * [Azure SQL](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#azure-sql)
+      + [Built-in Machine Learning](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#built-in-machine-learning)
+      + [SQL Database VS. SQL Managed Instance](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#sql-database-vs-sql-managed-instance)
+      + [Quickstart](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#quickstart-1)
     * [MySQL](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#mysql)
+      + [Quickstart](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#quickstart-2)
     * [PostgreSQL](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#postgresql)
     * [Database Migration Services](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#database-migration-services)
 
