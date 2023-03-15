@@ -51,6 +51,16 @@ Costs can run up quickly!
 
 ![image](https://user-images.githubusercontent.com/48266482/225220033-b30df18b-22b0-40d8-b289-5f82300c3282.png)
 
+- Platfrom-as-a-Service: The service infrastructure is managed by Microsoft
+- Development focus
+- Choice of Language
+- High Availability
+- Azure Security Features
+- Cloud Capabalities
+
+### MySQL us Cases
+
+![image](https://user-images.githubusercontent.com/48266482/225220475-b90bac90-b199-4b90-8aaf-21d1e3551d6b.png)
 
 ### Quickstart
 
