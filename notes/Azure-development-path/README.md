@@ -247,8 +247,12 @@
       + [SQL Database VS. SQL Managed Instance](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#sql-database-vs-sql-managed-instance)
       + [Quickstart](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#quickstart-1)
     * [MySQL](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#mysql)
+      + [MySQL us Cases](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#mysql-us-cases)
       + [Quickstart](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#quickstart-2)
     * [PostgreSQL](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#postgresql)
+      + [Features](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#features)
+      + [Use Cases](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#use-cases)
+      + [Quickstart](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#quickstart-3)
     * [Database Migration Services](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#database-migration-services)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
