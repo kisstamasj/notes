@@ -257,6 +257,7 @@
       + [Use Cases](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#use-cases)
       + [Quickstart](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#quickstart-3)
     * [Database Migration Services](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/7-databases.md#database-migration-services)
+  - [Authentication and Authorization](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#authentication-and-authorization)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
