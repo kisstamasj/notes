@@ -274,6 +274,7 @@
         - [Microsoft Authenticator App](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#microsoft-authenticator-app)
         - [FIDO2 security keys](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#fido2-security-keys)
     * [Azure external identities](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#azure-external-identities)
+    * [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#exam-tips)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
