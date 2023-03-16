@@ -130,3 +130,13 @@ Depending on how you want to interact with external organizations and the types 
 With Azure Active Directory (Azure AD), you can easily enable collaboration across organizational boundaries by using the Azure AD B2B feature. Guest users from other tenants can be invited by administrators or by other users. This capability also applies to social identities such as Microsoft accounts.
 
 You also can easily ensure that guest users have appropriate access. You can ask the guests themselves or a decision maker to participate in an access review and recertify (or attest) to the guests' access. The reviewers can give their input on each user's need for continued access, based on suggestions from Azure AD. When an access review is finished, you can then make changes and remove access for guests who no longer need it.
+
+## Exam tips
+
+- Active Directory (AD) is not the same as Azure Active Directory
+- Different skillset from AD to Azure AD
+- Every Azure account will have an Azure AD service
+- A tenant is a dedicated instance of Azure AD. It represents your organisation in Azure.
+- A user belongs to a single tenant, but can be guest in multiple
+- A subscription is a billing entity. All resources belong to a single subscription.
+- Azure AD can help manage users in a hybrid cloud setup.
