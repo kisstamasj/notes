@@ -270,6 +270,13 @@
         - [Windows Hello for Business](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#windows-hello-for-business)
         - [Microsoft Authenticator App](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#microsoft-authenticator-app)
         - [FIDO2 security keys](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#fido2-security-keys)
+    * [Azure external identities](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#azure-external-identities)
+    * [Azure conditional access](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#azure-conditional-access)
+      + [When can I use Conditional Access?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#when-can-i-use-conditional-access)
+    * [Azure role-based access control](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#azure-role-based-access-control)
+      + [How is role-based access control applied to resources?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#how-is-role-based-access-control-applied-to-resources)
+      + [How is Azure RBAC enforced?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#how-is-azure-rbac-enforced)
+    * [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#exam-tips)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
