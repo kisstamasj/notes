@@ -12,3 +12,6 @@ https://medium.com/@philipfeng/modern-open-source-messaging-apache-kafka-rabbitm
 
 ### APIs for building portable and reliable microservices
 https://dapr.io
+
+### Microservices Best Practices
+https://semaphoreci.com/blog/microservices-best-practices
