@@ -1,4 +1,4 @@
-# Authentication and Authorization
+# Azure identity, access, and security 
 
 ## Azure directory services
 Azure Active Directory (Azure AD) is a directory service that enables you to sign in and access both Microsoft cloud applications and cloud applications that you develop. Azure AD can also help you maintain your on-premises Active Directory deployment.
