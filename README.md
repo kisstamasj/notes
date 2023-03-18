@@ -276,7 +276,7 @@
     * [Azure external identities](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#azure-external-identities)
     * [Azure conditional access](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#azure-conditional-access)
       + [When can I use Conditional Access?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#when-can-i-use-conditional-access)
-    * [Azure role-based access control](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#azure-role-based-access-control)
+    * [Azure role-based access control ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#azure-role-based-access-control-azure-rbac)
       + [How is role-based access control applied to resources?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#how-is-role-based-access-control-applied-to-resources)
       + [How is Azure RBAC enforced?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#how-is-azure-rbac-enforced)
     * [Zero trust model](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-authentication-and-authorization.md#zero-trust-model)
