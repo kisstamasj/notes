@@ -266,7 +266,7 @@
     * [How does Azure AD DS work?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#how-does-azure-ad-ds-work)
     * [Is information synchronized?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#is-information-synchronized)
     * [Azure authentication methods](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#azure-authentication-methods)
-      + [What's single sign-on?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#whats-single-sign-on)
+      + [What's single sign-on? ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#whats-single-sign-on-azure-active-directory-seamless-single-sign-on)
       + [What’s Multifactor Authentication?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#whats-multifactor-authentication)
       + [What's Azure AD Multi-Factor Authentication?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#whats-azure-ad-multi-factor-authentication)
       + [What’s passwordless authentication?](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#whats-passwordless-authentication)
@@ -368,6 +368,9 @@
     * [Basics](./notes/Azure-development-path/README.md#basics)
 
 ## [Frontend](./notes/Frontend/)
+
+
+## [Complete React Course](./notes/Frontend/Complete%20React%20Course/)
 
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
