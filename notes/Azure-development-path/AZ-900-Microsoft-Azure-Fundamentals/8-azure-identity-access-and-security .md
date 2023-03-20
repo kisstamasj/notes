@@ -56,7 +56,7 @@ The following diagram shows the security level compared to the convenience. Noti
 
 ![image](https://user-images.githubusercontent.com/48266482/225225236-2d3eb297-0416-46b3-a369-f2de41a2e453.png)
 
-### What's single sign-on?
+### What's single sign-on? (Azure Active Directory Seamless Single Sign-On)
 Single sign-on (SSO) enables a user to sign in one time and use that credential to access multiple resources and applications from different providers. For SSO to work, the different applications and providers must trust the initial authenticator.
 
 More identities mean more passwords to remember and change. Password policies can vary among applications. As complexity requirements increase, it becomes increasingly difficult for users to remember them. The more passwords a user has to manage, the greater the risk of a credential-related security incident.
