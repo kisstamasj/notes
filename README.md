@@ -373,8 +373,11 @@
 ## [Complete React Course](./notes/Frontend/Complete%20React%20Course/)
 
   - [React Principles](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#react-principles)
-    * [Don't touch the DOM. I'll do it.](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#dont-touch-the-dom-ill-do-it)
-    * [Build websites like lego blocks](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#build-websites-like-lego-blocks)
+    * [1. Don't touch the DOM. I'll do it.](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#1-dont-touch-the-dom-ill-do-it)
+    * [2. Build websites like lego blocks](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#2-build-websites-like-lego-blocks)
+    * [Unidirectional data flow](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#unidirectional-data-flow)
+    * [UI, The rest is up to you](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#ui-the-rest-is-up-to-you)
+  - [The job of a React developer](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#the-job-of-a-react-developer)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
