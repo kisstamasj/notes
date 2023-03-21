@@ -1,12 +1,25 @@
 # React Principles
 
-## Don't touch the DOM. I'll do it.
+## 1. Don't touch the DOM. I'll do it.
 - **Imperative**: Manipulate the DOM directly.
-- **Declarative**: React change the DOM.
+- **Declarative**: React change the DOM. Give some states wich create VirtualDOM, then react update the DOM.
 
-## Build websites like lego blocks
+## 2. Build websites like lego blocks
+
 - Reusable components
 
-##
+## Unidirectional data flow
 
-##
+- **VirtualDOM**: Javascript version of the DOM. Tree like object. Blue print.
+- One way data flow in the component tree (top to bottom).
+- Easyer to debug the code.
+
+## UI, The rest is up to you
+- There is a lots of UI library under React.
+
+
+# The job of a React developer
+
+- Decide on Components: How to beark down the app to components
+- Decide the state and where it lives
+- What changes when state changes
