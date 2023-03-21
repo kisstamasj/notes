@@ -372,6 +372,9 @@
 
 ## [Complete React Course](./notes/Frontend/Complete%20React%20Course/)
 
+  - [React Principles](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#react-principles)
+    * [Don't touch the DOM. I'll do it.](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#dont-touch-the-dom-ill-do-it)
+    * [Build websites like lego blocks](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#build-websites-like-lego-blocks)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
