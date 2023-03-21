@@ -378,6 +378,7 @@
     * [Unidirectional data flow](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#unidirectional-data-flow)
     * [UI, The rest is up to you](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#ui-the-rest-is-up-to-you)
   - [The job of a React developer](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#the-job-of-a-react-developer)
+  - [NPM vs. Yarn](./notes/Frontend/Complete%20React%20Course/2-react-bascics.md#npm-vs-yarn)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
