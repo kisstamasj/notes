@@ -405,7 +405,45 @@ Defender for cloud provides advanced threat protection features for many of your
 - Also exposed to the public
 - Problem with sensitive resources
 
-### **Solution**: "Good" and "Better"
+![image](https://user-images.githubusercontent.com/48266482/226823111-fd6b64ea-8a60-4426-b6c8-ce8301eeb99e.png)
+
+
+#### **Solution**: "Good" and "Better"
+- "Good": service endpoints
+- "Better": private endpoints
+
+### Service Endpoint
+![image](https://user-images.githubusercontent.com/48266482/226823203-df8ca1f1-696e-4ebf-801f-9e038a8637ee.png)
+
+Privatly connect VNet subnet to Azure PaaS services
+- Direct connection from subnet to Azure PaaS services
+- Connects over Microsoft's private backbone (not over public internet)
+
+![image](https://user-images.githubusercontent.com/48266482/226823431-171b0d73-e8ed-4eee-a543-32d67b5ddcda.png)
+
+#### Limitation
+- Secure access to VNet only
+  - No private on-premises access
+  - Must allow on-premises access over public IP
+- PaaS public endpoints still exists
+  - Not truly private
+- Service endpoints provide access to an entire service
+  - For example, provides private access ti all of Azure Storage, not just a single storage account
+
+
+### Private endpoint
+**Managed network interface**
+- Privacte connection to specific instace of a service
+- e.g. single storage account, SQL instance etc.
+
+**Available over connected networks**
+- Hybrid/on-premises networks
+- Peered virtual networks
+
+**Can completely disable public access to a connected service**
+
+![image](https://user-images.githubusercontent.com/48266482/226824535-ff38b463-d9a8-428f-bfe9-91c0b83765a6.png)
+
 
 ## Exam tips
 
