@@ -298,6 +298,10 @@
         - [Defend](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#defend)
         - [Security alerts](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#security-alerts)
         - [Advanced threat protection](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#advanced-threat-protection)
+    * [Securing Network Connectivity](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#securing-network-connectivity)
+      + [Distributed Denial of Service ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#distributed-denial-of-service-ddos)
+      + [Network Security Group ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#network-security-group-nsg)
+    * [Application Security Groups](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#application-security-groups)
     * [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#exam-tips)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
