@@ -52,6 +52,7 @@ export default App;
 
 ## Class Component State management
 Whenever the state changes then the whole component is rerendered.
+For changing the state it has to use the ```this.setState()``` function.
 ```js
 import { Component } from 'react'
 
