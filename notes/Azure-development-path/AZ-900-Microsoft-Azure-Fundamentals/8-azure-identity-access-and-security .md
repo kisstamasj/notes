@@ -396,6 +396,16 @@ Defender for cloud provides advanced threat protection features for many of your
 - **Protects Application Infrastructure**: Focus the security on the application rather than the IP endpoint.
 - **Natural Extension**: Group VMs and virtual networks into logical application groups and apply an application security group.
 
+## Public and Private Endpoints
+
+### Public Endpoints = Publicly Rreachable PaaS Services
+
+#### **Default:**: Managed (PaaS) services reachable over the public internet.
+- Virtual network -> PaaS over public internet
+- Also exposed to the public
+- Problem with sensitive resources
+
+### **Solution**: "Good" and "Better"
 
 ## Exam tips
 
