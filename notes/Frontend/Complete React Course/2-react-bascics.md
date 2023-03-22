@@ -51,8 +51,9 @@ export default App;
 ```
 
 ## Class Component State management
-Whenever the state changes then the whole component is rerendered.
-For changing the state it has to use the ```this.setState()``` function.
+- Whenever the state changes then the whole component is rerendered.
+- State change: ```this.setState()```
+
 ```js
 import { Component } from 'react'
 
@@ -76,7 +77,7 @@ class App extends Component {
           <p>
             Hi {this.state.name}
           </p>
-          <button>Change Name</button>
+          <button onClick={() => this.setState({name:'Tomi'})}>Change Name</button>
         </header>
 
       </div>
