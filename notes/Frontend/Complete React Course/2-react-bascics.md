@@ -18,7 +18,7 @@ JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes i
 
 ## Basic Class component
 The render method render th UI.
-```
+```js
 import { Component } from 'react'
 
 import logo from './logo.svg';
