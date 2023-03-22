@@ -51,6 +51,7 @@ export default App;
 ```
 
 ## Class Component State management
+Whenever the state changes then the whole component is rerendered.
 ```js
 import { Component } from 'react'
 
