@@ -312,6 +312,7 @@
       + [Service Endpoint](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#service-endpoint)
         - [Limitation](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#limitation)
       + [Private endpoint](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#private-endpoint)
+      + [Scenario](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#scenario)
     * [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#exam-tips)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
