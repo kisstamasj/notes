@@ -444,6 +444,10 @@ Privatly connect VNet subnet to Azure PaaS services
 
 ![image](https://user-images.githubusercontent.com/48266482/226824535-ff38b463-d9a8-428f-bfe9-91c0b83765a6.png)
 
+### Scenario
+
+![image](https://user-images.githubusercontent.com/48266482/226824744-12dba15d-1006-4222-bffa-1c0b73ad4279.png)
+
 
 ## Exam tips
 
