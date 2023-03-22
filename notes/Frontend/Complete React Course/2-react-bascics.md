@@ -16,7 +16,7 @@ JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes i
 
 # Class and Functional components 
 
-## Class component
+## Basic Class component
 The render method render th UI.
 ```
 import { Component } from 'react'
@@ -42,6 +42,41 @@ class App extends Component {
             Learn React
           </a>
         </header>
+      </div>
+    );
+  }
+}
+
+export default App;
+```
+
+## Class Component State management
+```js
+import { Component } from 'react'
+
+import logo from './logo.svg';
+import './App.css';
+
+class App extends Component {
+  constructor(){
+    super();
+
+    this.state = {
+      name: 'Yihua'
+    }
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Hi {this.state.name}
+          </p>
+          <button>Change Name</button>
+        </header>
+
       </div>
     );
   }
