@@ -302,6 +302,10 @@
       + [Distributed Denial of Service ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#distributed-denial-of-service-ddos)
       + [Network Security Group ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#network-security-group-nsg)
     * [Application Security Groups](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#application-security-groups)
+    * [Public and Private Endpoints](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#public-and-private-endpoints)
+      + [Public Endpoints = Publicly Rreachable PaaS Services](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#public-endpoints--publicly-rreachable-paas-services)
+        - [**Default:**: Managed ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#default-managed-paas-services-reachable-over-the-public-internet)
+      + [**Solution**: "Good" and "Better"](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#solution-good-and-better)
     * [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#exam-tips)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
