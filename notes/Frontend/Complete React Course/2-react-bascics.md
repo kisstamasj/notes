@@ -52,7 +52,8 @@ export default App;
 
 ## Class Component State management
 - Whenever the state changes then the whole component is rerendered.
-- set the state: ```this.setState()``` this method will shallow merge the current state
+- set the state: ```this.setState()``` 
+  - this method will shallow merge the current state, this means only updates the given property of the state
 
 ```js
 import { Component } from 'react'
