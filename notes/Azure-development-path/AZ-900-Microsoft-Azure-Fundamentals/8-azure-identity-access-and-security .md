@@ -378,7 +378,7 @@ Defender for cloud provides advanced threat protection features for many of your
 
 ## Securing Network Connectivity
 
-## Distributed Denial of Service (DDoS)
+### Distributed Denial of Service (DDoS)
 
 ![image](https://user-images.githubusercontent.com/48266482/226818064-8d5ca76a-d913-40e5-ad59-779e77e1e8a0.png)
 
@@ -386,6 +386,15 @@ Defender for cloud provides advanced threat protection features for many of your
 - **Protection**: Detects the DDoS attack and deflects it. Various levels of protection depending on scenario.
 - **![image](https://user-images.githubusercontent.com/48266482/226818539-570c246d-c6ee-4ed6-b2e7-557a0fb28b5f.png)
 - **No downtime**: There is no interruption to your service at all. Azure will mitigate the attack globally.
+
+### Network Security Group (NSG)
+- **Rresource Firewall**: Personal resource firewall. Attach to virtual network, subnet or network interface.
+- **Rules**: A NSG determines who can access the resources attached to it, using rules for inbound and outbound traffic.
+![image](https://user-images.githubusercontent.com/48266482/226819990-cfb18326-e8e3-42a5-9445-b0fbed73840e.png)
+
+## Application Security Groups
+- **Protects Application Infrastructure**: Focus the security on the application rather than the IP endpoint.
+- **Natural Extension**: Group VMs and virtual networks into logical application groups and apply an application security group.
 
 
 ## Exam tips
