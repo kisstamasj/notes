@@ -14,7 +14,7 @@
 # JSX
 JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
 
-# Class and Functional components 
+# Class components 
 
 ## Basic Class component
 The render method render th UI.
@@ -50,7 +50,7 @@ class App extends Component {
 export default App;
 ```
 
-## Class Component State management
+## Class Component State Management
 - Whenever the state changes then the whole component is rerendered.
 - set the state: ```this.setState()``` 
   - this method will shallow merge the current state, this means only updates the given property of the state
@@ -103,3 +103,8 @@ class App extends Component {
 
 export default App;
 ```
+
+## Lifecycle methods
+Lifecycle methods are special methods built into React, used to operate on components throughout their duration in the DOM. For example, when the component mounts, renders, updates, or unmounts.
+
+- ```componentDidMount()```: Run whenerver the component mount
