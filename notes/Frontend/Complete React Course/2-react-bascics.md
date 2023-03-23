@@ -56,7 +56,7 @@ export default App;
   - this method will shallow merge the current state, this means only updates the given property of the state
   - the set State method is an asyncronous function
   - it can access two callback function: the first is the setter (the return object will be the state), the second function will be called after the setState
-    ```
+    ```js
     this.setState(() => {
         return {name:{firstName: 'Tomi', lastName: 'Kiss'}}
       }, () => {
