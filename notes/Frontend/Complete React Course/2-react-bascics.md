@@ -107,4 +107,4 @@ export default App;
 ## Lifecycle methods
 Lifecycle methods are special methods built into React, used to operate on components throughout their duration in the DOM. For example, when the component mounts, renders, updates, or unmounts.
 
-- ```componentDidMount()```: Run whenerver the component mount
+- ```componentDidMount()```: Called whenerver the component mounted
