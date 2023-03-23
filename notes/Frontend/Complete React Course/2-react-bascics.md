@@ -54,6 +54,17 @@ export default App;
 - Whenever the state changes then the whole component is rerendered.
 - set the state: ```this.setState()``` 
   - this method will shallow merge the current state, this means only updates the given property of the state
+  - the set State method is an asyncronous function
+  - it can access two callback function: the first is the setter (the return object will be the state), the second function will be called after the setState
+    ```
+    this.setState(() => {
+        return {name:{firstName: 'Tomi', lastName: 'Kiss'}}
+      }, () => {
+        console.log(this.state)
+      })
+      console.log(this.state)
+    }}
+    ```
 
 ```js
 import { Component } from 'react'
