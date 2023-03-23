@@ -62,7 +62,6 @@ export default App;
       }, () => {
         console.log(this.state)
       })
-      console.log(this.state)
     }}
     ```
 
