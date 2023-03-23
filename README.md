@@ -397,6 +397,7 @@
     * [Basic Class component](./notes/Frontend/Complete%20React%20Course/2-react-bascics.md#basic-class-component)
     * [Class Component State Management](./notes/Frontend/Complete%20React%20Course/2-react-bascics.md#class-component-state-management)
     * [Lifecycle methods](./notes/Frontend/Complete%20React%20Course/2-react-bascics.md#lifecycle-methods)
+      + [Lifecycle runing order](./notes/Frontend/Complete%20React%20Course/2-react-bascics.md#lifecycle-runing-order)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
