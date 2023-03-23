@@ -111,5 +111,6 @@ Lifecycle methods are special methods built into React, used to operate on compo
 
 ### Lifecycle running order
 1. constructor()
-2. render()
+2. inital render()
 3. componentDidMount()
+4. after setState rerender the component
