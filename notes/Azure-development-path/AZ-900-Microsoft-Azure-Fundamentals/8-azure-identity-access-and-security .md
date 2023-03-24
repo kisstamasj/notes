@@ -381,6 +381,13 @@ Defender for cloud provides advanced threat protection features for many of your
 2. **Proctect Resources**: Activliy protect your resources through monitoring your policies and their outcomes.
 3. **Respond**: Respond to any security alerts. INvestigate all of them, and then go back to step 1 to define new polices to account for the alert.
 
+## Azure Key Vault
+It is a safe place to store passsword and secrets.
+
+- **Secure Hardware**: The Key Vault hardware is secure too. Not even Microsoft can access the keys in it.
+- **Application Isolation**: An application can't pass on secrets, nor access another application's secrets.
+- **Global scaling**: Scale globally like any other managaed Azure service.
+
 ## Securing Network Connectivity
 
 ### Distributed Denial of Service (DDoS)
