@@ -18,7 +18,7 @@ JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes i
 
 ## Basic Class component
 - The render method render th UI.
-- The render method can return only one element, can not be a sibling element, 
+- The render method can return only one element, can not be a sibling element
   ```jsx
   render() {
       return (
@@ -28,6 +28,7 @@ JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes i
       )
   }
   ```
+- The render method will be called when on state change or props change. If a component is getting rerender then all the component will be rerendered inside that component. The render flow goes down on the component tree.
 
 ```jsx
 import { Component } from 'react'
