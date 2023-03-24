@@ -299,6 +299,7 @@
         - [Security alerts](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#security-alerts)
         - [Advanced threat protection](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#advanced-threat-protection)
       + [Using Defender for Cloud](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#using-defender-for-cloud)
+    * [Azure Key Vault](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#azure-key-vault)
     * [Securing Network Connectivity](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#securing-network-connectivity)
       + [Distributed Denial of Service ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#distributed-denial-of-service-ddos)
       + [Network Security Group ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#network-security-group-nsg)
