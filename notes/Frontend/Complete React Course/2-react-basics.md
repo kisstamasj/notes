@@ -114,3 +114,6 @@ Lifecycle methods are special methods built into React, used to operate on compo
 2. inital render()
 3. componentDidMount()
 4. after setState rerender the component
+
+## Anonymus functions
+Every time when a component is rerender javascript has to store again the anonymus function, because it isn't assigned to a variable, and then isn't in the memory.
