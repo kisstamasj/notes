@@ -17,7 +17,18 @@ JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes i
 # Class components 
 
 ## Basic Class component
-The render method render th UI.
+- The render method render th UI.
+- The render method can return only one element, can not be a sibling element, 
+  ```
+  render() {
+      return (
+          <div>
+              <h1>Hello this is the CardList component</h1>
+          </div>
+      )
+  }
+  ```
+
 ```js
 import { Component } from 'react'
 
