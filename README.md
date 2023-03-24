@@ -320,6 +320,7 @@
       + [Private endpoint](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#private-endpoint)
       + [Scenario](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#scenario)
     * [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#exam-tips)
+  - [Monitoring and Management](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoringand-management.md#monitoring-and-management)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
