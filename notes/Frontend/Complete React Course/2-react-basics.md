@@ -121,6 +121,8 @@ Lifecycle methods are special methods built into React, used to operate on compo
 
 - ```componentDidMount()```: Called whenerver the component mounted
 
+![image](https://user-images.githubusercontent.com/48266482/227633389-56ef0d75-3e57-4420-b4ba-4c91b771c2e7.png)
+
 ### Lifecycle methods flow
 1. constructor()
 2. inital render()
