@@ -409,6 +409,7 @@
     * [Folder structure policies](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#folder-structure-policies)
       + [Public](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#public)
       + [components](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#components)
+    * [CSS in components](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#css-in-components)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
