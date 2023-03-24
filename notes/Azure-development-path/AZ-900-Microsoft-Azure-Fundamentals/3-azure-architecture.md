@@ -7,7 +7,7 @@ As a global cloud provider, Azure has datacenters around the world. However, the
 
 The [Global infrastructure](https://infrastructuremap.microsoft.com/) site gives you a chance to interactively explore the underlying Azure infrastructure.
 
-## Regions 
+## Regions
 An Azure region is a set of datacenters, deployed within a latency-defined perimeter and connected through a dedicated regional low-latency network. With more global regions than any other cloud service provider, Azure gives customers the flexibility to deploy applications where they need. An Azure region has discrete pricing and service availability.
 
 ### "A set of datacenters"
@@ -15,7 +15,7 @@ Each region has more than one data center, which is a physical location.
 Ex.: East US has an official location of Virginia, but there will be more than one datacenter there.
 
 ### "Latency defined perimeter"
-Latency is the time it takes data to travel. Also means that datacenters are not "too far" from each other.
+Latency is the time it takes data to travel. Also, means that datacenters are not "too far" from each other.
 
 ### Regional low-latency network
 A fiber connection between data centers in the region.
@@ -29,8 +29,8 @@ Choose a region closest to your users to minimize latency.
 Some features aren't in all regions. If you need a specific feature, some regions might be unavailable.
 
 ### Price
-The price of services vary from region to region. 
-Ex.: The price for a VM can be 20-30% difference  from region to region.
+The price of services vary from region to region.
+Ex.: The price for a VM can be 20-30% difference from region to region.
 
 > You will often have to choose which is the most important: location, feature or price
 
@@ -38,7 +38,7 @@ Ex.: The price for a VM can be 20-30% difference  from region to region.
 Most Azure regions are paired with another region within the same geography (such as US, Europe, or Asia) at least 300 miles away. This approach allows for the replication of resources across a geography that helps reduce the likelihood of interruptions because of events such as natural disasters, civil unrest, power outages, or physical network outages that affect an entire region. For example, if a region in a pair was affected by a natural disaster, services would automatically fail over to the other region in its region pair.
 
 > **Important**
-> 
+>
 > Not all Azure services automatically replicate data or automatically fall back from a failed region to cross-replicate to another enabled region. In these scenarios, recovery and replication must be configured by the customer.
 
 ### Each Region is Paired
@@ -101,7 +101,7 @@ Resource groups provide a convenient way to group resources together. When you a
 
 When you’re provisioning resources, it’s good to think about the resource group structure that best suits your needs.
 
-For example, if you’re setting up a temporary dev environment, grouping all the resources together means you can deprovision all of the associated resources at once by deleting the resource group. If you’re provisioning compute resources that will need three different access schemas, it may be best to group resources based on the access schema, and then assign access at the resource group level.
+For example, if you’re setting up a temporary dev environment, grouping all the resources together means you can deprovision all the associated resources at once by deleting the resource group. If you’re provisioning compute resources that will need three different access schemas, it may be best to group resources based on the access schema, and then assign access at the resource group level.
 
 There aren’t hard rules about how you use resource groups, so consider how to set up your resource groups to maximize their usefulness for you.
 
@@ -113,11 +113,11 @@ Each resource can only exist on a single resource group.
 ### Add/Remove
 You can add ore remove resources to any resource group at any time.
 
-### Move resource: 
+### Move resource:
 You can move a resourece from one resource group to another.
 
 ### Resource group delete
-When a resource group is removed or deleted, all of the resources within it are deleted with it. You can remove resource groups at any time. To delete a resource group, you need access to the delete action. You also need delete for all resources in the resource group. If you have the required access, but the delete request fails, it may be because there's a lock on the resources or resource group. Even if you didn't manually lock a resource group, it may have been automatically locked by a related service. Or, the deletion can fail if the resources are connected to resources in other resource groups that aren't being deleted. For example, you can't delete a virtual network with subnets that are still in use by a virtual machine.
+When a resource group is removed or deleted, all the resources within it are deleted with it. You can remove resource groups at any time. To delete a resource group, you need access to the delete action. You also need delete for all resources in the resource group. If you have the required access, but the delete request fails, it may be because there's a lock on the resources or resource group. Even if you didn't manually lock a resource group, it may have been automatically locked by a related service. Or, the deletion can fail if the resources are connected to resources in other resource groups that aren't being deleted. For example, you can't delete a virtual network with subnets that are still in use by a virtual machine.
 
 ### Multiple Regions
 Resources from multiple regions can be in one resource group. You could have a central database server in East US and your web application could be hosted in East US2, but they are in the same resource group, as they are related.
@@ -189,7 +189,7 @@ Define dependencies between resources to make sure they don't get in a fight.
 #### Access Control
 Built-in features in the ARM make it easy to assign access rights users.
 
-#### Tagging 
+#### Tagging
 Tag resources to easily identify them for future scenarios. Tagging is a way to label individual resources.
 
 #### Billing

@@ -34,7 +34,7 @@ The other benefit of scalability is that you aren't overpaying for services. Bec
 Scaling generally comes in two varieties: vertical and horizontal. Vertical scaling is focused on increasing or decreasing the capabilities of resources. Horizontal scaling is adding or subtracting the number of resources.
 
 #### Scaling Out (Horizontal scaling)
-  
+
 With horizontal scaling, if you suddenly experienced a steep jump in demand, your deployed resources could be scaled out (either automatically or manually). For example, you could add additional virtual machines or containers, scaling out. In the same manner, if there was a significant drop in demand, deployed resources could be scaled in (either automatically or manually), scaling in.
 
 - Incrase instace count of existing resources
@@ -42,9 +42,9 @@ With horizontal scaling, if you suddenly experienced a steep jump in demand, you
 - Non-disruptive
 
 #### Scaling Up (Vertical scaling)
-  
+
 With vertical scaling, if you were developing an app and you needed more processing power, you could vertically scale up to add more CPUs or RAM to the virtual machine. Conversely, if you realized you had over-specified the needs, you could vertically scale down by lowering the CPU or RAM specifications.
-  
+
 - Incrase instace size of existing resource
 - Get a bigger server: more CPU, RAM etc..
 - Disruptive
@@ -55,12 +55,12 @@ Decrase instace size of existing resource
 ### Predicatability
 Predictability includes transparent cost usage, including accurate forecasts on future costs based on current usage.
 
-One aspect of predictability is knowing that your application will consistently perform as expected even if user load increases. This is accomplished with cloud computing features such as load balancing, high availability, and autoscaling.
+One aspect of predictability known that your application will consistently perform as expected even if user load increases. This is accomplished with cloud computing features such as load balancing, high availability, and autoscaling.
 
 Predictability in the cloud lets you move forward with confidence. Predictability can be focused on performance predictability or cost predictability. Both performance and cost predictability are heavily influenced by the Microsoft Azure Well-Architected Framework. Deploy a solution that’s built around this framework and you have a solution whose cost and performance are predictable.
 
 ####  Performance
-Performance predictability focuses on predicting the resources needed to deliver a positive experience for your customers. Autoscaling, load balancing, and high availability are just some of the cloud concepts that support performance predictability. If you suddenly need more resources, autoscaling can deploy additional resources to meet the demand, and then scale back when the demand drops. Or if the traffic is heavily focused on one area, load balancing will help redirect some of the overload to less stressed areas.
+Performance predictability focuses on predicting the resources needed to deliver a positive experience for your customers. Autoscaling, load balancing, and high availability are just some cloud concepts that support performance predictability. If you suddenly need more resources, autoscaling can deploy additional resources to meet the demand, and then scale back when the demand drops. Or if the traffic is heavily focused on one area, load balancing will help redirect some overload to less stressed areas.
 
 - Consistent experience for customers regardless of traffic
 - Autoscaling, load balancing, and high availability provide a consistence experience
@@ -118,7 +118,7 @@ CapEx is typically a one-time, up-front expenditure to purchase or secure tangib
 ### Operational Expenditure (OpEx)
 In contrast, OpEx is spending money on services or products over time. Renting a convention center, leasing a company vehicle, or signing up for cloud services are all examples of OpEx.
 
-- An ongoing cost of running a product,  buisness, or system on a day-to-day basis, including annual costs
+- An ongoing cost of running a product, buisness, or system on a day-to-day basis, including annual costs
 - Ex: The power that could be the power to run the server.
 - Pay-as-you-go
 
@@ -274,7 +274,7 @@ Your service model will determine responsibility for things like:
 - IaaS provides servers, storage and networking as a service
 - PaaS is a superset of IaaS and also includes middleware, such as database management tools
 - SaaS is when a service is built on top of PaaS, like Office 365
-- Serverless means that you don't have any servers. Let's a single function be hosted, deployed, run and managed on its own
+- Serverless means that you don't have any servers. Let a single function be hosted, deployed, run and managed on its own
 
 ## Azure Marketplace
 - Solutions and Services
@@ -291,7 +291,7 @@ Your service model will determine responsibility for things like:
   - Less maintenance than creating your own service or application from scratch. All Marketplace offerings are certified by Microsoft.
 - Efficient
   - It is much faster to build a project prototype by using ready-to-go services on the Marketplace
-- New Markets 
+- New Markets
   - You can venture into new markets by getting the full exposure of the Marketplace
 - Suppert
   - There is both technical, design and architectural design support available when you list a service on the Marketplace.
