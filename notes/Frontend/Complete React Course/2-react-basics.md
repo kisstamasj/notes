@@ -117,3 +117,14 @@ Lifecycle methods are special methods built into React, used to operate on compo
 
 ## Anonymus functions
 Every time when a component is rerender javascript has to store again the anonymus function, because it isn't assigned to a variable, and then isn't in the memory.
+
+## Folder structure policies
+
+### Public
+Take place all the publicly accessible files like pictures, favicon etct..
+
+### components
+- Inside that folder take place the components files.
+- Every componet has its own folder
+- The component name like this: ```comp-name.component.jsx```
+- 
