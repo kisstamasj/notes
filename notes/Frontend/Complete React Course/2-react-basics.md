@@ -19,7 +19,7 @@ JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes i
 ## Basic Class component
 - The render method render th UI.
 - The render method can return only one element, can not be a sibling element, 
-  ```
+  ```jsx
   render() {
       return (
           <div>
@@ -29,7 +29,7 @@ JSX stands for JavaScript XML. JSX allows us to write HTML in React. JSX makes i
   }
   ```
 
-```js
+```jsx
 import { Component } from 'react'
 
 import logo from './logo.svg';
@@ -67,7 +67,7 @@ export default App;
   - this method will shallow merge the current state, this means only updates the given property of the state
   - the set State method is an asyncronous function
   - it can access two callback function: the first is the setter (the return object will be the state), the second function will be called after the setState
-    ```js
+    ```jsx
     this.setState(() => {
         return {name:{firstName: 'Tomi', lastName: 'Kiss'}}
       }, () => {
@@ -76,7 +76,7 @@ export default App;
     }}
     ```
 
-```js
+```jsx
 import { Component } from 'react'
 
 import logo from './logo.svg';
