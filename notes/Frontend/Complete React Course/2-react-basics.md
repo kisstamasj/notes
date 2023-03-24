@@ -137,7 +137,7 @@ Take place all the publicly accessible files like pictures, favicon etct..
 
 ### components
 - Inside that folder take place the components files. (jsx, css)
-- Every componet has its own folder
+- Every component has its own folder
 - The component name like this: ```comp-name.component.jsx```
 
 ## CSS in components
