@@ -136,6 +136,10 @@ Every time when a component is rerender javascript has to store again the anonym
 Take place all the publicly accessible files like pictures, favicon etct..
 
 ### components
-- Inside that folder take place the components files.
+- Inside that folder take place the components files. (jsx, css)
 - Every componet has its own folder
 - The component name like this: ```comp-name.component.jsx```
+
+## CSS in components
+- import css file: ```import './App.css';```
+- **Anywhere import the css file, it will applied in the entire app.**
