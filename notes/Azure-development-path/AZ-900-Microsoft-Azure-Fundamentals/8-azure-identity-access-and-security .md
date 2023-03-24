@@ -391,6 +391,15 @@ Defender for cloud provides advanced threat protection features for many of your
 2. **Proctect Resources**: Activliy protect your resources through monitoring your policies and their outcomes.
 3. **Respond**: Respond to any security alerts. INvestigate all of them, and then go back to step 1 to define new polices to account for the alert.
 
+## Azure Sentinel
+Sentinel is a security information and event management (SIEM) tool.
+![image](https://user-images.githubusercontent.com/48266482/227431726-7bc3c8c1-a5b5-494c-9c65-b77fe0e92620.png)
+
+### Benefits and Features
+- **Behavioral Analytics**: Sentinel uses artificial intelligence to learn if any detected behavior is unusual.
+- **AWS Integration**: Data from AWS services can be fed directly into Sentinel. This gives you one approach for threat detection across your multi-cloud infrastructure.
+- **Cloud Scale**: Sentinel can take advantage of the Azure Cloud scale and deliver more accrurate results fast.
+
 ## Azure Key Vault
 It is a safe place to store passsword and secrets.
 
