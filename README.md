@@ -338,6 +338,7 @@
       + [Azure Compliance Manager](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#azure-compliance-manager)
       + [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#exam-tips)
     * [Privacy](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#privacy)
+      + [Azure Privacy](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#azure-privacy)
     * [Trust](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#trust)
     * [Azure Arc](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#azure-arc)
 
