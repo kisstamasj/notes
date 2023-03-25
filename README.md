@@ -335,6 +335,8 @@
     * [Azure Service Health](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#azure-service-health)
       + [Azure Advisor](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#azure-advisor)
     * [Compliance](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#compliance)
+      + [Azure Compliance Manager](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#azure-compliance-manager)
+      + [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#exam-tips)
     * [Privacy](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#privacy)
     * [Trust](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#trust)
     * [Azure Arc](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#azure-arc)
