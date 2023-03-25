@@ -147,10 +147,14 @@ Azure knows about compliance and resources, and can give you recommendations thr
 - GDPR, ISO and NIST are regulations and standards to ensure compliance with applicable legislation.
 - Azure Compliance Manager provides recommendations, tasks to assign team members, a compliance score, secure document storage and reports.
 - Azure Government Cloud provides dedicated datacenters to US Government bodies. Compliant with US federal, state and local requirements.
-- Azure Chine region contains all data and datacenters within China. Complies with all applicable Chinese regulations.
+- Azure China region contains all data and datacenters within China. Complies with all applicable Chinese regulations.
 
 ## Privacy
-
+### Azure Privacy
+- **Azure information Protection**: Classify, label and protect data based on data sensitivity.
+- **Azure Policy**: Define and enforce rules to ensure privacy and external egulations.
+- **Guides**: Use guides on Azure to respond and comply with GDPR privacy requrests.
+- **Compliance Manager**: Make sure you are following privacy guidelines.
 
 ## Trust
 
