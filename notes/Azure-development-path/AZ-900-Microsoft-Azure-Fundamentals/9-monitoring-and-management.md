@@ -58,6 +58,11 @@ Additionally, you can use the data to help you react to critical events in real 
 ### Azure Log Analytics
 Azure Log Analytics is the tool in the Azure portal where you’ll write and run log queries on the data gathered by Azure Monitor. Log Analytics is a robust tool that supports both simple, complex queries, and data analysis. You can write a simple query that returns a set of records and then use features of Log Analytics to sort, filter, and analyze the records. You can write an advanced query to perform statistical analysis and visualize the results in a chart to identify a particular trend. Whether you work with the results of your queries interactively or use them with other Azure Monitor features such as log query alerts or workbooks, Log Analytics is the tool that you're going to use to write and test those queries.
 
+![image](https://user-images.githubusercontent.com/48266482/227700232-4cc23c61-d670-4818-b008-3da10a0abe59.png)
+
+![image](https://user-images.githubusercontent.com/48266482/227700247-5d48647d-cb8f-4ab9-89e8-49c767c435e8.png)
+
+
 ### Azure Monitor Alerts
 Azure Monitor Alerts are an automated way to stay informed when Azure Monitor detects a threshold being crossed. You set the alert conditions, the notification actions, and then Azure Monitor Alerts notifies when an alert is triggered. Depending on your configuration, Azure Monitor Alerts can also attempt corrective action.
 
@@ -82,6 +87,10 @@ Once Application Insights is up and running, you can use it to monitor a broad a
 - Performance counters from Windows or Linux server machines, such as CPU, memory, and network usage
 
 Not only does Application Insights help you monitor the performance of your application, but you can also configure it to periodically send synthetic requests to your application, allowing you to check the status and monitor your application even during periods of low activity.
+
+![image](https://user-images.githubusercontent.com/48266482/227700311-28881849-4197-430d-b50c-275a73fc3cd4.png)
+
+![image](https://user-images.githubusercontent.com/48266482/227700330-675fa3bc-9124-4460-8793-e0f8aefc681d.png)
 
 ## Azure Service Health
 Microsoft Azure provides a global cloud solution to help you manage your infrastructure needs, reach your customers, innovate, and adapt rapidly. Knowing the status of the global Azure infrastructure and your individual resources could seem like a daunting task. Azure Service Health helps you keep track of Azure resource, both your specifically deployed resources and the overall status of Azure. Azure service health does this by combining three different Azure services:
