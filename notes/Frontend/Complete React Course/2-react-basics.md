@@ -176,6 +176,12 @@ const App = () => {
 }
 ```
 
+## Pure function
+Pure functions are the functions that always yield consistent output and do not have any side effects. Pure function makes the code easily readable, and testable and increases the performance.
+
+## Inpure function
+An impure function is a function that contains one or more side effects. It mutates data outside of its lexical scope and does not predictably produce the same output for the same input.
+
 # Anonymus functions
 Every time when a component is rerender javascript has to store again the anonymus function, because it isn't assigned to a variable, and then isn't in the memory.
 
