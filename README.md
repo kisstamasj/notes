@@ -333,6 +333,7 @@
       + [Azure Monitor Alerts](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#azure-monitor-alerts)
       + [Application Insights](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#application-insights)
     * [Azure Service Health](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#azure-service-health)
+      + [Azure Advisor](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#azure-advisor)
     * [Compliance](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#compliance)
     * [Privacy](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#privacy)
     * [Trust](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#trust)
