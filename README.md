@@ -427,6 +427,8 @@
     * [Lifecycle methods in class components](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#lifecycle-methods-in-class-components)
       + [Lifecycle methods flow](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#lifecycle-methods-flow)
   - [Functional Component](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#functional-component)
+    * [Pure function](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#pure-function)
+    * [Inpure function](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#inpure-function)
   - [Anonymus functions](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#anonymus-functions)
   - [Folder structure policies](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#folder-structure-policies)
     * [Public](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#public)
