@@ -129,19 +129,25 @@ Lifecycle methods are special methods built into React, used to operate on compo
 3. componentDidMount()
 4. after setState rerender the component
 
-## Anonymus functions
+# Functional Component
+- No constructor method (there is no class)
+- Return JSX
+- 
+
+# Anonymus functions
 Every time when a component is rerender javascript has to store again the anonymus function, because it isn't assigned to a variable, and then isn't in the memory.
 
-## Folder structure policies
+# Folder structure policies
 
-### Public
+## Public
 Take place all the publicly accessible files like pictures, favicon etct..
 
-### components
+## components
 - Inside that folder take place the components files. (jsx, css)
 - Every component has its own folder
 - The component name like this: ```comp-name.component.jsx```
 
-## CSS in components
+# CSS in components
 - import css file: ```import './App.css';```
 - **Anywhere import the css file, it will applied in the entire app.**
+
