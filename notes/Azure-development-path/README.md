@@ -318,6 +318,15 @@
       + [Scenario](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#scenario)
     * [Exam tips](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/8-azure-identity-access-and-security%20.md#exam-tips)
   - [Monitoring and Management](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoringand-management.md#monitoring-and-management)
+    * [Governance](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoringand-management.md#governance)
+      + [Azure Policy](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoringand-management.md#azure-policy)
+        - [Role-Based Access Control ](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoringand-management.md#role-based-access-control-rbac)
+    * [Azure Monitor](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoringand-management.md#azure-monitor)
+    * [Azure Service Health](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoringand-management.md#azure-service-health)
+    * [Compliance](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoringand-management.md#compliance)
+    * [Privacy](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoringand-management.md#privacy)
+    * [Trust](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoringand-management.md#trust)
+    * [Azure Arc](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoringand-management.md#azure-arc)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
