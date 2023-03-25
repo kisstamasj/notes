@@ -92,6 +92,9 @@ Not only does Application Insights help you monitor the performance of your appl
 
 ![image](https://user-images.githubusercontent.com/48266482/227700330-675fa3bc-9124-4460-8793-e0f8aefc681d.png)
 
+![image](https://user-images.githubusercontent.com/48266482/227700542-3244081b-8f4d-4f40-8e71-3d72480ecbeb.png)
+
+
 ## Azure Service Health
 Microsoft Azure provides a global cloud solution to help you manage your infrastructure needs, reach your customers, innovate, and adapt rapidly. Knowing the status of the global Azure infrastructure and your individual resources could seem like a daunting task. Azure Service Health helps you keep track of Azure resource, both your specifically deployed resources and the overall status of Azure. Azure service health does this by combining three different Azure services:
 
