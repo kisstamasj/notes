@@ -341,6 +341,7 @@
       + [Azure Privacy](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#azure-privacy)
     * [Trust](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#trust)
     * [Azure Arc](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#azure-arc)
+      + [Benefits](./notes/Azure-development-path/AZ-900-Microsoft-Azure-Fundamentals/9-monitoring-and-management.md#benefits)
 
 ## [Basics](./notes/Azure-development-path/Basics/)
 
