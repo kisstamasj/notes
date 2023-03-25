@@ -157,5 +157,6 @@ Azure knows about compliance and resources, and can give you recommendations thr
 - **Compliance Manager**: Make sure you are following privacy guidelines.
 
 ## Trust
+![image](https://user-images.githubusercontent.com/48266482/227701619-591591c8-fd1e-41d0-86aa-0c8a08678512.png)
 
 ## Azure Arc
