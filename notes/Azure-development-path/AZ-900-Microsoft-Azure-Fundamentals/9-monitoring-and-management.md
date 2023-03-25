@@ -72,6 +72,8 @@ Alerts can be set up to monitor the logs and trigger on certain log events, or t
 
 Azure Monitor Alerts use action groups to configure who to notify and what action to take. An action group is simply a collection of notification and action preferences that you associate with one or multiple alerts. Azure Monitor, Service Health, and Azure Advisor all use actions groups to notify you when an alert has been triggered.
 
+![image](https://user-images.githubusercontent.com/48266482/227700542-3244081b-8f4d-4f40-8e71-3d72480ecbeb.png)
+
 ### Application Insights
 Application Insights, an Azure Monitor feature, monitors your web applications. Application Insights is capable of monitoring applications that are running in Azure, on-premises, or in a different cloud environment.
 
@@ -91,9 +93,6 @@ Not only does Application Insights help you monitor the performance of your appl
 ![image](https://user-images.githubusercontent.com/48266482/227700311-28881849-4197-430d-b50c-275a73fc3cd4.png)
 
 ![image](https://user-images.githubusercontent.com/48266482/227700330-675fa3bc-9124-4460-8793-e0f8aefc681d.png)
-
-![image](https://user-images.githubusercontent.com/48266482/227700542-3244081b-8f4d-4f40-8e71-3d72480ecbeb.png)
-
 
 ## Azure Service Health
 Microsoft Azure provides a global cloud solution to help you manage your infrastructure needs, reach your customers, innovate, and adapt rapidly. Knowing the status of the global Azure infrastructure and your individual resources could seem like a daunting task. Azure Service Health helps you keep track of Azure resource, both your specifically deployed resources and the overall status of Azure. Azure service health does this by combining three different Azure services:
