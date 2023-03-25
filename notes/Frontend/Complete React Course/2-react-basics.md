@@ -182,6 +182,11 @@ Pure functions are the functions that always yield consistent output and do not 
 ## Inpure function
 An impure function is a function that contains one or more side effects. It mutates data outside of its lexical scope and does not predictably produce the same output for the same input.
 
+## Hooks
+React Hooks are a way for your function components to “hook” into React’s lifecycle and state. They were introduced in React 16.8.0. Previously, only Class based components were able to use React’s lifecycle and state. Aside from enabling Function components to do this, Hooks make it incredibly easy to reuse stateful logic between components.
+
+- ```useState()```: set a state
+
 # Anonymus functions
 Every time when a component is rerender javascript has to store again the anonymus function, because it isn't assigned to a variable, and then isn't in the memory.
 
