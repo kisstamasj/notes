@@ -160,3 +160,6 @@ Azure knows about compliance and resources, and can give you recommendations thr
 ![image](https://user-images.githubusercontent.com/48266482/227701619-591591c8-fd1e-41d0-86aa-0c8a08678512.png)
 
 ## Azure Arc
+![image](https://user-images.githubusercontent.com/48266482/227701663-a5d5bc7a-2bc5-4164-a028-96000652321e.png)
+
+
