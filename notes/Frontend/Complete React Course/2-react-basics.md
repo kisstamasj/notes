@@ -116,7 +116,7 @@ class App extends Component {
 export default App;
 ```
 
-## Lifecycle methods
+## Lifecycle methods in class components
 Lifecycle methods are special methods built into React, used to operate on components throughout their duration in the DOM. For example, when the component mounts, renders, updates, or unmounts.
 
 - ```componentDidMount()```: Called whenerver the component mounted
@@ -130,9 +130,10 @@ Lifecycle methods are special methods built into React, used to operate on compo
 4. after setState rerender the component
 
 # Functional Component
-- No constructor method (there is no class)
+- No constructor method (there is no class), because its just function
 - Return JSX
-- 
+- React just call the functional component and put the return to the page
+- There is no lifecycle methods
 
 # Anonymus functions
 Every time when a component is rerender javascript has to store again the anonymus function, because it isn't assigned to a variable, and then isn't in the memory.
