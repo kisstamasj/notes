@@ -124,7 +124,33 @@ The following image shows the Azure Advisor dashboard.
 
 ## Compliance
 
+![image](https://user-images.githubusercontent.com/48266482/227700945-487d2857-7085-4abb-acaf-5358308d8b21.png)
+
+### Azure Compliance Manager
+Azure knows about compliance and resources, and can give you recommendations through the Compliance Manager
+
+![image](https://user-images.githubusercontent.com/48266482/227701004-f975a40d-fe94-4c46-bb35-171df1a442b4.png)
+
+- **Recommendations**: Get recommendations for ensuring compliance with GDPR, ISO, NIST and others.
+- **Tasks**: Assign compliance tasks to learn members and track progress.
+- **Compliance Score**: Chase a prefect score to be 100% compliant. Gamification for the win!
+- **Secure Storage**: Upload documents to prove compliance and store them securly.
+- **Reports**: Get reports of compliance data to provide to managers and auditors.
+
+![image](https://user-images.githubusercontent.com/48266482/227701187-d15bddda-cc9e-42e8-a8c4-50eb59e3c022.png)
+
+![image](https://user-images.githubusercontent.com/48266482/227701220-e532ee3d-4f72-4540-bb14-7400e5389773.png)
+
+### Exam tips
+**Compliance is not negotiable.**
+
+- GDPR, ISO and NIST are regulations and standards to ensure compliance with applicable legislation.
+- Azure Compliance Manager provides recommendations, tasks to assign team members, a compliance score, secure document storage and reports.
+- Azure Government Cloud provides dedicated datacenters to US Government bodies. Compliant with US federal, state and local requirements.
+- Azure Chine region contains all data and datacenters within China. Complies with all applicable Chinese regulations.
+
 ## Privacy
+
 
 ## Trust
 
