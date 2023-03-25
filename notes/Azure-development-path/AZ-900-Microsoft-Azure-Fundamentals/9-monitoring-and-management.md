@@ -160,6 +160,35 @@ Azure knows about compliance and resources, and can give you recommendations thr
 ![image](https://user-images.githubusercontent.com/48266482/227701619-591591c8-fd1e-41d0-86aa-0c8a08678512.png)
 
 ## Azure Arc
-![image](https://user-images.githubusercontent.com/48266482/227701663-a5d5bc7a-2bc5-4164-a028-96000652321e.png)
+![image](https://user-images.githubusercontent.com/48266482/227701705-50bc6901-41a6-4c94-b545-390430fd680c.png)
+
+Centralized governance and management for on-premises and multi-cloud computing resources.
+- Manage non-Azure resources as if they were in Azure.
+- Extend Azure cloud management and services to non-Azure locations.
+
+![image](https://user-images.githubusercontent.com/48266482/227701838-00d0833c-e7df-4704-8dd1-cab89a8a1b9f.png)
+
+### Benefits
+- Manage Azure and non-Azure resources in same place
+- Manage non-Azure kubernetes clusters
+- Deploy Azure-managed database services to non-Azure locations
+  - Ex.: Azure SQL Managed Instance
+- Manage and protect non.Azure servers
+  - Monitor non-Azure OSs alongside Azure VMs
+  - Protect with Microsoft Defender for cloud
+  - Apply Azure Automation runbooks
+- Apply Azure governance
+  - RBAC
+  - Azure Policies
+  - Azure Blueprints
+- Deploy Azure serverless services to non-Azure hardware
+  - Azure App Service
+  - Azure Functions
+  - Azure Logic Apps
+  - And more!
+
+![image](https://user-images.githubusercontent.com/48266482/227702011-24277bec-86fc-4b0b-91b2-5f7b6f84658f.png)
+
+
 
 
