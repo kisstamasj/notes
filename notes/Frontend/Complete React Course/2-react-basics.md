@@ -136,6 +136,17 @@ Lifecycle methods are special methods built into React, used to operate on compo
 - There is no lifecycle methods
 - If state or props are changing then the full function get called again and runs from top to bottom. Unlike in class component where only get called the render method.
 - Properties came from the props parameter of the function
+  ```jsx
+  const Card = ({ id, name, email }) => {
+      return (
+          <div className="card-container">
+              <img alt={`monster ${name}`} src={`https://robohash.org/${id}?set=set2&size=180x180`} />
+              <h2>{name}</h2>
+              <p>{email}</p>
+          </div>
+      )
+  }
+  ```
 
 ```jsx
 import { useEffect, useState } from 'react'
