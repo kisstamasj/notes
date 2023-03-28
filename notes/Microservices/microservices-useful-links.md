@@ -15,3 +15,7 @@ https://dapr.io
 
 ### Microservices Best Practices
 https://semaphoreci.com/blog/microservices-best-practices
+
+### What Are Microservices Design Patterns?
+
+https://www.codemotion.com/magazine/backend/what-are-microservices-design-patterns/
