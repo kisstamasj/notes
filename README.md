@@ -492,3 +492,4 @@
       + [Modern Open Source Messaging: NATS, RabbitMQ, Apache Kafka, hmbdc, Synapse, NSQ and Pulsar](./notes/Microservices/microservices-useful-links.md#modern-open-source-messaging-nats-rabbitmq-apache-kafka-hmbdc-synapse-nsq-and-pulsar)
       + [APIs for building portable and reliable microservices](./notes/Microservices/microservices-useful-links.md#apis-for-building-portable-and-reliable-microservices)
       + [Microservices Best Practices](./notes/Microservices/microservices-useful-links.md#microservices-best-practices)
+      + [What Are Microservices Design Patterns?](./notes/Microservices/microservices-useful-links.md#what-are-microservices-design-patterns)
