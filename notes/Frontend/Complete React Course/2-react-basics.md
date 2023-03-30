@@ -207,7 +207,7 @@ Every time when a component is rerender javascript has to store again the anonym
 # Folder structure policies
 
 ## Public
-Take place all the publicly accessible files like pictures, favicon etct..
+Take place all the publicly accessible files like, index.html, pictures, favicon etc..
 
 ## components
 - Inside that folder take place the components files. (jsx, css)
