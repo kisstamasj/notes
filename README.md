@@ -432,6 +432,7 @@
     * [Hooks](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#hooks)
   - [Anonymus functions](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#anonymus-functions)
   - [Folder structure policies](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#folder-structure-policies)
+    * [assets](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#assets)
     * [Public](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#public)
     * [components](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#components)
     * [routes](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#routes)
