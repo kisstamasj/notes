@@ -242,7 +242,9 @@ Reflow occurs when you:
 - resize the window
 - scroll
 
-# Fragment
+# Special components
+
+## Fragment
 This is a special built in react component. Useful when you dont want any element for root element of a component. React will just render nothing.
 ```jsx
 import { Fragment } from "react"
