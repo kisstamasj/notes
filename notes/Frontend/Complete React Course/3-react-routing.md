@@ -99,3 +99,10 @@ const Home = () => {
 export default Home;
 
 ```
+- Navigating between routes:
+```jsx
+import { Link } from "react-router-dom"
+...
+<Link className="nav-link" to='/shop'>Shop</Link>
+...
+```
