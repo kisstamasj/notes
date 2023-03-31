@@ -44,6 +44,7 @@ const App = () => {
 export default App;
 ```
 - Nested Route:
+  - Int the parent element need to use the ```Outlet``` component from ```react-router-dom```. This component tells react where to put the children components.
 ```jsx
 import Home from "./routes/home/home.component";
 import { Routes, Route } from "react-router-dom";
