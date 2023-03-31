@@ -442,6 +442,7 @@
     * [reflow](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#reflow)
   - [Special components](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#special-components)
     * [Fragment](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#fragment)
+    * [Importing SVG as react component](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#importing-svg-as-react-component)
   - [React Routing](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#react-routing)
     * [React Router](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#react-router)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
