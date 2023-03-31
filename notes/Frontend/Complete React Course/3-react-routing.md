@@ -46,6 +46,7 @@ export default App;
 - Nested Route:
   - Int the parent element need to use the ```Outlet``` component from ```react-router-dom```. This component tells react where to put the children components.
 ```jsx
+//App.js
 import Home from "./routes/home/home.component";
 import { Routes, Route } from "react-router-dom";
 
@@ -66,4 +67,22 @@ const App = () => {
 }
 
 export default App;
+```
+```jsx
+// routes/home/home.component.jsx
+import Directory from "../../components/directory/directory.component";
+import categories from '../../categories.json'
+import { Outlet } from "react-router-dom";
+
+const Home = () => {
+    return (
+        <>
+            <Outlet />
+            <Directory categories={categories} />
+        </>
+    );
+}
+
+export default Home;
+
 ```
