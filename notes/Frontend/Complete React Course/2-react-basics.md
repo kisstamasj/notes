@@ -246,6 +246,7 @@ Reflow occurs when you:
 
 ## Fragment
 This is a special built in react component. Useful when you dont want any element for root element of a component. React will just render nothing.
+With that component is equivalent if you use just empty tags: ```<></>```.
 ```jsx
 import { Fragment } from "react"
 import { Outlet } from "react-router-dom"
