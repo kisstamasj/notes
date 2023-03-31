@@ -45,10 +45,22 @@ export default App;
 ```
 - Nested Route:
   - Int the parent element need to use the ```Outlet``` component from ```react-router-dom```. This component tells react where to put the children components.
+  - index property in Route component tells to the nested rout to be the index page.
 ```jsx
 //App.js
 import Home from "./routes/home/home.component";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Outlet } from "react-router-dom";
+
+const Navigation = () => {
+  return (
+    <div>
+      <div>
+        <h1>Navigation</h1>
+      </div>
+      <Outlet />
+    </div>
+  )
+}
 
 const Shop = () => {
   return (
@@ -59,8 +71,9 @@ const Shop = () => {
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} >
-        <Route path="/shop" element={<Shop />} />
+      <Route path="/" element={<Navigation />}>
+        <Route index={true} element={<Home />} />
+        <Route path="shop" element={<Shop />} />
       </Route>
     </Routes>
   );
