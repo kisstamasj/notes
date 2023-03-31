@@ -271,3 +271,8 @@ const Navigation = () => {
 
 export default Navigation
 ```
+
+## Importing SVG as react component
+```jsx
+import { ReactComponent as CrwnLogo } from '../../assets/crown.svg'
+```
