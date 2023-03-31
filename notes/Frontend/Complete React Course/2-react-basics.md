@@ -206,6 +206,9 @@ Every time when a component is rerender javascript has to store again the anonym
 
 # Folder structure policies
 
+## assets
+Take place all asset file like svg, icon etc...
+
 ## Public
 Take place all the publicly accessible files like, index.html, pictures, favicon etc..
 
