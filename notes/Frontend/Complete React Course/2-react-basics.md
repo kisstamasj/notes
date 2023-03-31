@@ -214,6 +214,12 @@ Take place all the publicly accessible files like, index.html, pictures, favicon
 - Every component has its own folder
 - The component name like this: ```comp-name.component.jsx```
 
+## routes
+- That folder holds up the routing files, page files.
+- Each rout get its own folder.
+- File naming: ```rout-name.component.jsx```
+- 
+
 # CSS in components
 - import css file: ```import './App.css';```
 - **Anywhere import the css file, it will applied in the entire app.**
@@ -235,3 +241,24 @@ Reflow occurs when you:
 - add or remove a stylesheet
 - resize the window
 - scroll
+
+# Fragment
+This is a special built in react component. Useful when you dont want any element for root element of a component. React will just render nothing.
+```jsx
+import { Fragment } from "react"
+import { Outlet } from "react-router-dom"
+
+const Navigation = () => {
+    return (
+        <Fragment>
+            <div>
+                <h1>Navigation</h1>
+            </div>
+            <Outlet />
+        </Fragment>
+    )
+}
+
+
+export default Navigation
+```
