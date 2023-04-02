@@ -2,6 +2,12 @@
 
 ### Initialize Firebase app
 
+That code can be access from the webpage of firebase console.
+
+Step:
+- Create firebase web app
+- then copy the code below
+
 ```js
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
