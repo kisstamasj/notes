@@ -34,6 +34,11 @@ googleProvider.setCustomParameters({
 export const auth = getAuth();
 ```
 
+- ```firebaseConfig```: the firebase config
+- ```firebaseApp```: initialized firebase app
+- ```googleProvider```: google auth provider (there are mulitple, ex.: facebook, githube etc...)
+- ```auth```: keeping track the user is authenticated or not
+
 ### Sign in with Popup window
 ```js
 // src/utils/firebase/firebase.utils.js
