@@ -3,10 +3,7 @@
 ### Initialize Firebase app
 
 That code can be access from the webpage of firebase console.
-
-Step:
-- Create firebase web app
-- then copy the code below
+First need to create Firebase web app.
 
 ```js
 // src/utils/firebase/firebase.utils.js
@@ -28,12 +25,117 @@ const firebaseConfig = {
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
 
-const provider = new GoogleAuthProvider()
+const googleProvider = new GoogleAuthProvider()
 
-provider.setCustomParameters({
+googleProvider.setCustomParameters({
     prompt: "select_account"
 })
 
 export const auth = getAuth();
-export const signInWithGooglePopUp = () => signInWithPopup(auth, provider);
 ```
+
+### Sign in with Popup window
+```js
+// src/utils/firebase/firebase.utils.js
+
+export const signInWithGooglePopUp = () => signInWithPopup(auth, googleProvider);
+```
+
+```jsx
+// src/routes/signin/signin.component.jsx
+
+import { signInWithGooglePopUp, createUserDocumentFromAuth } from '../../utils/firebase/firebase.utils'
+
+const SignIn = () => {
+
+    const logGoogleUser = async () => {
+        const { user } = await signInWithGooglePopUp();
+        const userDocRef = await createUserDocumentFromAuth(user);
+    }
+
+    return (
+        <div>
+            <h1>Sign IN</h1>
+            <button onClick={logGoogleUser}>Sign in with Google PopUp</button>
+        </div>
+
+    )
+}
+
+export default SignIn
+```
+
+### Sign in with redirect 
+
+```js
+// src/utils/firebase/firebase.utils.js
+
+export const signinWithGoogleRedirect = () => signInWithRedirect(auth, googleProvider)
+```
+
+```jsx
+// src/routes/signin/signin.component.jsx
+
+import { useEffect } from 'react';
+import { getRedirectResult } from 'firebase/auth';
+
+import { auth, createUserDocumentFromAuth, signinWithGoogleRedirect } from '../../utils/firebase/firebase.utils'
+
+const SignIn = () => {
+
+    useEffect(() => {
+        getRedirectResult(auth).then(async (response) => {
+            if (response) {
+                const userDocRef = await createUserDocumentFromAuth(response.user)
+                console.log(userDocRef)
+            }
+        })
+    }, [])
+
+    return (
+        <div>
+            <h1>Sign IN</h1>
+            <button onClick={signinWithGoogleRedirect}>Sign in with Google PopUp</button>
+        </div>
+
+    )
+}
+
+export default SignIn
+```
+
+### Create user document
+```js
+// src/utils/firebase/firebase.utils.js
+
+export const db = getFirestore();
+
+export const createUserDocumentFromAuth = async (userAuth) => {
+    const userDocRef = doc(db, 'users', userAuth.uid)
+
+    console.log(userDocRef)
+
+    const userSnapshot = await getDoc(userDocRef);
+    console.log(userSnapshot.exists())
+
+    if (!userSnapshot.exists()) {
+        const { displayName, email } = userAuth;
+        const createdAt = new Date()
+
+        try {
+            await setDoc(userDocRef, {
+                displayName,
+                email,
+                createdAt
+            })
+        } catch (error) {
+            console.log('error createing the user', error.message)
+        }
+    }
+
+    return userDocRef;
+}
+```
+
+
+
