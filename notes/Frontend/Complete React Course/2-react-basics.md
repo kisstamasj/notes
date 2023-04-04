@@ -230,6 +230,9 @@ Take place all asset file like svg, icon etc...
 
 
 # Keywords
+
+## [Virtual DOM](https://legacy.reactjs.org/docs/faq-internals.html)
+
 ## reflow 
 A reflow computes the layout of the page. A reflow on an element recomputes the dimensions and position of the element, and it also triggers further reflows on that element’s children, ancestors and elements that appear after it in the DOM. Then it calls a final repaint. Reflowing is very expensive, but unfortunately it can be triggered easily.
 
