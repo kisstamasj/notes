@@ -444,6 +444,7 @@
   - [Special components](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#special-components)
     * [Fragment](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#fragment)
     * [Importing SVG as react component](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#importing-svg-as-react-component)
+    * [Handling forms](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#handling-forms)
   - [React Routing](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#react-routing)
     * [React Router](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#react-router)
     * [Connect to firebase](./notes/Frontend/Complete%20React%20Course/4-firebase.md#connect-to-firebase)
