@@ -252,7 +252,7 @@ Every time when a component is rerender javascript has to store again the anonym
 Pure functions are the functions that always yield consistent output and do not have any side effects. Pure function makes the code easily readable, and testable and increases the performance.
 
 ## Inpure function
-An impure function is a function that contains one or more side effects. It mutates data outside of its lexical scope and does not predictably produce the same output for the same input.
+An inpure function is a function that contains one or more side effects. It mutates data outside of its lexical scope and does not predictably produce the same output for the same input.
 
 # Special components
 
