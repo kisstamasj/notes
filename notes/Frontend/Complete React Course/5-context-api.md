@@ -2,7 +2,7 @@
 
 ## Create Context API
 - When a component is hooked into the context, and the value of the context is changed, the functional component will be re run, but if there is nothing  to change in the DOM the component wont be rernder.
-- Consider of when to use, becaouse it can cause performance issue when you hook into a context with a lots of component, and if the context value is change, then all the component can rerender.
+- Consider of when to use, becaouse it can cause performance issue when you hook into a context with a lots of component, and if the context value is change, then all the component could be rerender.
 
 ```jsx
 // ./src/contexts/user.context.jsx
