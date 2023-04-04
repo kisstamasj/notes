@@ -220,6 +220,10 @@ Take place all asset file like svg, icon etc...
 - utility functions, for example connection to firebase
 - each utility has own folder
 
+### ./src/contexts
+- floder for context APIs
+- each context has own folder
+
 # CSS in components
 - import css file: ```import './App.css';```
 - **Anywhere import the css file, it will applied in the entire app.**
