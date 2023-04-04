@@ -279,3 +279,26 @@ export default Navigation
 ```jsx
 import { ReactComponent as CrwnLogo } from '../../assets/crown.svg'
 ```
+
+## Handling forms
+- one object in state for every form input
+```js
+const defaultFormFields = {
+    email: '',
+    password: ''
+}
+
+...
+
+const [formFields, setFormfields] = useState(defaultFormFields)
+
+...
+
+//handeling input value change
+const handleChange = (event) => {
+        const { name, value } = event.target;
+
+        setFormfields({ ...formFields, [name]: value })
+    }
+
+```
