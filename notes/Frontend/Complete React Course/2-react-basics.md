@@ -275,6 +275,27 @@ const Navigation = () => {
 export default Navigation
 ```
 
+OR
+
+```jsx
+import { Fragment } from "react"
+import { Outlet } from "react-router-dom"
+
+const Navigation = () => {
+    return (
+        <>
+            <div>
+                <h1>Navigation</h1>
+            </div>
+            <Outlet />
+        </>
+    )
+}
+
+
+export default Navigation
+```
+
 ## Importing SVG as react component
 ```jsx
 import { ReactComponent as CrwnLogo } from '../../assets/crown.svg'
