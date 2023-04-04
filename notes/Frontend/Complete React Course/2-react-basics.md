@@ -189,20 +189,11 @@ const App = () => {
 }
 ```
 
-## Pure function
-Pure functions are the functions that always yield consistent output and do not have any side effects. Pure function makes the code easily readable, and testable and increases the performance.
-
-## Inpure function
-An impure function is a function that contains one or more side effects. It mutates data outside of its lexical scope and does not predictably produce the same output for the same input.
-
 ## Hooks
 React Hooks are a way for your function components to “hook” into React’s lifecycle and state. They were introduced in React 16.8.0. Previously, only Class based components were able to use React’s lifecycle and state. Aside from enabling Function components to do this, Hooks make it incredibly easy to reuse stateful logic between components.
 
 - ```useState()```: [**useState**](https://react.dev/reference/react/useState) is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.
 - ```useEffect()```: [**useEffect(callback, dependencies)**](https://react.dev/reference/react/useEffect#useeffect) is the hook that manages the side-effects in functional components. callback argument is a function where to put the side-effect logic. dependencies is a list of dependencies of your side-effect: being props or state values.
-
-# Anonymus functions
-Every time when a component is rerender javascript has to store again the anonymus function, because it isn't assigned to a variable, and then isn't in the memory.
 
 # Folder structure policies
 
@@ -250,6 +241,18 @@ Reflow occurs when you:
 - add or remove a stylesheet
 - resize the window
 - scroll
+
+## Props drilling
+What is Prop Drilling? In a traditional React application, data is often shared between components using props. Manually sharing this data can be hectic, especially when shared between multiple nested components. Also, sharing data between two child components can be cumbersome.
+
+## Anonymus functions
+Every time when a component is rerender javascript has to store again the anonymus function, because it isn't assigned to a variable, and then isn't in the memory.
+
+## Pure function
+Pure functions are the functions that always yield consistent output and do not have any side effects. Pure function makes the code easily readable, and testable and increases the performance.
+
+## Inpure function
+An impure function is a function that contains one or more side effects. It mutates data outside of its lexical scope and does not predictably produce the same output for the same input.
 
 # Special components
 
