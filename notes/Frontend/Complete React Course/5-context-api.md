@@ -1,7 +1,7 @@
 # Context API
 
 ## Create Context API
-- When a component is hooked into the context, and the value of the context is changed, the component will rerender.
+- When a component is hooked into the context, and the value of the context is changed, the functional component will be re run, but if there is nothing changing in the DOM the component wont be rerndered.
 
 ```jsx
 // ./src/contexts/user.context.jsx
