@@ -435,6 +435,7 @@
       + [./src/components](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#srccomponents)
       + [./src/routes](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#srcroutes)
       + [./src/utils](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#srcutils)
+      + [./src/contexts](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#srccontexts)
   - [CSS in components](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#css-in-components)
   - [Keywords](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#keywords)
     * [reflow](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#reflow)
