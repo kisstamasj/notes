@@ -438,6 +438,7 @@
       + [./src/contexts](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#srccontexts)
   - [CSS in components](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#css-in-components)
   - [Keywords](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#keywords)
+    * [Virtual DOM](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#virtual-dom)
     * [reflow](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#reflow)
     * [Props drilling](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#props-drilling)
     * [Anonymus functions](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#anonymus-functions)
