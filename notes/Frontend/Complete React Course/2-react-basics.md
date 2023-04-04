@@ -206,26 +206,26 @@ Every time when a component is rerender javascript has to store again the anonym
 
 # Folder structure policies
 
-## public
+## ./public
 Take place all the publicly accessible files like, index.html, pictures, favicon etc..
 
-## src
+## ./src
 All source code files
 
-## assets
+### ./src/assets
 Take place all asset file like svg, icon etc...
 
-## components
+### ./src/components
 - Inside that folder take place the components files. (jsx, css)
 - Every component has its own folder
 - The component name like this: ```comp-name.component.jsx```
 
-## routes
+### ./src/routes
 - That folder holds up the routing files, page files.
 - Each rout get its own folder.
 - File naming: ```rout-name.component.jsx```
 
-## utils
+### ./src/utils
 - utility functions, for example connection to firebase
 - each utility has own folder
 
