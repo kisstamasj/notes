@@ -449,7 +449,6 @@
       + [Initialize Firebase app](./notes/Frontend/Complete%20React%20Course/4-firebase.md#initialize-firebase-app)
       + [Sign in with Popup window](./notes/Frontend/Complete%20React%20Course/4-firebase.md#sign-in-with-popup-window)
       + [Sign in with redirect](./notes/Frontend/Complete%20React%20Course/4-firebase.md#sign-in-with-redirect)
-      + [Create user document](./notes/Frontend/Complete%20React%20Course/4-firebase.md#create-user-document)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
