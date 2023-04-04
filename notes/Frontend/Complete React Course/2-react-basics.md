@@ -222,7 +222,7 @@ Take place all asset file like svg, icon etc...
 
 ### ./src/contexts
 - floder for context APIs
-- each context has own folder
+- file naming: ```context-name.context.jsx```
 
 # CSS in components
 - import css file: ```import './App.css';```
