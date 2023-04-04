@@ -296,9 +296,9 @@ const [formFields, setFormfields] = useState(defaultFormFields)
 
 //handeling input value change
 const handleChange = (event) => {
-        const { name, value } = event.target;
+    const { name, value } = event.target;
 
-        setFormfields({ ...formFields, [name]: value })
-    }
+    setFormfields({ ...formFields, [name]: value })
+}
 
 ```
