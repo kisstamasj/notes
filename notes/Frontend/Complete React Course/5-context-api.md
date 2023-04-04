@@ -1,6 +1,8 @@
 # Context API
 
 ```jsx
+// ./src/contexts/user.context.jsx
+
 import { createContext, useState } from "react";
 
 // as the actual value want to access
