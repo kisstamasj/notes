@@ -9,32 +9,41 @@ First need to create Firebase web app.
 // src/utils/firebase/firebase.utils.js
 
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAuth, signInWithRedirect, signInWithPopup, GoogleAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth'
-import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore'
+import { initializeApp } from 'firebase/app';
+import {
+    getAuth,
+    signInWithRedirect,
+    signInWithPopup,
+    GoogleAuthProvider,
+    createUserWithEmailAndPassword,
+    signInWithEmailAndPassword,
+    signOut,
+    onAuthStateChanged
+} from 'firebase/auth';
+import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyA0NztZiEEtOWaPWIyzwIgF6zgjPCE3j8M",
-    authDomain: "crwn-clothing-db-bf968.firebaseapp.com",
-    projectId: "crwn-clothing-db-bf968",
-    storageBucket: "crwn-clothing-db-bf968.appspot.com",
-    messagingSenderId: "794932963620",
-    appId: "1:794932963620:web:642cb01fe465b9e57aebb1"
+    apiKey: 'AIzaSyA0NztZiEEtOWaPWIyzwIgF6zgjPCE3j8M',
+    authDomain: 'crwn-clothing-db-bf968.firebaseapp.com',
+    projectId: 'crwn-clothing-db-bf968',
+    storageBucket: 'crwn-clothing-db-bf968.appspot.com',
+    messagingSenderId: '794932963620',
+    appId: '1:794932963620:web:642cb01fe465b9e57aebb1',
 };
 
 // Initialize Firebase
 initializeApp(firebaseConfig);
 
-const googleProvider = new GoogleAuthProvider()
+const googleProvider = new GoogleAuthProvider();
 
 googleProvider.setCustomParameters({
-    prompt: "select_account"
-})
+    prompt: 'select_account',
+});
 
 export const auth = getAuth();
 export const signInWithGooglePopUp = () => signInWithPopup(auth, googleProvider);
-export const signinWithGoogleRedirect = () => signInWithRedirect(auth, googleProvider)
+export const signinWithGoogleRedirect = () => signInWithRedirect(auth, googleProvider);
 
 export const db = getFirestore();
 
@@ -47,27 +56,27 @@ export const db = getFirestore();
  */
 export const createUserDocumentFromAuth = async (userAuth, additionalInformation = {}) => {
     if (!userAuth) return;
-    const userDocRef = doc(db, 'users', userAuth.uid)
+    const userDocRef = doc(db, 'users', userAuth.uid);
     const userSnapshot = await getDoc(userDocRef);
 
     if (!userSnapshot.exists()) {
         const { displayName, email } = userAuth;
-        const createdAt = new Date()
+        const createdAt = new Date();
 
         try {
             await setDoc(userDocRef, {
                 displayName,
                 email,
                 createdAt,
-                ...additionalInformation
-            })
-        } catch (error) {
-            console.log('error createing the user', error.message)
+              ...additionalInformation,
+          });
+      } catch (error) {
+            console.log('error createing the user', error.message);
         }
     }
 
     return userDocRef;
-}
+};
 
 /**
  * Create user with email and password
@@ -77,9 +86,9 @@ export const createUserDocumentFromAuth = async (userAuth, additionalInformation
  * @returns
  */
 export const createAuthUserWithEmailAndPassword = async (email, password) => {
-    if (!email || !password) return
-    return await createUserWithEmailAndPassword(auth, email, password)
-}
+    if (!email || !password) return;
+    return await createUserWithEmailAndPassword(auth, email, password);
+};
 
 /**
  * Sign in user with email and password
@@ -91,8 +100,12 @@ export const createAuthUserWithEmailAndPassword = async (email, password) => {
 export const signInAuthUserWithEmailAndPassWord = async (email, password) => {
     if (!email || !password) return;
 
-    return await signInWithEmailAndPassword(auth, email, password)
-}
+    return await signInWithEmailAndPassword(auth, email, password);
+};
+
+export const signOutUser = async () => await signOut(auth);
+
+export const onAuthStateChangedListener = (callback) => onAuthStateChanged(auth, callback)
 ```
 
 - ```firebaseConfig```: the firebase config
@@ -105,6 +118,8 @@ export const signInAuthUserWithEmailAndPassWord = async (email, password) => {
 - ```createUserDocumentFromAuth```: Craete user with google account
 - ```createAuthUserWithEmailAndPassword```: Create user with email and password
 - ```signInAuthUserWithEmailAndPassWord```: Sign in user with email and password
+- ```signOutUser```: Sign Out the user
+- ```onAuthStateChangedListener```: Auth state change listener
 
 ### Sign in with Popup window
 ```js
