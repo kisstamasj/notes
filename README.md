@@ -444,6 +444,7 @@
     * [Anonymus functions](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#anonymus-functions)
     * [Pure function](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#pure-function)
     * [Inpure function](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#inpure-function)
+      + [](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#pure-and-inpure-functions-examplehttpsdevtocodeofrelevancyyou-need-to-know-about-pure-functions-impure-functions-in-javascript-57)
   - [Special components](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#special-components)
     * [Fragment](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#fragment)
     * [Importing SVG as react component](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#importing-svg-as-react-component)
