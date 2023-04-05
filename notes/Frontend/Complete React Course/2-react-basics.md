@@ -261,6 +261,8 @@ Pure functions are the functions that always yield consistent output and do not 
 ## Inpure function
 An inpure function is a function that contains one or more side effects. It mutates data outside of its lexical scope and does not predictably produce the same output for the same input.
 
+### (Pure and Inpure functions example)[https://dev.to/codeofrelevancy/you-need-to-know-about-pure-functions-impure-functions-in-javascript-57]
+
 # Special components
 
 ## Fragment
