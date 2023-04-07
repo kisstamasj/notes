@@ -193,7 +193,7 @@ const App = () => {
 React Hooks are a way for your function components to “hook” into React’s lifecycle and state. They were introduced in React 16.8.0. Previously, only Class based components were able to use React’s lifecycle and state. Aside from enabling Function components to do this, Hooks make it incredibly easy to reuse stateful logic between components.
 
 - ```useState()```: [**useState**](https://react.dev/reference/react/useState) is React Hook that allows you to add state to a functional component. It returns an array with two values: the current state and a function to update it. The Hook takes an initial state value as an argument and returns an updated state value whenever the setter function is called.
-- ```useEffect()```: [**useEffect(callback, dependencies)**](https://react.dev/reference/react/useEffect#useeffect) is the hook that manages the side-effects in functional components. callback argument is a function where to put the side-effect logic. dependencies is a list of dependencies of your side-effect: being props or state values.
+- ```useEffect()```: [**useEffect(callback, dependencies)**](https://react.dev/reference/react/useEffect#useeffect) is the hook that manages the side-effects in functional components. callback argument is a function where to put the side-effect logic. dependencies is a list of dependencies of your side-effect: being props or state values. Best practices is when the useEffect only contains one effect.
 
 # Folder structure policies
 
