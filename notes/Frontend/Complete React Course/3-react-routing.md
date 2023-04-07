@@ -43,9 +43,9 @@ const App = () => {
 
 export default App;
 ```
-- Nested Route:
-  - Int the parent element need to use the ```Outlet``` component from ```react-router-dom```. This component tells react where to put the children components.
-  - ```index``` property in Route component tells to the nested route to be the index page of the parent route.
+### Nested Route:
+- Int the parent element need to use the ```Outlet``` component from ```react-router-dom```. This component tells react where to put the children components.
+- ```index``` property in Route component tells to the nested route to be the index page of the parent route.
 ```jsx
 //App.js
 import Home from "./routes/home/home.component";
@@ -99,10 +99,25 @@ const Home = () => {
 export default Home;
 
 ```
-- Navigating between routes:
+### Navigating between routes:
 ```jsx
 import { Link } from "react-router-dom"
 ...
 <Link className="nav-link" to='/shop'>Shop</Link>
 ...
 ```
+
+OR
+
+```jsx
+import { useNavigate } from 'react-router-dom';
+
+...
+
+const navigate = useNavigate();
+
+...
+
+<Button onClick={() => navigate('/navigate-to')}>Navigatet</Button>
+```
+
