@@ -451,6 +451,8 @@
     * [Handling forms](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#handling-forms)
   - [React Routing](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#react-routing)
     * [React Router](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#react-router)
+      + [Nested Route:](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#nested-route)
+      + [Navigating between routes:](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#navigating-between-routes)
     * [Connect to firebase](./notes/Frontend/Complete%20React%20Course/4-firebase.md#connect-to-firebase)
       + [Initialize Firebase app](./notes/Frontend/Complete%20React%20Course/4-firebase.md#initialize-firebase-app)
       + [Sign in with Popup window](./notes/Frontend/Complete%20React%20Course/4-firebase.md#sign-in-with-popup-window)
