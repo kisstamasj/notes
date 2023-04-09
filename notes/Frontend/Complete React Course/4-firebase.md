@@ -1,6 +1,6 @@
-## Connect to firebase
+# Connect to firebase
 
-### Initialize Firebase app
+## Initialize Firebase app
 
 That code can be access from the webpage of firebase console.
 First need to create Firebase web app.
@@ -152,7 +152,7 @@ const SignIn = () => {
 export default SignIn
 ```
 
-### Sign in with redirect 
+## Sign in with redirect 
 
 ```js
 // src/utils/firebase/firebase.utils.js
@@ -191,6 +191,37 @@ const SignIn = () => {
 export default SignIn
 ```
 
+## Create collection and document
+```js
+export const addCollectionAndDocuments = async (collectionKey, objectsToAdd) => {
+    const collectionRef = collection(db, collectionKey);
+    const batch = writeBatch(db);
+    objectsToAdd.forEach((object) => {
+        const docRef = doc(collectionRef, object.title.toLowerCase())
+        batch.set(docRef, object)
+    })
 
+    await batch.commit();
+    console.log('done')
+}
+```
+
+## Get collections and documents
+```js
+export const getCatagoriesAndDocuments = async () => {
+    const collectionRef = collection(db, 'categories');
+
+    const q = query(collectionRef);
+
+    const querySnapshot = await getDoc(q);
+    const categoryMap = querySnapshot.docs.reduec((acc, docSnapshot) => {
+        const {title, items} = docSnapshot.data();
+        acc[title.toLowerCase()] = items;
+        return acc;
+    }, {})
+
+    return categoryMap;
+}
+```
 
 
