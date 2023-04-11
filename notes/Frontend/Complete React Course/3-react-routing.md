@@ -143,6 +143,33 @@ const Shop = () => {
 export default Shop;
 ```
 
+## Route parameter
+```jsx
+import { Routes, Route } from 'react-router-dom';
+import './shop.styles.scss';
+import CategoriesPreview from '../categories-preview/categories-preview.component';
+import Category from '../category/category.component';
+
+const Shop = () => {
+  return (
+    <Routes>
+      <Route index element={<CategoriesPreview />} ></Route>
+      <Route path=':category' element={<Category />} ></Route> /* parameter: /shop/some-param */
+    </Routes>
+  );
+};
+
+export default Shop;
+```
+
+```jsx
+import { useParams } from 'react-router-dom';
+
+...
+
+const {category} = useParams()
+```
+
 ## Navigating between routes:
 ```jsx
 import { Link } from "react-router-dom"
