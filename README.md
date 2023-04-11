@@ -453,6 +453,7 @@
     * [React Router](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#react-router)
     * [Fix component between routes:](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#fix-component-between-routes)
     * [Nested Route](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#nested-route)
+    * [Route parameter](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#route-parameter)
     * [Navigating between routes:](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#navigating-between-routes)
     * [OR](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#or)
   - [Connect to firebase](./notes/Frontend/Complete%20React%20Course/4-firebase.md#connect-to-firebase)
