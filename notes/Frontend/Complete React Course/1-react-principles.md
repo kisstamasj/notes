@@ -8,17 +8,17 @@
 
 - Reusable components
 
-## Unidirectional data flow
+## 3. Unidirectional data flow
 
 - **VirtualDOM**: Javascript version of the DOM. Tree like object. Blue print.
 - One way data flow in the component tree (top to bottom).
 - Easyer to debug the code.
 
-## UI, The rest is up to you
+## 4. UI, The rest is up to you
 - There is a lots of UI library under React.
 
 
-# The job of a React developer
+## 5. The job of a React developer
 
 - Decide on Components: How to beark down the app to components
 - Decide the state and where it lives
