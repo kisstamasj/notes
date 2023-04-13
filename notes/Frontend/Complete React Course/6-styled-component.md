@@ -1,6 +1,6 @@
 # Styled Component
 
-Generate unique class names.
+Generate unique class names and protect from any style clashes.
 
 ## Convert SASS css to styled-components
 
