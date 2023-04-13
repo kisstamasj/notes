@@ -17,7 +17,7 @@
     `
    ```
 4. Use like a component:
-   ```js
+   ```jsx
    import { NavigationContainer } from './navigation.styles';
    
    ...
