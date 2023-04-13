@@ -466,6 +466,7 @@
     * [Create Context API](./notes/Frontend/Complete%20React%20Course/5-context-api.md#create-context-api)
     * [Wrap your app into the provider](./notes/Frontend/Complete%20React%20Course/5-context-api.md#wrap-your-app-into-the-provider)
     * [Use the Context into the components](./notes/Frontend/Complete%20React%20Course/5-context-api.md#use-the-context-into-the-components)
+  - [Styled Component](./notes/Frontend/Complete%20React%20Course/6-styled-component.md#styled-component)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
