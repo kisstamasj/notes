@@ -28,3 +28,25 @@
       
    </NavigationContainer>
    ```
+   
+5. Using components inside styled component:
+   ```js
+   import { Link } from "react-router-dom";
+
+   ...
+
+   export const LogoContainer = styled(Link)`
+     height: 100%;
+     width: 70px;
+     padding: 25px;
+   `
+   ```
+The ```LogoContainer``` will be a ```Link``` component from ```react-router-dom```, so when you used it will be have all props it has.
+
+6. Rendering the component as a different HTML element:
+   ```jsx
+     <NavLink as='span' onClick={signOutUser}>
+        Sign Out
+      </NavLink>
+   ```
+Using the ```as``` keyword we can render the component as a different HTML element.
