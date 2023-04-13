@@ -16,3 +16,15 @@
       margin-bottom: 25px;
     `
    ```
+4. Use like a component:
+   ```js
+   import { NavigationContainer } from './navigation.styles';
+   
+   ...
+   
+   <NavigationContainer>
+   
+      ...
+      
+   </NavigationContainer>
+   ```
