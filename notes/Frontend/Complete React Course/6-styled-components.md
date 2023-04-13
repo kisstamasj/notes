@@ -51,4 +51,4 @@ Generate unique class names and protect from any style clashes.
         Sign Out
       </NavLink>
    ```
-Using the ```as``` keyword we can render the component as a different HTML element.
+   Using the ```as``` keyword we can render the component as a different HTML element.
