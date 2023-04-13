@@ -1,5 +1,7 @@
 # Styled Component
 
+Generate unique class names.
+
 ## Convert SASS css to styled-components
 
 1. Install: ```yarn add styled-components```
