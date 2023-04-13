@@ -43,7 +43,7 @@ Generate unique class names and protect from any style clashes.
      padding: 25px;
    `
    ```
-The ```LogoContainer``` will be a ```Link``` component from ```react-router-dom```, so when you used it will be have all props it has.
+   The ```LogoContainer``` will be a ```Link``` component from ```react-router-dom```, so when you used it will be have all props it has.
 
 6. Rendering the component as a different HTML element:
    ```jsx
