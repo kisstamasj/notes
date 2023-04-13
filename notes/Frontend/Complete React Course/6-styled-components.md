@@ -1,4 +1,4 @@
-# Styled Component
+# Styled Components
 
 Generate unique class names and protect from any style clashes.
 
