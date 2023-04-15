@@ -335,3 +335,5 @@ const handleChange = (event) => {
 }
 
 ```
+
+## [React Design Patterns](https://www.linkedin.com/pulse/most-common-react-design-patterns-baqir-nekfar) 
