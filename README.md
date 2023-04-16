@@ -469,6 +469,7 @@
     * [Use the Context into the components](./notes/Frontend/Complete%20React%20Course/5-context-api.md#use-the-context-into-the-components)
   - [Styled Components](./notes/Frontend/Complete%20React%20Course/6-styled-components.md#styled-components)
     * [Convert SASS css to styled-components](./notes/Frontend/Complete%20React%20Course/6-styled-components.md#convert-sass-css-to-styled-components)
+    * [Rendering component by a given string parameter](./notes/Frontend/Complete%20React%20Course/6-styled-components.md#rendering-component-by-a-given-string-parameter)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
