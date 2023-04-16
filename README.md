@@ -450,7 +450,6 @@
     * [Importing SVG as react component](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#importing-svg-as-react-component)
     * [Handling forms](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#handling-forms)
     * [React Design Patterns](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#react-design-patterns)
-    * [Rendering component by a given string parameter](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#rendering-component-by-a-given-string-parameter)
   - [React Routing](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#react-routing)
     * [React Router](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#react-router)
     * [Fix component between routes:](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#fix-component-between-routes)
