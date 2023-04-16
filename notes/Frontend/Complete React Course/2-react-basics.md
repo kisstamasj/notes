@@ -338,7 +338,7 @@ const handleChange = (event) => {
 
 ## [React Design Patterns](https://www.linkedin.com/pulse/most-common-react-design-patterns-baqir-nekfar) 
 
-## Rendering component by given string param
+## Rendering component by a given string parameter
 ```jsx
 import { BaseButton, GoogleSignInButton, Inverted } from './button.styles.jsx';
 
