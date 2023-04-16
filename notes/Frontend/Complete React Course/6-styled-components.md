@@ -53,7 +53,7 @@ Generate unique class names and protect from any style clashes.
    ```
    Using the ```as``` keyword we can render the component as a different HTML element.
    
-7. Using a base class to iherint from:
+7. Using a base class to inherit from:
    ```jsx
    import styled from 'styled-components';
 
