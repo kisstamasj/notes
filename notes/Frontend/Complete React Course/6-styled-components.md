@@ -106,3 +106,31 @@ Generate unique class names and protect from any style clashes.
    `;
 
    ```
+   
+## Rendering component by a given string parameter
+```jsx
+import { BaseButton, GoogleSignInButton, Inverted } from './button.styles.jsx';
+
+// possible types
+export const BUTTON_TYPE_CLASSES = {
+  base: 'base',
+  google: 'google-sign-in',
+  inverted: 'inverted',
+};
+
+// get the correct styled component by the given type parameter
+const getButton = (buttonType = BUTTON_TYPE_CLASSES.base) => {
+  return {
+    [BUTTON_TYPE_CLASSES.base]: BaseButton,
+    [BUTTON_TYPE_CLASSES.google]: GoogleSignInButton,
+    [BUTTON_TYPE_CLASSES.inverted]: Inverted,
+  }[buttonType];
+};
+
+const Button = ({ children, buttonType, ...otherProps }) => {
+  const CustomButton = getButton(buttonType);
+  return <CustomButton {...otherProps}>{children}</CustomButton>;
+};
+
+export default Button;
+```
