@@ -470,6 +470,7 @@
   - [Styled Components](./notes/Frontend/Complete%20React%20Course/6-styled-components.md#styled-components)
     * [Convert SASS css to styled-components](./notes/Frontend/Complete%20React%20Course/6-styled-components.md#convert-sass-css-to-styled-components)
     * [Rendering component by a given string parameter](./notes/Frontend/Complete%20React%20Course/6-styled-components.md#rendering-component-by-a-given-string-parameter)
+    * [Props in styled component](./notes/Frontend/Complete%20React%20Course/6-styled-components.md#props-in-styled-component)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
