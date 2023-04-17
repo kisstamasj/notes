@@ -136,6 +136,7 @@ export default Button;
 ```
 
 ## Props in styled component
+You can make custom properties for a styled component, and you can access it in a styled component.
 ```jsx
 import { BackgroundImage, Body, DirectoryItemContainer, H2, P } from './directory-item.styles.jsx';
 
