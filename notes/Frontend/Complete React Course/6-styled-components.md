@@ -134,3 +134,36 @@ const Button = ({ children, buttonType, ...otherProps }) => {
 
 export default Button;
 ```
+
+## Props in styled component
+```jsx
+import { BackgroundImage, Body, DirectoryItemContainer, H2, P } from './directory-item.styles.jsx';
+
+const DirectoryItem = ({ category }) => {
+  const { imageUrl, title } = category;
+  return (
+    <DirectoryItemContainer>
+      <BackgroundImage imageUrl={imageUrl} />
+      <Body>
+        <H2>{title}</H2>
+        <P>Shop Now</P>
+      </Body>
+    </DirectoryItemContainer>
+  );
+};
+
+export default DirectoryItem;
+
+```
+
+```jsx
+import styled from 'styled-components';
+
+export const BackgroundImage = styled.div`
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-image: ${({ imageUrl }) => `url(${imageUrl})`};
+`;
+```
