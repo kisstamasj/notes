@@ -474,6 +474,7 @@
     * [Insert CSS from variable](./notes/Frontend/Complete%20React%20Course/6-styled-components.md#insert-css-from-variable)
   - [Redux](./notes/Frontend/Complete%20React%20Course/7-redux.md#redux)
     * [Reducer](./notes/Frontend/Complete%20React%20Course/7-redux.md#reducer)
+    * [Context with Reducer](./notes/Frontend/Complete%20React%20Course/7-redux.md#context-with-reducer)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
