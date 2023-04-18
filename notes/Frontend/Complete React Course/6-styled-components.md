@@ -168,3 +168,28 @@ export const BackgroundImage = styled.div`
   background-image: ${({ imageUrl }) => `url(${imageUrl})`};
 `;
 ```
+
+## Insert CSS from variable
+```jsx
+import styled, { css } from 'styled-components';
+
+const shrinkLabelStyles = css`
+  top: -14px;
+  font-size: 12px;
+  color: ${mainColor};
+`;
+
+export const FormInputLabel = styled.label`
+  color: ${subColor};
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 300ms ease all;
+   
+   //shrink comes from param, and insert here the shrinkLabelStyles variable content
+  ${({ shrink }) => shrink && shrinkLabelStyles};
+`;
+```
