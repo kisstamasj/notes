@@ -23,7 +23,6 @@ const userReducer = (state, action) => {
   switch (USER_ACTION_TYPES.SET_CURRENT_USER) {
     case 'SET_CURRENT_USER':
       return { ...state, currentUser: payload };
-    case 'increment':
     default:
       throw new Error(`Unhandled type ${type} in userReducer`);
   }
