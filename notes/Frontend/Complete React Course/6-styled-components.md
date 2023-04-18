@@ -189,7 +189,7 @@ export const FormInputLabel = styled.label`
   top: 10px;
   transition: 300ms ease all;
    
-   //shrink comes from param, and insert here the shrinkLabelStyles variable content
+  /* shrink comes from param, and insert here the shrinkLabelStyles variable content*/ 
   ${({ shrink }) => shrink && shrinkLabelStyles};
 `;
 ```
