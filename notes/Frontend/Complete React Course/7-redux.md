@@ -1,7 +1,12 @@
 # Redux and Reducer
 
+
+
 ## Context API VS Redux
-- 
+- Redux always warp the entire application, Context API can isolate the components
+
+## Redux
+Global state management
 
 ## Reducer
 Reducers are functions that take the current state and an action as arguments, and return a new state result. 
