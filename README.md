@@ -459,7 +459,7 @@
     * [OR](./notes/Frontend/Complete%20React%20Course/3-react-routing.md#or)
   - [Connect to firebase](./notes/Frontend/Complete%20React%20Course/4-firebase.md#connect-to-firebase)
     * [Initialize Firebase app](./notes/Frontend/Complete%20React%20Course/4-firebase.md#initialize-firebase-app)
-      + [Sign in with Popup window](./notes/Frontend/Complete%20React%20Course/4-firebase.md#sign-in-with-popup-window)
+    * [Sign in with Popup window](./notes/Frontend/Complete%20React%20Course/4-firebase.md#sign-in-with-popup-window)
     * [Sign in with redirect](./notes/Frontend/Complete%20React%20Course/4-firebase.md#sign-in-with-redirect)
     * [Create collection and document](./notes/Frontend/Complete%20React%20Course/4-firebase.md#create-collection-and-document)
     * [Get collections and documents](./notes/Frontend/Complete%20React%20Course/4-firebase.md#get-collections-and-documents)
