@@ -137,3 +137,12 @@ const dispatch = useDispatch();
 dispatch(setCurrentUser(user));
 ```
 > There are only one dispatch in the entire application
+
+#### Get data from store
+```js
+import { useSelector } from 'react-redux';
+
+...
+
+const currentUser = useSelector((state) => state.user.currentUser);
+```
