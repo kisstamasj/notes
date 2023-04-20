@@ -80,7 +80,9 @@ export const store = createStore(rootReducer, undefined, composedEnhancers);
 ```
 
 - src/store/root-reducer.js
+
 The root reducer combine all reducer to one.
+
 ```js
 import { combineReducers } from 'redux';
 import { userReducer } from './user/user.reducer';
@@ -91,7 +93,9 @@ export const rootReducer = combineReducers({
 ```
 
 - src/store/user/user.reducer.js
+
 User reducer is an example reducer.
+
 ```js
 const INITAL_STATE = {
   currentUser: null,
@@ -111,7 +115,9 @@ export const userReducer = (state = INITAL_STATE, action) => {
 > In the default case need to return the incoming state
 
 - src/store/user/user.action.js
+
 An example action
+
 ```js
 import { createAction } from '../../utils/reducer/reducer.utils';
 import { USER_ACTION_TYPES } from './user.types';
@@ -120,7 +126,9 @@ export const setCurrentUser = (user) => createAction(USER_ACTION_TYPES.SET_CURRE
 ```
 
 - src/store/user/user.types.js
+
 Each reducer has own types.
+
 ```js
 export const USER_ACTION_TYPES = {
   SET_CURRENT_USER: 'SET_CURRENT_USER',
@@ -128,7 +136,9 @@ export const USER_ACTION_TYPES = {
 ```
 
 - src/store/user/user.selector.js
+
 Selector for retrive data from the store
+
 ```js
 export const selectCurrentUser = (state) => state.user.currentUser;
 ```
