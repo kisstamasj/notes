@@ -95,3 +95,4 @@ export const userReducer = (state = INITAL_STATE, action) => {
   }
 };
 ```
+> In the default case need to return the incoming state
