@@ -123,6 +123,11 @@ export const USER_ACTION_TYPES = {
 };
 ```
 
+- src/store/user/user.selector.js
+```js
+export const selectCurrentUser = (state) => state.user.currentUser;
+```
+
 #### Dispatch action:
 ```js
 import { setCurrentUser } from './store/user/user.action';
@@ -141,8 +146,9 @@ dispatch(setCurrentUser(user));
 #### Get data from store
 ```js
 import { useSelector } from 'react-redux';
+import { selectCurrentUser } from '../../store/user/user.selector';
 
 ...
 
-const currentUser = useSelector((state) => state.user.currentUser);
+const currentUser = useSelector(selectCurrentUser);
 ```
