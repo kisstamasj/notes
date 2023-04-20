@@ -4,6 +4,7 @@
 
 ## Context API VS Redux
 - Redux always warp the entire application, Context API can isolate the components
+- Context API has multiple reducer and multiple action to dispatch the state, Redux has a root reducer and one action to update all reducer
 
 ## Redux
 Global state management
