@@ -479,6 +479,7 @@
     * [Redux](./notes/Frontend/Complete%20React%20Course/7-redux.md#redux)
       + [Setup Redux](./notes/Frontend/Complete%20React%20Course/7-redux.md#setup-redux)
         - [File structure](./notes/Frontend/Complete%20React%20Course/7-redux.md#file-structure)
+        - [Dispatch action:](./notes/Frontend/Complete%20React%20Course/7-redux.md#dispatch-action)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
