@@ -91,10 +91,6 @@ export const rootReducer = combineReducers({
 
 - src/store/user/user.reducer.js
 ```js
-export const USER_ACTION_TYPES = {
-  SET_CURRENT_USER: 'SET_CURRENT_USER',
-};
-
 const INITAL_STATE = {
   currentUser: null,
 };
