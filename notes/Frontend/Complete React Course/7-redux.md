@@ -4,7 +4,8 @@
 Reducers are functions that take the current state and an action as arguments, and return a new state result. 
 In other words, `(state, action) => newState.`
 
-In reducer there are no buisness logics.
+- In reducer there are no buisness logics.
+- Reducer is useful when one update modify multiple values inside of the state (ex.: Put item in the cart, it will update the cart items, cart count and cart total)
 
 ## Context with Reducer
 ```jsx
