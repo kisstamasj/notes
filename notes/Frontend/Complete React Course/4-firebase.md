@@ -121,7 +121,7 @@ export const onAuthStateChangedListener = (callback) => onAuthStateChanged(auth,
 - ```signOutUser```: Sign Out the user
 - ```onAuthStateChangedListener```: Auth state change listener
 
-### Sign in with Popup window
+## Sign in with Popup window
 ```js
 // src/utils/firebase/firebase.utils.js
 
