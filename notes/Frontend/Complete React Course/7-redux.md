@@ -111,3 +111,33 @@ export const userReducer = (state = INITAL_STATE, action) => {
 };
 ```
 > In the default case need to return the incoming state
+
+- src/store/user/user.action.js
+```js
+import { createAction } from '../../utils/reducer/reducer.utils';
+import { USER_ACTION_TYPES } from './user.types';
+
+export const setCurrentUser = (user) => createAction(USER_ACTION_TYPES.SET_CURRENT_USER, user);
+```
+
+- src/store/user/user.types.js
+```js
+export const USER_ACTION_TYPES = {
+  SET_CURRENT_USER: 'SET_CURRENT_USER',
+};
+```
+
+- dispatch action:
+```js
+import { setCurrentUser } from './store/user/user.action';
+import { useDispatch } from 'react-redux';
+
+...
+
+const dispatch = useDispatch();
+
+...
+
+dispatch(setCurrentUser(user));
+```
+> There are only one dispatch in the entire application
