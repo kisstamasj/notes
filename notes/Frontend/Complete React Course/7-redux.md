@@ -116,7 +116,7 @@ export const userReducer = (state = INITAL_STATE, action) => {
 
 - src/store/user/user.action.js
 
-  An example action
+  An example action. The actions are setting the state in the store.
 
 ```js
 import { createAction } from '../../utils/reducer/reducer.utils';
