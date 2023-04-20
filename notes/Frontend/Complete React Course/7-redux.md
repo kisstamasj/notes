@@ -1,15 +1,8 @@
 # Redux and Reducer
 
-
-
 ## Context API VS Redux
 - Redux always warp the entire application, Context API can isolate the components
 - Context API has multiple reducer and multiple action to dispatch the state, Redux has a root reducer and one action to update all reducer
-
-## Redux
-Global state management
-
-- install: `yarn add redux react-redux redux-logger`
 
 ## Reducer
 Reducers are functions that take the current state and an action as arguments, and return a new state result. 
@@ -58,3 +51,14 @@ export const UserProvider = ({ children }) => {
   return <UserContext.Provider value={value}>{children}</UserContext.Provider>;
 };
 ```
+
+## Redux
+Global state management
+
+- install: `yarn add redux react-redux redux-logger`
+
+### Setup Redux
+
+#### File structure
+
+- src/store/store.js
