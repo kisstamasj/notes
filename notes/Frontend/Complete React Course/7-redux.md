@@ -56,7 +56,7 @@ export const UserProvider = ({ children }) => {
 Global state management
 
 - install: `yarn add redux react-redux redux-logger`
-- all reducer in redux receive every singel action that get dispatched ever 
+- all reducer in redux receive every single action that get dispatched 
 - every reducer has own folder
 
 ### Setup Redux
