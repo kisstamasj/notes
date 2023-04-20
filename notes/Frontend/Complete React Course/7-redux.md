@@ -56,9 +56,42 @@ export const UserProvider = ({ children }) => {
 Global state management
 
 - install: `yarn add redux react-redux redux-logger`
+- all reducer in redux receive every singel action that get dispatched ever 
+- every reducer has own folder
 
 ### Setup Redux
 
 #### File structure
 
 - src/store/store.js
+
+```js
+import { combineReducers } from 'redux';
+import { userReducer } from './user/user.reducer';
+
+export const rootReducer = combineReducers({
+  user: userReducer,
+});
+```
+
+- src/store/user/user.reducer.js
+```js
+export const USER_ACTION_TYPES = {
+  SET_CURRENT_USER: 'SET_CURRENT_USER',
+};
+
+const INITAL_STATE = {
+  currentUser: null,
+};
+
+export const userReducer = (state = INITAL_STATE, action) => {
+  const { type, payload } = action;
+
+  switch (type) {
+    case 'SET_CURRENT_USER':
+      return { ...state, currentUser: payload };
+    default:
+      return state;
+  }
+};
+```
