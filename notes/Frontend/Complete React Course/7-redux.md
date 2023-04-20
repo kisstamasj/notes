@@ -127,11 +127,11 @@ export const setCurrentUser = (user) => createAction(USER_ACTION_TYPES.SET_CURRE
 
 - src/store/user/user.types.js
 
-  Each reducer has own types.
+  Each reducer has own types. Best practice to write to the action is what for.
 
 ```js
 export const USER_ACTION_TYPES = {
-  SET_CURRENT_USER: 'SET_CURRENT_USER',
+  SET_CURRENT_USER: 'user/SET_CURRENT_USER',
 };
 ```
 
