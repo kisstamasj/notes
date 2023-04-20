@@ -127,7 +127,7 @@ export const USER_ACTION_TYPES = {
 };
 ```
 
-- dispatch action:
+#### Dispatch action:
 ```js
 import { setCurrentUser } from './store/user/user.action';
 import { useDispatch } from 'react-redux';
