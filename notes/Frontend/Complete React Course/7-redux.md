@@ -81,7 +81,7 @@ export const store = createStore(rootReducer, undefined, composedEnhancers);
 
 - src/store/root-reducer.js
 
-  The root reducer combine all reducer to one. Whenever a reducer change the whole root reducer will be output a new object, so every components will be rerender where the state is retrieved.
+  The root reducer combine all reducer to one. Whenever a reducer change the whole root reducer will be output a new object, so every useSelector will be re run, the will cause a component rerender.
 
 ```js
 import { combineReducers } from 'redux';
