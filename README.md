@@ -487,6 +487,7 @@
     * [Middleware](./notes/Frontend/Complete%20React%20Course/7-redux.md#middleware)
       + [Usage](./notes/Frontend/Complete%20React%20Course/7-redux.md#usage)
     * [Redux DevTool Chrome extension](./notes/Frontend/Complete%20React%20Course/7-redux.md#redux-devtool-chrome-extension)
+    * [Redux Thunk](./notes/Frontend/Complete%20React%20Course/7-redux.md#redux-thunk)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
