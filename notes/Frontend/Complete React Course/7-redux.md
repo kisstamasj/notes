@@ -182,6 +182,7 @@ const currentUser = useSelector(selectCurrentUser);
 ### Reselect library
 
 - install: `yarn add reselect`
+- 
 
 ```js
 import { createSelector } from 'reselect';
