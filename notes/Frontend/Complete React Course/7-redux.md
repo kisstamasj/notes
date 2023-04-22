@@ -137,7 +137,7 @@ export const USER_ACTION_TYPES = {
 
 - src/store/user/user.selector.js
 
-  Selector for retrive data from the store. Selector also contains the business logic of transform the data for more efficient way to use data inside components.
+  Selector for retrive data from the store. Selector also contains the business logic of transform the data for more efficient way to use inside components.
 
 ```js
 export const selectCurrentUser = (state) => state.user.currentUser;
