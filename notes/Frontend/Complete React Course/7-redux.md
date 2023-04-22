@@ -232,3 +232,8 @@ export const selectCategoriesMap = createSelector([selectCategories], (categorie
   }, {})
 );
 ```
+
+## Redux persist
+
+- install: `yarn add redux-persist`
+- store redux store data in local sotrage 
