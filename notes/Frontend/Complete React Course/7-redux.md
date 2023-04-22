@@ -310,3 +310,12 @@ export const loggerMiddleware = (store) => (next) => (action) => {
   console.log('next state: ', store.getState());
 };
 ```
+
+### Usage
+```js
+// store/store.js
+
+const middleWares = [loggerMiddleware];
+const composedEnhancers = compose(applyMiddleware(...middleWares));
+export const store = createStore(rootReducer, undefined, composedEnhancers);
+```
