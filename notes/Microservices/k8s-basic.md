@@ -310,3 +310,5 @@ spec:
      type: back-end
 ```
 
+# [14 Kubernetes and Cloud Security Challenges and How to Solve Them](https://thehackernews.com/2023/04/14-kubernetes-and-cloud-security.html)
+
