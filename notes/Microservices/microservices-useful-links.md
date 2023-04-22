@@ -19,3 +19,7 @@ https://semaphoreci.com/blog/microservices-best-practices
 ### What Are Microservices Design Patterns?
 
 https://www.codemotion.com/magazine/backend/what-are-microservices-design-patterns/
+
+### Microservices testing tools
+
+https://javascript.plainenglish.io/11-microservices-testing-tools-and-frameworks-you-should-know-in-2023-7c370230c770
