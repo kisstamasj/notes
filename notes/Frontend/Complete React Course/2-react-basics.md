@@ -263,6 +263,8 @@ An inpure function is a function that contains one or more side effects. It muta
 
 ### [Pure and Inpure functions example](https://dev.to/codeofrelevancy/you-need-to-know-about-pure-functions-impure-functions-in-javascript-57)
 
+## [Currying function](https://stackoverflow.com/questions/36314/what-is-currying)
+
 # Special components
 
 ## Fragment
