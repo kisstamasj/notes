@@ -137,7 +137,9 @@ export const USER_ACTION_TYPES = {
 
 - src/store/user/user.selector.js
 
-  Selector for retrive data from the store. Selector also contains the business logic of transform the data for more efficient way to use inside components.
+  - Selector for retrive data from the store. 
+  - Selector also contains the business logic of transform the data for more efficient way to use inside components.
+  - If a a selector get fired then all selector will be run. Thats why useful the reselect library.
 
 ```js
 export const selectCurrentUser = (state) => state.user.currentUser;
@@ -182,7 +184,7 @@ const currentUser = useSelector(selectCurrentUser);
 ### Reselect library
 
 - install: `yarn add reselect`
-- 
+- Memoize the reducer, do if some selector get fired the memoized selector will be only run when the current reducer changed.
 
 ```js
 import { createSelector } from 'reselect';
