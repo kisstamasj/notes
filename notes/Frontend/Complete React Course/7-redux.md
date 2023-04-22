@@ -328,7 +328,45 @@ export const store = createStore(rootReducer, undefined, composedEnhancers);
 const composedEnhancer = (process.env.NODE_ENV !== 'production' && window && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose
 
 const composedEnhancers = composedEnhancer(applyMiddleware(...middleWares));
-
 ```
 
+## Redux Thunk
+Thunk middleware for Redux. It allows writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
 
+- install: `yarn add redux-thunk`
+
+```js
+// category.types.js
+
+export const CATEGORIES_ACTION_TYPES = {
+  SET_CATEGORIES: 'category/SET_CATEGORIES',
+  FETCH_CATEGORIES_START: 'category/FETCH_CATEGORIES_START',
+  FETCH_CATEGORIES_SUCCESS: 'category/FETCH_CATEGORIES_SUCCESS',
+  FETCH_CATEGORIES_FAILED: 'category/FETCH_CATEGORIES_FAILED',
+};
+```
+```js
+// category.reducer.js
+
+import { CATEGORIES_ACTION_TYPES } from './category.types';
+
+export const CATEGORIES_INITIAL_STATE = {
+  categories: [],
+  isLoading: false,
+  error: null,
+};
+
+export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action = {}) => {
+  const { type, payload } = action;
+  switch (type) {
+    case CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_START:
+      return { ...state, isLoading: true };
+    case CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_FAILED:
+      return { ...state, error: payload, isLoading: false };
+    case CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_SUCCESS:
+      return { ...state, categories: payload, isLoading: false };
+    default:
+      return state;
+  }
+};
+```
