@@ -178,3 +178,7 @@ import { selectCurrentUser } from '../../store/user/user.selector';
 
 const currentUser = useSelector(selectCurrentUser);
 ```
+
+### Reselect library
+
+- install: `yarn add reselect`
