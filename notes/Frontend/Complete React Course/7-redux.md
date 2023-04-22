@@ -81,7 +81,8 @@ export const store = createStore(rootReducer, undefined, composedEnhancers);
 
 - src/store/root-reducer.js
 
-  The root reducer combine all reducer to one. Whenever a reducer change the whole root reducer will be output a new object, so every useSelector will be re run, the will cause a component rerender.
+  - The root reducer combine all reducer to one. 
+  - Whenever a reducer change the whole root reducer will be output a new object, so every useSelector will be re run, the will cause a component rerender.
 
 ```js
 import { combineReducers } from 'redux';
@@ -128,7 +129,8 @@ export const setCurrentUser = (user) => createAction(USER_ACTION_TYPES.SET_CURRE
 
 - src/store/user/user.types.js
 
-  Each reducer has own types. Best practice to write to the action is what for.
+  - Each reducer has own types. 
+  - Best practice to write to the action is what for. 
 
 ```js
 export const USER_ACTION_TYPES = {
