@@ -332,6 +332,7 @@ const composedEnhancers = composedEnhancer(applyMiddleware(...middleWares));
 
 ## Redux Thunk
 Thunk middleware for Redux. It allows writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
+It is usefull when you want to run async functions (like fetching) inside a redux actions.
 
 - install: `yarn add redux-thunk`
 
