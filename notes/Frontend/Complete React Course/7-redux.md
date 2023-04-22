@@ -315,7 +315,20 @@ export const loggerMiddleware = (store) => (next) => (action) => {
 ```js
 // store/store.js
 
-const middleWares = [loggerMiddleware];
+const middleWares = [process.env.NODE_ENV !== 'production' && loggerMiddleware].filter(Boolean);
 const composedEnhancers = compose(applyMiddleware(...middleWares));
 export const store = createStore(rootReducer, undefined, composedEnhancers);
 ```
+
+## [Redux DevTool Chrome extension](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd/related)
+
+```js
+// src/store/store.js
+
+const composedEnhancer = (process.env.NODE_ENV !== 'production' && window && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose
+
+const composedEnhancers = composedEnhancer(applyMiddleware(...middleWares));
+
+```
+
+
