@@ -137,10 +137,21 @@ export const USER_ACTION_TYPES = {
 
 - src/store/user/user.selector.js
 
-  Selector for retrive data from the store
+  Selector for retrive data from the store. Selector also contains the business logic of transform the data for more efficient way to use data inside components.
 
 ```js
 export const selectCurrentUser = (state) => state.user.currentUser;
+```
+
+Convert categories array to a categories map
+```js
+export const selectCategoriesMap = (state) =>
+  state.categories.categories.reduce((acc, category) => {
+    const { title, items } = category;
+    acc[title.toLowerCase()] = items;
+    return acc;
+  }, {});
+
 ```
 
 #### Dispatch action:
