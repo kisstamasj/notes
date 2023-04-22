@@ -532,6 +532,7 @@
       + [NodePort Example](./notes/Microservices/k8s-basic.md#nodeport-example)
       + [ClusterIP Example](./notes/Microservices/k8s-basic.md#clusterip-example)
       + [LoadBalancer Example](./notes/Microservices/k8s-basic.md#loadbalancer-example)
+  - [14 Kubernetes and Cloud Security Challenges and How to Solve Them](./notes/Microservices/k8s-basic.md#14-kubernetes-and-cloud-security-challenges-and-how-to-solve-them)
       + [Microservices Fundamentals](./notes/Microservices/microservices-useful-links.md#microservices-fundamentals)
       + [Monoliths and Microservices architecture](./notes/Microservices/microservices-useful-links.md#monoliths-and-microservices-architecture)
       + [Top 10 Microservices Design Principles](./notes/Microservices/microservices-useful-links.md#top-10-microservices-design-principles)
