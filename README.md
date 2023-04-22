@@ -484,6 +484,7 @@
         - [Get data from store](./notes/Frontend/Complete%20React%20Course/7-redux.md#get-data-from-store)
       + [Reselect library](./notes/Frontend/Complete%20React%20Course/7-redux.md#reselect-library)
     * [Redux persist](./notes/Frontend/Complete%20React%20Course/7-redux.md#redux-persist)
+    * [Middleware](./notes/Frontend/Complete%20React%20Course/7-redux.md#middleware)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
