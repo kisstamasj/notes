@@ -80,7 +80,7 @@ export const store = createStore(rootReducer, undefined, composedEnhancers);
 ```
   - custom middlware in the store.js
     ```js
-     import { compose, legacy_createStore as createStore, applyMiddleware } from 'redux';
+    import { compose, legacy_createStore as createStore, applyMiddleware } from 'redux';
     import logger from 'redux-logger';
 
     import { rootReducer } from './root-reducer';
