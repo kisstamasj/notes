@@ -445,6 +445,7 @@
     * [Pure function](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#pure-function)
     * [Inpure function](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#inpure-function)
       + [Pure and Inpure functions example](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#pure-and-inpure-functions-example)
+    * [Currying function](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#currying-function)
   - [Special components](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#special-components)
     * [Fragment](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#fragment)
     * [Importing SVG as react component](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#importing-svg-as-react-component)
