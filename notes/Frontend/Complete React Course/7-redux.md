@@ -370,3 +370,5 @@ export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action = {})
   }
 };
 ```
+
+- store/store.js -> middleware -> thunk
