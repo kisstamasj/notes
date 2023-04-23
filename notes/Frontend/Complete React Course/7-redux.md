@@ -375,3 +375,5 @@ export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action = {})
 - store/store.js -> middleware -> thunk
 
 ## Redux Saga
+
+- Redux thunk like middleware but the data flow is different. After the flow hit the reducers then comes the Redux Saga
