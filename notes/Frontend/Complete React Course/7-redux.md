@@ -378,3 +378,4 @@ export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action = {})
 
 - Redux thunk like middleware but the data flow is different. After the flow hit the reducers then comes the Redux Saga
 - install: `yarn add redux-saga`
+- src/store/root-saga.js:
