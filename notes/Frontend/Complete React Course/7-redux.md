@@ -209,7 +209,7 @@ import { selectCurrentUser } from '../../store/user/user.selector';
 const currentUser = useSelector(selectCurrentUser);
 ```
 
-### Reselect library
+## Reselect library
 
 - install: `yarn add reselect`
 - Memoize the reducer, do if some selector get fired the memoized selector will be only run when the current reducer changed.
