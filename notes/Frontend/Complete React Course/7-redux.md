@@ -330,7 +330,10 @@ const composedEnhancer = (process.env.NODE_ENV !== 'production' && window && win
 const composedEnhancers = composedEnhancer(applyMiddleware(...middleWares));
 ```
 
-## Redux Thunk
+## Async State Management Libraries
+Only one of them can be used in a project.
+
+### Redux Thunk
 Thunk middleware for Redux. It allows writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
 It is usefull when you want to run async functions (like fetching) inside a redux actions.
 
@@ -374,7 +377,7 @@ export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action = {})
 
 - store/store.js -> middleware -> thunk
 
-## Redux Saga
+### Redux Saga
 
 - Redux thunk like middleware but the data flow is different. After the flow hit the reducers then comes the Redux Saga
 - install: `yarn add redux-saga`
