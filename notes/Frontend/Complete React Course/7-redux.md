@@ -381,4 +381,51 @@ export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action = {})
 
 - Redux thunk like middleware but the data flow is different. After the flow hit the reducers then comes the Redux Saga
 - install: `yarn add redux-saga`
-- src/store/root-saga.js:
+
+```js
+// src/store/root-saga.js
+
+import { all, call } from 'redux-saga/effects';
+
+export function* rootSaga() {}
+```
+
+```js
+// src/store/store.js
+
+import { compose, legacy_createStore as createStore, applyMiddleware } from 'redux';
+import logger from 'redux-logger';
+import { rootReducer } from './root-reducer';
+
+// import the neccessery files
+import createSagaMiddleware from 'redux-saga'
+import { rootSaga } from './root-saga';
+
+import { persistStore, persistReducer} from 'redux-persist'
+import storage from 'redux-persist/lib/storage'
+
+const persistConfig = {
+  key: 'root',
+  storage,
+  whiteList: ['cart']
+}
+
+const presistedReducer = persistReducer(persistConfig, rootReducer)
+
+// create middleware
+const sagaMiddleware = createSagaMiddleware();
+
+const middleWares = [process.env.NODE_ENV !== 'production' && logger, sagaMiddleware].filter(Boolean);
+
+const composedEnhancer = (process.env.NODE_ENV !== 'production' && window && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose
+
+const composedEnhancers = composedEnhancer(applyMiddleware(...middleWares));
+
+export const store = createStore(presistedReducer, undefined, composedEnhancers);
+
+// run after store created
+sagaMiddleware.run(rootSaga)
+
+export const persistor = persistStore(store)
+```
+ 
