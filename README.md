@@ -482,7 +482,7 @@
         - [File structure](./notes/Frontend/Complete%20React%20Course/7-redux.md#file-structure)
         - [Dispatch action:](./notes/Frontend/Complete%20React%20Course/7-redux.md#dispatch-action)
         - [Get data from store](./notes/Frontend/Complete%20React%20Course/7-redux.md#get-data-from-store)
-      + [Reselect library](./notes/Frontend/Complete%20React%20Course/7-redux.md#reselect-library)
+    * [Reselect library](./notes/Frontend/Complete%20React%20Course/7-redux.md#reselect-library)
     * [Redux persist](./notes/Frontend/Complete%20React%20Course/7-redux.md#redux-persist)
     * [Middleware](./notes/Frontend/Complete%20React%20Course/7-redux.md#middleware)
       + [Usage](./notes/Frontend/Complete%20React%20Course/7-redux.md#usage)
