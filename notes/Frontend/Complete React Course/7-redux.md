@@ -390,6 +390,7 @@ import { all, call } from 'redux-saga/effects';
 export function* rootSaga() {}
 ```
 > function* means this is a generator function
+> 
 > More info about generator functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*?retiredLocale=hu
 
 ```js
