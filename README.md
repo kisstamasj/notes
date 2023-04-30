@@ -418,7 +418,7 @@
     * [3. Unidirectional data flow](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#3-unidirectional-data-flow)
     * [4. UI, The rest is up to you](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#4-ui-the-rest-is-up-to-you)
     * [5. The job of a React developer](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#5-the-job-of-a-react-developer)
-  - [More Principles here](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#more-principles-here)
+  - [More Principles](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#more-principles)
   - [NPM vs. Yarn](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#npm-vs-yarn)
   - [CLI commands](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#cli-commands)
   - [JSX](./notes/Frontend/Complete%20React%20Course/2-react-basics.md#jsx)
