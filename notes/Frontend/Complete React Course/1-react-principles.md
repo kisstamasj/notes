@@ -23,3 +23,6 @@
 - Decide on Components: How to beark down the app to components
 - Decide the state and where it lives
 - What changes when state changes
+
+
+# (More Principles here)[https://blog.devgenius.io/solid-principles-in-reactjs-1d225dd22a3f]
