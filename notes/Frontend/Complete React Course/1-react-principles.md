@@ -25,4 +25,6 @@
 - What changes when state changes
 
 
-# [More Principles here](https://blog.devgenius.io/solid-principles-in-reactjs-1d225dd22a3f)
+# More Principles
+- https://blog.devgenius.io/solid-principles-in-reactjs-1d225dd22a3f
+- https://principles.design/examples/reactjs-design-principles
