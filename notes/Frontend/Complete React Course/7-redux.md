@@ -423,7 +423,7 @@ export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action = {})
       createAction(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_FAILED, error);
    ```
 6. Create a saga 
-  - Create a main genearator function for the saga
+  - Create a main generator function for the saga
     ``` js
     export function* categoriesSaga() {
       yield all([call(onFetchCategories)]);
@@ -503,8 +503,10 @@ const presistedReducer = persistReducer(persistConfig, rootReducer)
 // create middleware
 const sagaMiddleware = createSagaMiddleware();
 
+// set the middelwares
 const middleWares = [process.env.NODE_ENV !== 'production' && logger, sagaMiddleware].filter(Boolean);
 
+// in development mode used the devtool composer
 const composedEnhancer = (process.env.NODE_ENV !== 'production' && window && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose
 
 const composedEnhancers = composedEnhancer(applyMiddleware(...middleWares));
@@ -516,6 +518,35 @@ sagaMiddleware.run(rootSaga)
 
 export const persistor = persistStore(store)
 ```
+
+9. Usage
+```jsx
+import { Routes, Route } from 'react-router-dom';
+import CategoriesPreview from '../categories-preview/categories-preview.component';
+import Category from '../category/category.component';
+import { useEffect } from 'react';
+import { fetchCategoryStart } from '../../store/categories/category.action';
+import { useDispatch } from 'react-redux';
+
+const Shop = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchCategoryStart());
+  }, [dispatch]);
+
+  return (
+    <Routes>
+      <Route index element={<CategoriesPreview />}></Route>
+      <Route path=':category' element={<Category />}></Route>
+    </Routes>
+  );
+};
+
+export default Shop;
+```
+Dispatch the `fetchCategoryStart` action, wich will start fetching the categories data.
+If it will fail then will be called the `fetchCategoryFailed` action, or if it success will be called the `fetchCategorySuccess` action.
 
 > function* means this is a generator function
 > 
