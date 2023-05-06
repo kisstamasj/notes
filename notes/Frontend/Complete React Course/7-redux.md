@@ -449,8 +449,35 @@ export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action = {})
     }
     ```
     The `fetchCategorySuccess` and `fetchCategoryFailed` action will called by `put` function, wich put the state in the store.
-    
-7. Inplementing to the store
+
+7. Create reducer:
+   ```js
+   import { CATEGORIES_ACTION_TYPES } from './category.types';
+
+    export const CATEGORIES_INITIAL_STATE = {
+      categories: [],
+      isLoading: false,
+    error: null,
+    };
+
+    export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action = {}) => {
+      const { type, payload } = action;
+      switch (type) {
+        case CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_START:
+          return { ...state, isLoading: true };
+        case CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_FAILED:
+          return { ...state, error: payload, isLoading: false };
+        case CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_SUCCESS:
+          return { ...state, categories: payload, isLoading: false };
+        default:
+          return state;
+      }
+    };
+
+   ```
+   Reducers returns with the new state object.
+   
+8. Implementing to the store
 ```js
 // src/store/store.js
 
