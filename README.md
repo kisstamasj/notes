@@ -491,7 +491,7 @@
     * [Async State Management Libraries](./notes/Frontend/Complete%20React%20Course/7-redux.md#async-state-management-libraries)
       + [Redux Thunk](./notes/Frontend/Complete%20React%20Course/7-redux.md#redux-thunk)
       + [Redux Saga](./notes/Frontend/Complete%20React%20Course/7-redux.md#redux-saga)
-        - [Create a saga](./notes/Frontend/Complete%20React%20Course/7-redux.md#create-a-saga)
+        - [Creating redux-saga state managemnet:](./notes/Frontend/Complete%20React%20Course/7-redux.md#creating-redux-saga-state-managemnet)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
