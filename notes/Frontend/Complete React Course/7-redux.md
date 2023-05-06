@@ -380,19 +380,77 @@ export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action = {})
 ### Redux Saga
 
 - Redux thunk like middleware but the data flow is different. After the flow hit the reducers then comes the Redux Saga
+- Used for async busniness logic inside the redux store.
 - install: `yarn add redux-saga`
 
-```js
-// src/store/root-saga.js
+#### Creating redux-saga state managemnet:
 
-import { all, call } from 'redux-saga/effects';
+1. Create `root-saga.js` inside `store` folder
+   ```js
+   import { all, call } from 'redux-saga/effects';
 
-export function* rootSaga() {}
-```
-> function* means this is a generator function
-> 
-> More info about generator functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*?retiredLocale=hu
+    import { categoriesSaga } from './categories/category.saga';
+    import { userSagas } from './user/user.saga';
 
+    export function* rootSaga() {
+      yield all([call(categoriesSaga), call(userSagas)]);
+    }
+   ```
+   There are two sagas: `categoriesSaga` and `userSagas`. The other examples made by `categoriesSaga` saga.
+   
+3. Create action types
+   ```js
+   export const CATEGORIES_ACTION_TYPES = {
+      SET_CATEGORIES: 'category/SET_CATEGORIES',
+      FETCH_CATEGORIES_START: 'category/FETCH_CATEGORIES_START',
+      FETCH_CATEGORIES_SUCCESS: 'category/FETCH_CATEGORIES_SUCCESS',
+      FETCH_CATEGORIES_FAILED: 'category/FETCH_CATEGORIES_FAILED',
+    };
+   ```
+4. Create actions
+   ```js
+    import { createAction } from '../../utils/reducer/reducer.utils';
+    import { CATEGORIES_ACTION_TYPES } from './category.types';
+
+    export const setCategories = (categoriesArray) =>
+      createAction(CATEGORIES_ACTION_TYPES.SET_CATEGORIES, categoriesArray);
+
+    export const fetchCategoryStart = () =>
+      createAction(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_START);
+    export const fetchCategorySuccess = (categoriesArray) =>
+      createAction(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_SUCCESS, categoriesArray);
+    export const fetchCategoryFailed = (error) =>
+      createAction(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_FAILED, error);
+   ```
+6. Create a saga 
+  - Create a main genearator function for the saga
+    ``` js
+    export function* categoriesSaga() {
+      yield all([call(onFetchCategories)]);
+    }
+    ```
+    This can call paralell all the action, wich contains in the array. The `call` function will call the action
+  - Create the action inside the saga file:
+    ```js
+    export function* onFetchCategories() {
+      yield takeLatest(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_START, fetchCategoriesAsync);
+    }
+    ```
+    This will take the last action of the `CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_START` action type and the other will be cancelled.
+  - Put the state in the store:
+    ```js
+    export function* fetchCategoriesAsync() {
+      try {
+        const categoriesArray = yield call(getCategoriesAndDocuments, 'categories');
+        yield put(fetchCategorySuccess(categoriesArray));
+      } catch (error) {
+        yield put(fetchCategoryFailed(error));
+      }
+    }
+    ```
+    The `fetchCategorySuccess` and `fetchCategoryFailed` action will called by `put` function, wich put the state in the store.
+    
+7. Inplementing to the store
 ```js
 // src/store/store.js
 
@@ -432,30 +490,6 @@ sagaMiddleware.run(rootSaga)
 export const persistor = persistStore(store)
 ```
 
-#### Create a saga
-
-```js
-// src/store/categories/category.saga.js
-
-import { takeLatest, all, call, put } from 'redux-saga/effects';
-import { getCategoriesAndDocuments } from '../../utils/firebase/firebase.utils';
-import { fetchCategorySuccess, fetchCategoryFailed } from './category.action';
-import { CATEGORIES_ACTION_TYPES } from './category.types';
-
-export function* fetchCategoriesAsync() {
-  try {
-    const categoriesArray = yield call(getCategoriesAndDocuments, 'categories');
-    yield put(fetchCategorySuccess(categoriesArray));
-  } catch (error) {
-    yield put(fetchCategoryFailed(error));
-  }
-}
-
-export function* onFetchCategories() {
-  yield takeLatest(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_START, fetchCategoriesAsync);
-}
-
-export function* categoriesSaga() {
-  yield all([call(onFetchCategories)]);
-}
-```
+> function* means this is a generator function
+> 
+> More info about generator functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*?retiredLocale=hu
