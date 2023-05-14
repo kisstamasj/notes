@@ -430,7 +430,7 @@ export const categoriesReducer = (state = CATEGORIES_INITIAL_STATE, action = {})
     }
     ```
     This can call paralell all the action, wich contains in the array. The `call` function will call the action
-  - Create the action inside the saga file:
+  - Create the entry point inside the saga file:
     ```js
     export function* onFetchCategories() {
       yield takeLatest(CATEGORIES_ACTION_TYPES.FETCH_CATEGORIES_START, fetchCategoriesAsync);
