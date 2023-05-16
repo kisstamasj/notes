@@ -212,7 +212,7 @@ const currentUser = useSelector(selectCurrentUser);
 ## Reselect library
 
 - install: `yarn add reselect`
-- Memoize the reducer, do if some selector get fired the memoized selector will be only run when the current reducer changed.
+- Memoize the reducer, if some selector get fired the memoized selector will be only run when the current reducer changed.
 
 ```js
 import { createSelector } from 'reselect';
