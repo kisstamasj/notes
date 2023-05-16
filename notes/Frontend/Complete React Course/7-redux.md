@@ -27,8 +27,8 @@ export const USER_ACTION_TYPES = {
 const userReducer = (state, action) => {
   const { type, payload } = action;
 
-  switch (USER_ACTION_TYPES.SET_CURRENT_USER) {
-    case 'SET_CURRENT_USER':
+  switch (type) {
+    case USER_ACTION_TYPES.SET_CURRENT_USER:
       return { ...state, currentUser: payload };
     default:
       throw new Error(`Unhandled type ${type} in userReducer`);
