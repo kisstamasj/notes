@@ -551,3 +551,6 @@ If it will fail then will be called the `fetchCategoryFailed` action, or if it s
 > function* means this is a generator function
 > 
 > More info about generator functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*?retiredLocale=hu
+
+### Redux toolkit
+
