@@ -493,6 +493,11 @@
       + [Redux Saga](./notes/Frontend/Complete%20React%20Course/7-redux.md#redux-saga)
         - [Creating redux-saga state managemnet:](./notes/Frontend/Complete%20React%20Course/7-redux.md#creating-redux-saga-state-managemnet)
       + [Redux toolkit](./notes/Frontend/Complete%20React%20Course/7-redux.md#redux-toolkit)
+
+## [ES6](./notes/Frontend/ES6/)
+
+  - [ES6 features](./notes/Frontend/ES6/ES6.md#es6-features)
+    * [let vs var vs const](./notes/Frontend/ES6/ES6.md#let-vs-var-vs-const)
   - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
   - [React basics](./notes/Frontend/NextJS.md#react-basics)
   - [NextJS](./notes/Frontend/NextJS.md#nextjs)
