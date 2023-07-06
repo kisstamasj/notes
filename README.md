@@ -498,11 +498,21 @@
 
   - [ES6 features](./notes/Frontend/ES6/ES6.md#es6-features)
     * [let vs var vs const](./notes/Frontend/ES6/ES6.md#let-vs-var-vs-const)
-  - [TypeScript basics](./notes/Frontend/NextJS.md#typescript-basics)
-  - [React basics](./notes/Frontend/NextJS.md#react-basics)
-  - [NextJS](./notes/Frontend/NextJS.md#nextjs)
-  - [UI FrameWorks](./notes/Frontend/NextJS.md#ui-frameworks)
-  - [Something](./notes/Frontend/NextJS.md#something)
+
+## [NextJS](./notes/Frontend/NextJS/)
+
+  - [TypeScript basics](./notes/Frontend/NextJS/NextJS-Basics.md#typescript-basics)
+  - [React basics](./notes/Frontend/NextJS/NextJS-Basics.md#react-basics)
+  - [NextJS](./notes/Frontend/NextJS/NextJS-Basics.md#nextjs)
+  - [UI FrameWorks](./notes/Frontend/NextJS/NextJS-Basics.md#ui-frameworks)
+  - [Something](./notes/Frontend/NextJS/NextJS-Basics.md#something)
+  - [UI Libraries](./notes/Frontend/NextJS/best-practices.md#ui-libraries)
+  - [UI components](./notes/Frontend/NextJS/best-practices.md#ui-components)
+  - [Validator](./notes/Frontend/NextJS/best-practices.md#validator)
+  - [State management:](./notes/Frontend/NextJS/best-practices.md#state-management)
+  - [Cloud Serverless Providers](./notes/Frontend/NextJS/best-practices.md#cloud-serverless-providers)
+  - [Authentication service and user management](./notes/Frontend/NextJS/best-practices.md#authentication-service-and-user-management)
+  - [Database connection provider](./notes/Frontend/NextJS/best-practices.md#database-connection-provider)
 
 ## [Microservices](./notes/Microservices/)
 
