@@ -102,3 +102,7 @@ model Store {
 ```
 - generate prisma types: ```npx prisma generate```
 - push to the db: ```npx prisma db push```
+
+# Utilities
+
+- date formatter: date-fns (```npm i date-fns```)
