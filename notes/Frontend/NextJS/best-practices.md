@@ -32,7 +32,6 @@
 
 - install: ```npm i -D prisma``` ```npm i @prisma/client```
 - init: ```npx primsa init```
-- set the ```DATABASE_URL``` in the ```.env``` file
 ```ts
 // lib/prisma.ts
 
@@ -48,5 +47,18 @@ if (process.env.NODE_ENV !== "production")
     globalThis.prisma = prismadb;
 
 export default prismadb;
+```
+- set the ```DATABASE_URL``` in the ```.env``` file
+- set the preferd settings in the ```schema.prisma``` in the ```datasource db``` section
+- make models
+```prisma
+// example
 
+model Store {
+  id        String   @id @default(uuid())
+  name      String
+  userId    String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
 ```
