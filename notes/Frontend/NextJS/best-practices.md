@@ -19,6 +19,7 @@
 
 - [supabase](https://supabase.com/)
 - [planetscale](https://app.planetscale.com/)
+- Image & Video API: [https://cloudinary.com/](https://cloudinary.com/) 
 
 # Authentication service and user management
 
