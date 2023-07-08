@@ -515,6 +515,7 @@
   - [Database connection provider](./notes/Frontend/NextJS/best-practices.md#database-connection-provider)
       + [prisma](./notes/Frontend/NextJS/best-practices.md#prisma)
         - [Usage](./notes/Frontend/NextJS/best-practices.md#usage)
+  - [Utilities](./notes/Frontend/NextJS/best-practices.md#utilities)
 
 ## [Microservices](./notes/Microservices/)
 
