@@ -62,3 +62,5 @@ model Store {
   updatedAt DateTime @updatedAt
 }
 ```
+- generate prima types: ```npx prisma generate```
+- push to the db: ```npx prisma db push```
