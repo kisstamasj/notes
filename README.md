@@ -513,6 +513,8 @@
   - [Cloud Serverless Providers](./notes/Frontend/NextJS/best-practices.md#cloud-serverless-providers)
   - [Authentication service and user management](./notes/Frontend/NextJS/best-practices.md#authentication-service-and-user-management)
   - [Database connection provider](./notes/Frontend/NextJS/best-practices.md#database-connection-provider)
+      + [prisma](./notes/Frontend/NextJS/best-practices.md#prisma)
+        - [Usage](./notes/Frontend/NextJS/best-practices.md#usage)
 
 ## [Microservices](./notes/Microservices/)
 
