@@ -26,4 +26,27 @@
 
 # Database connection provider
 
-- [prisma](https://www.prisma.io/)
+### [prisma](https://www.prisma.io/)
+
+#### Usage
+
+- install: ```npm i -D prisma``` ```npm i @prisma/client```
+- init: ```npx primsa init```
+- set the ```DATABASE_URL``` in the ```.env``` file
+```ts
+// lib/prisma.ts
+
+import { PrismaClient } from "@prisma/client";
+
+declare global {
+    var prisma: PrismaClient | undefined;
+}
+
+const prismadb = globalThis.prisma || new PrismaClient();
+
+if (process.env.NODE_ENV !== "production")
+    globalThis.prisma = prismadb;
+
+export default prismadb;
+
+```
