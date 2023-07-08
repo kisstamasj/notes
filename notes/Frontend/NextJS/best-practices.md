@@ -33,6 +33,23 @@ const form = useForm<BillboardFormValues>({
 # State management:
 
 - [zustand](https://github.com/pmndrs/zustand)
+```ts
+import {create} from 'zustand';
+
+interface useStoreModalStore {
+    isOpen: boolean;
+    onOpen: () => void;
+    onClose: () => void;
+}
+
+export const useStoreModal = create<useStoreModalStore>((set) => ({
+    isOpen: false,
+    onOpen: () => set({isOpen: true}),
+    onClose: () => set({isOpen: false})
+}))
+
+
+```
   
 # Cloud Serverless Providers
 
