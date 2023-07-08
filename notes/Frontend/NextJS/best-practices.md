@@ -56,7 +56,7 @@ export const useStoreModal = create<useStoreModalStore>((set) => ({
 - [supabase](https://supabase.com/)
 - [planetscale](https://app.planetscale.com/)
 - Image & Video API: [https://cloudinary.com/](https://cloudinary.com/)
-      - NextJS SDK: [https://next-cloudinary.spacejelly.dev/installation](https://next-cloudinary.spacejelly.dev/installation)
+  - NextJS SDK: [https://next-cloudinary.spacejelly.dev/installation](https://next-cloudinary.spacejelly.dev/installation)
 
 # Authentication service and user management
 
