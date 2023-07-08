@@ -10,6 +10,25 @@
 # Validator
 
 - [zod validator](https://zod.dev/)
+```ts
+// outside of a component
+const formSchema = z.object({
+    label: z.string().min(1),
+    imageUrl: z.string().min(1),
+});
+
+type BillboardFormValues = z.infer<typeof formSchema>;
+
+// inside a component
+// create form
+const form = useForm<BillboardFormValues>({
+    resolver: zodResolver(formSchema),
+    defaultValues: initialData || {
+        label: "",
+        imageUrl: "",
+    },
+});
+```
 
 # State management:
 
