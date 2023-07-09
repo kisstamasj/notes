@@ -497,7 +497,6 @@
 ## [ES6](./notes/Frontend/ES6/)
 
   - [ES6 features](./notes/Frontend/ES6/ES6.md#es6-features)
-    * [let vs var vs const](./notes/Frontend/ES6/ES6.md#let-vs-var-vs-const)
 
 ## [NextJS](./notes/Frontend/NextJS/)
 
