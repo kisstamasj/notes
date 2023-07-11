@@ -106,3 +106,15 @@ model Store {
 # Utilities
 
 - date formatter: date-fns (```npm i date-fns```)
+- url query string: ```npm i query-string```
+```ts
+const url = qs.stringifyUrl({
+    url: URL,
+    query: {
+      colorId: query.categoryId,
+      sizeId: query.sizeId,
+      categoryId: query.categoryId,
+      isFeatured: query.isFeatured,
+    },
+});
+```
