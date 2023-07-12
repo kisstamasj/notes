@@ -2,6 +2,7 @@
 
 - [shadcn/ui](https://ui.shadcn.com/docs/installation/next)
 - [radix-ui](https://www.radix-ui.com/)
+- [headless-ui](https://headlessui.com/)
 
 # UI components
 
