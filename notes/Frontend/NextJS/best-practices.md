@@ -103,6 +103,7 @@ model Store {
 ```
 - generate prisma types: ```npx prisma generate```
 - push to the db: ```npx prisma db push```
+- **in production**: package.json -> scripts -> ```"postinstall": "prisma generate"```
 
 # Utilities
 
