@@ -417,6 +417,7 @@
     * [Start](./notes/Backend/NestJS/01-cli.md#start)
     * [NestJS Decorators](./notes/Backend/NestJS/02-decorators.md#nestjs-decorators)
     * [Controller](./notes/Backend/NestJS/02-decorators.md#controller)
+    * [Services](./notes/Backend/NestJS/02-decorators.md#services)
     * [Routing](./notes/Backend/NestJS/02-decorators.md#routing)
     * [Argument decorators](./notes/Backend/NestJS/02-decorators.md#argument-decorators)
   - [Request lifecycle](./notes/Backend/NestJS/03-request-lifecycle.md#request-lifecycle)
