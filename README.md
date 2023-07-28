@@ -420,8 +420,12 @@
     * [Routing](./notes/Backend/NestJS/02-decorators.md#routing)
     * [Argument decorators](./notes/Backend/NestJS/02-decorators.md#argument-decorators)
   - [Request lifecycle](./notes/Backend/NestJS/03-request-lifecycle.md#request-lifecycle)
-  - [Pipe](./notes/Backend/NestJS/03-request-lifecycle.md#pipe)
-    * [ValidationPipe](./notes/Backend/NestJS/03-request-lifecycle.md#validationpipe)
+    * [Pipe](./notes/Backend/NestJS/03-request-lifecycle.md#pipe)
+      + [ValidationPipe](./notes/Backend/NestJS/03-request-lifecycle.md#validationpipe)
+    * [Guard](./notes/Backend/NestJS/03-request-lifecycle.md#guard)
+    * [Controller](./notes/Backend/NestJS/03-request-lifecycle.md#controller)
+    * [Service](./notes/Backend/NestJS/03-request-lifecycle.md#service)
+    * [Repository](./notes/Backend/NestJS/03-request-lifecycle.md#repository)
 
 ## [Frontend](./notes/Frontend/)
 
