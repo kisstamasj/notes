@@ -415,6 +415,10 @@
   - [NestJS CLI](./notes/Backend/NestJS/01-cli.md#nestjs-cli)
     * [Generation](./notes/Backend/NestJS/01-cli.md#generation)
     * [Start](./notes/Backend/NestJS/01-cli.md#start)
+    * [NestJS Decorators](./notes/Backend/NestJS/02-decorators.md#nestjs-decorators)
+    * [Controller](./notes/Backend/NestJS/02-decorators.md#controller)
+    * [Routing](./notes/Backend/NestJS/02-decorators.md#routing)
+    * [Attribute decorators](./notes/Backend/NestJS/02-decorators.md#attribute-decorators)
 
 ## [Frontend](./notes/Frontend/)
 
