@@ -72,14 +72,4 @@ async findOne(@Query() name:string) {
     return await this.userService.findAllUsers();
 }
 ```
-
-- ```@Query()```
-
-```ts
-// user?name=test
-@Get()
-async findOne(@Query() name:string) {
-    return await this.userService.findUserByName(name);
-}
-```
   
