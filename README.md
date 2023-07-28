@@ -412,6 +412,9 @@
 
 ## [NestJS](./notes/Backend/NestJS/)
 
+  - [NestJS CLI](./notes/Backend/NestJS/01-cli.md#nestjs-cli)
+    * [Generation](./notes/Backend/NestJS/01-cli.md#generation)
+    * [Start](./notes/Backend/NestJS/01-cli.md#start)
 
 ## [Frontend](./notes/Frontend/)
 
