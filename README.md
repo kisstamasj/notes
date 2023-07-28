@@ -418,7 +418,7 @@
     * [NestJS Decorators](./notes/Backend/NestJS/02-decorators.md#nestjs-decorators)
     * [Controller](./notes/Backend/NestJS/02-decorators.md#controller)
     * [Routing](./notes/Backend/NestJS/02-decorators.md#routing)
-    * [Attribute decorators](./notes/Backend/NestJS/02-decorators.md#attribute-decorators)
+    * [Argument decorators](./notes/Backend/NestJS/02-decorators.md#argument-decorators)
 
 ## [Frontend](./notes/Frontend/)
 
