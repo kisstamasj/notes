@@ -407,6 +407,12 @@
     * [AZ-900-Microsoft-Azure-Fundamentals](./notes/Azure-development-path/README.md#az-900-microsoft-azure-fundamentals)
     * [Basics](./notes/Azure-development-path/README.md#basics)
 
+## [Backend](./notes/Backend/)
+
+
+## [NestJS](./notes/Backend/NestJS/)
+
+
 ## [Frontend](./notes/Frontend/)
 
 
