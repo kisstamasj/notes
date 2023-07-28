@@ -419,6 +419,7 @@
     * [Controller](./notes/Backend/NestJS/02-decorators.md#controller)
     * [Routing](./notes/Backend/NestJS/02-decorators.md#routing)
     * [Argument decorators](./notes/Backend/NestJS/02-decorators.md#argument-decorators)
+  - [Request lifecycle](./notes/Backend/NestJS/03-request.md#request-lifecycle)
 
 ## [Frontend](./notes/Frontend/)
 
