@@ -419,7 +419,9 @@
     * [Controller](./notes/Backend/NestJS/02-decorators.md#controller)
     * [Routing](./notes/Backend/NestJS/02-decorators.md#routing)
     * [Argument decorators](./notes/Backend/NestJS/02-decorators.md#argument-decorators)
-  - [Request lifecycle](./notes/Backend/NestJS/03-request.md#request-lifecycle)
+  - [Request lifecycle](./notes/Backend/NestJS/03-request-lifecycle.md#request-lifecycle)
+  - [Pipe](./notes/Backend/NestJS/03-request-lifecycle.md#pipe)
+    * [ValidationPipe](./notes/Backend/NestJS/03-request-lifecycle.md#validationpipe)
 
 ## [Frontend](./notes/Frontend/)
 
