@@ -4,9 +4,9 @@
 
 > More info: https://docs.nestjs.com/faq/request-lifecycle
 
-# Pipe
+## Pipe
 
-## ValidationPipe
+### ValidationPipe
 
 >built in NestJS
 
@@ -41,6 +41,7 @@ export class CreateUserDto {
     - ```class-transformer```: transform request json objets to classes (https://github.com/typestack/class-transformer)
 
 ```ts
+// user/dtos/create-user.dto.ts
 import { IsString } from 'class-validator';
 
 export class CreateUserDto {
@@ -49,8 +50,9 @@ export class CreateUserDto {
 }
 ```
 
-1. Apply that class to the request handler
+4. Apply that class to the request handler
 ```ts
+// user/user.controller.ts
 import { Body, Controller, Post } from '@nestjs/common';
 import { CreateUserDto } from './dtos/create-user.dto';
 
@@ -64,3 +66,18 @@ export class UserController {
   }
 }
 ```
+
+## Guard
+
+## Controller
+
+> Handle requests
+
+
+## Service
+> Business logic
+> insialize in the controller constructor as arguments
+> ```constructor(private userService: UserService) {}```
+
+## Repository
+> Read and write to the database
