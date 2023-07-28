@@ -11,6 +11,18 @@ import { Controller} from '@nestjs/common';
 export class UserController {}
 ```
 
+## Services
+
+- ```@Injectable()```
+- you can inject to other classes with dependency injection
+  
+```ts
+import { Injectable } from '@nestjs/common';
+
+@Injectable()
+export class UserService {}
+```
+
 ## Routing
 
 > IF the decorator doesn't get prameter then it will apply as root rout. Example.: ```http://localhost:5000/users```

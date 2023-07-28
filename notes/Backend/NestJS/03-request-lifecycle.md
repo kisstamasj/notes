@@ -75,9 +75,9 @@ export class UserController {
 
 
 ## Service
-> Business logic
-> insialize in the controller constructor as arguments
-> ```constructor(private userService: UserService) {}```
+- Business logic
+- initialize in the controller constructor as arguments: ```constructor(private userService: UserService) {}```
+- needed the ```@Injectable()``` decorator
 
 ## Repository
 > Read and write to the database
