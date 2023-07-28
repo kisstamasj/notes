@@ -51,14 +51,14 @@ async updateUser() {
 }
 ```
 
-## Attribute decorators
+## Argument decorators
 
 - ```@Param()```
 
 ```ts
 // user/:id
 @Get(':id')
-async findOne(@Param() id:string) {
+async findOne(@Param('id') id:string) {
     return await this.userService.findAllUsers();
 }
 ```
@@ -68,8 +68,18 @@ async findOne(@Param() id:string) {
 ```ts
 // user?name=test
 @Get()
-async findOne(@Query() name:string) {
+async findOne(@Query() query:any) {
     return await this.userService.findAllUsers();
+}
+```
+
+- ```@Body()```
+
+```ts
+// user?name=test
+@Post()
+async createUser(@Body() body:any) {
+    return console.log(body)
 }
 ```
   
