@@ -17,10 +17,23 @@ export class UserController {}
 - you can inject to other classes with dependency injection
   
 ```ts
+//user/user.service.ts
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
 export class UserService {}
+```
+
+Dependency injection
+```ts
+//user/user.controller.ts
+import { Controller } from '@nestjs/common';
+import { UserService } from './user.service';
+
+@Controller('user')
+export class UserController {
+  constructor(private userService: UserService) {}
+}
 ```
 
 ## Routing
