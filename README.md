@@ -432,6 +432,9 @@
     * [Sharing Service between modules](./notes/Backend/NestJS/04-modules.md#sharing-service-between-modules)
     * [Designing Modules](./notes/Backend/NestJS/04-modules.md#designing-modules)
 
+## [images](./notes/Backend/NestJS/images/)
+
+
 ## [Frontend](./notes/Frontend/)
 
 
