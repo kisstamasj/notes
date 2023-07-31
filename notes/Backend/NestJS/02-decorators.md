@@ -37,7 +37,7 @@ export class UserController {
 ```
 
 ### DI container (Dependency Injection Container)
-
+Holds on all of the class instances.
 
 ## Routing
 
