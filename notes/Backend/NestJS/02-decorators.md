@@ -24,7 +24,7 @@ import { Injectable } from '@nestjs/common';
 export class UserService {}
 ```
 
-Dependency injection
+Dependency injection (Inversion Control!!!)
 ```ts
 //user/user.controller.ts
 import { Controller } from '@nestjs/common';
@@ -35,6 +35,9 @@ export class UserController {
   constructor(private userService: UserService) {}
 }
 ```
+
+### DI container (Dependency Injection Container)
+
 
 ## Routing
 
