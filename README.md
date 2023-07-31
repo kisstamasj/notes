@@ -418,6 +418,7 @@
     * [NestJS Decorators](./notes/Backend/NestJS/02-decorators.md#nestjs-decorators)
     * [Controller](./notes/Backend/NestJS/02-decorators.md#controller)
     * [Services](./notes/Backend/NestJS/02-decorators.md#services)
+      + [DI container ](./notes/Backend/NestJS/02-decorators.md#di-container-dependency-injection-container)
     * [Routing](./notes/Backend/NestJS/02-decorators.md#routing)
     * [Argument decorators](./notes/Backend/NestJS/02-decorators.md#argument-decorators)
   - [Request lifecycle](./notes/Backend/NestJS/03-request-lifecycle.md#request-lifecycle)
@@ -427,6 +428,9 @@
     * [Controller](./notes/Backend/NestJS/03-request-lifecycle.md#controller)
     * [Service](./notes/Backend/NestJS/03-request-lifecycle.md#service)
     * [Repository](./notes/Backend/NestJS/03-request-lifecycle.md#repository)
+  - [Modules in NestJS](./notes/Backend/NestJS/04-modules.md#modules-in-nestjs)
+    * [Sharing Service between modules](./notes/Backend/NestJS/04-modules.md#sharing-service-between-modules)
+    * [Designing Modules](./notes/Backend/NestJS/04-modules.md#designing-modules)
 
 ## [Frontend](./notes/Frontend/)
 
