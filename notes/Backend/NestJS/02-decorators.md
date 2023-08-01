@@ -112,4 +112,17 @@ createUser(@Body() body:ItShouldBeDTO) {
     ...
 }
 ```
-  
+
+## Custom param decorator
+
+```ts
+import { createParamDecorator, ExecutionContext } from '@nestjs/common';
+
+export const CurrentUser = createParamDecorator(
+  (data: never, context: ExecutionContext) => {},
+);
+```
+- ```data```: incoming data with param in the decorator (if type is never then is tell us we dont give any parameter for the decorator)
+- ```context```: incoming request (http, websocket, grpc etc..)
+- we can not use dependency injection inside a param decorator (such as services)
+- interceptors are part of the dependency injection system
