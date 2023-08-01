@@ -119,7 +119,10 @@ createUser(@Body() body:ItShouldBeDTO) {
 import { createParamDecorator, ExecutionContext } from '@nestjs/common';
 
 export const CurrentUser = createParamDecorator(
-  (data: never, context: ExecutionContext) => {},
+  (data: never, context: ExecutionContext) => {
+    const request = context.switchToHttp().getRequest();
+    return request.currentUser;
+  },
 );
 ```
 - ```data```: incoming data with param in the decorator (if type is never then is tell us we dont give any parameter for the decorator)
