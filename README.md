@@ -421,6 +421,7 @@
       + [DI container ](./notes/Backend/NestJS/02-decorators.md#di-container-dependency-injection-container)
     * [Routing](./notes/Backend/NestJS/02-decorators.md#routing)
     * [Argument decorators](./notes/Backend/NestJS/02-decorators.md#argument-decorators)
+    * [Custom param decorator](./notes/Backend/NestJS/02-decorators.md#custom-param-decorator)
   - [Request lifecycle](./notes/Backend/NestJS/03-request-lifecycle.md#request-lifecycle)
     * [Pipe](./notes/Backend/NestJS/03-request-lifecycle.md#pipe)
       + [ValidationPipe](./notes/Backend/NestJS/03-request-lifecycle.md#validationpipe)
@@ -439,6 +440,14 @@
       + [Usage in a service](./notes/Backend/NestJS/05-data-persistence.md#usage-in-a-service)
       + [Hooks](./notes/Backend/NestJS/05-data-persistence.md#hooks)
       + [Best practice for update](./notes/Backend/NestJS/05-data-persistence.md#best-practice-for-update)
+  - [Class Serializer Interceptor](./notes/Backend/NestJS/06-class-serializer-interceptor.md#class-serializer-interceptor)
+    * [Built In Interceptor](./notes/Backend/NestJS/06-class-serializer-interceptor.md#built-in-interceptor)
+      + [Basic solution to remove password from response](./notes/Backend/NestJS/06-class-serializer-interceptor.md#basic-solution-to-remove-password-from-response)
+    * [Custom Interceptors](./notes/Backend/NestJS/06-class-serializer-interceptor.md#custom-interceptors)
+      + [Advanced solution to remove password field from the response](./notes/Backend/NestJS/06-class-serializer-interceptor.md#advanced-solution-to-remove-password-field-from-the-response)
+      + [Applying controller wide interceptor](./notes/Backend/NestJS/06-class-serializer-interceptor.md#applying-controller-wide-interceptor)
+        - [More info about interceptors](./notes/Backend/NestJS/06-class-serializer-interceptor.md#more-info-about-interceptors)
+  - [Cookie session](./notes/Backend/NestJS/07-cookie-session.md#cookie-session)
 
 ## [images](./notes/Backend/NestJS/images/)
 
