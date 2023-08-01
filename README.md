@@ -431,6 +431,14 @@
   - [Modules in NestJS](./notes/Backend/NestJS/04-modules.md#modules-in-nestjs)
     * [Sharing Service between modules](./notes/Backend/NestJS/04-modules.md#sharing-service-between-modules)
     * [Designing Modules](./notes/Backend/NestJS/04-modules.md#designing-modules)
+  - [Data Persistence in NestJS](./notes/Backend/NestJS/05-data-persistence.md#data-persistence-in-nestjs)
+    * [TypeORM](./notes/Backend/NestJS/05-data-persistence.md#typeorm)
+      + [Connection to the DB](./notes/Backend/NestJS/05-data-persistence.md#connection-to-the-db)
+      + [Entities](./notes/Backend/NestJS/05-data-persistence.md#entities)
+        - [Creating an Entity](./notes/Backend/NestJS/05-data-persistence.md#creating-an-entity)
+      + [Usage in a service](./notes/Backend/NestJS/05-data-persistence.md#usage-in-a-service)
+      + [Hooks](./notes/Backend/NestJS/05-data-persistence.md#hooks)
+      + [Best practice for update](./notes/Backend/NestJS/05-data-persistence.md#best-practice-for-update)
 
 ## [images](./notes/Backend/NestJS/images/)
 
