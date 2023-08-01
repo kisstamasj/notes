@@ -2,7 +2,7 @@
 
 [More about EcmaScript decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841)
 
-## Controller
+## Controller decorator
 
 - ```@Controller('controller-name')```
 
@@ -13,10 +13,10 @@ import { Controller} from '@nestjs/common';
 export class UserController {}
 ```
 
-## Services
+## Injectable decorator
 
 - ```@Injectable()```
-- you can inject to other classes with dependency injection
+- you can inject to other classes with dependency injection (ex. services)
   
 ```ts
 //user/user.service.ts
