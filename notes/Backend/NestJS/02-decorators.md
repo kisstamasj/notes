@@ -1,5 +1,7 @@
 ## NestJS Decorators
 
+[More about EcmaScript decorators](https://medium.com/google-developers/exploring-es7-decorators-76ecb65fb841)
+
 ## Controller
 
 - ```@Controller('controller-name')```
@@ -47,8 +49,8 @@ Holds on all of the class instances.
 
 ```ts
 @Get()
-async findAll() {
-    return await this.userService.findAllUsers();
+findAll() {
+    ...
 }
 ```
 
@@ -56,8 +58,8 @@ async findAll() {
 
 ```ts
 @Post()
-async createUser() {
-    return await this.userService.createUser();
+createUser() {
+    ...
 }
 ```
 
@@ -65,8 +67,8 @@ async createUser() {
 
 ```ts
 @Put()
-async updateUser() {
-    return await this.userService.updateUser();
+updateUser() {
+    ...
 }
 ```
 
@@ -74,8 +76,8 @@ async updateUser() {
 
 ```ts
 @Delete()
-async updateUser() {
-    return await this.userService.updateUser();
+updateUser() {
+    ...
 }
 ```
 
@@ -86,28 +88,28 @@ async updateUser() {
 ```ts
 // user/:id
 @Get(':id')
-async findOne(@Param('id') id:string) {
-    return await this.userService.findAllUsers();
+findOne(@Param('id') id:string) {
+    ...
 }
 ```
 
 - ```@Query()```
 
 ```ts
-// user?name=test
+// /user?name=test
 @Get()
-async findOne(@Query() query:any) {
-    return await this.userService.findAllUsers();
+findOne(@Query('name') name:string) {
+    ...
 }
 ```
 
 - ```@Body()```
 
 ```ts
-// user?name=test
+// /user
 @Post()
-async createUser(@Body() body:any) {
-    return console.log(body)
+createUser(@Body() body:ItShouldBeDTO) {
+    ...
 }
 ```
   

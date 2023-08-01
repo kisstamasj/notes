@@ -21,7 +21,9 @@ import { ValidationPipe } from '@nestjs/common';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  app.useGlobalPipes(new ValidationPipe());
+  app.useGlobalPipes(new ValidationPipe({
+    whitelist: true // <--- it will filter the request with the DTO (only the declared props will be presented in the request)
+  }));
   await app.listen(process.env.BACKEND_API_PORT || 5000);
 }
 bootstrap();
