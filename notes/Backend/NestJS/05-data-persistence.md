@@ -120,7 +120,7 @@ export class UsersService {
 }
 ```
 > It is possible to call save without create a user entity, but in this case the hooks won't be called.
-> It is also true for update and delete function
+> It is also be true for update and delete function
 
 ### Hooks
 
