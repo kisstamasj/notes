@@ -446,8 +446,18 @@
     * [Custom Interceptors](./notes/Backend/NestJS/06-class-serializer-interceptor.md#custom-interceptors)
       + [Advanced solution to remove password field from the response](./notes/Backend/NestJS/06-class-serializer-interceptor.md#advanced-solution-to-remove-password-field-from-the-response)
       + [Applying controller wide interceptor](./notes/Backend/NestJS/06-class-serializer-interceptor.md#applying-controller-wide-interceptor)
+      + [Globaly scoped interceptor](./notes/Backend/NestJS/06-class-serializer-interceptor.md#globaly-scoped-interceptor)
         - [More info about interceptors](./notes/Backend/NestJS/06-class-serializer-interceptor.md#more-info-about-interceptors)
   - [Cookie session](./notes/Backend/NestJS/07-cookie-session.md#cookie-session)
+  - [Guards](./notes/Backend/NestJS/08-guards.md#guards)
+    * [Example for checking the user is authenticated:](./notes/Backend/NestJS/08-guards.md#example-for-checking-the-user-is-authenticated)
+    * [Usage in controller](./notes/Backend/NestJS/08-guards.md#usage-in-controller)
+  - [Testing in NestJS](./notes/Backend/NestJS/09-testing.md#testing-in-nestjs)
+    * [Unit testing](./notes/Backend/NestJS/09-testing.md#unit-testing)
+      + [Unit testing services](./notes/Backend/NestJS/09-testing.md#unit-testing-services)
+      + [Unit testing controllers](./notes/Backend/NestJS/09-testing.md#unit-testing-controllers)
+    * [E2E testing ](./notes/Backend/NestJS/09-testing.md#e2e-testing-end-to-end-testing)
+    * [Integration testing](./notes/Backend/NestJS/09-testing.md#integration-testing)
 
 ## [images](./notes/Backend/NestJS/images/)
 
