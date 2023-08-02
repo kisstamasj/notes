@@ -136,6 +136,25 @@ export class UsersController {
     ...
 }
 ```
+
+### Globaly scoped interceptor
+
+In the parent module providers proprety:
+```ts
+import { APP_INTERCEPTOR } from '@nestjs/core';
+
+...
+
+@Module({
+  ...
+  providers: [
+    { provide: APP_INTERCEPTOR, useClass: CurrentUserInterceptor },
+  ],
+})
+export class UsersModule {}
+```
+
+
 ---
 
 #### [More info about interceptors](https://docs.nestjs.com/techniques/serialization)
