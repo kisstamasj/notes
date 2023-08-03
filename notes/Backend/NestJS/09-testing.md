@@ -165,6 +165,53 @@ describe('UsersController', () => {
 ```
 
 ## E2E testing (end to end testing)
+- Testing different part of the application to working perfectly together.
+- create an entyre copy of the application
+- create requests to the application
+- create copy of the applictation to every single test
+- cli command: ```npm run test:e2e```
+- when e2e test running it will skip the complete ```main.ts``` file, so the pipes, middlewares and configurations will not be applied
+  - **solution 1**: Create a ```setupApp(app)``` function, wich can receive the app as parameter, and apply in there the pipes, middlewares and configurations. So we can call this function in the ```main.ts``` and also in the e2e tests. **This is not the official way, but works fine.**
+  - **solution 2 (official)**: Apply the pipes, middlewares and configurations inside the AppModule.
+  
+    - **applying pipes (ex.: validation pipe)**:
+    ```ts
+    // app.module.ts
+    import { ValidationPipe } from '@nestjs/common';
+    import { APP_PIPE } from '@nestjs/core';
 
+    ...
+
+    providers: [
+      {
+        provide: APP_PIPE,
+        useValue: new ValidationPipe({
+          whitelist: true,
+        }),
+      },
+    ]
+
+    ...
+
+    ```
+    - **applying middleware (ex.: cookie-session)**:
+    ```ts
+    // app.module.ts
+    import { MiddlewareConsumer } from '@nestjs/common';
+
+    ...
+
+    export class AppModule {
+      configure(consumer: MiddlewareConsumer) {
+        consumer
+          .apply(
+            cookieSession({
+              keys: ['asdf1234'],
+            }),
+          )
+          .forRoutes('*');
+      }
+    }
+    ```
 
 ## Integration testing

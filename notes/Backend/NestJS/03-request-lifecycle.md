@@ -1,8 +1,10 @@
 # Request lifecycle
 
-![Alt text](images/image.png)
+![Alt text](./images/req-life-cycle.png)
 
-> More info: https://docs.nestjs.com/faq/request-lifecycle
+> **More info:** https://slides.com/yariv-gilad/nest-js-request-lifecycle/fullscreen
+> 
+> **Official docs:** https://docs.nestjs.com/faq/request-lifecycle
 
 ## Pipe
 
@@ -28,6 +30,7 @@ async function bootstrap() {
 }
 bootstrap();
 ```
+> If we setup Pipes like this, it will cause some issues in the e2e tests. [Check the testing section of the notes.](./09-testing.md#e2e-testing-end-to-end-testing)
 
 2. Create a class that describes the different properties that the request body should have (Dto -> Data transfer object)
 ```ts
