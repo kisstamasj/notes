@@ -458,6 +458,7 @@
       + [Unit testing controllers](./notes/Backend/NestJS/09-testing.md#unit-testing-controllers)
     * [E2E testing ](./notes/Backend/NestJS/09-testing.md#e2e-testing-end-to-end-testing)
     * [Integration testing](./notes/Backend/NestJS/09-testing.md#integration-testing)
+  - [NestJS Config Service](./notes/Backend/NestJS/10-config-service.md#nestjs-config-service)
 
 ## [images](./notes/Backend/NestJS/images/)
 
