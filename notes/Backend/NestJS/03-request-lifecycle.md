@@ -6,13 +6,37 @@
 > 
 > **Official docs:** https://docs.nestjs.com/faq/request-lifecycle
 
+## Middleware
+- first station of the request lifecycle.
+
+## Guard
+- run after middlewares
+- class wich implements ```CanActivate``` from ```@nestjs/common```
+- required method: CanActivate
+- return with boolean (can activate or not)
+```ts
+import { CanActivate, ExecutionContext } from '@nestjs/common';
+
+export class AdminGuard implements CanActivate {
+  canActivate(context: ExecutionContext) {
+    const request = context.switchToHttp().getRequest();
+
+    if (!request.currentUser) {
+      return false;
+    }
+
+    return request.currentUser.admin;
+  }
+}
+```
+
 ## Pipe
 
 ### ValidationPipe
 
->built in NestJS
-
->Validating the request data
+- runs before controller methods
+- built in NestJS
+- Validating the request data
 
 1. Tell Nest to use global validation
 ```ts
@@ -72,12 +96,11 @@ export class UserController {
 }
 ```
 
-## Guard
-
 ## Controller
 
-> Handle requests
-
+- Handle requests. 
+- API end points.
+- decorators tells the method type
 
 ## Service
 - Business logic
@@ -85,4 +108,4 @@ export class UserController {
 - needed the ```@Injectable()``` decorator
 
 ## Repository
-> Read and write to the database
+> Read and write to the database. TypeORM create automatically.

@@ -29,7 +29,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 export class AppModule {}
 ```
 
-for better testing (with validation pipe, cookie session config and config service):
+**For better testing (with validation pipe, cookie session config and config service):**
 ```ts
 import { MiddlewareConsumer, Module, ValidationPipe } from '@nestjs/common';
 import { AppController } from './app.controller';
@@ -74,6 +74,7 @@ const cookieSession = require('cookie-session');
     },
   ],
 })
+
 export class AppModule {
   configure(consumer: MiddlewareConsumer) {
     consumer
@@ -116,7 +117,7 @@ export class User {
     @Column()
     lastName: string
 
-    @Column()
+    @Column({default: false}) // <--- setting default value for a field
     isActive: boolean
 }
 ```
@@ -217,5 +218,157 @@ async update(id: string, attrs: Partial<User>) {
     Object.assign(user, attrs);
 
     return this.repo.save(user);
+}
+```
+
+### Associations (relations)
+#### Steps:
+1. Figure out what kind of association we are modeling
+2. Add the appropriate decorators to our related entities
+3. Assoctiate the records when one is created
+4. Apply a serializer to limit info shared
+
+#### Relations types
+
+- **one-to-one relationship**:
+One record associated with one other record. (Ex.: Country <-> Capital)
+- **one-to-many or many-to-one relationship**:
+One record can related many other records. (Ex.: Car <-> parts, Customer <-> Orders, Country <-> Cities)
+- **many-many relationship**:
+Many records can related many other records. (Ex.: Trains <-> Riders, Classes <-> Students)
+
+#### One-to-Many relationship
+
+**src/users/user.entity.ts**
+```ts
+import { Report } from '../reports/report.entity';
+import {
+  Entity,
+  Column,
+  PrimaryGeneratedColumn,
+  OneToMany,
+} from 'typeorm';
+
+@Entity()
+export class User {
+  @PrimaryGeneratedColumn('uuid')
+  id: string;
+
+  @Column()
+  email: string;
+
+  @Column()
+  password: string;
+
+  // here the relation
+  @OneToMany(() => Report, (report) => report.user)
+  reports: Report[];
+}
+```
+- ```@OneToMany()``` decorator does not change the Users table
+- association is not automatically fetched when we fetch a user
+
+**src/reports/report.entity.ts**
+```ts
+import { User } from '../users/user.entity';
+import { Entity, Column, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
+
+@Entity()
+export class Report {
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Column()
+  price: number;
+
+  @Column()
+  make: string;
+
+  @Column()
+  model: string;
+
+  @Column()
+  year: number;
+
+  @Column()
+  lng: number;
+
+  @Column()
+  lat: number;
+
+  @Column()
+  mileage: number;
+
+  @ManyToOne(() => User, (user) => user.reports)
+  user: User;
+}
+```
+- ```@ManyToOne()``` decorator changes the Reports table (create userId field)
+- association is not automatically fetched when we fetch a report
+
+#### Making query with association (one-to-many)
+
+```ts
+import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { CreateReportDto } from './dtos/create-report.dto';
+import { Report } from './report.entity';
+import { User } from '../users/user.entity';
+
+@Injectable()
+export class ReportsService {
+  constructor(@InjectRepository(Report) private repo: Repository<Report>) {}
+
+  create(reportDto: CreateReportDto, user: User) {
+    const report = this.repo.create(reportDto as Report);
+    // here is the association
+    report.user = user;
+    return this.repo.save(report);
+  }
+}
+```
+
+#### Find with relation
+```ts
+const report = await this.repo.findOne({
+  where: { id },
+  relations: { user: true },
+});
+```
+
+#### Dto for serialization
+```ts
+import { Expose, Transform } from 'class-transformer';
+
+export class ReportDto {
+  @Expose()
+  id: number;
+
+  @Expose()
+  price: number;
+
+  @Expose()
+  make: string;
+
+  @Expose()
+  model: string;
+
+  @Expose()
+  year: number;
+
+  @Expose()
+  lng: number;
+
+  @Expose()
+  lat: number;
+
+  @Expose()
+  mileage: number;
+
+  // Showing only the userId and not the whole User object
+  @Transform(({ obj }) => obj.user.id)
+  @Expose()
+  userId: string;
 }
 ```

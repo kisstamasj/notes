@@ -43,9 +43,10 @@ Holds on all of the class instances.
 
 ## Routing
 
-> IF the decorator doesn't get prameter then it will apply as root rout. Example.: ```http://localhost:5000/users```
+- controllers handle the routing
+- IF the decorator doesn't get prameter then it will apply as root rout. Example.: ```http://localhost:5000/users```
 
-- ```@Get('route')```
+### ```@Get('route')```
 
 ```ts
 @Get()
@@ -54,7 +55,7 @@ findAll() {
 }
 ```
 
-- ```@Post('route')```
+### ```@Post('route')```
 
 ```ts
 @Post()
@@ -63,7 +64,7 @@ createUser() {
 }
 ```
 
-- ```@Put('route')```
+### ```@Put('route')```
 
 ```ts
 @Put()
@@ -72,7 +73,7 @@ updateUser() {
 }
 ```
 
-- ```@Delete('route')```
+### ```@Delete('route')```
 
 ```ts
 @Delete()
