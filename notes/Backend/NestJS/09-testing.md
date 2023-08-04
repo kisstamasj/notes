@@ -169,6 +169,7 @@ describe('UsersController', () => {
 - create an entyre copy of the application
 - create requests to the application
 - create copy of the applictation to every single test
+- for running one test at the time set this to the package.json: ```"test:e2e": "jest --config ./test/jest-e2e.json --maxWorkers=1"```
 - cli command: ```npm run test:e2e```
 - when e2e test running it will skip the complete ```main.ts``` file, so the pipes, middlewares and configurations will not be applied
   - **solution 1**: Create a ```setupApp(app)``` function, wich can receive the app as parameter, and apply in there the pipes, middlewares and configurations. So we can call this function in the ```main.ts``` and also in the e2e tests. **This is not the official way, but works fine.**
@@ -198,6 +199,7 @@ describe('UsersController', () => {
     ```ts
     // app.module.ts
     import { MiddlewareConsumer } from '@nestjs/common';
+    const cookieSession = require('cookie-session');
 
     ...
 
@@ -213,5 +215,55 @@ describe('UsersController', () => {
       }
     }
     ```
+- setting up test db: [more info in config-service.md](10-config-service.md)
+- clear up the test db:
+
+src/test/setup.ts
+```ts
+import { rm } from 'fs/promises';
+import { join } from 'path';
+
+global.beforeEach(async () => {
+  try {
+    await rm(join(__dirname, '..', 'test-db.sqlite'));
+  } catch (error) {
+    console.log('Failed to delete test-db.sqlite');
+  }
+});
+```
+jest-e2e.json
+```json
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "setupFilesAfterEnv": ["<rootDir>/setup.ts"] // <--- here
+}
+```
+
+- get and send cookie session:
+```ts
+it('signup as a new user then get the currently logged in user', async () => {
+    const testEmail = 'asd@asd.hu';
+    const res = await request(app.getHttpServer())
+      .post('/auth/signup')
+      .send({ email: testEmail, password: 'asd123' })
+      .expect(201);
+
+    const cookie = res.get('Set-Cookie'); // <--- get the cookie from the response
+
+    const { body } = await request(app.getHttpServer())
+      .get('/auth/whoami')
+      .set('Cookie', cookie) // <--- set the cookie to the next request
+      .expect(200);
+
+    expect(body.id).toBeDefined();
+    expect(body.email).toEqual(testEmail);
+  });
+```
 
 ## Integration testing
