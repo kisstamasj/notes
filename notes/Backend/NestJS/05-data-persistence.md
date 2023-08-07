@@ -208,6 +208,7 @@ import { User } from './user.entity';
 export class UsersModule {}
 ```
 3. Connect the entity to the root connection (in app module)
+> Or the ```db/data-source.ts``` if the connection based on configuration file.
 ```ts
 import { Module } from '@nestjs/common';
 import { AppController } from './app.controller';
@@ -233,6 +234,8 @@ export class AppModule {}
 ```
 
 ### Usage in a service
+
+#### Create
 ```ts
 import { Injectable } from '@nestjs/common';
 import { Repository } from 'typeorm';
@@ -249,6 +252,32 @@ export class UsersService {
     }
 }
 ```
+#### Update
+```ts
+async update(id: string, attrs: Partial<User>) {
+  const user = await this.repo.findOneBy({ id });
+  if (!user) {
+    throw new NotFoundException('User is not found');
+  }
+
+  Object.assign(user, attrs);
+
+  return this.repo.save(user);
+}
+```
+
+#### Remove
+```ts
+async remove(id: string) {
+  const user = await this.repo.findOneBy({ id });
+  if (!user) {
+    throw new NotFoundException('User is not found');
+  }
+
+  return this.repo.remove(user);
+}
+```
+
 > It is possible to call save without create a user entity, but in this case the hooks won't be called.
 > It is also be true for update and delete function
 
