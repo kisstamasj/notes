@@ -6,7 +6,7 @@
 
 - works with the most database engine: MySQL, PostgresSQL, SqLite, MongoDB
 - install: ```@nestjs/typeorm typeorm <db-engine>```
-- install CLI tool: ```npm i -g ts-node``` (the project already has that dep.)
+- install CLI tools: ```npm i -g ts-node``` (the project already has that dep.)
   - to the ```package.json``` ```scripts``` section:
   ```json
   "typeorm:dev": "cross-env NODE_ENV=development node --require ts-node/register ./node_modules/typeorm/cli.js -d db/data-source.ts",
@@ -157,30 +157,6 @@ imports: [
   ],
 
 ...
-```
-- generate migration: ```npm run migration:generate db/migrations/migration-name```
-  > **After entity created or modified.**
-- run migration on dev env: ```npm run migration:run:dev```
-- run migration on test env: ```npm run migration:run:test```
-- revert migration on dev env: ```npm run migration:revert:dev```
-- revert migration on test env: ```npm run migration:revert:test```
-- end-to-end test setup:
-```ts
-// test/setup.ts
-
-import { rm } from 'fs/promises';
-import { join } from 'path';
-import { execSync } from 'child_process';
- 
-global.beforeEach(async () => {
-  try {
-    await rm(join(__dirname, '..', 'test-db.sqlite'));
-    // run the migrations on the test db
-    execSync('npm run migration:run:test');
-  } catch (error) {
-    console.log('Failed to delete test-db.sqlite');
-  }
-});
 ```
 
 ### Entities
@@ -493,15 +469,29 @@ createEstimate({ make, model, lng, lat, year, mileage }: GetEstimateDto) {
 
 ### [Migration](https://typeorm.io/migrations)
 
-> It has to setup the CLI tool
+> **It needs to setup the CLI tools and only with dataSource configuration**
 
-1. Into the ```ormconfig.js```
-```js
-migrations: ['migrations/*.js'],
-cli: {
-  migrationsDir: 'migrations',
-},
+- generate migration: ```npm run migration:generate db/migrations/migration-name```
+  > **After entity created or modified.**
+- run migration on dev env: ```npm run migration:run:dev```
+- run migration on test env: ```npm run migration:run:test```
+- revert migration on dev env: ```npm run migration:revert:dev```
+- revert migration on test env: ```npm run migration:revert:test```
+- end-to-end test setup:
+```ts
+// test/setup.ts
+
+import { rm } from 'fs/promises';
+import { join } from 'path';
+import { execSync } from 'child_process';
+ 
+global.beforeEach(async () => {
+  try {
+    await rm(join(__dirname, '..', 'test-db.sqlite'));
+    // run the migrations on the test db
+    execSync('npm run migration:run:test');
+  } catch (error) {
+    console.log('Failed to delete test-db.sqlite');
+  }
+});
 ```
-> Default settings not depend from the environment
-
-2. Generate migration:
