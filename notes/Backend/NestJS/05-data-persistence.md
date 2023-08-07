@@ -158,12 +158,12 @@ imports: [
 
 ...
 ```
-- generate migration: npm run ```migration:generate db/migrations/migration-name```
+- generate migration: ```npm run migration:generate db/migrations/migration-name```
   > **After entity created or modified.**
-- run migration on dev env: npm run ```migration:run:dev```
-- run migration on test env: npm run ```migration:run:test```
-- revert migration on dev env: npm run ```migration:revert:dev```
-- revert migration on test env: npm run ```migration:revert:test```
+- run migration on dev env: ```npm run migration:run:dev```
+- run migration on test env: ```npm run migration:run:test```
+- revert migration on dev env: ```npm run migration:revert:dev```
+- revert migration on test env: ```npm run migration:revert:test```
 - end-to-end test setup:
 ```ts
 // test/setup.ts
