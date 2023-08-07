@@ -6,9 +6,22 @@
 
 - works with the most database engine: MySQL, PostgresSQL, SqLite, MongoDB
 - install: ```@nestjs/typeorm typeorm```
-  
+- install CLI tool: ```npm i -g ts-node``` (the project already has that dep.)
+  - to the ```package.json``` ```scripts``` section:
+  ```json
+  "typeorm:dev": "cross-env NODE_ENV=development node --require ts-node/register ./node_modules/typeorm/cli.js -d db/data-source.ts",
+  "typeorm:test": "cross-env NODE_ENV=test node --require ts-node/register ./node_modules/typeorm/cli.js -d db/data-source.ts",
+  "migration:generate": "npm run typeorm:dev -- migration:generate",
+  "migration:run:dev": "npm run typeorm:dev -- migration:run",
+  "migration:run:test": "npm run typeorm:test -- migration:run",
+  "migration:revert:dev": "npm run typeorm:dev -- migration:revert",
+  "migration:revert:test": "npm run typeorm:test -- migration:revert"
+  ```
+  > More info about ```cross-env``` in the [config-service](./10-config-service.md) section
+
 ### Connection to the DB
 
+#### Simple config
 ```ts
 // app.module.ts
 import { Module } from '@nestjs/common';
@@ -29,6 +42,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 export class AppModule {}
 ```
 
+#### Config with forRootAsync
 **For better testing (with validation pipe, cookie session config and config service):**
 ```ts
 import { MiddlewareConsumer, Module, ValidationPipe } from '@nestjs/common';
@@ -86,6 +100,87 @@ export class AppModule {
       .forRoutes('*');
   }
 }
+```
+
+#### Connection with configuration file
+
+**Better for developing, testing, production and TypeORM CLI (migration)**
+1.  db/data-source.ts:
+```js
+// db/data-source.ts
+
+import { DataSource, DataSourceOptions } from 'typeorm';
+
+let dbOptions: DataSourceOptions = {
+  type: 'sqlite',
+  database: '',
+  entities: [],
+  migrations: ['dist/db/migrations/*.js'],
+};
+
+switch (process.env.NODE_ENV) {
+  case 'development':
+    Object.assign(dbOptions, {
+      type: 'sqlite',
+      database: 'dev-db.sqlite',
+      entities: ['**/*.entity.js'],
+    });
+    break;
+  case 'test':
+    Object.assign(dbOptions, {
+      type: 'sqlite',
+      database: 'test-db.sqlite',
+      entities: ['**/*.entity.ts'],
+    });
+    break;
+  case 'production':
+    break;
+  default:
+    throw new Error('Unknown environment');
+}
+
+export const dataSourceOptions: DataSourceOptions = dbOptions;
+const dataSource = new DataSource(dataSourceOptions);
+export default dataSource;
+```
+
+2. Use that ```data-source.ts``` in the app module
+```ts
+// src/app.module.ts
+import { dataSourceOptions } from '../db/data-source';
+
+...
+
+imports: [
+    // import the TypeOrmModule like this    
+    TypeOrmModule.forRoot(dataSourceOptions),
+  ],
+
+...
+```
+- generate migration: npm run ```migration:generate db/migrations/migration-name```
+  > **After entity created or modified.**
+- run migration on dev env: npm run ```migration:run:dev```
+- run migration on test env: npm run ```migration:run:test```
+- revert migration on dev env: npm run ```migration:revert:dev```
+- revert migration on test env: npm run ```migration:revert:test```
+- end-to-end test setup:
+```ts
+// test/setup.ts
+
+import { rm } from 'fs/promises';
+import { join } from 'path';
+import { execSync } from 'child_process';
+ 
+global.beforeEach(async () => {
+  try {
+    await rm(join(__dirname, '..', 'test-db.sqlite'));
+    // run the migrations on the test db
+    execSync('npm run migration:run:test');
+  } catch (error) {
+    console.log('Failed to delete test-db.sqlite');
+  }
+});
 ```
 
 ### Entities
@@ -372,3 +467,41 @@ export class ReportDto {
   userId: string;
 }
 ```
+
+### Query Builder
+
+#### innerJoinAndSelect
+Join the user model to the report model
+```ts
+createEstimate({ make, model, lng, lat, year, mileage }: GetEstimateDto) {
+  return this.repo
+    .createQueryBuilder('report')
+    .select('AVG(report.price)', 'price')
+    .innerJoin('report.user', 'user')
+    .where('LOWER(report.make) = LOWER(:make)', { make })
+    .andWhere('model = :model', { model })
+    .andWhere('lng - :lng BETWEEN -5 AND 5', { lng })
+    .andWhere('lat - :lat BETWEEN -5 AND 5', { lat })
+    .andWhere('year - :year BETWEEN -3 AND 3', { year })
+    .andWhere('approved IS TRUE')
+    .orderBy('ABS(mileage - :mileage)', 'DESC')
+    .setParameters({ mileage })
+    .limit(3)
+    .getRawOne();
+}
+```
+
+### [Migration](https://typeorm.io/migrations)
+
+> It has to setup the CLI tool
+
+1. Into the ```ormconfig.js```
+```js
+migrations: ['migrations/*.js'],
+cli: {
+  migrationsDir: 'migrations',
+},
+```
+> Default settings not depend from the environment
+
+2. Generate migration:

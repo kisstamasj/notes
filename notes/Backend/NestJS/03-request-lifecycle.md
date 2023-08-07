@@ -8,6 +8,60 @@
 
 ## Middleware
 - first station of the request lifecycle.
+- can put data into the request 
+
+```ts
+// src/users/middlewares/current-user.middleware.ts
+
+import { Injectable, NestMiddleware } from '@nestjs/common';
+import { Request, Response, NextFunction } from 'express';
+import { UsersService } from '../users.service';
+
+// tell to the typescript can be a currentUser property in the Request object 
+declare global {
+  namespace Express {
+    interface Request {
+      currentUser?: User;
+    }
+  }
+}
+
+@Injectable()
+export class CurrentUserMiddleware implements NestMiddleware {
+  constructor(private usersService: UsersService) {}
+  async use(req: Request, res: Response, next: NextFunction) {
+    const { userId } = req.session || {};
+    if (userId) {
+      const user = await this.usersService.findOne(userId);
+      req.currentUser = user;
+    }
+
+    next();
+  }
+}
+```
+applying in the users module
+```ts
+// src/users/users.module.ts
+import { MiddlewareConsumer, Module } from '@nestjs/common';
+import { UsersService } from './users.service';
+import { UsersController } from './users.controller';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { User } from './user.entity';
+import { AuthService } from './auth.service';
+import { CurrentUserMiddleware } from './middlewares/current-user.middleware';
+
+@Module({
+  imports: [TypeOrmModule.forFeature([User])],
+  controllers: [UsersController],
+  providers: [UsersService, AuthService],
+})
+export class UsersModule {
+  configure(consumer: MiddlewareConsumer) {
+    consumer.apply(CurrentUserMiddleware).forRoutes('*');
+  }
+}
+```
 
 ## Guard
 - run after middlewares
@@ -77,6 +131,14 @@ export class CreateUserDto {
   @IsString()
   name: string;
 }
+```
+transform property:
+```ts
+@Transform(({ value }) => parseInt(value))
+@IsNumber()
+@Min(1930)
+@Max(2050)
+year: number;
 ```
 
 4. Apply that class to the request handler
