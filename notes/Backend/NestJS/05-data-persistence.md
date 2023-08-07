@@ -5,7 +5,7 @@
 [https://orkhan.gitbook.io/typeorm/](https://orkhan.gitbook.io/typeorm/)
 
 - works with the most database engine: MySQL, PostgresSQL, SqLite, MongoDB
-- install: ```@nestjs/typeorm typeorm```
+- install: ```@nestjs/typeorm typeorm <db-engine>```
 - install CLI tool: ```npm i -g ts-node``` (the project already has that dep.)
   - to the ```package.json``` ```scripts``` section:
   ```json
