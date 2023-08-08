@@ -110,30 +110,39 @@ export class AppModule {
 
 import { DataSource, DataSourceOptions } from 'typeorm';
 
-let dbOptions: DataSourceOptions = {
-  type: 'sqlite',
-  database: '',
-  entities: [],
-  migrations: ['dist/db/migrations/*.js'],
-};
+let migrations = ['dist/db/migrations/*.js'];
+
+let dbOptions: DataSourceOptions;
 
 switch (process.env.NODE_ENV) {
   case 'development':
-    Object.assign(dbOptions, {
+    dbOptions = {
       type: 'sqlite',
       database: 'dev-db.sqlite',
       entities: ['**/*.entity.js'],
-    });
+      migrations,
+    };
     break;
   case 'test':
-    Object.assign(dbOptions, {
+    dbOptions = {
       type: 'sqlite',
       database: 'test-db.sqlite',
       entities: ['**/*.entity.ts'],
+      migrations,
       migrationsRun: true,
-    });
+    };
     break;
   case 'production':
+    dbOptions = {
+      type: 'postgres',
+      url: process.env.DATABASE_URL,
+      migrations,
+      migrationsRun: true,
+      entities: ['**/*.entity.js'],
+      ssl: {
+        rejectUnauthorized: false,
+      },
+    };
     break;
   default:
     throw new Error('Unknown environment');
