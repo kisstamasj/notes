@@ -59,3 +59,22 @@ export class AppModule {}
     "test:debug": "cross-env NODE_ENV=test node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "cross-env NODE_ENV=test jest --config ./test/jest-e2e.json"
     ```
+ - validate env file content with ```joi```
+    - install: ```npm i joi```
+    - usage:
+     ```ts
+      import { Module } from '@nestjs/common';
+      import { ConfigService, ConfigModule as NestConfigModule } from '@nestjs/config';
+      import * as Joi from 'joi';
+      
+      @Module({
+          imports: [NestConfigModule.forRoot({
+              validationSchema: Joi.object({
+                  MONGODB_URI: Joi.string()
+              })
+          }) ],
+          providers: [ConfigService],
+          exports: [ConfigService]
+      })
+      export class ConfigModule {}
+     ```
