@@ -26,5 +26,5 @@
 
 
 # More Principles
-- https://blog.devgenius.io/solid-principles-in-reactjs-1d225dd22a3f
+- https://blog.stackademic.com/react-js-mastering-react-js-solid-principles-dfb48d03e565
 - https://principles.design/examples/reactjs-design-principles
