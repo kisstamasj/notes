@@ -487,6 +487,11 @@
 ## [Frontend](./notes/Frontend/)
 
 
+## [Complete JavaScript Course](./notes/Frontend/Complete%20JavaScript%20Course/)
+
+  - [Complete JavaScript Course](./notes/Frontend/Complete%20JavaScript%20Course/readme.md#complete-javascript-course)
+    * [Course materials](./notes/Frontend/Complete%20JavaScript%20Course/readme.md#course-materials)
+
 ## [Complete React Course](./notes/Frontend/Complete%20React%20Course/)
 
   - [React Principles](./notes/Frontend/Complete%20React%20Course/1-react-principles.md#react-principles)
