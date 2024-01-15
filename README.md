@@ -575,6 +575,7 @@
       + [Redux Saga](./notes/Frontend/Complete%20React%20Course/7-redux.md#redux-saga)
         - [Creating redux-saga state managemnet:](./notes/Frontend/Complete%20React%20Course/7-redux.md#creating-redux-saga-state-managemnet)
       + [Redux toolkit](./notes/Frontend/Complete%20React%20Course/7-redux.md#redux-toolkit)
+  - [How to Make React Apps SEO-Friendly](./notes/Frontend/Complete%20React%20Course/seo-friendly.md#how-to-make-react-apps-seo-friendly)
 
 ## [ES6](./notes/Frontend/ES6/)
 
