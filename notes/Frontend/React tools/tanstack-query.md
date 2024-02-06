@@ -5,3 +5,5 @@ Toss out that granular state management, manual refetching and endless bowls of 
 ## Install (recommended)
 
 ```npm install axios @tanstack/react-query @tanstack/react-query-devtools react-hook-form```
+- dev dependencies:
+```npm install @tanstack/eslint-plugin-query -D ```
