@@ -11,7 +11,7 @@ Toss out that granular state management, manual refetching and endless bowls of 
 ## Setup
 
 - .eslint.cjs:
-```
+```cjs
 module.exports = {
   root: true,
   env: { browser: true, es2020: true },
