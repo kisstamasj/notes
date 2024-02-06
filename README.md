@@ -599,6 +599,11 @@
         - [Usage](./notes/Frontend/NextJS/best-practices.md#usage)
   - [Utilities](./notes/Frontend/NextJS/best-practices.md#utilities)
 
+## [React tools](./notes/Frontend/React%20tools/)
+
+  - [TanStack Query](./notes/Frontend/React%20tools/tanstack-query.md#tanstack-query)
+    * [Install ](./notes/Frontend/React%20tools/tanstack-query.md#install-recommended)
+
 ## [Microservices](./notes/Microservices/)
 
   - [Initialize project](./notes/Microservices/NestJS-Microservices.md#initialize-project)
