@@ -603,6 +603,7 @@
 
   - [TanStack Query](./notes/Frontend/React%20tools/tanstack-query.md#tanstack-query)
     * [Install ](./notes/Frontend/React%20tools/tanstack-query.md#install-recommended)
+    * [Setup](./notes/Frontend/React%20tools/tanstack-query.md#setup)
 
 ## [Microservices](./notes/Microservices/)
 
