@@ -499,6 +499,8 @@
         - [Numeric data types](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#numeric-data-types)
         - [Text data types](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#text-data-types)
         - [**DateTime Data Types**](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#datetime-data-types)
+        - [Enum](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#enum)
+      + [Default values](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#default-values)
 
 ## [Frontend](./notes/Frontend/)
 
