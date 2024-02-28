@@ -501,6 +501,7 @@
         - [**DateTime Data Types**](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#datetime-data-types)
         - [Enum](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#enum)
       + [Default values](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#default-values)
+    * [Connection to database](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#connection-to-database)
 
 ## [Frontend](./notes/Frontend/)
 
