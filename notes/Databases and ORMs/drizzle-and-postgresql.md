@@ -321,3 +321,30 @@ It can be chaind to each data type:
 - `.notNull()`
 - `.primaryKey()`
 - `.references()`
+
+## Connection to database
+
+- `db/index.ts`:
+```ts
+import { drizzle } from "drizzle-orm/node-postgres";
+import { Client } from "pg";
+import * as schemas from "./schemas";
+
+const client = new Client({
+  connectionString: process.env.DATABASE_INTERNAL_URL,
+});
+
+client.connect();
+
+export const db = drizzle(client, {
+  schema: schemas,
+});
+```
+
+- query data:
+```ts
+import { db } from "@/db";
+import { users } from "@/db/schemas";
+
+const result = await db.select().from(users);
+```
