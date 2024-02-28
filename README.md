@@ -484,6 +484,22 @@
 ## [images](./notes/Backend/NestJS/images/)
 
 
+## [Databases and ORMs](./notes/Databases%20and%20ORMs/)
+
+  - [Drizzle ORM and PosgreSQL](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#drizzle-orm-and-posgresql)
+    * [Install packages](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#install-packages)
+    * [Create env file](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#create-env-file)
+    * [Setup migration](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#setup-migration)
+      + [Folder structure](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#folder-structure)
+      + [Create `migrate.ts`](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#create-migratets)
+      + [Create scripts to the `package.json`](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#create-scripts-to-the-packagejson)
+    * [Schemas](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#schemas)
+      + [Folder sturcture](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#folder-sturcture)
+      + [Data types in PostgreSQL](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#data-types-in-postgresql)
+        - [Numeric data types](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#numeric-data-types)
+        - [Text data types](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#text-data-types)
+        - [**DateTime Data Types**](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#datetime-data-types)
+
 ## [Frontend](./notes/Frontend/)
 
 
