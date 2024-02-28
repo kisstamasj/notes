@@ -254,14 +254,70 @@ export const testTable = pgTable("testTable", {
 #### **DateTime Data Types**
 
 - **Time**
+  - Only time
 ```ts
 // example
 import { pgTable, time } from "drizzle-orm/pg-core";
 
 export const testTable = pgTable("testTable", {
-    startAt: time("data", {precision: 6, withTimezone: true}).defaultNow()
+    startAt: time("startAt", {
+        precision: 6, /* for the fractional seconds */
+        withTimezone: true}).defaultNow()
 })
 ```
 - **TimeStamp**
+  - Date plus time
+```ts
+// example
+import { pgTable, timestamp } from "drizzle-orm/pg-core";
+
+export const testTable = pgTable("testTable", {
+    datetime: timestamp("datetime", {
+        precision: 6, /* for the fractional seconds */
+        withTimezone: true
+        mode: "string" | "date" /* save as string or date type*/
+    }).defaultNow()
+})
+```
 - **Date**
+  - Only date
+```ts
+// example
+import { pgTable, date } from "drizzle-orm/pg-core";
+
+export const testTable = pgTable("testTable", {
+    date: date("date", {
+        mode: "string" | "date" /* save as string or date type*/
+    }).defaultNow()
+})
+```
 - **Interval**
+  - Interval of time
+  - Number of milliseconds between to datetime
+  - It can be store long intervals (ex.: years)
+```ts
+// example
+import { pgTable, interval } from "drizzle-orm/pg-core";
+
+export const testTable = pgTable("testTable", {
+    date: interval("date")
+})
+```
+
+#### Enum
+```ts
+import { pgTable, pgEnum } from "drizzle-orm/pg-core";
+
+export const moodEnum = pgEnum("mood", ['sad','ok','happy'])
+export const testTable = pgTable("testTable", {
+    mood: moodEnum("mood")
+})
+```
+
+### Default values
+It can be chaind to each data type: 
+- `.defaultNow()` (only date or time types)
+- `.default("value")`
+- `.notNull()`
+- `.primaryKey()`
+- `.references()`
