@@ -625,6 +625,11 @@
     * [Setup](./notes/Frontend/React%20tools/tanstack-query.md#setup)
     * [Usage](./notes/Frontend/React%20tools/tanstack-query.md#usage)
 
+## [React-cheat-sheet-e-book](./notes/Frontend/React-cheat-sheet-e-book/)
+
+      + [The 5 Principles of UI Architecture](./notes/Frontend/React-cheat-sheet-e-book/readme.md#the-5-principles-of-ui-architecture)
+      + [5 Critical Lessons for Framework-agnostic](./notes/Frontend/React-cheat-sheet-e-book/readme.md#5-critical-lessons-for-framework-agnostic)
+
 ## [Microservices](./notes/Microservices/)
 
   - [Initialize project](./notes/Microservices/NestJS-Microservices.md#initialize-project)
