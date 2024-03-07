@@ -3,4 +3,5 @@
 
 ### 5 Critical Lessons for Framework-agnostic
 JavaScript UI App Design and Structure 
+
 [202d04-b7b7-17bc-df8f-23202335375_12_think_like_a_ui_architect_clean.pdf](https://github.com/kisstamasj/notes/files/14521323/202d04-b7b7-17bc-df8f-23202335375_12_think_like_a_ui_architect_clean.pdf)
