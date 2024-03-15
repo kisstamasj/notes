@@ -508,6 +508,8 @@
   - [GitLab with Git Essentials](./notes/DevSecOps/readme.md#gitlab-with-git-essentials)
     * [GitLab Overview](./notes/DevSecOps/readme.md#gitlab-overview)
     * [The GitLab Flow](./notes/DevSecOps/readme.md#the-gitlab-flow)
+    * [CI/CD](./notes/DevSecOps/readme.md#cicd)
+      + [.gitlab-ci.yml](./notes/DevSecOps/readme.md#gitlab-ciyml)
 
 ## [Frontend](./notes/Frontend/)
 
