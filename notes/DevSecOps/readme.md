@@ -11,3 +11,5 @@ The SDLC (Software Development Lifecycle) is complex. And as your organization's
 - No consistent application security or compliance
 - No consistent traceability
 - A high degree of context switching
+
+![image](https://github.com/kisstamasj/notes/assets/48266482/081874bc-c42f-41c1-894a-551aeedf8864)
