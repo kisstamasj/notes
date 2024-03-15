@@ -503,6 +503,11 @@
       + [Default values](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#default-values)
     * [Connection to database](./notes/Databases%20and%20ORMs/drizzle-and-postgresql.md#connection-to-database)
 
+## [DevSecOps](./notes/DevSecOps/)
+
+  - [GitLab with Git Essentials](./notes/DevSecOps/readme.md#gitlab-with-git-essentials)
+    * [GitLab Overview](./notes/DevSecOps/readme.md#gitlab-overview)
+
 ## [Frontend](./notes/Frontend/)
 
 
