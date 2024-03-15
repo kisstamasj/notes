@@ -507,6 +507,7 @@
 
   - [GitLab with Git Essentials](./notes/DevSecOps/readme.md#gitlab-with-git-essentials)
     * [GitLab Overview](./notes/DevSecOps/readme.md#gitlab-overview)
+    * [The GitLab Flow](./notes/DevSecOps/readme.md#the-gitlab-flow)
 
 ## [Frontend](./notes/Frontend/)
 
