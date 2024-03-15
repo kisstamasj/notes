@@ -13,3 +13,10 @@ The SDLC (Software Development Lifecycle) is complex. And as your organization's
 - A high degree of context switching
 
 ![image](https://github.com/kisstamasj/notes/assets/48266482/081874bc-c42f-41c1-894a-551aeedf8864)
+
+## The GitLab Flow
+
+![image](https://github.com/kisstamasj/notes/assets/48266482/076688fc-cae0-4d2c-8771-1f68454cc9b1)
+
+![image](https://github.com/kisstamasj/notes/assets/48266482/54517425-6818-4888-954b-48f8df4eba8c)
+
