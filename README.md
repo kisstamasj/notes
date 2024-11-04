@@ -692,3 +692,6 @@
       + [Microservices Best Practices](./notes/Microservices/microservices-useful-links.md#microservices-best-practices)
       + [What Are Microservices Design Patterns?](./notes/Microservices/microservices-useful-links.md#what-are-microservices-design-patterns)
       + [Microservices testing tools](./notes/Microservices/microservices-useful-links.md#microservices-testing-tools)
+
+## [architect](./notes/architect/)
+
